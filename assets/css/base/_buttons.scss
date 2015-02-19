@@ -1,0 +1,32 @@
+// Buttons
+// -------------------------
+
+%btn {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 7px 20px;
+    margin: 0 5px;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+
+    // Default Sizing
+    font: normal 1.6rem Trade;
+}
+
+    // Button Types
+    .btn-primary {
+        @extend %btn;
+        
+        color: $white;
+        background-color: $orange;
+
+        &:hover {
+            background-color: lighten($orange, 10%);
+        }
+    }
+
+    // Button Sizes 
+    .btn-small {
+        font: normal 1.2rem Trade;
+    }

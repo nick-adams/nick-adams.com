@@ -1,0 +1,54 @@
+// Typography
+// -------------------------
+
+//@include font-face(Trade, "http://fonts.hudl.com/trade-gothic/regular/regular", normal);
+
+html {
+    // Sets a base font size so 1.4rem = 14px
+    font-size: 62.5%; 
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.6rem;
+}
+
+h1 {
+    font: bold 10.0rem TradeCondensed;
+    line-height: 10.0rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font: bold 3.2rem TradeCondensed;
+    line-height: 3.2rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font: normal 2.4rem Trade;
+    line-height: 2.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font: bold 1.8rem Helvetica;
+    line-height: 1.8rem;
+    margin: 0;
+    padding: 0;   
+}
+h5 {
+    font: normal 1.6rem Helvetica;
+    line-height: 1.6rem;
+    margin: 0;
+    padding: 0;   
+}
+
+p {
+    font: normal 1.6rem Helvetica;
+    line-height: 2.8rem;
+}
