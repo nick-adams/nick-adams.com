@@ -1,0 +1,75 @@
+// Content Styles & Grid Structure
+// -------------------------
+
+// Content Container
+.ContentContainer {
+    max-width: $max_width;
+    padding: 25px 0;
+}
+
+// Simple Grid Structure
+
+// Creates the Grid Container
+.Grid {
+  margin: 0 auto $gutter auto;
+  
+  &:after {
+    @extend .u-clear;
+  }
+}
+
+// Opt-in outside padding/gutters for Columns
+.Grid--withOutsideGutters {
+  padding: $gutter 0 $gutter $gutter;
+  [class*='col-']:last-of-type {
+    padding-right: $gutter;
+  }
+}
+
+// Horizontal Rows, can contain Columns
+.Grid-row,
+.Grid-row:after {
+    @extend .u-clear;
+}
+
+
+// Vertical Columns, wrapped by a Row
+[class*='Grid-col--'] {
+  float: left;
+  padding-right: $gutter;
+  min-height: 1rem;
+  .Grid &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+.Grid-col--span2of3 {
+    width: 66.66%;
+}
+.Grid-col--span1of3 {
+    width: 33.33%;
+}
+
+.Grid-col--span1of2 {
+    width: 50%;
+}
+
+.Grid-col--span1of4 {
+    width: 25%;
+}
+    .Grid-col--span3of4 {
+        width: 75%;
+    }
+
+.Grid-col--span1of8 {
+  width: 12.5%;
+}
+    .Grid-col--span2of8 {
+        width: 25%;
+    }
+    .Grid-col--span3of8 {
+        width: 37.5%;
+    }
+    .Grid-col--span5of8 {
+        width: 62.5%;
+    }

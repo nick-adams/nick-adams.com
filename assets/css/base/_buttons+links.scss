@@ -1,7 +1,7 @@
 // Buttons
 // -------------------------
 
-%btn {
+%ButtonBase {
     display: inline-block;
     border-radius: 4px;
     padding: 7px 20px;
@@ -15,18 +15,18 @@
 }
 
     // Button Types
-    .btn-primary {
-        @extend %btn;
+    .Button--primary {
+        @extend %ButtonBase;
         
         color: $white;
-        background-color: $orange;
+        background-color: $black;
 
         &:hover {
-            background-color: lighten($orange, 10%);
+            background-color: lighten($black, 10%);
         }
     }
 
     // Button Sizes 
-    .btn-small {
+    .Button--small {
         font: normal 1.2rem Trade;
     }

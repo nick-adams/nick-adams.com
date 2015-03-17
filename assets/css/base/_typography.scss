@@ -1,7 +1,18 @@
 // Typography
 // -------------------------
 
-//@include font-face(Trade, "http://fonts.hudl.com/trade-gothic/regular/regular", normal);
+// Load the fonts.com account stylesheet
+// @import url('http://fast.fonts.com/t/1.css?apiType=css&projectid=b2242fdb-4141-46b1-bff5-e9a5c7c439ec');
+
+// @include font-face(Trade, 'http://fonts.hudl.com/trade-gothic/regular/regular', normal);
+// @include font-face(Trade, 'http://fonts.hudl.com/trade-gothic/regular-oblique/regular-oblique', normal, italic);
+// @include font-face(Trade, 'http://fonts.hudl.com/trade-gothic/bold/bold', bold);
+// @include font-face(Trade, 'http://fonts.hudl.com/trade-gothic/bold-oblique/bold-oblique', bold, italic);
+
+// @include font-face(TradeCondensed, 'http://fonts.hudl.com/trade-gothic/condensed/condensed', normal);
+// @include font-face(TradeCondensed, 'http://fonts.hudl.com/trade-gothic/condensed-oblique/condensed-oblique', normal, oblique);
+// @include font-face(TradeCondensed, 'http://fonts.hudl.com/trade-gothic/condensed-bold/condensed-bold', bold);
+// @include font-face(TradeCondensed, 'http://fonts.hudl.com/trade-gothic/condensed-bold-oblique/condensed-bold-oblique', bold, oblique);
 
 html {
     // Sets a base font size so 1.4rem = 14px

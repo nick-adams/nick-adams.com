@@ -1,0 +1,16 @@
+// Utility Classes
+// -------------------------
+
+// Clears floated content
+.u-clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.u-show {}
+.u-hide {}
+
+.u-preventScroll {
+    overflow: hidden;
+}
