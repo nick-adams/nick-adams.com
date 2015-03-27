@@ -2,8 +2,8 @@
 // -------------------------
 
 
-// Create Font Face
-@mixin font-face($font_family, $path_to_webfont, $weight: normal, $style: normal) {
+// Create @font-face from a hosted web font
+@mixin FontFace--hosted($font_family, $path_to_webfont, $weight: normal, $style: normal) {
     @font-face {
         font-family: $font_family;
         font-weight: $weight;
@@ -14,5 +14,14 @@
              url('#{$path_to_webfont}.woff')                   format('woff'),
              url('#{$path_to_webfont}.ttf')                    format('truetype'),
              url('#{$path_to_webfont}.svg##{$font-family}')    format('svg');
+    }
+}
+
+// Create @font-face from a TypeKit web font
+@mixin FontFace--typekit($font_family, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: $font_family;
+        font-weight: $weight;
+        font-style: $style;
     }
 }

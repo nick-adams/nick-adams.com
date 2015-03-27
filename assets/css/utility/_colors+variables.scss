@@ -2,20 +2,22 @@
 // -------------------------
 
 // Colors
-$white: #FFFFFF;
-$black: #000000;
-$primary_color: #FFF;
-$secondary_color: #FFF;
-$link_light_color: #FFF;
-$link_dark_color: #FFF;
-$text_light_color: #FFF;
-$text_dark_color: #FFF;
+$white:             #FFFFFF;
+$black:             #000000;
+$primary_color:     #FFFFFF;
+$secondary_color:   #FFFFFF;
+$red:               #D75B5B;
+$link_light_color:  #FFFFFF;
+$link_dark_color:   #FFFFFF;
+$text_light_color:  #9B9B9B;
+$text_dark_color:   #FFFFFF;
 
 // Layout & Grid
-$max_width: 1280px;
-$gutter: 40px; // adjusts gutter width for grid
+$max_width:     1280px;
+$fixed_width:   1080px;
+$gutter:        40px; // adjusts gutter width for grid
 
-// Displays
+// Display
 $global_radius: 4px;
 
 // Paths

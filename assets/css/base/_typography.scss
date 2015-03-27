@@ -1,22 +1,22 @@
 // Typography
 // -------------------------
 
-// Load the fonts.com account stylesheet
-// @import url('http://fast.fonts.com/t/1.css?apiType=css&projectid=b2242fdb-4141-46b1-bff5-e9a5c7c439ec');
+// LOAD WEB FONTS
 
-// @include font-face(Trade, 'http://fonts.hudl.com/trade-gothic/regular/regular', normal);
-// @include font-face(Trade, 'http://fonts.hudl.com/trade-gothic/regular-oblique/regular-oblique', normal, italic);
-// @include font-face(Trade, 'http://fonts.hudl.com/trade-gothic/bold/bold', bold);
-// @include font-face(Trade, 'http://fonts.hudl.com/trade-gothic/bold-oblique/bold-oblique', bold, italic);
+// For Hosted Web Fonts -------
+// ex: @include FontFace--hosted(Name, 'http://fonts.hudl.com/trade-gothic/regular/regular', normal);
 
-// @include font-face(TradeCondensed, 'http://fonts.hudl.com/trade-gothic/condensed/condensed', normal);
-// @include font-face(TradeCondensed, 'http://fonts.hudl.com/trade-gothic/condensed-oblique/condensed-oblique', normal, oblique);
-// @include font-face(TradeCondensed, 'http://fonts.hudl.com/trade-gothic/condensed-bold/condensed-bold', bold);
-// @include font-face(TradeCondensed, 'http://fonts.hudl.com/trade-gothic/condensed-bold-oblique/condensed-bold-oblique', bold, oblique);
+// For Typekit Web Fonts -------
+// ex: @include FontFace--typekit(kepler-std-display);
+@include FontFace--typekit(kepler-std-display);
+@include FontFace--typekit(aktiv-grotesk-std);
+
+// Type Stack
+$type_serif:    kepler-std-display;
+$type_sans:     aktiv-grotesk-std;
 
 html {
-    // Sets a base font size so 1.4rem = 14px
-    font-size: 62.5%; 
+    font-size: 62.5%; // Sets a base font size so 1.4rem = 14px
     font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -24,7 +24,9 @@ html {
 }
 
 h1 {
-    font: bold 10.0rem TradeCondensed;
+    font-family: $type_serif;
+    font-weight: 800;
+    font-size: 10.0rem;
     line-height: 10.0rem;
     text-transform: uppercase;
     margin: 0;
@@ -32,7 +34,9 @@ h1 {
 }
 
 h2 {
-    font: bold 3.2rem TradeCondensed;
+    font-family: $type_serif;
+    font-weight: 800;
+    font-size: 3.2rem;
     line-height: 3.2rem;
     text-transform: uppercase;
     margin: 0;
@@ -40,26 +44,35 @@ h2 {
 }
 
 h3 {
-    font: normal 2.4rem Trade;
+    font-family: $type_serif;
+    font-weight: 400;
+    font-size: 2.4rem;
     line-height: 2.4rem;
     margin: 0;
     padding: 0;
 }
 
 h4 {
-    font: bold 1.8rem Helvetica;
+    font-family: $type_sans;
+    font-weight: 800;
+    font-size: 1.8rem;
     line-height: 1.8rem;
     margin: 0;
     padding: 0;   
 }
+
 h5 {
-    font: normal 1.6rem Helvetica;
+    font-family: $type_sans;
+    font-weight: 400;
+    font-size: 1.6rem;
     line-height: 1.6rem;
     margin: 0;
     padding: 0;   
 }
 
 p {
-    font: normal 1.6rem Helvetica;
+    font-family: $type_sans;
+    font-weight: 400;
+    font-size: 1.6rem;
     line-height: 2.8rem;
 }

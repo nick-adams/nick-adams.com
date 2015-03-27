@@ -1,11 +1,16 @@
 // Content Styles & Grid Structure
 // -------------------------
 
-// Content Container
-.ContentContainer {
+// Content Containers
+.ContentContainer--fluid {
     max-width: $max_width;
-    padding: 25px 0;
+    margin: 0 auto;
 }
+.ContentContainer--fixed {
+    width: $fixed_width;
+    margin: 0 auto;
+}
+
 
 // Simple Grid Structure
 

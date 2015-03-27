@@ -12,7 +12,9 @@
     @import     "base/layout+grid";
     @import     "base/typography";
     @import     "base/buttons+links";
+    @import     "base/navigation";
 
-// -- Content Pages & Regions -- 
-    // @import     "content/home";
+// -- Content & Regions -- 
+    @import     "content/header";
+    @import     "content/home";
     // @import     "content/subpage";

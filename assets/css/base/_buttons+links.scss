@@ -11,11 +11,11 @@
     text-decoration: none;
 
     // Default Sizing
-    font: normal 1.6rem Trade;
+    font: normal 1.6rem Helvetica;
 }
 
     // Button Types
-    .Button--primary {
+    .ButtonPrimary {
         @extend %ButtonBase;
         
         color: $white;
@@ -28,5 +28,5 @@
 
     // Button Sizes 
     .Button--small {
-        font: normal 1.2rem Trade;
+        font: normal 1.2rem Helvetica;
     }

@@ -1,0 +1,41 @@
+// Home
+// -------------------------
+
+.Content-Home {
+    width: $fixed_width;
+    padding: 0;
+    margin: 0 auto;
+
+}
+    .Intro {
+        margin: 225px 0 0 0;
+
+    }
+        .Intro-Greeting {
+            color: $red;
+            font-family: $type_serif;
+            font-weight: 400;
+            font-size: 2.0rem;
+            margin: 0 0 0 12px;
+        }
+        .Intro-Name {
+            font-family: $type_sans;
+            font-weight: 500;
+            font-size: 9.0rem;
+        }
+            .Intro-Name--first {
+                font-family: $type_serif;
+                font-weight: 200;
+                font-style: italic;
+                font-size: 10.0rem;
+                margin-right: -12px;
+            }
+        
+        .Intro-Description {
+            color: $text_light_color;
+            font-family: $type_serif;
+            font-size: 2.0rem; 
+            line-height: 3.2rem;
+            width: 600px;
+            margin-left: 217px;
+        }
