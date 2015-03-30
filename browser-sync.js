@@ -5,8 +5,11 @@ module.exports = {
         '_site/**/*.html'
     ],
     ghostMode: false,
-    port: 3000,
+    port: 4000,
     server: {
         baseDir: '_site'
+    }
+    ui: {
+        port: 4001
     }
 };

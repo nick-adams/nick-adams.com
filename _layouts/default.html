@@ -9,7 +9,9 @@
 
         {{ content }}
 
-    {% include footer.html %}
+    {% unless page.show_footer == false %} 
+         {% include footer.html %}
+    {% endunless %}
     
     {% include scripts.html %}
 

@@ -16,8 +16,9 @@ github_username:  nick-adams
 #     permalink: /work/:path/
 
 # Build settings
+permalink: pretty
+# permalink: /notes/:year/:title.html #for blog posts only
 sass:
     sass_dir: ./assets/css
     style: :expanded
 markdown: kramdown
-permalink: /notes/:year/:title.html #for blog posts only

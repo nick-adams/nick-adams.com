@@ -1,41 +1,91 @@
 // Home
 // -------------------------
 
-.Content-Home {
-    width: $fixed_width;
-    padding: 0;
-    margin: 0 auto;
-
+.Intro {
+    margin: 225px 0 175px 0;
+    padding: 0 100px;
 }
-    .Intro {
-        margin: 225px 0 0 0;
-
+    .Intro-Greeting {
+        color: $primary_color;
+        font-family: $type_serif;
+        font-weight: 400;
+        font-size: 2.0rem;
+        letter-spacing: 0.1rem;
+        margin: 0 0 0 12px;
     }
-        .Intro-Greeting {
-            color: $red;
+    .Intro-Name {
+        font-family: $type_sans;
+        font-weight: 500;
+        font-size: 9.0rem;
+    }
+        .Intro-Name--first {
             font-family: $type_serif;
-            font-weight: 400;
-            font-size: 2.0rem;
-            margin: 0 0 0 12px;
+            font-weight: 200;
+            font-style: italic;
+            font-size: 10.0rem;
+            margin-right: -12px;
         }
-        .Intro-Name {
-            font-family: $type_sans;
-            font-weight: 500;
-            font-size: 9.0rem;
-        }
-            .Intro-Name--first {
-                font-family: $type_serif;
-                font-weight: 200;
-                font-style: italic;
-                font-size: 10.0rem;
-                margin-right: -12px;
-            }
-        
-        .Intro-Description {
+    
+    .Intro-Description {
+        color: $text_light_color;
+        font-family: $type_serif;
+        font-size: 1.9rem; 
+        line-height: 3.2rem;
+        letter-spacing: 0.1rem;
+        width: 530px;
+        margin-left: 217px;
+    }
+
+.Container-RecentWork {
+    background-color: $gray_medium;
+    background-image: url("../img/bg-recentwork-remotejobs.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+}
+
+    .RecentWork {
+        max-width: $max-width;
+        margin: 0 auto 0 auto;
+        padding: 25px 100px 25px 100px;
+    }
+        .RecentWork-Title {
+            position: relative;
+            top: -65px;
+            margin: 0;
             color: $text_light_color;
-            font-family: $type_serif;
-            font-size: 2.0rem; 
-            line-height: 3.2rem;
-            width: 600px;
-            margin-left: 217px;
+            font-family: $type_sans;
+            font-size: 1.4rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.5rem;
         }
+
+        .WorkSample--fullWidth {
+            width: 100%;
+            overflow: auto;
+            padding: 0 0 25px 0;  
+        }
+            .WorkSample-Logo {
+                display: block;
+                margin: 0 0 10px 0;
+            }
+            .WorkSample-Description {
+                width: 75%;
+                margin: 0;
+                float: left;
+                font-family: $type_serif;
+                font-size: 1.8rem;
+                letter-spacing: 0.1rem;
+                color: $text_xlight_color;
+            }
+            .WorkSample-CaseStudyLink {
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                float: right;
+                position: relative;
+                top: -25px;
+            }
+
