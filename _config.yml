@@ -6,6 +6,7 @@ description: >
     The site and portfolio of Nick Adams, a Designer based in Rochester, NY.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.nick-adams.com" # the base hostname & protocol for your site
+
 twitter_username: nickadamssays
 github_username:  nick-adams
 
@@ -16,8 +17,11 @@ collections:
         permalink: /work/:path/
 
 # Build settings
+destination: ./www
+
 permalink: pretty
-# permalink: /notes/:year/:title.html #for blog posts only
+# permalink: /notes/:year/:title.html #for Posts only, Pages overwrite this in their Frontmatter
+
 sass:
     sass_dir: ./assets/css
     style: :expanded

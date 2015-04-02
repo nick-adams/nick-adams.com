@@ -1,0 +1,407 @@
+.u-clear, .Grid:after, .Grid-row,
+.Grid-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.u-preventScroll {
+  overflow: hidden;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.ContentContainer--fluid {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.ContentContainer--fixed {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.Content-Container--full {
+  width: 100%;
+  margin: 0;
+}
+
+.Grid {
+  margin: 0 auto 40px auto;
+}
+
+.Grid--withOutsideGutters {
+  padding: 40px 0 40px 40px;
+}
+.Grid--withOutsideGutters [class*='col-']:last-of-type {
+  padding-right: 40px;
+}
+
+[class*='Grid-col--'] {
+  float: left;
+  padding-right: 40px;
+  min-height: 1rem;
+}
+.Grid [class*='Grid-col--']:last-of-type {
+  padding-right: 0;
+}
+
+.Grid-col--span2of3 {
+  width: 66.66%;
+}
+
+.Grid-col--span1of3 {
+  width: 33.33%;
+}
+
+.Grid-col--span1of2 {
+  width: 50%;
+}
+
+.Grid-col--span1of4 {
+  width: 25%;
+}
+
+.Grid-col--span3of4 {
+  width: 75%;
+}
+
+.Grid-col--span1of8 {
+  width: 12.5%;
+}
+
+.Grid-col--span2of8 {
+  width: 25%;
+}
+
+.Grid-col--span3of8 {
+  width: 37.5%;
+}
+
+.Grid-col--span5of8 {
+  width: 62.5%;
+}
+
+@font-face {
+  font-family: kepler-std-display;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: aktiv-grotesk-std;
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 62.5%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.6rem;
+}
+
+h1 {
+  font-family: kepler-std-display;
+  font-weight: 800;
+  font-size: 10.0rem;
+  line-height: 10.0rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: kepler-std-display;
+  font-weight: 800;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: kepler-std-display;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: aktiv-grotesk-std;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  font-family: aktiv-grotesk-std;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: aktiv-grotesk-std;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+.ButtonPrimary {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 7px 20px;
+  margin: 0 5px;
+  min-width: 150px;
+  text-align: center;
+  text-decoration: none;
+  font: normal 1.6rem Helvetica;
+}
+
+.ButtonPrimary {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.ButtonPrimary:hover {
+  background-color: #1a1a1a;
+}
+
+.Button--small {
+  font: normal 1.2rem Helvetica;
+}
+
+.LinkPrimary {
+  color: #333333;
+  padding: 0 0 1px 0;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  border-bottom: 2px solid #D75B5B;
+}
+
+.LinkPrimary:hover {
+  color: #D75B5B;
+  padding: 0 0 3px 0;
+}
+
+.LinkPrimary.is-onDark {
+  color: #FFFFFF;
+}
+
+.LinkPrimary.is-onDark:hover {
+  color: #D75B5B;
+}
+
+.LinkForNav {
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  border: 2px solid transparent;
+  padding: 8px 10px;
+}
+
+.LinkForNav.is-onLight {
+  color: #666666;
+}
+
+.LinkForNav.is-onLight:hover {
+  border: 2px solid #666666;
+}
+
+.LinkForNav.is-onLight.is-selected {
+  color: #333333;
+  border: 2px solid #333333;
+}
+
+.LinkForNav.is-onDark {
+  color: #9B9B9B;
+}
+
+.LinkForNav.is-onDark:hover {
+  border: 2px solid #9B9B9B;
+}
+
+.LinkForNav.is-onDark.is-selected {
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+.LinkForNav.is-emphasized {
+  color: #68A3CF;
+}
+
+.LinkForNav.is-emphasized:hover {
+  border: 2px solid #68A3CF;
+}
+
+.LinkForNav.is-emphasized.is-selected {
+  color: #68A3CF;
+  border: 2px solid #68A3CF;
+}
+
+.LinkForNav--home {
+  text-decoration: none;
+  color: #CACFD5;
+}
+
+.LinkForNav--home:hover {
+  color: #666666;
+}
+
+.PrimaryNav {
+  margin: 0;
+  display: flex;
+  align-content: stretch;
+  justify-content: flex-end;
+}
+
+.PrimaryNav-Home {
+  margin: 0;
+  font-family: kepler-std-display;
+  font-size: 2.0rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  flex: 1;
+}
+
+.PrimaryNav-List--h {
+  display: inline;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.PrimaryNav-Item--h {
+  display: inline-block;
+  margin: 0 0 0 100px;
+  font-family: aktiv-grotesk-std;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.PrimaryNav-Item--h:first-child {
+  margin: 0;
+}
+
+.Content-Header {
+  margin: 60px auto 10px auto;
+  padding: 0 100px;
+}
+
+.Intro {
+  margin: 225px 0 175px 0;
+  padding: 0 100px;
+}
+
+.Intro-Greeting {
+  color: #D75B5B;
+  font-family: kepler-std-display;
+  font-weight: 400;
+  font-size: 2.0rem;
+  letter-spacing: 0.1rem;
+  margin: 0 0 0 12px;
+}
+
+.Intro-Name {
+  font-family: aktiv-grotesk-std;
+  font-weight: 500;
+  font-size: 9.0rem;
+}
+
+.Intro-Name--first {
+  font-family: kepler-std-display;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 10.0rem;
+  margin-right: -12px;
+}
+
+.Intro-Description {
+  color: #9B9B9B;
+  font-family: kepler-std-display;
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.1rem;
+  max-width: 530px;
+  margin-left: 217px;
+}
+
+.Container-RecentWork {
+  background-color: #666666;
+  background-image: url("../img/bg-recentwork-remotejobs.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+}
+
+.RecentWork {
+  max-width: 1280px;
+  margin: 0 auto 0 auto;
+  padding: 25px 100px 25px 100px;
+}
+
+.RecentWork-Title {
+  position: relative;
+  top: -65px;
+  margin: 0;
+  color: #9B9B9B;
+  font-family: aktiv-grotesk-std;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.WorkSample--fullWidth {
+  width: 100%;
+  overflow: auto;
+  padding: 0 0 25px 0;
+}
+
+.WorkSample-Logo {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.WorkSample-Description {
+  width: 75%;
+  margin: 0;
+  float: left;
+  font-family: kepler-std-display;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: #CACFD5;
+}
+
+.WorkSample-CaseStudyLink {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  float: right;
+  position: relative;
+  top: -25px;
+}
