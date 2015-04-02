@@ -8,7 +8,7 @@ module.exports = {
     port: 4000,
     server: {
         baseDir: '_site'
-    }
+    },
     ui: {
         port: 4001
     }

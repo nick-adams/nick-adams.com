@@ -7,19 +7,19 @@
 }
     .Intro-Greeting {
         color: $primary_color;
-        font-family: $type_serif;
+        font-family: $font_serif;
         font-weight: 400;
         font-size: 2.0rem;
         letter-spacing: 0.1rem;
         margin: 0 0 0 12px;
     }
     .Intro-Name {
-        font-family: $type_sans;
+        font-family: $font_sans;
         font-weight: 500;
         font-size: 9.0rem;
     }
         .Intro-Name--first {
-            font-family: $type_serif;
+            font-family: $font_serif;
             font-weight: 200;
             font-style: italic;
             font-size: 10.0rem;
@@ -28,11 +28,11 @@
     
     .Intro-Description {
         color: $text_light_color;
-        font-family: $type_serif;
+        font-family: $font_serif;
         font-size: 1.9rem; 
         line-height: 3.2rem;
         letter-spacing: 0.1rem;
-        width: 530px;
+        max-width: 530px;
         margin-left: 217px;
     }
 
@@ -56,7 +56,7 @@
             top: -65px;
             margin: 0;
             color: $text_light_color;
-            font-family: $type_sans;
+            font-family: $font_sans;
             font-size: 1.4rem;
             font-weight: 400;
             text-transform: uppercase;
@@ -76,7 +76,7 @@
                 width: 75%;
                 margin: 0;
                 float: left;
-                font-family: $type_serif;
+                font-family: $font_serif;
                 font-size: 1.8rem;
                 letter-spacing: 0.1rem;
                 color: $text_xlight_color;

@@ -11,9 +11,9 @@
 @include FontFace--typekit(kepler-std-display);
 @include FontFace--typekit(aktiv-grotesk-std);
 
-// Type Stack
-$type_serif:    kepler-std-display;
-$type_sans:     aktiv-grotesk-std;
+// Font Stack
+$font_serif:    kepler-std-display;
+$font_sans:     aktiv-grotesk-std;
 
 html {
     font-size: 62.5%; // Sets a base font size so 1.4rem = 14px
@@ -24,7 +24,7 @@ html {
 }
 
 h1 {
-    font-family: $type_serif;
+    font-family: $font_serif;
     font-weight: 800;
     font-size: 10.0rem;
     line-height: 10.0rem;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-    font-family: $type_serif;
+    font-family: $font_serif;
     font-weight: 800;
     font-size: 3.2rem;
     line-height: 3.2rem;
@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-    font-family: $type_serif;
+    font-family: $font_serif;
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 2.4rem;
@@ -53,7 +53,7 @@ h3 {
 }
 
 h4 {
-    font-family: $type_sans;
+    font-family: $font_sans;
     font-weight: 800;
     font-size: 1.8rem;
     line-height: 1.8rem;
@@ -62,7 +62,7 @@ h4 {
 }
 
 h5 {
-    font-family: $type_sans;
+    font-family: $font_sans;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.6rem;
@@ -71,7 +71,7 @@ h5 {
 }
 
 p {
-    font-family: $type_sans;
+    font-family: $font_sans;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.8rem;

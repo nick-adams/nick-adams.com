@@ -10,10 +10,10 @@ twitter_username: nickadamssays
 github_username:  nick-adams
 
 # Collections
-# collections:
-# - work
-#     output: true
-#     permalink: /work/:path/
+collections:
+    work:
+        output: true
+        permalink: /work/:path/
 
 # Build settings
 permalink: pretty

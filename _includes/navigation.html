@@ -1,16 +1,18 @@
 <nav class="PrimaryNav">
+    {% unless page.nav_selected == 'home' %} 
+         <div class="PrimaryNav-Home"><a class="LinkForNav--home" href="{{ site.baseurl }}/">Nick Adams</a></div>
+    {% endunless %}
     <ul class="PrimaryNav-List--h">
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav {{ page.nav_color }}" href="#">About</a>
+        <li class="PrimaryNav-Item--h"><a class="LinkForNav {{ page.nav_color }} {% if page.nav_selected == 'about' %} is-selected {% endif %}" href="{{ site.baseurl }}/about/">About</a>
         </li>
         <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav {{ page.nav_color }}" href="#">Work</a>
+            <a class="LinkForNav {{ page.nav_color }} {% if page.nav_selected == 'work' %} is-selected {% endif %}" href="{{ site.baseurl }}/work/">Work</a>
         </li>
         <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav {{ page.nav_color }}" href="#">Notes</a>
+            <a class="LinkForNav {{ page.nav_color }} {% if page.nav_selected == 'notes' %} is-selected {% endif %}" href="{{ site.baseurl }}/notes/">Notes</a>
         </li>
         <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav {{ page.nav_color }} is-emphasized" href="#">Consulting</a>
+            <a class="LinkForNav {{ page.nav_color }} is-emphasized {% if page.nav_selected == 'consulting' %} is-selected {% endif %}" href="{{ site.baseurl }}/consulting/">Consulting</a>
         </li>
     </ul>
 </nav>

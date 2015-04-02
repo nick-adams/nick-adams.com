@@ -1,18 +1,28 @@
 // Navigation
 // -------------------------
 
+
 .PrimaryNav {
     margin: 0;
     display: flex;
+    align-content: stretch;
     justify-content: flex-end;
 }
+    .PrimaryNav-Home {
+        margin: 0;
+        font-family: $font_serif;
+        font-size: 2.0rem;
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        flex: 1;
+    }
     .PrimaryNav-List--h {
+        display: inline;
         list-style-type: none;
         list-style-position: inside;
         margin: 0;
         padding: 0;
     }
-
     .PrimaryNav-List--v {}
         .PrimaryNav-Item--h {
             display: inline-block;

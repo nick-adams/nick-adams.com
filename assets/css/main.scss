@@ -3,7 +3,8 @@
 @charset "utf-8";
 
 // -- Utilty Styles --
-    @import     "utility/colors+variables";
+    @import     "utility/variables+configs";
+    @import     "utility/colors";
     @import     "utility/mixins";
     @import     "utility/utilties";
 
