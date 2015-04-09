@@ -1,16 +1,20 @@
-// Utility Classes
+// Helper Classes
 // -------------------------
 
 // Clears floated content
-.u-clear {
+.h-clear {
     content: "";
     display: table;
     clear: both;
 }
 
-.u-show {}
-.u-hide {}
+.h-show {}
+.h-hide {}
 
-.u-preventScroll {
+.h-lowercase {
+    text-transform: lowercase !important;
+}
+
+.h-preventScroll {
     overflow: hidden;
 }

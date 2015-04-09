@@ -23,7 +23,7 @@
   margin: 0 auto $gutter auto;
   
   &:after {
-    @extend .u-clear;
+    @extend .h-clear;
   }
 }
 
@@ -38,7 +38,7 @@
 // Horizontal Rows, can contain Columns
 .Grid-row,
 .Grid-row:after {
-    @extend .u-clear;
+    @extend .h-clear;
 }
 
 
