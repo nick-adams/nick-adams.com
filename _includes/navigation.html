@@ -1,6 +1,10 @@
 <nav class="PrimaryNav">
-    {% unless page.nav_selected == 'home' %} 
-         <div class="PrimaryNav-Home"><a class="LinkForNav--home" href="{{ site.baseurl }}/">Nick Adams</a></div>
+    {% unless page.nav_selected == 'home' %}
+        {% if include.footer == 'true' %} 
+            <div class="PrimaryNav-Home"><p class="Footer-SignOff">Thank you for your time.</p></div>
+        {% else %}
+            <div class="PrimaryNav-Home"><a class="LinkForNav--home" href="{{ site.baseurl }}/">Nick Adams</a></div>
+        {% endif %}
     {% endunless %}
     <ul class="PrimaryNav-List--h">
         <li class="PrimaryNav-Item--h"><a class="LinkForNav {{ page.nav_color }} {% if page.nav_selected == 'about' %} is-selected {% endif %}" href="{{ site.baseurl }}/about/">About</a>

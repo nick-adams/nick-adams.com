@@ -309,8 +309,25 @@ p {
 }
 
 .Content-Header {
-  margin: 60px auto 10px auto;
+  margin: 75px auto 60px auto;
   padding: 0 100px;
+}
+
+.Content-Footer {
+  clear: both;
+  border-top: 1px solid #d9d9d9;
+  margin: 75px auto 25px auto;
+  padding: 30px 100px;
+  max-width: 1280px;
+}
+
+.Footer-SignOff {
+  font-family: kepler-std-display;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  text-transform: none;
+  color: #CACFD5;
+  margin: 0;
 }
 
 .Intro {

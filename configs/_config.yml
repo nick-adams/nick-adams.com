@@ -14,7 +14,15 @@ github_username:  nick-adams
 collections:
     work:
         output: true
+        layout: work
         permalink: /work/:path/
+
+defaults:
+    scope:
+        path: ""
+        type: work
+    values:
+        layout: work
 
 # Build settings
 destination: ./www

@@ -1,0 +1,18 @@
+// Footer
+// -------------------------
+
+.Content-Footer {
+    clear: both;
+    border-top: 1px solid lighten($gray_light, 25%);
+    margin: 75px auto 25px auto;
+    padding: 30px 100px;
+    max-width: $max-width;
+}
+    .Footer-SignOff {
+        font-family: $font_serif;
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        text-transform: none;
+        color: $text_xlight_color;
+        margin: 0;
+    }
