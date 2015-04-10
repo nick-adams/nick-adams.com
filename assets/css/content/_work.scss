@@ -44,61 +44,32 @@
             text-align: center;
             overflow: hidden;
         }
-            // %WorkGallery-Item-Gradient {
-            //     position: absolute;
-            //     display: block;
-            //     height: 50%;
-            //     width: 100%;
-            //     bottom: 0;
-            //     left: 0;
-            //     content: " ";
-            //     background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-            //     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-            //     background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-            //     background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-            //     z-index: $z-level2;
-            // }
         .WorkGallery-Item--halfLeft {
             @extend %WorkGallery-Item;
             float: left;
             width: 50%;
             height: 450px;
-
-            // &:after {
-            //     @extend %WorkGallery-Item-Gradient
-            // }
         }
         .WorkGallery-Item--halfRight {
             @extend %WorkGallery-Item;
             float: right;
             width: 50%;
             height: 450px;
-
-            // &:after {
-            //     @extend %WorkGallery-Item-Gradient
-            // }
         }
         .WorkGallery-Item--quarter {
             @extend %WorkGallery-Item;
             float: left;
             width: 25%;
             height: 225px;
-
-            // &:after {
-            //     @extend %WorkGallery-Item-Gradient
-            // }
         }
         .WorkGallery-Item--full {
             @extend %WorkGallery-Item;
             width: 100%;
             height: 450px;
             clear: both;
-
-            // &:after {
-            //     @extend %WorkGallery-Item-Gradient
-            // }
         }
-            %ProjectItem {
+
+            [class*='ProjectItem--'] {
                 position: absolute;
                 top: 0;
                 bottom: 0;
@@ -107,41 +78,36 @@
                 width: 100%;
                 height: 100%;
                 transition: background-color .2s ease-out;
-                // z-index: $z-level3;
             }
-            %ProjectItemGradient {
-                position: absolute;
-                display: block;
-                height: 100%;
-                width: 100%;
-                bottom: 0;
-                left: 0;
-                content: " ";
-                background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
-                background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
-                background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
-                background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
-                z-index: $z-level3;
+                [class*='ProjectItem--']:after {
+                    position: absolute;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    bottom: 0;
+                    left: 0;
+                    content: " ";
+                    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+                    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+                    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+                    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+                    z-index: $z-level3;
+                    transition: all .2s ease-out;
+                }
+                [class*='ProjectItem--']:hover:after {
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+
+            .ProjectItem--Hudl {
+                background-color: #1D2A3A;
             }
-                [class*='ProjectItem--'] {
-                    @extend %ProjectItem;
-                }
-                    [class*='ProjectItem--']:after {
-                        @extend %ProjectItemGradient;
-                        transition: all .2s ease-out;
-                    }
-                    [class*='ProjectItem--']:hover:after {
-                        background-color: rgba(0, 0, 0, 0.3);
-                    }
-                .ProjectItem--Hudl {
-                    background-color: #1D2A3A;
-                }
-                .ProjectItem--RemoteJobs {
-                    background-image: url("../img/bg-recentwork-remotejobs.png");
-                    background-position: 30% 10%;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
+            .ProjectItem--RemoteJobs {
+                background-image: url("../img/bg-recentwork-remotejobs.png");
+                background-position: 30% 10%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
                 .ProjectItem-Link {
                     position: absolute;
                     top: 0;
@@ -153,8 +119,8 @@
                     z-index: $z-level5;
                 }
                 .ProjectItem-Logo {
-                    position: relative;
-                    margin: 25% auto 0 auto;
+                    @extend .h-verticalAlign;
+                    margin: 0 auto 0 auto;
                     width: auto;
                     z-index: $z-level4;
                 }
@@ -181,7 +147,3 @@
                         color: $white;
                         margin: 0;
                     }
-
-
-
-
