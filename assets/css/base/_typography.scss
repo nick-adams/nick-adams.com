@@ -6,10 +6,10 @@
 // For Hosted Web Fonts -------
 // ex: @include FontFace--hosted(Name, 'http://fonts.hudl.com/trade-gothic/regular/regular', normal);
 
-// For Typekit Web Fonts -------
-// ex: @include FontFace--typekit(kepler-std-display);
-@include FontFace--typekit(kepler-std-display);
-@include FontFace--typekit(aktiv-grotesk-std);
+// For Linked Web Fonts -------
+// ex: @include FontFace--linked(kepler-std-display);
+@include FontFace--linked(kepler-std-display);
+@include FontFace--linked(aktiv-grotesk-std);
 
 // Font Stack
 $font_serif:    kepler-std-display;

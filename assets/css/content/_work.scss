@@ -1,28 +1,6 @@
 // Work Page Styles
 // -------------------------
 
-.SelectedWork {
-    margin: 100px 0 75px 0;
-    padding: 0 100px;
-}
-    .SelectedWork-Title {
-        font-family: $font_serif;
-        font-size: 6.2rem;
-        line-height: 6.2rem;
-        letter-spacing: 0.1rem;
-        text-transform: normal;
-        margin: 0 0 10px 0;
-    }
-    .SelectedWork-Description {
-        font-family: $font_serif;
-        font-size: 1.8rem;
-        line-height: 2.8rem;
-        letter-spacing: 0.1rem;
-        color: $text_light_color;
-        width: 80%;
-        margin: 0;
-    }
-
 .WorkGallery {
     background-color: $gray_dark;
     overflow: hidden;

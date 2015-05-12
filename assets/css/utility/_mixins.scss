@@ -17,8 +17,8 @@
     }
 }
 
-// Create @font-face from a TypeKit web font
-@mixin FontFace--typekit($font_family, $weight: normal, $style: normal) {
+// Create @font-face from a linked (TypeKit, Google, etc.) web font
+@mixin FontFace--linked($font_family, $weight: normal, $style: normal) {
     @font-face {
         font-family: $font_family;
         font-weight: $weight;

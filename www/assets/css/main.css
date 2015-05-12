@@ -316,6 +316,30 @@ p {
   margin: 0;
 }
 
+.PageHeader {
+  margin: 100px 0 75px 0;
+  padding: 0 100px;
+}
+
+.PageHeader-Title {
+  font-family: kepler-std-display;
+  font-size: 6.2rem;
+  line-height: 6.2rem;
+  letter-spacing: 0.1rem;
+  text-transform: normal;
+  margin: 0 0 10px 0;
+}
+
+.PageHeader-Description {
+  font-family: kepler-std-display;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.1rem;
+  color: #999999;
+  width: 80%;
+  margin: 0;
+}
+
 .Content-Header {
   margin: 75px auto 60px auto;
   padding: 0 100px;
@@ -450,30 +474,6 @@ p {
   float: right;
   position: relative;
   top: -25px;
-}
-
-.SelectedWork {
-  margin: 100px 0 75px 0;
-  padding: 0 100px;
-}
-
-.SelectedWork-Title {
-  font-family: kepler-std-display;
-  font-size: 6.2rem;
-  line-height: 6.2rem;
-  letter-spacing: 0.1rem;
-  text-transform: normal;
-  margin: 0 0 10px 0;
-}
-
-.SelectedWork-Description {
-  font-family: kepler-std-display;
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-  letter-spacing: 0.1rem;
-  color: #999999;
-  width: 80%;
-  margin: 0;
 }
 
 .WorkGallery {
@@ -665,4 +665,28 @@ p {
   font-size: 1.8rem;
   line-height: 2.8rem;
   color: #666666;
+}
+
+.AboutIntro {
+  margin: 100px 0 75px 0;
+  padding: 0 100px;
+}
+
+.AboutIntro-Title {
+  font-family: kepler-std-display;
+  font-size: 6.2rem;
+  line-height: 6.2rem;
+  letter-spacing: 0.1rem;
+  text-transform: normal;
+  margin: 0 0 10px 0;
+}
+
+.AboutIntro-Description {
+  font-family: kepler-std-display;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.1rem;
+  color: #999999;
+  width: 80%;
+  margin: 0;
 }
