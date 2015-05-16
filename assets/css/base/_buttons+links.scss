@@ -1,3 +1,4 @@
+// -------------------------
 // Buttons
 // -------------------------
 
@@ -65,8 +66,16 @@
         }
 
     .LinkSecondary {
-
+        color: $secondary_color;
+        padding: 0 0 1px 0;
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        border-bottom: 2px solid $primary_color;
     }
+        .LinkSecondary:hover {
+            color: $primary_color;
+            padding: 0 0 3px 0;
+        }
 
     .LinkForNav {
         text-decoration: none;

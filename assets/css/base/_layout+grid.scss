@@ -1,3 +1,4 @@
+// -------------------------
 // Content Styles & Grid Structure
 // -------------------------
 
@@ -17,10 +18,11 @@
 
 
 // Simple Grid Structure
+// -----------------------
 
 // Creates the Grid Container
 .Grid {
-  margin: 0 auto $gutter auto;
+  margin: 0 auto $gutter_width auto;
   
   &:after {
     @extend .h-clear;
@@ -29,9 +31,9 @@
 
 // Opt-in outside padding/gutters for Columns
 .Grid--withOutsideGutters {
-  padding: $gutter 0 $gutter $gutter;
+  padding: $gutter_width 0 $gutter_width $gutter_width;
   [class*='col-']:last-of-type {
-    padding-right: $gutter;
+    padding-right: $gutter_width;
   }
 }
 
@@ -45,7 +47,7 @@
 // Vertical Columns, wrapped by a Row
 [class*='Grid-col--'] {
   float: left;
-  padding-right: $gutter;
+  padding-right: $gutter_width;
   min-height: 1rem;
   .Grid &:last-of-type {
     padding-right: 0;

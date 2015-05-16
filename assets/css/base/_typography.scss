@@ -1,12 +1,14 @@
+// -------------------------
 // Typography
 // -------------------------
 
-// LOAD WEB FONTS
 
-// For Hosted Web Fonts -------
+// Load Hosted Web Fonts 
+// -------------------------
 // ex: @include FontFace--hosted(Name, 'http://fonts.hudl.com/trade-gothic/regular/regular', normal);
 
-// For Linked Web Fonts -------
+// Load Linked Web Fonts
+// -------------------------
 // ex: @include FontFace--linked(kepler-std-display);
 @include FontFace--linked(kepler-std-display);
 @include FontFace--linked(aktiv-grotesk-std);

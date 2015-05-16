@@ -1,3 +1,4 @@
+// ------------------------------
 // Work > Project Page Styles
 // ------------------------------
 
@@ -31,8 +32,47 @@
         padding: 50px 100px 50px 100px;
         max-width: $max-width;
     }
+
+        .ProjectInfo {
+            float: right;
+            width: 250px;
+            margin: 120px 0 50px 0;
+            border: 1px solid $gray_xlight;
+        }
+            .ProjectInfo-Title {
+                font-size: 1.2rem;
+                font-family: $font_sans;
+                text-transform: uppercase;
+                letter-spacing: 0.25rem;
+                color: $primary_color;
+                padding: 15px 15px 10px 15px;
+                border-bottom: 1px solid $gray_xlight;
+            }
+            .ProjectInfo-Data {
+                font-size: 1.2rem;
+                font-family: $font_sans;
+                padding: 0;
+            }
+                .ProjectInfo-Data > dt {
+                    font-size: 1.2rem;
+                    padding: 0 15px 5px 15px;
+                    color: $gray_light;
+                } 
+                .ProjectInfo-Data > dd {
+                    font-size: 1.4rem;
+                    padding: 0 15px 15px 15px;
+                    margin: 0 0 10px 0;
+                    color: $gray_medium;
+                    border-bottom: 1px solid $gray_xlight;
+                }
+                .ProjectInfo-Data > dd:last-child {
+                    border-bottom: 1px solid transparent;
+                    padding: 0 15px;
+                    margin: 0;
+                }
+
         .ProjectIntro {
-            max-width: 60%;
+            max-width: 65%;
         }
             .ProjectIntro-Category {
                 font-size: 1.2rem;
@@ -48,11 +88,30 @@
                 font-size: 5.6rem;
                 line-height: 5.6rem;
                 letter-spacing: 0.1rem;
+                margin: 0 0 10px 0;
             }
             .ProjectIntro-Description {
                 font-family: $font_serif;
                 font-size: 1.8rem;
                 line-height: 2.8rem;
                 color: $text_medium_color;
-
+                margin: 0 0 80px 0;
             }
+
+        .ProjectHeading {
+            font-family: $font_sans;
+            font-size: 1.6rem;
+            letter-spacing: 0.25rem;
+            text-transform: uppercase;
+            color: $gray_light;
+            margin: 40px 0 10px 0;
+            width: 65%;
+        }
+        .ProjectBody {
+            font-family: $font_sans;
+            font-size: 1.6rem;
+            line-height: 3.2rem;
+            color: $gray_medium;
+            margin: 0px 0 60px 0;
+            width: 65%;
+        }
