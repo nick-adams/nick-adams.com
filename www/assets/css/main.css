@@ -489,6 +489,27 @@ p {
   top: -25px;
 }
 
+.About {
+  margin: -25px 0 175px 0;
+  padding: 0 100px;
+}
+
+.About-Body {
+  font-family: aktiv-grotesk-std;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: #666666;
+  margin: 0px 0 30px 0;
+  width: 50%;
+}
+
+.About-Graphic {
+  float: right;
+  width: 356px;
+  height: 334px;
+  margin: -30px 50px 0 0;
+}
+
 .WorkGallery {
   background-color: #333333;
   overflow: hidden;
