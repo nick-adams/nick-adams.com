@@ -91,3 +91,30 @@
                 top: -25px;
             }
 
+
+@media only screen and (max-width: 768px) {
+  .Intro {
+    margin: 100px auto;
+    padding: 0 50px;
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+  .Intro {
+    margin: 25px auto;
+    padding: 0 25px;
+  }
+  .Intro-Greeting {
+    margin: 0;
+  }
+  .Intro-Name,
+  .Intro-Name--first {
+    font-size: 7.0rem;
+    line-height: 7.0rem;
+  }
+  .Intro-Description {
+    margin-left: 0;
+  }
+}
+
