@@ -1,9 +1,7 @@
 # Site settings
-title: >
-    Nick Adams, Designer
+title: Nick Adams, Designer
 email: hi@nick-adams.com
-description: >
-    The site and portfolio of Nick Adams, a Designer based in Rochester, NY.
+description: The site and portfolio of Nick Adams, a Designer based in Rochester, NY.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.nick-adams.com" # the base hostname & protocol for your site
 
@@ -12,16 +10,16 @@ github_username:  nick-adams
 
 # Collections
 collections:
-    work:
-        output: true
-        permalink: /work/:path/
+  work:
+    output: true
+    permalink: /work/:path/
 
 defaults:
-    scope:
-        path: ""
-        type: "work"
-    values:
-        layout: "work-project"
+  scope:
+      path: ""
+      type: "work"
+  values:
+      layout: "work-project"
 
 # Build settings
 destination: ./www
@@ -30,6 +28,6 @@ permalink: pretty
 # permalink: /notes/:year/:title.html #for Posts only, Pages overwrite this in their Frontmatter
 
 sass:
-    sass_dir: ./assets/css
-    style: :expanded
+  sass_dir: ./assets/css
+  style: :expanded
 markdown: kramdown
