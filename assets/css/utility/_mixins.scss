@@ -3,7 +3,9 @@
 // -------------------------
 
 
-// Create @font-face from a hosted web font
+// Create @font-face from a self-hosted web font
+// ex: @include FontFace--hosted(Name, 'http://fonts.yourdomain.com/font-family-name/regular', normal);
+
 @mixin FontFace--hosted($font_family, $path_to_webfont, $weight: normal, $style: normal) {
     @font-face {
         font-family: $font_family;
@@ -18,7 +20,9 @@
     }
 }
 
-// Create @font-face from a linked (TypeKit, Google, etc.) web font
+// Create @font-face from an externally linked (TypeKit, Google, etc.) web font
+// Note: source URL must be linked in the main HTML document
+
 @mixin FontFace--linked($font_family, $weight: normal, $style: normal) {
     @font-face {
         font-family: $font_family;

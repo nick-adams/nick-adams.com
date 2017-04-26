@@ -207,7 +207,6 @@ p {
   color: #333333;
   padding: 0 0 1px 0;
   text-decoration: none;
-  letter-spacing: 0.1rem;
   border-bottom: 2px solid #D75B5B;
 }
 
@@ -228,7 +227,6 @@ p {
   color: #68A3CF;
   padding: 0 0 1px 0;
   text-decoration: none;
-  letter-spacing: 0.1rem;
   border-bottom: 2px solid #D75B5B;
 }
 
@@ -423,11 +421,10 @@ p {
 }
 
 .Intro-Description {
-  color: #999999;
-  font-family: kepler-std-display;
-  font-size: 1.9rem;
+  color: #666666;
+  font-family: aktiv-grotesk-std;
+  font-size: 1.6rem;
   line-height: 3.2rem;
-  letter-spacing: 0.1rem;
   max-width: 530px;
   margin-left: 217px;
 }
@@ -489,6 +486,32 @@ p {
   top: -25px;
 }
 
+@media only screen and (max-width: 768px) {
+  .Intro {
+    margin: 100px auto;
+    padding: 0 50px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .Intro {
+    margin: 25px auto;
+    padding: 0 25px;
+  }
+
+  .Intro-Greeting {
+    margin: 0;
+  }
+
+  .Intro-Name,
+  .Intro-Name--first {
+    font-size: 7.0rem;
+    line-height: 7.0rem;
+  }
+
+  .Intro-Description {
+    margin-left: 0;
+  }
+}
 .About {
   margin: -25px 0 175px 0;
   padding: 0 100px;
