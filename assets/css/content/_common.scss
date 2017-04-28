@@ -2,11 +2,10 @@
 // Common Page Styles
 // -------------------------
 
-.PageHeader {
-    margin: 100px 0 75px 0;
-    padding: 0 100px;
+.site-header {
+  margin-top: $spacer_three;
 }
-    .PageHeader-Title {
+    .site-header-Title {
         font-family: $font_serif;
         font-size: 6.2rem;
         line-height: 6.2rem;
@@ -19,7 +18,7 @@
         font-size: 1.8rem;
         line-height: 2.8rem;
         letter-spacing: 0.1rem;
-        color: $text_light_color;
+        color: $color_text_00;
         width: 80%;
         margin: 0;
     }

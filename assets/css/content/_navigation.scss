@@ -1,0 +1,125 @@
+// ============================================
+// Site Navigation
+// ============================================
+
+// Navigation Structure
+// ============================================
+.site-nav {
+    margin: 0;
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-end;
+
+    @media only screen and (max-width: $bp_sm) {
+      justify-content: flex-start;
+    }
+}
+
+  .site-nav__homeitem {
+    margin: 0;
+    flex: 1;
+  }
+
+  .site-nav__items--horiz {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+  }
+    .site-nav__item--horiz {
+      display: inline-block;
+      margin-left: $spacer_four;
+
+      @media only screen and (max-width: $bp_sm) {
+        margin-left: $spacer_one;
+      }
+    }
+      .site-nav__item--horiz:first-child {
+        margin: 0;
+      }
+
+  .site-nav__items--vert {
+
+  }
+    .site-nav__item--vert {
+
+    }
+
+// Navigation Links
+// ============================================
+
+.site-nav__link {
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: $spacer_half;
+  font-family: $font_sans;
+  font-size: $font_size_sm;
+  font-weight: 800;
+  text-transform: uppercase;
+  
+  @media only screen and (max-width: $bp_sm) {
+    padding: $spacer_half 0;
+  }
+}
+
+.site-nav__link.is-onLight {
+  border: 2px solid transparent;
+  color: $color_text_05;
+}    
+  .site-nav__link.is-onLight:hover {
+    border: 2px solid $color_text_05;
+
+    @media only screen and (max-width: $bp_sm) {
+      border: 2px solid transparent;
+    }
+  }
+  .site-nav__link.is-onLight.is-selected {
+    border: 2px solid $color_text_10;
+    color: $color_text_10;
+  }
+
+.site-nav__link.is-onDark {
+  border: 2px solid transparent;
+  color: $color_text_00;
+}    
+  .site-nav__link.is-onDark:hover {
+    border: 2px solid $color_text_00;
+
+    @media only screen and (max-width: $bp_sm) {
+      border: 2px solid transparent;
+    }
+  }
+  .site-nav__link.is-onDark.is-selected {
+    color: $color_white;
+    border: 2px solid $color_white;
+  }
+
+.site-nav__link.is-emphasized {
+  border: 2px solid transparent;
+  color: $color_brand_secondary;
+}
+  .site-nav__link.is-emphasized:hover {
+    border: 2px solid $color_brand_secondary;
+
+    @media only screen and (max-width: $bp_sm) {
+      border: 2px solid transparent;
+    }
+  }
+  .site-nav__link.is-emphasized.is-selected {
+    border: 2px solid $color_brand_secondary;
+    color: $color_brand_secondary;
+  }
+
+.site-nav__link--home {
+  text-decoration: none;
+  font-size: $font_size_xl;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: $color_text_00;
+}
+  .site-nav__link--home:hover {
+    color: $color_text_05;
+  }
+
+

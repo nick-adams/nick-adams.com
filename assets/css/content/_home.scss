@@ -2,119 +2,124 @@
 // Home Page Styles
 // -------------------------
 
-.Intro {
-    margin: 225px 0 175px 0;
-    padding: 0 100px;
+.home {
+  margin: 200px 0 150px 0;
 }
-    .Intro-Greeting {
-        color: $primary_color;
-        font-family: $font_serif;
-        font-weight: 400;
-        font-size: 2.0rem;
-        letter-spacing: 0.1rem;
-        margin: 0 0 0 12px;
-    }
-    .Intro-Name {
-        font-family: $font_sans;
-        font-weight: 500;
-        font-size: 9.0rem;
-        text-transform: uppercase;
-    }
-        .Intro-Name--first {
-            font-family: $font_serif;
-            font-weight: 200;
-            font-style: italic;
-            font-size: 10.0rem;
-            margin-right: -12px;
-        }
-    
-    .Intro-Description {
-        color: $text_medium_color;
-        font-family: $font_sans;
-        font-size: 1.6rem; 
-        line-height: 3.2rem;
-        // letter-spacing: 0.1rem;
-        max-width: 530px;
-        margin-left: 217px;
-    }
-
-.Container-RecentWork {
-    background-color: $gray_medium;
-    background-image: url("../img/bg-recentwork-remotejobs.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+  .home-greeting {
+    color: $color_brand_primary;
+    font-family: $font_sans;
+    font-weight: 800;
+    font-size: $font_size_md;
+    margin: 0 0 0 12px;
+  }
+  .home-name {
+    font-family: $font_sans;
+    font-weight: 500;
+    font-size: 5.65rem;
+    line-height: 6.25rem;
+    text-transform: uppercase;
     margin: 0;
+  }
+    .home-name--first {
+      font-family: $font_serif;
+      font-weight: 200;
+      font-style: italic;
+      font-size: 6.25rem;
+      line-height: 6.25rem;
+      margin-right: -0.75rem;
+    }
+  
+  .home-description {
+    color: $color_text_06;
+    font-family: $font_sans;
+    font-size: $font_size_md; 
+    line-height: $line_height_base;
+    max-width: 530px;
+    margin-left: 217px;
+  }
+    .home-sociallink {
+      margin: 0 $spacer_one 0 0;
+    }
+
+.container-recentwork {
+  background-color: $color_bg_light;
+  background-image: url("../img/bg-recentwork-remotejobs.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
 }
 
-    .RecentWork {
-        max-width: $max-width;
-        margin: 0 auto 0 auto;
-        padding: 25px 100px 25px 100px;
+  .recentwork {
+    max-width: $page_max_width;
+    margin: 0 auto 0 auto;
+    padding: 25px 100px 25px 100px;
+  }
+    .recentwork-title {
+      position: relative;
+      top: -65px;
+      margin: 0;
+      color: $color_text_00;
+      font-family: $font_sans;
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
     }
-        .RecentWork-Title {
-            position: relative;
-            top: -65px;
-            margin: 0;
-            color: $text_light_color;
-            font-family: $font_sans;
-            font-size: 1.4rem;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.5rem;
-        }
 
-        .WorkSample--fullWidth {
-            width: 100%;
-            overflow: auto;
-            padding: 0 0 25px 0;  
-        }
-            .WorkSample-Logo {
-                display: block;
-                margin: 0 0 10px 0;
-            }
-            .WorkSample-Description {
-                width: 75%;
-                margin: 0;
-                float: left;
-                font-family: $font_serif;
-                font-size: 1.8rem;
-                letter-spacing: 0.1rem;
-                color: $text_xlight_color;
-            }
-            .WorkSample-CaseStudyLink {
-                font-size: 1.4rem;
-                text-transform: uppercase;
-                float: right;
-                position: relative;
-                top: -25px;
-            }
-
+    .worksample--fullwidth {
+      width: 100%;
+      overflow: auto;
+      padding: 0 0 25px 0;  
+    }
+      .worksample-logo {
+        display: block;
+        margin: 0 0 10px 0;
+      }
+      .worksample-description {
+        width: 75%;
+        margin: 0;
+        float: left;
+        font-family: $font_serif;
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        color: $color_text_00;
+      }
+      .worksample-casestudylink {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        float: right;
+        position: relative;
+        top: -25px;
+      }
 
 @media only screen and (max-width: 768px) {
-  .Intro {
+  .home {
     margin: 100px auto;
-    padding: 0 50px;
+  }
+  .home-description {
+    margin-left: 0;
   }
 }
 
 
 @media only screen and (max-width: 414px) {
-  .Intro {
+  .home {
     margin: 25px auto;
-    padding: 0 25px;
   }
-  .Intro-Greeting {
+  .home-greeting {
     margin: 0;
   }
-  .Intro-Name,
-  .Intro-Name--first {
-    font-size: 7.0rem;
-    line-height: 7.0rem;
+  .home-name {  
+    font-size: 5rem;
+    line-height: 3rem;
   }
-  .Intro-Description {
-    margin-left: 0;
+    .home-name--first {
+      font-size: 6rem;
+    }
+  .home-description {
+    margin: $spacer_three 0 0 0;
   }
 }
 

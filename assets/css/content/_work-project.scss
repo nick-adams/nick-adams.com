@@ -18,35 +18,35 @@
     .ProjectHeader-Nav {
         padding: 75px 100px 0 100px;
         margin: 0 auto 60px auto;
-        max-width: $max-width;
+        max-width: $page_max_width;
     }
     .ProjectHeader-Image {
         position: relative;
         top: 30%;
         padding: 0 100px 0 100px;
-        max-width: $max-width;
+        max-width: $page_max_width;
         margin: 0 auto;
     }
 
     .ProjectStory {
         padding: 50px 100px 50px 100px;
-        max-width: $max-width;
+        max-width: $page_max_width;
     }
 
         .ProjectInfo {
             float: right;
             width: 250px;
             margin: 120px 0 50px 0;
-            border: 1px solid $gray_xlight;
+            border: $border_thin_light;
         }
             .ProjectInfo-Title {
                 font-size: 1.2rem;
                 font-family: $font_sans;
                 text-transform: uppercase;
                 letter-spacing: 0.25rem;
-                color: $primary_color;
+                color: $color_brand_primary;
                 padding: 15px 15px 10px 15px;
-                border-bottom: 1px solid $gray_xlight;
+                border-bottom: $border_thin_light;
             }
             .ProjectInfo-Data {
                 font-size: 1.2rem;
@@ -56,14 +56,14 @@
                 .ProjectInfo-Data > dt {
                     font-size: 1.2rem;
                     padding: 0 15px 5px 15px;
-                    color: $gray_light;
+                    color: $color_text_00;
                 } 
                 .ProjectInfo-Data > dd {
                     font-size: 1.4rem;
                     padding: 0 15px 15px 15px;
                     margin: 0 0 10px 0;
-                    color: $gray_medium;
-                    border-bottom: 1px solid $gray_xlight;
+                    color: $color_text_00;
+                    border-bottom: $border_thin_light;
                 }
                 .ProjectInfo-Data > dd:last-child {
                     border-bottom: 1px solid transparent;
@@ -78,9 +78,9 @@
                 font-size: 1.2rem;
                 line-height: 2.0rem;
                 letter-spacing: 0.1rem;
-                color: $text_light_color;
+                color: $color_text_00;
                 text-transform: uppercase;
-                border-bottom: 1px solid lighten($gray_light, 30%);
+                border-bottom: $border_thin_light;
                 padding: 0 0 5px 0;
                 margin: 0 0 20px 0;
             }
@@ -95,7 +95,7 @@
                 font-size: 1.8rem;
                 line-height: 2.8rem;
                 letter-spacing: 0.1rem;
-                color: $text_light_color;
+                color: $color_text_00;
                 margin: 0 0 80px 0;
             }
 
@@ -104,7 +104,7 @@
             font-size: 1.4rem;
             letter-spacing: 0.25rem;
             text-transform: uppercase;
-            color: $gray_light;
+            color: $color_text_00;
             margin: 40px 0 10px 0;
             width: 65%;
         }
@@ -112,7 +112,7 @@
             font-family: $font_sans;
             font-size: 1.4rem;
             line-height: 3.2rem;
-            color: $gray_medium;
+            color: $color_text_05;
             margin: 0px 0 60px 0;
             width: 65%;
         }

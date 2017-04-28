@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- "Default" Layout -->
 
   {% include head.html %}
 
     <body>
-    <!-- "Default" Layout -->
-
+    
     {% include header.html %}
+    
+    <main class="grid--maxwidth grid--outsidegutters">
+      {{ content }}
+    </main>
 
-        {{ content }}
-
-    {% unless page.show_footer == false %} 
+    {% unless page.footer == 'hidden' %} 
          {% include footer.html %}
     {% endunless %}
     
     {% include scripts.html %}
-
+    
     </body>
 
 </html>

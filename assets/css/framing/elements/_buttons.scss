@@ -1,0 +1,273 @@
+// ============================================
+// Buttons
+// ============================================
+
+// Default HTML Element 
+// ============================================
+
+// button  {
+//   transition:         all #{$transition_medium};
+//   -webkit-transition: all #{$transition_medium};
+//   -moz-transition:    all #{$transition_medium};
+// }
+
+// Filled Buttons
+// ============================================
+
+// Placeholder
+%btn-fill-base {
+  display: inline-block;
+  border-radius: $radius;
+  padding: 0.5em 1.5em;
+  margin: $spacer_quarter;
+  min-width: 150px;
+  text-align: center;
+  text-decoration: none;
+  // box-shadow: 0px 1px 1px 0 transparentize($color_dark, .60);
+  cursor: pointer;
+
+  // Default Sizing (Medium)
+  font: bold $font_size_md $font_sans;
+}
+
+// Types
+
+.#{$namespace}btn-fill--action {
+  @extend %btn-fill-base;
+  
+  color: $color_white;
+  background-color: $color_action;
+  border: solid 1px mix(black, $color_action, 20%);
+
+  &:hover {
+    background-color: $color_action_tint;
+  }
+  &:active {
+    background-color: $color_action_shade;
+  }
+}
+.#{$namespace}btn-fill--standard {
+  @extend %btn-fill-base;
+  
+  color: $color_text_08;
+  background-color: $color_neutral;
+  border: solid 1px mix(black, $color_neutral, 20%);
+
+  &:hover {
+    background-color: $color_neutral_tint;
+  }
+  &:active {
+    background-color: $color_neutral_shade;
+  }
+}
+.#{$namespace}btn-fill--subtle {
+  @extend %btn-fill-base;
+  
+  color: $color_text_05;
+  border: solid 1px $color_neutral;
+  background-color: mix(white, $color_neutral, 80%);
+
+
+  &:hover {
+    background-color: $color_neutral_tint;
+  }
+  &:active {
+    background-color: $color_neutral_shade;
+  }
+}
+.#{$namespace}btn-fill--create {
+  @extend %btn-fill-base;
+  
+  color: $color_white;
+  background-color: $color_create;
+  border: solid 1px mix(black, $color_create, 20%);
+
+  &:hover {
+    background-color: $color_create_tint;
+  }
+  &:active {
+    background-color: $color_create_tint;
+  }
+}
+.#{$namespace}btn-fill--destroy {
+  @extend %btn-fill-base;
+  
+  color: $color_white;
+  background-color: $color_destroy;
+  border: solid 1px mix(black, $color_destroy, 20%);
+
+  &:hover {
+    background-color: $color_destroy_tint;
+  }
+  &:active {
+    background-color: $color_destroy_tint;
+  }
+}
+.#{$namespace}btn-fill--warn {
+  @extend %btn-fill-base;
+  
+  color: $color_white;
+  background-color: $color_warn;
+  border: solid 1px mix(black, $color_warn, 20%);
+
+  &:hover {
+    background-color: $color_warn_tint;
+  }
+  &:active {
+    background-color: $color_warn_tint;
+  }
+}
+
+.#{$namespace}btn-fill--disabled {
+  @extend %btn-fill-base;
+  
+  color: $color_text_03;
+  background-color: $color_neutral;
+  // box-shadow: unset;
+  border: solid 1px transparent;
+  cursor: not-allowed;
+  opacity: .50;
+
+  &:hover {
+    background-color: $color_neutral;
+  }
+  &:active {
+    background-color: $color_neutral;
+  }
+}
+
+// Outlined Buttons
+// ============================================
+
+// Placeholder
+%btn-outline-base {
+  display: inline-block;
+  background-color: transparent;
+  border-radius: $radius;
+  padding: 0.5em 1.5em;
+  margin: $spacer_quarter;
+  min-width: 150px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  // Default Sizing (Medium)
+  font: bold $font_size_md $font_sans;
+}
+
+// Types
+
+.#{$namespace}btn-outline--action {
+  @extend %btn-outline-base;
+  
+  color: $color_action;
+  border: solid 1px $color_action;
+
+  &:hover {
+    background-color: transparentize($color_action_tint, .90);
+  }
+  &:active {
+    background-color: transparentize($color_action_shade, .80);
+  }
+}
+.#{$namespace}btn-outline--standard {
+  @extend %btn-outline-base;
+  
+  color: $color_text_08;
+  border: solid 1px mix(black, $color_neutral, 20%);
+
+  &:hover {
+    background-color: transparentize($color_neutral_tint, .90);
+  }
+  &:active {
+    background-color: transparentize($color_neutral_shade, .80);
+  }
+}
+.#{$namespace}btn-outline--subtle {
+  @extend %btn-outline-base;
+  
+  color: $color_text_05;
+  border: solid 1px $color_neutral;
+
+  &:hover {
+    background-color: transparentize($color_neutral_tint, .90);
+  }
+  &:active {
+    background-color: transparentize($color_neutral_shade, .80);
+  }
+}
+.#{$namespace}btn-outline--create {
+  @extend %btn-outline-base;
+  
+  color: $color_create;
+  border: solid 1px $color_create;
+
+  &:hover {
+    background-color: transparentize($color_create_tint, .90);
+  }
+  &:active {
+    background-color: transparentize($color_create_shade, .80);
+  }
+}
+.#{$namespace}btn-outline--destroy {
+  @extend %btn-outline-base;
+  
+  color: $color_destroy;
+  border: solid 1px $color_destroy;
+
+  &:hover {
+    background-color: transparentize($color_destroy_tint, .90);
+  }
+  &:active {
+    background-color: transparentize($color_destroy_shade, .80);
+  }
+}
+.#{$namespace}btn-outline--warn {
+  @extend %btn-outline-base;
+  
+  color: $color_warn;
+  border: solid 1px $color_warn;
+
+  &:hover {
+    background-color: transparentize($color_warn_tint, .90);
+  }
+  &:active {
+    background-color: transparentize($color_warn_shade, .80);
+  }
+}
+
+.#{$namespace}btn-outline--disabled {
+  @extend %btn-outline-base;
+
+  color: $color_text_05;
+  border: solid 1px $color_neutral;
+  cursor: not-allowed;
+  opacity: .50;
+
+  &:hover {
+    background-color: transparentize($color_neutral_tint, .90);
+  }
+  &:active {
+    background-color: transparentize($color_neutral_shade, .80);
+  }
+}
+
+// Button Sizes
+// ============================================
+
+.#{$namespace}btn-size--sm {
+  font: bold $font_size_sm $font_sans;
+}
+.#{$namespace}btn-size--md {
+  font: bold $font_size_md $font_sans;
+}
+.#{$namespace}btn-size--lg {
+  font: bold $font_size_lg $font_sans;
+}
+
+// Full Width
+// ============================================
+
+.#{namespace}btn-fullwidth {
+  width: 100%;
+}

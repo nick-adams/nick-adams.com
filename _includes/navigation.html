@@ -1,23 +1,22 @@
-<nav class="PrimaryNav">
-    {% unless page.nav_selected == 'home' %}
-        {% if include.footer == 'true' %} 
-            <div class="PrimaryNav-Home"><p class="FooterNav-SignOff">Thank you for your time.</p></div>
-        {% else %}
-            <div class="PrimaryNav-Home"><a class="LinkForNav--home" href="{{ site.baseurl }}/">Nick Adams</a></div>
-        {% endif %}
-    {% endunless %}
-    <ul class="PrimaryNav-List--h">
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav {% if include.footer == 'true' %} is-onLight {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'about' %} is-selected {% endif %}" href="{{ site.baseurl }}/about/">About</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav {% if include.footer == 'true' %} is-onLight {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'work' %} is-selected {% endif %}" href="{{ site.baseurl }}/work/">Work</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav {% if include.footer == 'true' %} is-onLight {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'notes' %} is-selected {% endif %}" href="{{ site.baseurl }}/notes/">Notes</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav {% if include.footer == 'true' %} is-onLight {% else %} {{ page.nav_color }} {% endif %} is-emphasized {% if page.nav_selected == 'consulting' %} is-selected {% endif %}" href="{{ site.baseurl }}/consulting/">Consulting</a>
-        </li>
-    </ul>
+<nav class="grid__col--onewhole site-nav">
+{% if include.footer == 'true' %} 
+  <div class="site-nav__home"><p class="FooterNav-SignOff">Thank you for your time.</p></div>
+{% endif %}
+{% unless page.header_name == 'hidden' %}
+  <div class="site-nav__home"><a class="site-nav__link--home" href="{{ site.baseurl }}/">Nick Adams</a></div>
+{% endunless %}
+  <ul class="site-nav__items--horiz">
+    <li class="site-nav__item--horiz">
+        <a class="site-nav__link {% if include.footer == 'true' %} is-onLight {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'about' %} is-selected {% endif %}" href="{{ site.baseurl }}/about/">About</a>
+    </li>
+    <li class="site-nav__item--horiz">
+        <a class="site-nav__link {% if include.footer == 'true' %} is-onLight {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'work' %} is-selected {% endif %}" href="{{ site.baseurl }}/work/">Work</a>
+    </li>
+    <li class="site-nav__item--horiz">
+        <a class="site-nav__link {% if include.footer == 'true' %} is-onLight {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'notes' %} is-selected {% endif %}" href="{{ site.baseurl }}/notes/">Notes</a>
+    </li>
+    <li class="site-nav__item--horiz">
+        <a class="site-nav__link {% if include.footer == 'true' %} is-onLight {% else %} {{ page.nav_color }} {% endif %} is-emphasized {% if page.nav_selected == 'consulting' %} is-selected {% endif %}" href="{{ site.baseurl }}/freelance/">Freelance</a>
+    </li>
+  </ul>
 </nav>

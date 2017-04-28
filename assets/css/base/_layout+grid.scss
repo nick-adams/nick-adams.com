@@ -4,11 +4,11 @@
 
 // Content Containers
 .ContentContainer--fluid {
-    max-width: $max_width;
+    max-width: $grid_width;
     margin: 0 auto;
 }
 .ContentContainer--fixed {
-    width: $fixed_width;
+    width: $page_max_width;
     margin: 0 auto;
 }
 .Content-Container--full {
@@ -22,7 +22,7 @@
 
 // Creates the Grid Container
 .Grid {
-  margin: 0 auto $gutter_width auto;
+  margin: 0 auto $grid_gutter_width auto;
   
   &:after {
     @extend .h-clear;
@@ -31,9 +31,9 @@
 
 // Opt-in outside padding/gutters for Columns
 .Grid--withOutsideGutters {
-  padding: $gutter_width 0 $gutter_width $gutter_width;
+  padding: $grid_gutter_width 0 $grid_gutter_width $grid_gutter_width;
   [class*='col-']:last-of-type {
-    padding-right: $gutter_width;
+    padding-right: $grid_gutter_width;
   }
 }
 
@@ -47,7 +47,7 @@
 // Vertical Columns, wrapped by a Row
 [class*='Grid-col--'] {
   float: left;
-  padding-right: $gutter_width;
+  padding-right: $grid_gutter_width;
   min-height: 1rem;
   .Grid &:last-of-type {
     padding-right: 0;

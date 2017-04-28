@@ -3,7 +3,7 @@
 // -------------------------
 
 .WorkGallery {
-    background-color: $gray_dark;
+    background-color: $color_bg_dark;
     overflow: hidden;
 }
     .WorkGallery-Row {
@@ -95,27 +95,27 @@
                     right: 0;
                     width: 100%;
                     height: 100%;
-                    z-index: $z-level5;
+                    z-index: $z_level5;
                 }
                 .ProjectItem-Logo {
-                    @extend .h-verticalAlign;
+                    @extend .u-align--vertical;
                     margin: 0 auto 0 auto;
                     width: auto;
-                    z-index: $z-level4;
+                    z-index: $z_level4;
                 }
                 .ProjectItem-Data {
                     position: absolute;
                     bottom: 10%;
                     width: 100%;
                     text-align: center;
-                    z-index: $z-level4;
+                    z-index: $z_level4;
                 }
 
                     .ProjectData-Year {
                         font-family: $font_serif;
                         font-size: 1.6rem;
                         letter-spacing: 0.1rem;
-                        color: $text_xlight_color; 
+                        color: $color_text_00; 
                         margin: 0 0 0 0;
                     }
                     .ProjectData-Name {
@@ -123,6 +123,6 @@
                         font-size: 2.0rem;
                         letter-spacing: 0.25rem;
                         text-transform: uppercase;
-                        color: $white;
+                        color: $color_text_00;
                         margin: 0;
                     }

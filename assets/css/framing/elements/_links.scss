@@ -1,0 +1,86 @@
+// ============================================
+// Links
+// ============================================
+
+// Default HTML Element 
+// ============================================
+a {
+    transition:         all #{$transition_medium};
+    -webkit-transition: all #{$transition_medium};
+    -moz-transition:    all #{$transition_medium};
+}
+
+.#{$namespace}link {
+  text-decoration: none;
+  color: $color_text_05;
+  
+  &:hover {
+    color: $color_text_01;
+  }
+  &:active {
+    color: $color_text_08;
+  }
+  &:visited {
+    color: $color_text_08;
+  }
+}
+
+.#{$namespace}link--action {
+  text-decoration: none;
+  color: $color_action;
+  
+  &:hover {
+    color: $color_action_tint;
+  }
+  &:active {
+    color: $color_action_shade;
+  }
+  &:visited {
+    color: $color_action_shade;
+  }
+}
+
+.#{$namespace}link--standard {
+  text-decoration: none;
+  color: $color_neutral;
+  
+  &:hover {
+    color: $color_neutral_tint;
+  }
+  &:active {
+    color: $color_neutral_shade;
+  }
+  &:visited {
+    color: $color_neutral_shade;
+  }
+}
+
+.#{$namespace}link--create {
+  text-decoration: none;
+  color: $color_text_05;
+  
+  &:hover {
+    color: $color_text_01;
+  }
+  &:active {
+    color: $color_text_08;
+  }
+  &:visited {
+    color: $color_text_08;
+  }
+}
+
+.#{$namespace}link--destroy {
+  text-decoration: none;
+  color: $color_text_05;
+  
+  &:hover {
+    color: $color_text_01;
+  }
+  &:active {
+    color: $color_text_08;
+  }
+  &:visited {
+    color: $color_text_08;
+  }
+}

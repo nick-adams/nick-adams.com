@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', ' 3.3.0'
+# Standard Jekyll
+# gem 'jekyll', '3.4.3'
+
+# Github Pages 
+# (if deploying to Github Pages)
+gem 'github-pages', group: :jekyll_plugins
 
 # Use Foreman to run the Procfile
 # (runs jekyll build --watch and starts browser-sync)

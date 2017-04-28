@@ -1,26 +1,25 @@
 ---
 ---
-@charset "utf-8";
+// ^ Uncomment for Jekyll
 
-// -- Utilty Styles --
-    @import     "utility/variables+configs";
-    @import     "utility/colors";
-    @import     "utility/mixins";
-    @import     "utility/helpers";
+// ============================================
+// Main Styles
+// ============================================
 
-// -- Base Styles --
-    @import     "base/global";
-    @import     "base/layout+grid";
-    @import     "base/typography";
-    @import     "base/buttons+links";
-    @import     "base/navigation";
+// Config (must come first)
+// @import   'config/default'; // you can replace this with your own
+@import   'config/config.personal-site';
 
-// -- Content & Regions -- 
-    @import     "content/common";
-    @import     "content/header";
-    @import     "content/footer";
-    @import     "content/home";
-    @import     "content/about";
-    @import     "content/work";
-    @import     "content/work-project";
-    @import     "content/consulting";
+// Framing
+@import   'framing/framing';
+
+// Content 
+@import   'content/common';
+@import   'content/header';
+@import   'content/footer';
+@import   'content/navigation';
+@import   'content/home';
+@import   'content/about';
+@import   'content/work';
+@import   'content/work-project';
+@import   'content/consulting';

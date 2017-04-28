@@ -1,0 +1,105 @@
+// ============================================
+// Navigation
+// ============================================
+
+
+// Default HTML Element 
+// ============================================
+
+// nav {
+
+// }
+
+// Base
+// ============================================
+
+.#{$namespace}nav {
+  margin: 0 0 $spacer_one 0;
+  padding: 0;
+  display: inline-block;  
+  & a {
+    text-decoration: none;
+    color: $color_text_08;
+    padding: $spacer_quarter 0;
+  }
+  & a:hover {
+    color: $color_text_05;
+  }
+  & a:active {
+    color: $color_text_05;
+  }
+}
+
+%nav--list {
+  display: flex;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: inside;
+  @extend .#{$namespace}text--sm;
+}
+
+// Nav Types
+// ============================================
+
+.#{$namespace}nav-horiz--top {
+  @extend %nav--list;
+  flex-direction: row;
+}
+.#{$namespace}nav-horiz--bottom {
+  @extend %nav--list;
+  flex-direction: row;
+}
+.#{$namespace}nav-horiz--top-border {
+  @extend %nav--list;
+  flex-direction: row;
+  border-bottom: $border_thin-light;
+}
+.#{$namespace}nav-horiz--bottom-border {
+  @extend %nav--list;
+  flex-direction: row;
+  border-top: $border_thin-light;
+}
+
+// Vertical Arrangement
+// ============================================
+
+.#{$namespace}nav-vert--left {
+  @extend %nav--list;
+  flex-direction: column;
+  border-right: $border_thin_light;
+}
+.#{$namespace}nav-vert--right {
+  @extend %nav--list;
+  flex-direction: column;
+  border-left: $border_thin_light;
+}
+
+// Items
+// ============================================
+
+  .#{$namespace}nav__item {
+    margin: 0 $spacer_two 0 0;
+    border-bottom: $border_thick_transparent;
+    transition:         all #{$transition_medium};
+    -webkit-transition: all #{$transition_medium};
+    -moz-transition:    all #{$transition_medium};
+    &:hover {
+      border-bottom: $border_thick_primary;
+    }
+  
+  }
+  .#{$namespace}nav__item:last-child {
+    margin: 0;
+  }
+  .#{$namespace}nav__item.is-selected {
+    border-bottom: $border_thick_primary;
+    & a {
+      color: $color_text_08;
+    }
+  }
+

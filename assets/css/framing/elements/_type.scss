@@ -1,0 +1,130 @@
+// ============================================
+// Typography
+// ============================================
+
+html {
+    font-family: $font_sans;
+    font-weight: normal;
+    font-style: normal;
+    line-height: $line_height_base
+}
+
+// Headings
+// ============================================
+
+.#{$namespace}heading--xxxl {
+    font-size: $font_size_xxxl;
+    font-weight: 800;
+    line-height: $line_height_base * 2;
+    letter-spacing: $letter_spacing_tight;
+    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    padding: 0;
+}
+
+.#{$namespace}heading--xxl {
+    font-size: $font_size_xxl;
+    font-weight: 800;
+    line-height: $line_height_base * 2;
+    letter-spacing: $letter_spacing_tight;
+    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    padding: 0;
+}
+
+.#{$namespace}heading--xl {
+    font-size: $font_size_xl;
+    font-weight: 800;
+    line-height: $line_height_base * 1.333;
+    letter-spacing: $letter_spacing_normal;
+    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    padding: 0;
+}
+
+.#{$namespace}heading--lg {
+    font-size: $font_size_lg;
+    font-weight: 800;
+    line-height: $line_height_base;
+    letter-spacing: $letter_spacing_normal;
+    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    padding: 0;
+}
+.#{$namespace}heading--md {
+    font-size: $font_size_md;
+    font-weight: 800;
+    line-height: $line_height_base;
+    letter-spacing: $letter_spacing_normal;
+    @extend .u-case--upper;
+    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    padding: 0;   
+}
+.#{$namespace}heading--sm {
+    font-size: $font_size_sm;
+    font-weight: 800;
+    line-height: $line_height_base * 0.666;
+    letter-spacing: $letter_spacing_normal;
+    @extend .u-case--upper;
+    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    padding: 0;
+}
+
+// Text Blocks
+// ============================================
+
+.#{$namespace}text--sm {
+  font-size: $font_size_sm;
+  font-weight: 400;
+  line-height: $line_height_base;
+  letter-spacing: $letter_spacing_normal;
+  margin: 0;
+  padding: 0;
+}
+
+.#{$namespace}text--md {
+    font-size: $font_size_md;
+    font-weight: 400;
+    line-height: $line_height_base;
+    letter-spacing: $letter_spacing_normal;
+    margin: 0;
+    padding: 0;
+}
+  .#{$namespace}text--lg {
+    font-size: $font_size_lg;
+    font-weight: 400;
+    line-height: $line_height_base;
+    letter-spacing: $letter_spacing_normal;
+    margin: 0;
+    padding: 0;
+  }
+  
+.#{$namespace}text--caption {
+    font-size: $font_size_xs;
+    font-weight: 400;
+    line-height: $line_height_base;
+    letter-spacing: $letter_spacing_normal;
+    margin: $spacer_neg_one 0 0 0;
+    padding: 0;
+}
+
+// Inline Text Elements
+// ============================================
+
+
+// Code Formatting
+// ============================================
+
+.#{$namespace}code--inline {
+  color: $color_text_08;
+  font-family: $font-mono;
+  font-size: $font_size_xs;
+  font-weight: 400;
+  line-height: $line_height_base;
+  background-color: $color_white;
+  border: $border_thin-light;
+  border-radius: $radius;
+  padding: $spacer_quarter;
+  vertical-align: middle;
+}
+
+.#{$namespace}code--block {
+  
+}
+

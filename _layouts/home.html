@@ -3,12 +3,14 @@
 
   {% include head.html %}
 
-    <body>
-    <!-- "Teaser" Layout -->
+  <body>
+    <!-- "Home" Layout -->
 
-    <!-- {% include header.html %} -->
+    {% include header.html %}
 
-        {{ content }}
+    <main class="grid grid--outsidegutters">
+      {{ content }}
+    </main>
 
     <!-- {% unless page.show_footer == false %} 
          {% include footer.html %}
@@ -16,6 +18,6 @@
     
     {% include scripts.html %}
 
-    </body>
+  </body>
 
 </html>
