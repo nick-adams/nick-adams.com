@@ -71,7 +71,6 @@ html {
 
 .#{$namespace}text--sm {
   font-size: $font_size_sm;
-  font-weight: 400;
   line-height: $line_height_base;
   letter-spacing: $letter_spacing_normal;
   margin: 0;
@@ -80,15 +79,13 @@ html {
 
 .#{$namespace}text--md {
     font-size: $font_size_md;
-    font-weight: 400;
     line-height: $line_height_base;
     letter-spacing: $letter_spacing_normal;
-    margin: 0;
+    margin: 0 0 calc($line_height_base * 2) 0;
     padding: 0;
 }
   .#{$namespace}text--lg {
     font-size: $font_size_lg;
-    font-weight: 400;
     line-height: $line_height_base;
     letter-spacing: $letter_spacing_normal;
     margin: 0;
@@ -96,11 +93,10 @@ html {
   }
   
 .#{$namespace}text--caption {
-    font-size: $font_size_xs;
-    font-weight: 400;
+    font-size: $font_size_sm;
     line-height: $line_height_base;
     letter-spacing: $letter_spacing_normal;
-    margin: $spacer_neg_one 0 0 0;
+    margin: $spacer_one 0 0 0;
     padding: 0;
 }
 

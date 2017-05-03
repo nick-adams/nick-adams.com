@@ -1,12 +1,11 @@
 // ============================================
-// Theme: Default
-// This is the Default Theme containing all the 
-// configurations and styles for generic use.
+// Config: Default
+// This is the Default config containing all 
+// the initial configurations and styles.
 // --------------------------------------------
 // Table of Contents:
-// - Configuration
 // - General
-// - Sizing
+// - Sizes
 //    - Root Size
 //    - Page Sizes
 //    - Grid Sizes
@@ -28,18 +27,14 @@
 // that into 'framing.scss' instead of this.
 
 
-// Configuration
+// General
 // ============================================
 
 // Can be used as a class name prefix for namespacing
 $namespace:             '';
 
-// General
-// ============================================
 
-
-
-// Sizing
+// Sizes
 // ============================================
 
 // Root Size 
@@ -48,7 +43,7 @@ $namespace:             '';
 $root_size:             16px;
 
 // Page Sizes
-$page_max_width:        85.375rem;  // 1366px
+$page_max_width:        80rem;  // 1280px
 
 // Grid Sizes
 $grid_width:            100%;
@@ -180,7 +175,7 @@ $color_black:           #000000;
 $color_light:           #ececec;
 $color_dark:            #252525;
 
-// UI Utilty Colors
+// UI Interaction Colors
 $color_action:          #4990E2;
 $color_action_tint:     mix(white, $color_action, 30%);
 $color_action_shade:    mix(black, $color_action, 20%);
@@ -295,7 +290,7 @@ $transition_slow:       '.4s ease';
 $transition_medium:     '.2s ease';
 $transition_fast:       '.1s ease';
 
-// Transitions
+// Shadows
 // ============================================
 
 $shadow_color:          rgba(0, 0, 0, 0.15);

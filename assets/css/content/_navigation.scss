@@ -5,7 +5,7 @@
 // Navigation Structure
 // ============================================
 .site-nav {
-    margin: 0;
+    margin: $spacer_two 0 0 0;
     display: flex;
     align-content: stretch;
     justify-content: flex-end;
@@ -15,7 +15,7 @@
     }
 }
 
-  .site-nav__homeitem {
+  .site-nav__main {
     margin: 0;
     flex: 1;
   }
@@ -111,14 +111,23 @@
     color: $color_brand_secondary;
   }
 
-.site-nav__link--home {
+.site-nav__link--name {
   text-decoration: none;
-  font-size: $font_size_xl;
+  font-family: $font_serif;
+  font-size: $font_size_lg;
   text-transform: uppercase;
-  letter-spacing: 0.25rem;
-  color: $color_text_00;
+  letter-spacing: $letter_spacing_wide;
+  color: $color_text_03;
 }
-  .site-nav__link--home:hover {
+.site-nav__link--twitter {
+  text-decoration: none;
+  font-family: $font_sans;
+  font-size: $font_size_sm;
+  color: $color_text_02;
+  margin: 0 0 0 $spacer_half;
+}
+  .site-nav__link--name:hover,
+  .site-nav__link--twitter:hover {
     color: $color_text_05;
   }
 

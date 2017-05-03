@@ -2,23 +2,19 @@
 // Common Page Styles
 // -------------------------
 
-.site-header {
-  margin-top: $spacer_three;
+.content {
+  margin: $spacer_ten 0;
 }
-    .site-header-Title {
-        font-family: $font_serif;
-        font-size: 6.2rem;
-        line-height: 6.2rem;
-        letter-spacing: 0.1rem;
-        text-transform: normal;
-        margin: 0 0 10px 0;
-    }
-    .PageHeader-Description {
-        font-family: $font_serif;
-        font-size: 1.8rem;
-        line-height: 2.8rem;
-        letter-spacing: 0.1rem;
-        color: $color_text_00;
-        width: 80%;
-        margin: 0;
-    }
+  .content__title {
+      font-family: $font_serif;
+      font-size: $font_size_xxxl;
+      text-transform: normal;
+      margin: 0 0 $spacer_three 0;
+  }
+  .content__description {
+      font-family: $font_serif;
+      font-size: $font_size_md;
+      line-height: 2.8rem;
+      letter-spacing: 0.1rem;
+      color: $color_text_00;
+  }

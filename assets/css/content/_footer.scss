@@ -2,34 +2,31 @@
 // Footer
 // -------------------------
 
-.Content-Footer {
-    clear: both;
-    border-top: $border_thin_light;
-    margin: 75px auto 25px auto;
+.site-footer {
+
 }
-    .FooterNav {
-        max-width: $page_max_width;
-        padding: 30px 100px;
-        margin: 25px auto 25px auto;
-        
+  .footer-nav {
+    border-top: $border_thin_light;
+  }
+    .footer-nav__signoff {
+        font-family: $font_serif;
+        font-size: $font_size_lg;
+        letter-spacing: $letter_spacing_wide;
+        color: $color_text_03;
+        margin: 0;
     }
-        .FooterNav-SignOff {
-            font-family: $font_serif;
-            font-size: 1.8rem;
-            letter-spacing: 0.1rem;
-            text-transform: none;
-            color: $color_text_00;
-            margin: 0;
-        }
-        .FooterNav-Contact {
-            font-family: $font-sans;
-            font-size: 1.4rem;
-            color: $color_text_00;
-            margin: 75px 0 0 0;
-        }
-        .FooterNav-Copyright {
-            font-family: $font-sans;
-            font-size: 1.2rem;
-            color: $color_text_00;
-            margin: 0;
-        }
+    .footer-nav__contact {
+      font-family: $font-sans;
+      font-size: $font_size_sm;
+      color: $color_text_03;
+      margin: $spacer_five 0 0 0;
+      width: 30rem;
+    }
+    .footer-nav__copyright {
+      font-family: $font-sans;
+      font-size: $font_size_xs;
+      line-height: 1rem;
+      color: $color_text_03;
+      margin: $spacer_one 0 0 0;
+      width: 30rem;
+    }

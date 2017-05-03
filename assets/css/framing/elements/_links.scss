@@ -12,17 +12,20 @@ a {
 
 .#{$namespace}link {
   text-decoration: none;
-  color: $color_text_05;
+  color: inherit;
+  border-bottom: $border_thin_secondary;
+  padding: 0 0 0 0; 
   
   &:hover {
-    color: $color_text_01;
+    color: $color_brand_secondary;
+    padding: 0 0 $spacer_eighth 0; 
   }
   &:active {
     color: $color_text_08;
   }
-  &:visited {
-    color: $color_text_08;
-  }
+  // &:visited {
+  //   color: $color_text_08;
+  // }
 }
 
 .#{$namespace}link--action {

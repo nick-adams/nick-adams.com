@@ -2,19 +2,18 @@
 // About Page Styles
 // -------------------------
 
-.About {
-    margin: -25px 0 175px 0;
-    padding: 0 100px;
-}
 
-    .About-Body {
-        font-family: $font_sans;
-        font-size: 1.6rem;
-        line-height: 3.2rem;
-        color: $color_text_05;
-        margin: 0px 0 30px 0;
-        width: 50%;
-    }
+.about__body {
+  line-height: 2rem;
+  color: $color_text_06;
+}
+.about__caption {
+  font-family: $font_serif;
+  font-size: $font_size_md;
+  font-style: italic;
+  letter-spacing: $letter_spacing_wide;
+  color: $color_text_06;
+}
     .About-Graphic {
         float: right;
         width: 356px;
