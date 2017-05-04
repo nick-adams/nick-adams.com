@@ -43,14 +43,15 @@ $namespace:             '';
 $root_size:             16px;
 
 // Page Sizes
-$page_max_width:        80rem;  // 1280px
+$page_max_width:        80rem;      // 1280px
 
 // Grid Sizes
 $grid_width:            100%;
 $grid_gutter_width:     1.25rem;    // 20px
+$grid_outsidegutter_width: 6.25rem; // 100px
 $grid_col_onewhole:     calc((#{$grid_width} / 1));         // ~100%
 $grid_col_seveneighths: calc(((#{$grid_width} / 8) * 7));   // ~87.5%
-$grid_col_threequarters:calc(((#{$grid_width} / 4) * 3));   // ~75%
+$grid_col_threequarters: calc(((#{$grid_width} / 4) * 3));   // ~75%
 $grid_col_twothirds:    calc(((#{$grid_width} / 3) * 2));   // ~66%
 $grid_col_onehalf:      calc((#{$grid_width} / 2));         // ~50%
 $grid_col_onethird:     calc((#{$grid_width} / 3));         // ~33%
@@ -98,7 +99,8 @@ $item_xl:               20rem;
 
 // Z-Index
 $z_behind:              -1;
-$z_bottom:              0;
+$z_bottom:              1;
+$z_bg:                  10;
 $z_level1:              100;
 $z_level2:              200;
 $z_level3:              300;

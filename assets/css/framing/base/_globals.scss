@@ -34,7 +34,8 @@ body {
   color: $color_text_08;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: $spacer_one;
+  margin: 0;
+  padding: 0;
 }
   body.dark {
     background-color: $color_dark;

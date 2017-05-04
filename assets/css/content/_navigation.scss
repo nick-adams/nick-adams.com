@@ -5,14 +5,14 @@
 // Navigation Structure
 // ============================================
 .site-nav {
-    margin: $spacer_two 0 0 0;
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-end;
+  display: flex;
+  align-content: stretch;
+  justify-content: flex-end;
+  z-index: $z_nav;
 
-    @media only screen and (max-width: $bp_sm) {
-      justify-content: flex-start;
-    }
+  @media only screen and (max-width: $bp_sm) {
+    justify-content: flex-start;
+  }
 }
 
   .site-nav__main {

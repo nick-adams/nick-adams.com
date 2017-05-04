@@ -478,7 +478,8 @@ body {
   color: #2f2f2f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 body.dark {
@@ -562,8 +563,13 @@ html {
   display: block;
   clear: both;
   width: 100%;
-  padding: 0 1.25rem;
+  padding: 0 6.25rem;
   margin: 0;
+}
+@media (max-width: 64rem) {
+  .grid--outsidegutters {
+    padding: 0 1.25rem;
+  }
 }
 
 .grid--fixedwidth {
@@ -1219,10 +1225,6 @@ a {
   color: #2f2f2f;
 }
 
-.content {
-  margin: 10rem 0;
-}
-
 .content__title {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 3.15733rem;
@@ -1238,8 +1240,19 @@ a {
   color: #ececec;
 }
 
+.header-nav {
+  max-width: 80rem;
+  margin: 3rem auto 0 auto;
+  padding: 0 6.25rem;
+}
+
+.site-footer {
+  margin: 0 auto 2rem auto;
+}
+
 .footer-nav {
   border-top: solid 1px #e6e6e6;
+  padding: 2rem 0 0 0;
 }
 
 .footer-nav__signoff {
@@ -1254,7 +1267,7 @@ a {
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
   font-size: 0.87566rem;
   color: #a5a5a5;
-  margin: 5rem 0 0 0;
+  margin: 2rem 0 0 0;
   width: 30rem;
 }
 
@@ -1268,10 +1281,10 @@ a {
 }
 
 .site-nav {
-  margin: 2rem 0 0 0;
   display: flex;
   align-content: stretch;
   justify-content: flex-end;
+  z-index: 1000;
 }
 @media only screen and (max-width: 40rem) {
   .site-nav {
@@ -1531,6 +1544,17 @@ a {
     margin: 3rem 0 0 0;
   }
 }
+.about {
+  margin: 10rem 0;
+}
+
+.about__title {
+  font-family: kepler-std-display, Georgia, serif;
+  font-size: 3.15733rem;
+  text-transform: normal;
+  margin: 0 0 3rem 0;
+}
+
 .about__body {
   line-height: 2rem;
   color: #5e5e5e;
@@ -1544,11 +1568,51 @@ a {
   color: #5e5e5e;
 }
 
-.About-Graphic {
-  float: right;
-  width: 356px;
-  height: 334px;
-  margin: -30px 50px 0 0;
+.work-sample {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 40rem;
+  width: 50%;
+  height: 100%;
+  background-color: #333333;
+  z-index: -1;
+}
+
+.work-sample:after {
+  display: none;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 40rem;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, #333333 0%, transparent 100%);
+}
+
+.work__intro {
+  margin: 10rem 0 0 0;
+}
+
+.work__title {
+  font-family: kepler-std-display, Georgia, serif;
+  font-size: 3.15733rem;
+  text-transform: normal;
+  color: #ececec;
+  margin: 0 0 2rem 0;
+}
+
+.work__body {
+  font-size: 0.87566rem;
+  text-transform: normal;
+  color: #8e8e8e;
+  margin: 0 0 3rem 0;
+  width: 30rem;
 }
 
 .WorkGallery {

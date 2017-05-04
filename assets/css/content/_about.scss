@@ -2,21 +2,23 @@
 // About Page Styles
 // -------------------------
 
-
-.about__body {
-  line-height: 2rem;
-  color: $color_text_06;
+.about {
+  margin: $spacer_ten 0;
 }
-.about__caption {
-  font-family: $font_serif;
-  font-size: $font_size_md;
-  font-style: italic;
-  letter-spacing: $letter_spacing_wide;
-  color: $color_text_06;
-}
-    .About-Graphic {
-        float: right;
-        width: 356px;
-        height: 334px;
-        margin: -30px 50px 0 0;
-    }
+  .about__title {
+    font-family: $font_serif;
+    font-size: $font_size_xxxl;
+    text-transform: normal;
+    margin: 0 0 $spacer_three 0;
+  }
+  .about__body {
+    line-height: 2rem;
+    color: $color_text_06;
+  }
+  .about__caption {
+    font-family: $font_serif;
+    font-size: $font_size_md;
+    font-style: italic;
+    letter-spacing: $letter_spacing_wide;
+    color: $color_text_06;
+  }

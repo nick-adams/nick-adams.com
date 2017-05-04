@@ -2,6 +2,51 @@
 // Work Page Styles
 // -------------------------
 
+.work {}
+
+  .work-sample {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 40rem;
+    width: 50%;
+    height: 100%;
+    background-color: $color_bg_dark;
+    z-index: $z_behind;
+  }
+    .work-sample:after {
+      display: none;
+      position: absolute;
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 40rem;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(to right, $color_bg_dark 0%, rgba(0,0,0,0) 100%);
+    }
+    .work__intro {
+      margin: $spacer_ten 0 0 0;
+    }
+      .work__title {
+        font-family: $font_serif;
+        font-size: $font_size_xxxl;
+        text-transform: normal;
+        color: $color_text_00;
+        margin: 0 0 $spacer_two 0;
+      }
+      .work__body {
+        font-size: $font_size_sm;
+        text-transform: normal;
+        color: $color_text_04;
+        margin: 0 0 $spacer_three 0;
+        width: 30rem;
+      }
+
 .WorkGallery {
     background-color: $color_bg_dark;
     overflow: hidden;

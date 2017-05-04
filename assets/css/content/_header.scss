@@ -3,5 +3,10 @@
 // -------------------------
 
 .site-header {
-  
+
 }
+  .header-nav {
+    max-width: $page_max_width;  
+    margin: $spacer_three auto 0 auto;
+    padding: 0 $grid_outsidegutter_width;
+  }

@@ -24,8 +24,13 @@
   display: block;
   clear: both;
   width: $grid_width;
-  padding: 0 $grid_gutter_width;
+  padding: 0 $grid_outsidegutter_width;
   margin: 0;
+  
+  // Below the Medium Breakpoint
+  @media (max-width: $bp_md) {
+    padding: 0 $grid_gutter_width; // remove fixed width, make 100%
+  }
 }
 
 
