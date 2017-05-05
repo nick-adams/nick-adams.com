@@ -488,9 +488,9 @@ body.dark {
 }
 
 html {
-  transition: all ".2s ease";
-  -webkit-transition: all ".2s ease";
-  -moz-transition: all ".2s ease";
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
 }
 
 .u-clear, .grid, .grid--outsidegutters, .grid__row {
@@ -499,7 +499,7 @@ html {
   clear: both;
 }
 
-.u-align--vertical, .ProjectItem-Logo {
+.u-align--vertical {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -818,9 +818,9 @@ html {
 .nav__item {
   margin: 0 2rem 0 0;
   border-bottom: solid 3px transparent;
-  transition: all .2s ease;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
 }
 .nav__item:hover {
   border-bottom: solid 3px #D75B5B;
@@ -1150,9 +1150,9 @@ html {
 }
 
 a {
-  transition: all .2s ease;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
 }
 
 .link {
@@ -1568,33 +1568,6 @@ a {
   color: #5e5e5e;
 }
 
-.work-sample {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 40rem;
-  width: 50%;
-  height: 100%;
-  background-color: #333333;
-  z-index: -1;
-}
-
-.work-sample:after {
-  display: none;
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 40rem;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(to right, #333333 0%, transparent 100%);
-}
-
 .work__intro {
   margin: 10rem 0 0 0;
 }
@@ -1615,134 +1588,78 @@ a {
   width: 30rem;
 }
 
-.WorkGallery {
+.project-preview {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 40rem;
+  width: 50%;
+  height: 100%;
   background-color: #333333;
-  overflow: hidden;
+  z-index: -1;
+  transition: all 0.4s ease;
 }
 
-.WorkGallery-Row {
-  width: 100%;
-  list-style-type: none;
+.project-preview--hudlios {
+  height: 100%;
+  background-image: url("../img/project-hudl/bg-project-hudlios.png");
+  background-position: top right;
+  background-size: cover;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.project-preview:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 40rem;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, #333333 0%, transparent 100%);
+}
+
+.work__projects {
+  margin: 7rem 0 0 0.5rem;
+}
+
+.project-list {
   list-style-position: inside;
-  overflow: hidden;
-  padding: 0;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.project-list__item {
+  border-bottom: solid 1px #e6e6e6;
   margin: 0;
+  padding: 2rem 0;
+  transition: all 0.4s ease;
+}
+.project-list__item:hover {
+  cursor: pointer;
+  padding: 2rem 0 2rem 1rem;
 }
 
-.WorkGallery-Item--halfLeft, .WorkGallery-Item--halfRight, .WorkGallery-Item--quarter, .WorkGallery-Item--full {
-  position: relative;
-  margin: 0;
-  background-size: cover;
-  background-position: center center;
-  text-align: center;
-  overflow: hidden;
-}
-
-.WorkGallery-Item--halfLeft {
-  float: left;
-  width: 50%;
-  height: 450px;
-}
-
-.WorkGallery-Item--halfRight {
-  float: right;
-  width: 50%;
-  height: 450px;
-}
-
-.WorkGallery-Item--quarter {
-  float: left;
-  width: 25%;
-  height: 225px;
-}
-
-.WorkGallery-Item--full {
-  width: 100%;
-  height: 450px;
-  clear: both;
-}
-
-[class*='ProjectItem--'] {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  transition: background-color .2s ease-out;
-}
-
-[class*='ProjectItem--']:after {
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  content: " ";
-  background: -moz-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.5) 100%);
-  background: -webkit-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.5) 100%);
-  background: -o-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.5) 100%);
-  background: -ms-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.5) 100%);
-  z-index: 300;
-  transition: all .2s ease-out;
-}
-
-[class*='ProjectItem--']:hover:after {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.ProjectItem--Hudl {
-  background-color: #1D2A3A;
-}
-
-.ProjectItem--RemoteJobs {
-  background-image: url("../img/bg-recentwork-remotejobs.png");
-  background-position: 30% 10%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.ProjectItem-Link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 500;
-}
-
-.ProjectItem-Logo {
-  margin: 0 auto 0 auto;
-  width: auto;
-  z-index: 400;
-}
-
-.ProjectItem-Data {
-  position: absolute;
-  bottom: 10%;
-  width: 100%;
-  text-align: center;
-  z-index: 400;
-}
-
-.ProjectData-Year {
-  font-family: kepler-std-display, Georgia, serif;
-  font-size: 1.6rem;
-  letter-spacing: 0.1rem;
-  color: #ececec;
-  margin: 0 0 0 0;
-}
-
-.ProjectData-Name {
+.project-item__date {
+  color: #D75B5B;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
-  font-size: 2.0rem;
-  letter-spacing: 0.25rem;
-  text-transform: uppercase;
-  color: #ececec;
+  font-weight: 400;
+  font-size: 0.87566rem;
+  margin: 0 0 1rem 0;
+}
+
+.project-item__name {
+  font-family: kepler-std-display, Georgia, serif;
+  font-size: 2.36859rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: normal;
+  color: #474747;
   margin: 0;
 }
 

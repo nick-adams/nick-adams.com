@@ -2,9 +2,31 @@
 // Work Page Styles
 // -------------------------
 
-.work {}
+.work {
 
-  .work-sample {
+}
+  .work__intro {
+    margin: $spacer_ten 0 0 0;
+  }
+    .work__title {
+      font-family: $font_serif;
+      font-size: $font_size_xxxl;
+      text-transform: normal;
+      color: $color_text_00;
+      margin: 0 0 $spacer_two 0;
+    }
+    .work__body {
+      font-size: $font_size_sm;
+      text-transform: normal;
+      color: $color_text_04;
+      margin: 0 0 $spacer_three 0;
+      width: 30rem;
+    }
+
+  // Project Preview Area
+  // -------------------------
+
+  .project-preview {
     position: absolute;
     top: 0;
     right: 0;
@@ -13,11 +35,23 @@
     width: 40rem;
     width: 50%;
     height: 100%;
-    background-color: $color_bg_dark;
+    background-color: $color_bg_dark; 
     z-index: $z_behind;
+    transition: all $transition_slow;
   }
-    .work-sample:after {
-      display: none;
+    
+    // These are show when the respective item in the list of work is hovered
+    .project-preview--hudlios {
+      height: 100%;
+      background-image: url("../img/project-hudl/bg-project-hudlios.png");
+      background-position: top right;
+      background-size: cover; 
+      opacity: 0;
+      transition: all $transition_slow;
+    }
+  
+    // Background gradient to protect on ultra-wide screens
+    .project-preview:after {
       position: absolute;
       content: "";
       top: 0;
@@ -29,145 +63,175 @@
       height: 100%;
       background: linear-gradient(to right, $color_bg_dark 0%, rgba(0,0,0,0) 100%);
     }
-    .work__intro {
-      margin: $spacer_ten 0 0 0;
-    }
-      .work__title {
-        font-family: $font_serif;
-        font-size: $font_size_xxxl;
-        text-transform: normal;
-        color: $color_text_00;
-        margin: 0 0 $spacer_two 0;
-      }
-      .work__body {
-        font-size: $font_size_sm;
-        text-transform: normal;
-        color: $color_text_04;
-        margin: 0 0 $spacer_three 0;
-        width: 30rem;
-      }
 
-.WorkGallery {
-    background-color: $color_bg_dark;
-    overflow: hidden;
+  // Projects List
+  // -------------------------
+
+.work__projects {
+  margin: $spacer_seven 0 0 $spacer_half;
 }
-    .WorkGallery-Row {
-        width: 100%;
-        list-style-type: none;
-        list-style-position: inside;
-        overflow: hidden;
-        padding: 0;
-        margin: 0;
+
+  .project-list {
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0 auto;
+
+  }
+    .project-list__item {
+      border-bottom: $border_thin_light;
+      margin: 0;
+      padding: $spacer_two 0;
+      transition: all $transition_slow;
+      
+      &:hover {
+        cursor: pointer;
+        padding: $spacer_two 0 $spacer_two $spacer_one;
+      }
+
+    }  
+
+    .project-item__date {
+      color: $color_brand_primary;
+      font-family: $font_sans;
+      font-weight: 400;
+      font-size: $font_size_sm;
+      margin: 0 0 $spacer_one 0;
     }
-        // Base Gallery Item Styles
-        %WorkGallery-Item {
-            position: relative;
-            margin: 0;
-            background-size: cover;
-            background-position: center center;
-            text-align: center;
-            overflow: hidden;
-        }
-        .WorkGallery-Item--halfLeft {
-            @extend %WorkGallery-Item;
-            float: left;
-            width: 50%;
-            height: 450px;
-        }
-        .WorkGallery-Item--halfRight {
-            @extend %WorkGallery-Item;
-            float: right;
-            width: 50%;
-            height: 450px;
-        }
-        .WorkGallery-Item--quarter {
-            @extend %WorkGallery-Item;
-            float: left;
-            width: 25%;
-            height: 225px;
-        }
-        .WorkGallery-Item--full {
-            @extend %WorkGallery-Item;
-            width: 100%;
-            height: 450px;
-            clear: both;
-        }
+    .project-item__name {
+      font-family: $font_serif;
+      font-size: $font_size_xxl;
+      font-weight: 800;
+      letter-spacing: $letter_spacing_wide;
+      text-transform: normal;
+      color: $color_text_07;
+      margin: 0;
+    }
 
-            [class*='ProjectItem--'] {
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                transition: background-color .2s ease-out;
-            }
-                [class*='ProjectItem--']:after {
-                    position: absolute;
-                    display: block;
-                    height: 100%;
-                    width: 100%;
-                    bottom: 0;
-                    left: 0;
-                    content: " ";
-                    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
-                    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
-                    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
-                    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
-                    z-index: $z-level3;
-                    transition: all .2s ease-out;
-                }
-                [class*='ProjectItem--']:hover:after {
-                    background-color: rgba(0, 0, 0, 0.3);
-                }
 
-            .ProjectItem--Hudl {
-                background-color: #1D2A3A;
-            }
-            .ProjectItem--RemoteJobs {
-                background-image: url("../img/bg-recentwork-remotejobs.png");
-                background-position: 30% 10%;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
+  
 
-                .ProjectItem-Link {
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    width: 100%;
-                    height: 100%;
-                    z-index: $z_level5;
-                }
-                .ProjectItem-Logo {
-                    @extend .u-align--vertical;
-                    margin: 0 auto 0 auto;
-                    width: auto;
-                    z-index: $z_level4;
-                }
-                .ProjectItem-Data {
-                    position: absolute;
-                    bottom: 10%;
-                    width: 100%;
-                    text-align: center;
-                    z-index: $z_level4;
-                }
 
-                    .ProjectData-Year {
-                        font-family: $font_serif;
-                        font-size: 1.6rem;
-                        letter-spacing: 0.1rem;
-                        color: $color_text_00; 
-                        margin: 0 0 0 0;
-                    }
-                    .ProjectData-Name {
-                        font-family: $font_sans;
-                        font-size: 2.0rem;
-                        letter-spacing: 0.25rem;
-                        text-transform: uppercase;
-                        color: $color_text_00;
-                        margin: 0;
-                    }
+// .WorkGallery {
+//     background-color: $color_bg_dark;
+//     overflow: hidden;
+// }
+//     .WorkGallery-Row {
+//         width: 100%;
+//         list-style-type: none;
+//         list-style-position: inside;
+//         overflow: hidden;
+//         padding: 0;
+//         margin: 0;
+//     }
+//         // Base Gallery Item Styles
+//         %WorkGallery-Item {
+//             position: relative;
+//             margin: 0;
+//             background-size: cover;
+//             background-position: center center;
+//             text-align: center;
+//             overflow: hidden;
+//         }
+//         .WorkGallery-Item--halfLeft {
+//             @extend %WorkGallery-Item;
+//             float: left;
+//             width: 50%;
+//             height: 450px;
+//         }
+//         .WorkGallery-Item--halfRight {
+//             @extend %WorkGallery-Item;
+//             float: right;
+//             width: 50%;
+//             height: 450px;
+//         }
+//         .WorkGallery-Item--quarter {
+//             @extend %WorkGallery-Item;
+//             float: left;
+//             width: 25%;
+//             height: 225px;
+//         }
+//         .WorkGallery-Item--full {
+//             @extend %WorkGallery-Item;
+//             width: 100%;
+//             height: 450px;
+//             clear: both;
+//         }
+
+//             [class*='ProjectItem--'] {
+//                 position: absolute;
+//                 top: 0;
+//                 bottom: 0;
+//                 left: 0;
+//                 right: 0;
+//                 width: 100%;
+//                 height: 100%;
+//                 transition: background-color .2s ease-out;
+//             }
+//                 [class*='ProjectItem--']:after {
+//                     position: absolute;
+//                     display: block;
+//                     height: 100%;
+//                     width: 100%;
+//                     bottom: 0;
+//                     left: 0;
+//                     content: " ";
+//                     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+//                     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+//                     background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+//                     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+//                     z-index: $z-level3;
+//                     transition: all .2s ease-out;
+//                 }
+//                 [class*='ProjectItem--']:hover:after {
+//                     background-color: rgba(0, 0, 0, 0.3);
+//                 }
+
+//             .ProjectItem--Hudl {
+//                 background-color: #1D2A3A;
+//             }
+//             .ProjectItem--RemoteJobs {
+//                 background-image: url("../img/bg-recentwork-remotejobs.png");
+//                 background-position: 30% 10%;
+//                 background-repeat: no-repeat;
+//                 background-size: cover;
+//             }
+
+//                 .ProjectItem-Link {
+//                     position: absolute;
+//                     top: 0;
+//                     bottom: 0;
+//                     left: 0;
+//                     right: 0;
+//                     width: 100%;
+//                     height: 100%;
+//                     z-index: $z_level5;
+//                 }
+//                 .ProjectItem-Logo {
+//                     @extend .u-align--vertical;
+//                     margin: 0 auto 0 auto;
+//                     width: auto;
+//                     z-index: $z_level4;
+//                 }
+//                 .ProjectItem-Data {
+//                     position: absolute;
+//                     bottom: 10%;
+//                     width: 100%;
+//                     text-align: center;
+//                     z-index: $z_level4;
+//                 }
+
+//                     .ProjectData-Year {
+//                         font-family: $font_serif;
+//                         font-size: 1.6rem;
+//                         letter-spacing: 0.1rem;
+//                         color: $color_text_00; 
+//                         margin: 0 0 0 0;
+//                     }
+//                     .ProjectData-Name {
+//                         font-family: $font_sans;
+//                         font-size: 2.0rem;
+//                         letter-spacing: 0.25rem;
+//                         text-transform: uppercase;
+//                         color: $color_text_00;
+//                         margin: 0;
+//                     }
