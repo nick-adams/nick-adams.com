@@ -40,6 +40,17 @@
     .home-sociallink {
       margin: 0 $spacer_one 0 0;
     }
+  
+  .home-disclaimer {
+    background-color: $color_bg_dark;
+    color: $color_text_02;
+    font-family: $font_sans;
+    font-size: $font_size_md; 
+    line-height: $line_height_base;
+    padding: $spacer_one;
+    border-radius: $radius;
+    margin: $spacer_four 0 -#{$spacer_seven} 0;
+  }
 
 .container-recentwork {
   background-color: $color_bg_light;

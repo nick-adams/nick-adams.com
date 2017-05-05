@@ -1456,6 +1456,17 @@ a {
   margin: 0 1rem 0 0;
 }
 
+.home-disclaimer {
+  background-color: #333333;
+  color: #bdbdbd;
+  font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.25em;
+  margin: 4rem 0 -7rem 0;
+}
+
 .container-recentwork {
   background-color: #f2f2f2;
   background-image: url("../img/bg-recentwork-remotejobs.png");
