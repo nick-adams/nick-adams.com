@@ -22,3 +22,27 @@
     letter-spacing: $letter_spacing_wide;
     color: $color_text_06;
   }
+
+  .about__contacts {
+    display: flex;
+    margin-top: $spacer_four;
+    padding-top: $spacer_one;
+    border-top: $border_thin_light;
+  }
+    .contact__item:not(:last-of-type) {
+      margin-right: $spacer_three;
+    }
+    .contact__item > dt {
+      font-weight: 800;
+      font-size: .75rem;
+      text-transform: uppercase;
+      color: $color_text_03;
+    }
+    .contact__item > dd {
+      margin: 0;
+      padding: 0;
+      @extend .text--sm;
+    }
+
+
+

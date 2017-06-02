@@ -39,22 +39,22 @@ a {
     color: $color_action_shade;
   }
   &:visited {
-    color: $color_action_shade;
+    color: $color_action_tint;
   }
 }
 
 .#{$namespace}link--standard {
   text-decoration: none;
-  color: $color_neutral;
+  color: inherit;
   
   &:hover {
-    color: $color_neutral_tint;
+    color: $color_action_tint;;
   }
   &:active {
-    color: $color_neutral_shade;
+    color: $color_action_shade;
   }
   &:visited {
-    color: $color_neutral_shade;
+    color: $color_action_tint;
   }
 }
 
