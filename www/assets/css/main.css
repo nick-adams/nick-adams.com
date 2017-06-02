@@ -1225,6 +1225,20 @@ a {
   color: #2f2f2f;
 }
 
+.link--implied {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: none;
+  padding: 0 0 0 0;
+}
+.link--implied:hover {
+  color: #68A3CF;
+  padding: 0 0 0.125rem 0;
+}
+.link--implied:active {
+  color: #2f2f2f;
+}
+
 .content__title {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 3.15733rem;
@@ -1334,59 +1348,59 @@ a {
   }
 }
 
-.site-nav__link.is-onLight {
+.site-nav__link.is--on-light {
   border: 2px solid transparent;
   color: #767676;
 }
 
-.site-nav__link.is-onLight:hover {
+.site-nav__link.is--on-light:hover {
   border: 2px solid #767676;
 }
 @media only screen and (max-width: 40rem) {
-  .site-nav__link.is-onLight:hover {
+  .site-nav__link.is--on-light:hover {
     border: 2px solid transparent;
   }
 }
 
-.site-nav__link.is-onLight.is-selected {
+.site-nav__link.is--on-light.is-selected {
   border: 2px solid #252525;
   color: #252525;
 }
 
-.site-nav__link.is-onDark {
+.site-nav__link.is--on-dark {
   border: 2px solid transparent;
   color: #ececec;
 }
 
-.site-nav__link.is-onDark:hover {
+.site-nav__link.is--on-dark:hover {
   border: 2px solid #ececec;
 }
 @media only screen and (max-width: 40rem) {
-  .site-nav__link.is-onDark:hover {
+  .site-nav__link.is--on-dark:hover {
     border: 2px solid transparent;
   }
 }
 
-.site-nav__link.is-onDark.is-selected {
+.site-nav__link.is--on-dark.is--selected {
   color: #ffffff;
   border: 2px solid #ffffff;
 }
 
-.site-nav__link.is-emphasized {
+.site-nav__link.is--emphasized {
   border: 2px solid transparent;
   color: #68A3CF;
 }
 
-.site-nav__link.is-emphasized:hover {
+.site-nav__link.is--emphasized:hover {
   border: 2px solid #68A3CF;
 }
 @media only screen and (max-width: 40rem) {
-  .site-nav__link.is-emphasized:hover {
+  .site-nav__link.is--emphasized:hover {
     border: 2px solid transparent;
   }
 }
 
-.site-nav__link.is-emphasized.is-selected {
+.site-nav__link.is--emphasized.is--selected {
   border: 2px solid #68A3CF;
   color: #68A3CF;
 }
@@ -1457,13 +1471,12 @@ a {
 }
 
 .home-disclaimer {
-  background-color: #333333;
-  color: #bdbdbd;
+  border: solid 1px #e6e6e6;
+  color: #767676;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   padding: 1rem;
-  border-radius: 0.25em;
   margin: 4rem 0 -7rem 0;
 }
 
@@ -1652,8 +1665,7 @@ a {
   transition: all 0.4s ease;
 }
 .project-list__item:hover {
-  cursor: pointer;
-  padding: 2rem 0 2rem 1rem;
+  padding: 2rem 0 2rem 0.5rem;
 }
 
 .project-item__date {
@@ -1661,13 +1673,14 @@ a {
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 0.87566rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .project-item__name {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 2.36859rem;
   font-weight: 800;
+  line-height: 2.369rem;
   letter-spacing: 1px;
   text-transform: normal;
   color: #474747;

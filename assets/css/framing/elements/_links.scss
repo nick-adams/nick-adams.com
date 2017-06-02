@@ -87,3 +87,21 @@ a {
     color: $color_text_08;
   }
 }
+
+.#{$namespace}link--implied {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: none;
+  padding: 0 0 0 0; 
+  
+  &:hover {
+    color: $color_brand_secondary;
+    padding: 0 0 $spacer_eighth 0; 
+  }
+  &:active {
+    color: $color_text_08;
+  }
+  // &:visited {
+  //   color: $color_text_08;
+  // }
+}

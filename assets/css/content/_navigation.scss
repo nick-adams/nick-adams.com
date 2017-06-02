@@ -63,50 +63,50 @@
   }
 }
 
-.site-nav__link.is-onLight {
+.site-nav__link.is--on-light {
   border: 2px solid transparent;
   color: $color_text_05;
 }    
-  .site-nav__link.is-onLight:hover {
+  .site-nav__link.is--on-light:hover {
     border: 2px solid $color_text_05;
 
     @media only screen and (max-width: $bp_sm) {
       border: 2px solid transparent;
     }
   }
-  .site-nav__link.is-onLight.is-selected {
+  .site-nav__link.is--on-light.is-selected {
     border: 2px solid $color_text_10;
     color: $color_text_10;
   }
 
-.site-nav__link.is-onDark {
+.site-nav__link.is--on-dark {
   border: 2px solid transparent;
   color: $color_text_00;
 }    
-  .site-nav__link.is-onDark:hover {
+  .site-nav__link.is--on-dark:hover {
     border: 2px solid $color_text_00;
 
     @media only screen and (max-width: $bp_sm) {
       border: 2px solid transparent;
     }
   }
-  .site-nav__link.is-onDark.is-selected {
+  .site-nav__link.is--on-dark.is--selected {
     color: $color_white;
     border: 2px solid $color_white;
   }
 
-.site-nav__link.is-emphasized {
+.site-nav__link.is--emphasized {
   border: 2px solid transparent;
   color: $color_brand_secondary;
 }
-  .site-nav__link.is-emphasized:hover {
+  .site-nav__link.is--emphasized:hover {
     border: 2px solid $color_brand_secondary;
 
     @media only screen and (max-width: $bp_sm) {
       border: 2px solid transparent;
     }
   }
-  .site-nav__link.is-emphasized.is-selected {
+  .site-nav__link.is--emphasized.is--selected {
     border: 2px solid $color_brand_secondary;
     color: $color_brand_secondary;
   }

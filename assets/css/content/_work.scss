@@ -84,8 +84,8 @@
       transition: all $transition_slow;
       
       &:hover {
-        cursor: pointer;
-        padding: $spacer_two 0 $spacer_two $spacer_one;
+        // cursor: pointer;
+        padding: $spacer_two 0 $spacer_two $spacer_half;
       }
 
     }  
@@ -95,12 +95,13 @@
       font-family: $font_sans;
       font-weight: 400;
       font-size: $font_size_sm;
-      margin: 0 0 $spacer_one 0;
+      margin: 0 0 $spacer_half 0;
     }
     .project-item__name {
       font-family: $font_serif;
       font-size: $font_size_xxl;
       font-weight: 800;
+      line-height: 2.369rem;
       letter-spacing: $letter_spacing_wide;
       text-transform: normal;
       color: $color_text_07;
