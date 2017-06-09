@@ -830,10 +830,10 @@ html {
   margin: 0;
 }
 
-.nav__item.is-selected {
+.nav__item.is--selected {
   border-bottom: solid 3px #D75B5B;
 }
-.nav__item.is-selected a {
+.nav__item.is--selected a {
   color: #2f2f2f;
 }
 
@@ -1362,7 +1362,7 @@ a {
   }
 }
 
-.site-nav__link.is--on-light.is-selected {
+.site-nav__link.is--on-light.is--selected {
   border: 2px solid #252525;
   color: #252525;
 }
@@ -1569,7 +1569,7 @@ a {
   }
 }
 .about {
-  margin: 10rem 0;
+  margin: 10rem auto;
 }
 
 .about__title {

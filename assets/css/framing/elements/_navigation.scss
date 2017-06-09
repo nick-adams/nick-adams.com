@@ -96,7 +96,7 @@
   .#{$namespace}nav__item:last-child {
     margin: 0;
   }
-  .#{$namespace}nav__item.is-selected {
+  .#{$namespace}nav__item.is--selected {
     border-bottom: $border_thick_primary;
     & a {
       color: $color_text_08;
