@@ -3,20 +3,30 @@
 // -------------------------
 
 .project {
-  padding-top: 250px;
+  padding-top: 50px;
+
+  @media (min-height: 775px) {
+    padding-top: 250px;  
+  }
+
 }
+
 .project-feature {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   right: 0;
   left: 0;
-  height: 700px;
+  height: 475px; 
   background-color: $color_dark;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: $z-behind;
+
+  @media (min-height: 775px) {
+    height: 700px;
+  }
 
 }
   .project-feature__title {
@@ -27,6 +37,11 @@
     width: $content_regular;
   }
 
+
+.project-content {
+  background-color: $color_white;
+  min-height: 1000px;
+}
 
 // %Content-ProjectHeader {
 //     margin: 0 auto;

@@ -1723,21 +1723,31 @@ a {
 }
 
 .project {
-  padding-top: 250px;
+  padding-top: 50px;
+}
+@media (min-height: 775px) {
+  .project {
+    padding-top: 250px;
+  }
 }
 
 .project-feature {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   right: 0;
   left: 0;
-  height: 700px;
+  height: 475px;
   background-color: #252525;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+}
+@media (min-height: 775px) {
+  .project-feature {
+    height: 700px;
+  }
 }
 
 .project-feature__title {
@@ -1746,6 +1756,11 @@ a {
   font-family: kepler-std-display, Georgia, serif;
   color: #ffffff;
   width: 45rem;
+}
+
+.project-content {
+  background-color: #ffffff;
+  min-height: 1000px;
 }
 
 .AboutIntro {
