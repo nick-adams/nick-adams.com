@@ -1569,7 +1569,7 @@ a {
   }
 }
 .about {
-  margin: 10rem auto;
+  margin: 10rem auto 5rem auto;
 }
 
 .about__title {
@@ -1615,6 +1615,76 @@ a {
   padding: 0;
 }
 
+.about__timeline {
+  min-height: 275px;
+  padding: 3rem 0 2rem 0;
+  margin: 0 0 3rem 0;
+  background-image: linear-gradient(0deg, white 39%, #f8f8f8 100%);
+  position: relative;
+}
+
+.timeline__line {
+  background-image: linear-gradient(-90deg, #FBDA61 0%, #FF7E7E 100%);
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 167px;
+  z-index: 1;
+}
+
+.timeline__title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #666666;
+  margin: 0;
+}
+
+.timeline__years {
+  display: flex;
+  margin: 1rem 0 0 0;
+  justify-content: space-between;
+  color: #FBCF64;
+  font-size: 0.87566rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.timeline__items {
+  display: flex;
+}
+
+.timeline__item {
+  position: relative;
+  z-index: 100;
+  width: 90px;
+}
+
+.timeline__item__year {
+  font-size: 0.87566rem;
+  color: #999999;
+  font-weight: 800;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.timeline__item__dot {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #68A3CF;
+  border: 3px solid #ffffff;
+  z-index: 100;
+  margin: 0;
+}
+
+.timeline__item__title {
+  font-size: 0.87566rem;
+  line-height: 1rem;
+  color: #666666;
+  font-weight: 800;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
 .work__intro {
   margin: 10rem 0 0 0;
 }
@@ -1651,7 +1721,7 @@ a {
 
 .project-preview--hudlios {
   height: 100%;
-  background-image: url("../img/project-hudl/bg-project-hudlios.png");
+  background-image: url("../img/projects/hudl-ios/bg-project-hudlios.png");
   background-position: top right;
   background-size: cover;
   opacity: 0;
@@ -1761,6 +1831,49 @@ a {
 .project-content {
   background-color: #ffffff;
   min-height: 1000px;
+  padding: 3rem 0;
+}
+
+.project__year {
+  color: #D75B5B;
+  margin: 0 0 1rem 0;
+}
+
+.project__headline {
+  font-size: 3.15733rem;
+  font-family: kepler-std-display, Georgia, serif;
+  line-height: 3.15733rem;
+  margin: 0 0 1rem 0;
+}
+
+.project__subheadline {
+  margin: 0 0 1rem 0;
+  color: gray;
+  line-height: 1.77689rem;
+}
+
+.project__details {
+  display: flex;
+  margin: 4rem auto;
+  padding: 1rem 0 0 0;
+  border-top: solid 1px #e6e6e6;
+  font-size: 0.87566rem;
+}
+
+.details__item:not(:last-of-type) {
+  margin-right: 3rem;
+}
+
+.details__item > dt {
+  font-weight: 800;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: #a5a5a5;
+}
+
+.details__item > dd {
+  margin: 0;
+  padding: 0;
 }
 
 .AboutIntro {

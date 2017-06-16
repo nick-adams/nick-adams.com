@@ -41,119 +41,52 @@
 .project-content {
   background-color: $color_white;
   min-height: 1000px;
+  padding: $spacer_three 0;
 }
 
-// %Content-ProjectHeader {
-//     margin: 0 auto;
-//     height: 600px;
-//     width: 100%;
-// }
-// .Content-ProjectHeader--Hudl {
-//     @extend %Content-ProjectHeader;
-//     background-color: #1D2A3A;
-//     background-image: url("../img/project-hudl/bg-hudl-header.png");
-//     background-position: 65% 160%;
-//     background-repeat: no-repeat;
-// }
+  .project__year {
+    color: $color_brand_primary;
+    margin: 0 0 $spacer_one 0;
+  }
+  .project__headline {
+    font-size: $font_size_xxxl;
+    font-family: $font_serif;
+    line-height: $line_height_xxxl;
+    margin: 0 0 $spacer_one 0;
     
-//     .ProjectHeader-Nav {
-//         padding: 75px 100px 0 100px;
-//         margin: 0 auto 60px auto;
-//         max-width: $page_max_width;
-//     }
-//     .ProjectHeader-Image {
-//         position: relative;
-//         top: 30%;
-//         padding: 0 100px 0 100px;
-//         max-width: $page_max_width;
-//         margin: 0 auto;
-//     }
+  }
+  .project__subheadline {
+    margin: 0 0 $spacer_one 0;
+    color: $color_greyscale_05;
+    line-height: $line_height_xl;
+  }
 
-//     .ProjectStory {
-//         padding: 50px 100px 50px 100px;
-//         max-width: $page_max_width;
-//     }
+  .project__heading {
+    
+  }
 
-//         .ProjectInfo {
-//             float: right;
-//             width: 250px;
-//             margin: 120px 0 50px 0;
-//             border: $border_thin_light;
-//         }
-//             .ProjectInfo-Title {
-//                 font-size: 1.2rem;
-//                 font-family: $font_sans;
-//                 text-transform: uppercase;
-//                 letter-spacing: 0.25rem;
-//                 color: $color_brand_primary;
-//                 padding: 15px 15px 10px 15px;
-//                 border-bottom: $border_thin_light;
-//             }
-//             .ProjectInfo-Data {
-//                 font-size: 1.2rem;
-//                 font-family: $font_sans;
-//                 padding: 0;
-//             }
-//                 .ProjectInfo-Data > dt {
-//                     font-size: 1.2rem;
-//                     padding: 0 15px 5px 15px;
-//                     color: $color_text_00;
-//                 } 
-//                 .ProjectInfo-Data > dd {
-//                     font-size: 1.4rem;
-//                     padding: 0 15px 15px 15px;
-//                     margin: 0 0 10px 0;
-//                     color: $color_text_00;
-//                     border-bottom: $border_thin_light;
-//                 }
-//                 .ProjectInfo-Data > dd:last-child {
-//                     border-bottom: 1px solid transparent;
-//                     padding: 0 15px;
-//                     margin: 0;
-//                 }
+  .project__body {
+    
+  }
 
-//         .ProjectIntro {
-//             max-width: 65%;
-//         }
-//             .ProjectIntro-Category {
-//                 font-size: 1.2rem;
-//                 line-height: 2.0rem;
-//                 letter-spacing: 0.1rem;
-//                 color: $color_text_00;
-//                 text-transform: uppercase;
-//                 border-bottom: $border_thin_light;
-//                 padding: 0 0 5px 0;
-//                 margin: 0 0 20px 0;
-//             }
-//             .ProjectIntro-Title {
-//                 font-size: 5.6rem;
-//                 line-height: 5.6rem;
-//                 letter-spacing: 0.1rem;
-//                 margin: 0 0 10px 0;
-//             }
-//             .ProjectIntro-Description {
-//                 font-family: $font_serif;
-//                 font-size: 1.8rem;
-//                 line-height: 2.8rem;
-//                 letter-spacing: 0.1rem;
-//                 color: $color_text_00;
-//                 margin: 0 0 80px 0;
-//             }
+  .project__details {
+    display: flex;
+    margin: $spacer_four auto;
+    padding: $spacer_one 0 0 0;
+    border-top: $border_thin_light;
+    font-size: $font_size_sm;
+  }
+    .details__item:not(:last-of-type) {
+      margin-right: $spacer_three;
+    }
 
-//         .ProjectHeading {
-//             font-family: $font_sans;
-//             font-size: 1.4rem;
-//             letter-spacing: 0.25rem;
-//             text-transform: uppercase;
-//             color: $color_text_00;
-//             margin: 40px 0 10px 0;
-//             width: 65%;
-//         }
-//         .ProjectBody {
-//             font-family: $font_sans;
-//             font-size: 1.4rem;
-//             line-height: 3.2rem;
-//             color: $color_text_05;
-//             margin: 0px 0 60px 0;
-//             width: 65%;
-//         }
+    .details__item > dt {
+      font-weight: 800;
+      font-size: .75rem;
+      text-transform: uppercase;
+      color: $color_text_03;
+    }
+    .details__item > dd {
+      margin: 0;
+      padding: 0;
+    }
