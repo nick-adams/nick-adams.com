@@ -1239,6 +1239,34 @@ a {
   color: #2f2f2f;
 }
 
+[class*='icon-'] {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  color: #252525;
+  margin-top: -2px;
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.icon-email {
+  background-image: url("../../../assets/svg/icon-email.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.icon-twitter {
+  background-image: url("../../../assets/svg/icon-twitter.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.icon-github {
+  background-image: url("../../../assets/svg/icon-github.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
 .content__title {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 3.15733rem;
@@ -1464,6 +1492,12 @@ a {
   line-height: 1.5rem;
   max-width: 530px;
   margin-left: 217px;
+}
+
+.home-contacts {
+  display: flex;
+  margin-left: 217px;
+  margin-top: 2rem;
 }
 
 .home-sociallink {
