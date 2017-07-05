@@ -2,6 +2,19 @@
 // Home Page Styles
 // -------------------------
 
+.home-headshot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 604px;
+  width: 565px;
+  z-index: $z_behind;
+  background-image: url('../../assets/img/home/headshot1-cropped.jpg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .home {
   margin: 200px 0 150px 0;
 }
@@ -41,10 +54,10 @@
   .home-contacts {
     display: flex;
     margin-left: 217px;
-    margin-top: $spacer_two;
+    margin-top: $space_two;
   }
     .home-sociallink {
-      margin: 0 $spacer_one 0 0;
+      margin: 0 $space_one 0 0;
     }
   
   // Temporary
@@ -54,8 +67,8 @@
     font-family: $font_sans;
     font-size: $font_size_md; 
     line-height: $line_height_base;
-    padding: $spacer_one;
-    margin: $spacer_four 0 -#{$spacer_seven} 0;
+    padding: $space_one;
+    margin: $space_four 0 -#{$space_seven} 0;
   }
 
 .container-recentwork {
@@ -136,7 +149,7 @@
       font-size: 6rem;
     }
   .home-description {
-    margin: $spacer_three 0 0 0;
+    margin: $space_three 0 0 0;
   }
 }
 

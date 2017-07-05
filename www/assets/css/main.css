@@ -758,6 +758,398 @@ html {
   text-align: center;
 }
 
+.spacer-eighth--right {
+  margin-right: 0.125rem;
+}
+
+.spacer-eighth--left {
+  margin-left: 0.125rem;
+}
+
+.spacer-eighth--top {
+  margin-top: 0.125rem;
+}
+
+.spacer-eighth--bottom {
+  margin-bottom: 0.125rem;
+}
+
+.spacer-eighth--vertical {
+  margin: 0.125rem 0;
+}
+
+.spacer-eighth--horizontal {
+  margin-right: 0 0.125rem;
+}
+
+.spacer-eighth--around {
+  margin: 0.125rem;
+}
+
+.spacer-quarter--right {
+  margin-right: 0.125rem;
+}
+
+.spacer-quarter--left {
+  margin-left: 0.125rem;
+}
+
+.spacer-quarter--top {
+  margin-top: 0.125rem;
+}
+
+.spacer-quarter--bottom {
+  margin-bottom: 0.125rem;
+}
+
+.spacer-quarter--vertical {
+  margin: 0.125rem 0;
+}
+
+.spacer-quarter--horizontal {
+  margin-right: 0 0.125rem;
+}
+
+.spacer-quarter--around {
+  margin: 0.125rem;
+}
+
+.spacer-half--right {
+  margin-right: 0.5rem;
+}
+
+.spacer-half--left {
+  margin-left: 0.5rem;
+}
+
+.spacer-half--top {
+  margin-top: 0.5rem;
+}
+
+.spacer-half--bottom {
+  margin-bottom: 0.5rem;
+}
+
+.spacer-half--vertical {
+  margin: 0.5rem 0;
+}
+
+.spacer-half--horizontal {
+  margin-right: 0 0.5rem;
+}
+
+.spacer-half--around {
+  margin: 0.5rem;
+}
+
+.spacer-one--right {
+  margin-right: 1rem;
+}
+
+.spacer-one--left {
+  margin-left: 1rem;
+}
+
+.spacer-one--top {
+  margin-top: 1rem;
+}
+
+.spacer-one--bottom {
+  margin-bottom: 1rem;
+}
+
+.spacer-one--vertical {
+  margin: 1rem 0;
+}
+
+.spacer-one--horizontal {
+  margin-right: 0 1rem;
+}
+
+.spacer-one--around {
+  margin: 1rem;
+}
+
+.spacer-oneandhalf--right {
+  margin-right: 1.5rem;
+}
+
+.spacer-oneandhalf--left {
+  margin-left: 1.5rem;
+}
+
+.spacer-oneandhalf--top {
+  margin-top: 1.5rem;
+}
+
+.spacer-oneandhalf--bottom {
+  margin-bottom: 1.5rem;
+}
+
+.spacer-oneandhalf--vertical {
+  margin: 1.5rem 0;
+}
+
+.spacer-oneandhalf--horizontal {
+  margin-right: 0 1.5rem;
+}
+
+.spacer-oneandhalf--around {
+  margin: 1.5rem;
+}
+
+.spacer-two--right {
+  margin-right: 2rem;
+}
+
+.spacer-two--left {
+  margin-left: 2rem;
+}
+
+.spacer-two--top {
+  margin-top: 2rem;
+}
+
+.spacer-two--bottom {
+  margin-bottom: 2rem;
+}
+
+.spacer-two--vertical {
+  margin: 2rem 0;
+}
+
+.spacer-two--horizontal {
+  margin-right: 0 2rem;
+}
+
+.spacer-two--around {
+  margin: 2rem;
+}
+
+.spacer-three--right {
+  margin-right: 3rem;
+}
+
+.spacer-three--left {
+  margin-left: 3rem;
+}
+
+.spacer-three--top {
+  margin-top: 3rem;
+}
+
+.spacer-three--bottom {
+  margin-bottom: 3rem;
+}
+
+.spacer-three--vertical {
+  margin: 3rem 0;
+}
+
+.spacer-three--horizontal {
+  margin-right: 0 3rem;
+}
+
+.spacer-three--around {
+  margin: 3rem;
+}
+
+.spacer-four--right {
+  margin-right: 4rem;
+}
+
+.spacer-four--left {
+  margin-left: 4rem;
+}
+
+.spacer-four--top {
+  margin-top: 4rem;
+}
+
+.spacer-four--bottom {
+  margin-bottom: 4rem;
+}
+
+.spacer-four--vertical {
+  margin: 4rem 0;
+}
+
+.spacer-four--horizontal {
+  margin-right: 0 4rem;
+}
+
+.spacer-four--around {
+  margin: 4rem;
+}
+
+.spacer-five--right {
+  margin-right: 5rem;
+}
+
+.spacer-five--left {
+  margin-left: 5rem;
+}
+
+.spacer-five--top {
+  margin-top: 5rem;
+}
+
+.spacer-five--bottom {
+  margin-bottom: 5rem;
+}
+
+.spacer-five--vertical {
+  margin: 5rem 0;
+}
+
+.spacer-five--horizontal {
+  margin-right: 0 5rem;
+}
+
+.spacer-five--around {
+  margin: 5rem;
+}
+
+.spacer-six--right {
+  margin-right: 6rem;
+}
+
+.spacer-six--left {
+  margin-left: 6rem;
+}
+
+.spacer-six--top {
+  margin-top: 6rem;
+}
+
+.spacer-six--bottom {
+  margin-bottom: 6rem;
+}
+
+.spacer-six--vertical {
+  margin: 6rem 0;
+}
+
+.spacer-six--horizontal {
+  margin-right: 0 6rem;
+}
+
+.spacer-six--around {
+  margin: 6rem;
+}
+
+.spacer-seven--right {
+  margin-right: 7rem;
+}
+
+.spacer-seven--left {
+  margin-left: 7rem;
+}
+
+.spacer-seven--top {
+  margin-top: 7rem;
+}
+
+.spacer-seven--bottom {
+  margin-bottom: 7rem;
+}
+
+.spacer-seven--vertical {
+  margin: 7rem 0;
+}
+
+.spacer-seven--horizontal {
+  margin-right: 0 7rem;
+}
+
+.spacer-seven--around {
+  margin: 7rem;
+}
+
+.spacer-eight--right {
+  margin-right: 8rem;
+}
+
+.spacer-eight--left {
+  margin-left: 8rem;
+}
+
+.spacer-eight--top {
+  margin-top: 8rem;
+}
+
+.spacer-eight--bottom {
+  margin-bottom: 8rem;
+}
+
+.spacer-eight--vertical {
+  margin: 8rem 0;
+}
+
+.spacer-eight--horizontal {
+  margin-right: 0 8rem;
+}
+
+.spacer-eight--around {
+  margin: 8rem;
+}
+
+.spacer-nine--right {
+  margin-right: 9rem;
+}
+
+.spacer-nine--left {
+  margin-left: 9rem;
+}
+
+.spacer-nine--top {
+  margin-top: 9rem;
+}
+
+.spacer-nine--bottom {
+  margin-bottom: 9rem;
+}
+
+.spacer-nine--vertical {
+  margin: 9rem 0;
+}
+
+.spacer-nine--horizontal {
+  margin-right: 0 9rem;
+}
+
+.spacer-nine--around {
+  margin: 9rem;
+}
+
+.spacer-ten--right {
+  margin-right: 10rem;
+}
+
+.spacer-ten--left {
+  margin-left: 10rem;
+}
+
+.spacer-ten--top {
+  margin-top: 10rem;
+}
+
+.spacer-ten--bottom {
+  margin-bottom: 10rem;
+}
+
+.spacer-ten--vertical {
+  margin: 10rem 0;
+}
+
+.spacer-ten--horizontal {
+  margin-right: 0 10rem;
+}
+
+.spacer-ten--around {
+  margin: 10rem;
+}
+
 .nav {
   margin: 0 0 1rem 0;
   padding: 0;
@@ -1250,19 +1642,19 @@ a {
 }
 
 .icon-email {
-  background-image: url("../../../assets/svg/icon-email.svg");
+  background-image: url("../../../assets/svg/icons/icon-email.svg");
   background-position: top left;
   background-repeat: no-repeat;
 }
 
 .icon-twitter {
-  background-image: url("../../../assets/svg/icon-twitter.svg");
+  background-image: url("../../../assets/svg/icons/icon-twitter.svg");
   background-position: top left;
   background-repeat: no-repeat;
 }
 
 .icon-github {
-  background-image: url("../../../assets/svg/icon-github.svg");
+  background-image: url("../../../assets/svg/icons/icon-github.svg");
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -1453,6 +1845,19 @@ a {
 .site-nav__link--name:hover,
 .site-nav__link--twitter:hover {
   color: #767676;
+}
+
+.home-headshot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 604px;
+  width: 565px;
+  z-index: -1;
+  background-image: url("../../assets/img/home/headshot1-cropped.jpg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home {

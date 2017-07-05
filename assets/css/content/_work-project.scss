@@ -41,22 +41,22 @@
 .project-content {
   background-color: $color_white;
   min-height: 1000px;
-  padding: $spacer_three 0;
+  padding: $space_three 0;
 }
 
   .project__year {
     color: $color_brand_primary;
-    margin: 0 0 $spacer_one 0;
+    margin: 0 0 $space_one 0;
   }
   .project__headline {
     font-size: $font_size_xxxl;
     font-family: $font_serif;
     line-height: $line_height_xxxl;
-    margin: 0 0 $spacer_one 0;
+    margin: 0 0 $space_one 0;
     
   }
   .project__subheadline {
-    margin: 0 0 $spacer_one 0;
+    margin: 0 0 $space_one 0;
     color: $color_greyscale_05;
     line-height: $line_height_xl;
   }
@@ -71,13 +71,13 @@
 
   .project__details {
     display: flex;
-    margin: $spacer_four auto;
-    padding: $spacer_one 0 0 0;
+    margin: $space_four auto;
+    padding: $space_one 0 0 0;
     border-top: $border_thin_light;
     font-size: $font_size_sm;
   }
     .details__item:not(:last-of-type) {
-      margin-right: $spacer_three;
+      margin-right: $space_three;
     }
 
     .details__item > dt {

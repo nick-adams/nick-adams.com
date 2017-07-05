@@ -3,11 +3,11 @@
 // -------------------------
 
 .site-footer {
-  margin: 0 auto $spacer_two auto;
+  margin: 0 auto $space_two auto;
 }
   .footer-nav {
     border-top: $border_thin_light;
-    padding: $spacer_two 0 0 0;
+    padding: $space_two 0 0 0;
   }
     .footer-nav__signoff {
       font-family: $font_serif;
@@ -20,7 +20,7 @@
       font-family: $font-sans;
       font-size: $font_size_sm;
       color: $color_text_03;
-      margin: $spacer_two 0 0 0;
+      margin: $space_two 0 0 0;
       width: 30rem;
     }
     .footer-nav__copyright {
@@ -28,6 +28,6 @@
       font-size: $font_size_xs;
       line-height: 1rem;
       color: $color_text_03;
-      margin: $spacer_one 0 0 0;
+      margin: $space_one 0 0 0;
       width: 30rem;
     }

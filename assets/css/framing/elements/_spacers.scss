@@ -1,0 +1,62 @@
+// ============================================
+// Spacers
+// ============================================
+// These can be used as additional classes on other
+// elements, or on empty spacer elements. 
+
+// NOTE:
+// When using as an additional class, the element's
+// own margins will always override the spacer class.
+
+// Spacings
+// ============================================
+
+$spacings: (
+  eighth:     $space_eighth,
+  quarter:    $space_eighth,
+  half:       $space_half,
+  one:        $space_one,   
+  oneandhalf: $space_oneandhalf,
+  two:        $space_two,
+  three:      $space_three,
+  four:       $space_four,
+  five:       $space_five,
+  six:        $space_six,
+  seven:      $space_seven,
+  eight:      $space_eight,
+  nine:       $space_nine,
+  ten:        $space_ten,
+);
+
+
+// Spacer Class Funtion
+// ============================================
+// This iterates through the Spacings list to
+// generate the specific classes
+
+
+@each $name, $value in $spacings {
+  .spacer-#{$name}--right {
+    margin-right: $value;
+  }
+  .spacer-#{$name}--left {
+    margin-left: $value;
+  }
+  .spacer-#{$name}--top {
+    margin-top: $value;
+  }
+  .spacer-#{$name}--bottom {
+    margin-bottom: $value;
+  }
+  .spacer-#{$name}--vertical {
+    margin: $value 0;
+  }
+  .spacer-#{$name}--horizontal {
+    margin-right: 0 $value;
+  }
+  .spacer-#{$name}--around {
+    margin: $value;
+  }
+}
+
+

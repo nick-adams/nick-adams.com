@@ -14,13 +14,13 @@
 // ============================================
 
 .#{$namespace}nav {
-  margin: 0 0 $spacer_one 0;
+  margin: 0 0 $space_one 0;
   padding: 0;
   display: inline-block;  
   & a {
     text-decoration: none;
     color: $color_text_08;
-    padding: $spacer_quarter 0;
+    padding: $space_quarter 0;
   }
   & a:hover {
     color: $color_text_05;
@@ -83,7 +83,7 @@
 // ============================================
 
   .#{$namespace}nav__item {
-    margin: 0 $spacer_two 0 0;
+    margin: 0 $space_two 0 0;
     border-bottom: $border_thick_transparent;
     transition:         all #{$transition_medium};
     -webkit-transition: all #{$transition_medium};

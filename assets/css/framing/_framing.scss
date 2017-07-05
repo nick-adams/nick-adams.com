@@ -3,7 +3,7 @@
 // ============================================
 
 // Base Styles
-@import   'base/normalize';
+@import   'base/libs/normalize'; // External library
 @import   'base/globals';
 @import   'base/helpers';
 
@@ -11,6 +11,7 @@
 @import   "layout/grid";
 
 // Element Styles 
+@import   "elements/spacers";
 @import   "elements/navigation";
 @import   "elements/type";
 @import   "elements/buttons";

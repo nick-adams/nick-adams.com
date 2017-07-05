@@ -1,3 +1,10 @@
+// ============================================
+// Icons
+// ============================================
+
+// All Icons
+// ============================================
+
 [class*='icon-']{
   display: inline-block;
   width: 32px;
@@ -5,21 +12,24 @@
   color: $color_dark;
   margin-top: -2px;
   float: left;
-  margin-right: $spacer_half;
+  margin-right: $space_half;
 }
 
+// Icon Set Items
+// ============================================
+
 .icon-email {
-  background-image: url('../../../assets/svg/icon-email.svg');
+  background-image: url('../../../assets/svg/icons/icon-email.svg');
   background-position: top left;
   background-repeat: no-repeat;
 }
 .icon-twitter {
-  background-image: url('../../../assets/svg/icon-twitter.svg');
+  background-image: url('../../../assets/svg/icons/icon-twitter.svg');
   background-position: top left;
   background-repeat: no-repeat;
 }
 .icon-github {
-  background-image: url('../../../assets/svg/icon-github.svg');
+  background-image: url('../../../assets/svg/icons/icon-github.svg');
   background-position: top left;
   background-repeat: no-repeat;
 }

@@ -6,20 +6,20 @@
 
 }
   .work__intro {
-    margin: $spacer_ten 0 0 0;
+    margin: $space_ten 0 0 0;
   }
     .work__title {
       font-family: $font_serif;
       font-size: $font_size_xxxl;
       text-transform: normal;
       color: $color_text_00;
-      margin: 0 0 $spacer_two 0;
+      margin: 0 0 $space_two 0;
     }
     .work__body {
       font-size: $font_size_sm;
       text-transform: normal;
       color: $color_text_04;
-      margin: 0 0 $spacer_three 0;
+      margin: 0 0 $space_three 0;
       width: 30rem;
     }
 
@@ -68,7 +68,7 @@
   // -------------------------
 
 .work__projects {
-  margin: $spacer_seven 0 0 $spacer_half;
+  margin: $space_seven 0 0 $space_half;
 }
 
   .project-list {
@@ -80,12 +80,12 @@
     .project-list__item {
       border-bottom: $border_thin_light;
       margin: 0;
-      padding: $spacer_two 0;
+      padding: $space_two 0;
       transition: all $transition_slow;
       
       &:hover {
         // cursor: pointer;
-        padding: $spacer_two 0 $spacer_two $spacer_half;
+        padding: $space_two 0 $space_two $space_half;
       }
     }  
 
@@ -96,15 +96,15 @@
     @media (max-height: 775px) {
       
       .project-list__item {
-        padding: $spacer_one 0;
+        padding: $space_one 0;
         
         &:hover {
-          padding: $spacer_one 0 $spacer_one $spacer_half;
+          padding: $space_one 0 $space_one $space_half;
         }
       }
 
       .project-list {
-        padding-top: $spacer_one;
+        padding-top: $space_one;
       }
 
     }
@@ -114,7 +114,7 @@
       font-family: $font_sans;
       font-weight: 400;
       font-size: $font_size_sm;
-      margin: 0 0 $spacer_half 0;
+      margin: 0 0 $space_half 0;
     }
     .project-item__name {
       font-family: $font_serif;

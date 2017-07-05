@@ -17,7 +17,7 @@ html {
     font-weight: 800;
     line-height: $line_height_base * 2;
     letter-spacing: $letter_spacing_tight;
-    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;
 }
 
@@ -26,7 +26,7 @@ html {
     font-weight: 800;
     line-height: $line_height_base * 2;
     letter-spacing: $letter_spacing_tight;
-    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;
 }
 
@@ -35,7 +35,7 @@ html {
     font-weight: 800;
     line-height: $line_height_base * 1.333;
     letter-spacing: $letter_spacing_normal;
-    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;
 }
 
@@ -44,7 +44,7 @@ html {
     font-weight: 800;
     line-height: $line_height_base;
     letter-spacing: $letter_spacing_normal;
-    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;
 }
 .#{$namespace}heading--md {
@@ -53,7 +53,7 @@ html {
     line-height: $line_height_base;
     letter-spacing: $letter_spacing_normal;
     @extend .u-case--upper;
-    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;   
 }
 .#{$namespace}heading--sm {
@@ -62,7 +62,7 @@ html {
     line-height: $line_height_base * 0.666;
     letter-spacing: $letter_spacing_normal;
     @extend .u-case--upper;
-    margin: $spacer_oneandhalf 0 $spacer_one 0;
+    margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;
 }
 
@@ -96,7 +96,7 @@ html {
     font-size: $font_size_sm;
     line-height: $line_height_base;
     letter-spacing: $letter_spacing_normal;
-    margin: $spacer_one 0 0 0;
+    margin: $space_one 0 0 0;
     padding: 0;
 }
 
@@ -116,7 +116,7 @@ html {
   background-color: $color_white;
   border: $border_thin-light;
   border-radius: $radius;
-  padding: $spacer_quarter;
+  padding: $space_quarter;
   vertical-align: middle;
 }
 

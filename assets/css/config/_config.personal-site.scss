@@ -128,25 +128,25 @@ $z_top:                 999999;
 // Spacing
 // ============================================
 
-// Spacers based on root font-size.
-$spacer_eighth:         0.125rem; // 2px
-$spacer_quarter:        0.25rem;  // 4px
-$spacer_half:           0.50rem;  // 8px
-$spacer_one:            1rem;     // 16px
-$spacer_oneandhalf:     1.5rem;   // 24px
-$spacer_two:            2rem;     // 32px
-$spacer_three:          3rem;     // 48px
-$spacer_four:           4rem;     // 64px
-$spacer_five:           5rem;     // 80px
-$spacer_six:            6rem;     // 96px
-$spacer_seven:          7rem;     // 112px
-$spacer_eight:          8rem;     // 128px
-$spacer_nine:           9rem;     // 144px
-$spacer_ten:            10rem;    // 160px
+// Spacing based on root font-size.
+$space_eighth:          0.125rem; // 2px
+$space_quarter:         0.25rem;  // 4px
+$space_half:            0.50rem;  // 8px
+$space_one:             1rem;     // 16px
+$space_oneandhalf:      1.5rem;   // 24px
+$space_two:             2rem;     // 32px
+$space_three:           3rem;     // 48px
+$space_four:            4rem;     // 64px
+$space_five:            5rem;     // 80px
+$space_six:             6rem;     // 96px
+$space_seven:           7rem;     // 112px
+$space_eight:           8rem;     // 128px
+$space_nine:            9rem;     // 144px
+$space_ten:              10rem;    // 160px
 
-// Negative spacers
-$spacer_neg_one:        -1em;
-$spacer_neg_two:        -2em;
+// Negative spacing
+$space_neg_one:        -1em;
+$space_neg_two:        -2em;
 
 
 // Breakpoints

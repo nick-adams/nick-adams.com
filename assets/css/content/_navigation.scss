@@ -29,10 +29,10 @@
   }
     .site-nav__item--horiz {
       display: inline-block;
-      margin-left: $spacer_four;
+      margin-left: $space_four;
 
       @media only screen and (max-width: $bp_sm) {
-        margin-left: $spacer_one;
+        margin-left: $space_one;
       }
     }
       .site-nav__item--horiz:first-child {
@@ -52,14 +52,14 @@
 .site-nav__link {
   text-decoration: none;
   border: 2px solid transparent;
-  padding: $spacer_half;
+  padding: $space_half;
   font-family: $font_sans;
   font-size: $font_size_sm;
   font-weight: 800;
   text-transform: uppercase;
   
   @media only screen and (max-width: $bp_sm) {
-    padding: $spacer_half 0;
+    padding: $space_half 0;
   }
 }
 
@@ -124,7 +124,7 @@
   font-family: $font_sans;
   font-size: $font_size_sm;
   color: $color_text_02;
-  margin: 0 0 0 $spacer_half;
+  margin: 0 0 0 $space_half;
 }
   .site-nav__link--name:hover,
   .site-nav__link--twitter:hover {
