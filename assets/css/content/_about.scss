@@ -11,6 +11,12 @@
     text-transform: normal;
     margin: 0 0 $space_three 0;
   }
+  .about__heading {
+    // text-transform: uppercase;
+    // font-size: $font_size_md;
+    color: $color_greyscale_06;
+    margin: 0;
+  }
   .about__body {
     line-height: 2rem;
     color: $color_text_06;
@@ -25,7 +31,7 @@
 
   .about__contacts {
     display: flex;
-    margin-top: $space_four;
+    margin-top: $space_two;
     padding-top: $space_one;
     border-top: $border_thin_light;
   }
@@ -59,12 +65,7 @@
     top: 167px;
     z-index: $z_bottom;
   }
-  .timeline__title {
-    text-transform: uppercase;
-    font-size: $font_size_md;
-    color: $color_greyscale_06;
-    margin: 0;
-  }
+
   .timeline__years {
     display: flex;
     margin: $space_one 0 0 0;

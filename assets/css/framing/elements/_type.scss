@@ -44,7 +44,8 @@ html {
     font-weight: 800;
     line-height: $line_height_base;
     letter-spacing: $letter_spacing_normal;
-    margin: $space_oneandhalf 0 $space_one 0;
+    // margin: $space_oneandhalf 0 $space_one 0;
+    margin: 0;
     padding: 0;
 }
 .#{$namespace}heading--md {
@@ -53,7 +54,8 @@ html {
     line-height: $line_height_base;
     letter-spacing: $letter_spacing_normal;
     @extend .u-case--upper;
-    margin: $space_oneandhalf 0 $space_one 0;
+    // margin: $space_oneandhalf 0 $space_one 0;
+    margin: 0;
     padding: 0;   
 }
 .#{$namespace}heading--sm {
@@ -62,7 +64,8 @@ html {
     line-height: $line_height_base * 0.666;
     letter-spacing: $letter_spacing_normal;
     @extend .u-case--upper;
-    margin: $space_oneandhalf 0 $space_one 0;
+    // margin: $space_oneandhalf 0 $space_one 0;
+    margin: 0;
     padding: 0;
 }
 

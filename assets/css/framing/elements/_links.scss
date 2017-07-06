@@ -28,6 +28,25 @@ a {
   // }
 }
 
+.#{$namespace}link--bold {
+  text-decoration: none;
+  font-weight: 800;
+  color: inherit;
+  border-bottom: $border_thin_secondary;
+  padding: 0 0 0 0; 
+  
+  &:hover {
+    color: $color_brand_secondary;
+    padding: 0 0 $space_eighth 0; 
+  }
+  &:active {
+    color: $color_text_08;
+  }
+  // &:visited {
+  //   color: $color_text_08;
+  // }
+}
+
 .#{$namespace}link--action {
   text-decoration: none;
   color: $color_action;

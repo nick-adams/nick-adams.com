@@ -9,7 +9,7 @@
   height: 604px;
   width: 565px;
   z-index: $z_behind;
-  background-image: url('../../assets/img/home/headshot1-cropped.jpg');
+  background-image: url('../../assets/img/home/pic-headshot1-cropped.jpg');
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,6 +58,7 @@
   }
     .home-sociallink {
       margin: 0 $space_one 0 0;
+      font-size: $font_size_sm;
     }
   
   // Temporary

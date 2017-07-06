@@ -36,25 +36,25 @@ $spacings: (
 
 
 @each $name, $value in $spacings {
-  .spacer-#{$name}--right {
+  .spacer-right--#{$name} {
     margin-right: $value;
   }
-  .spacer-#{$name}--left {
+  .spacer-left--#{$name} {
     margin-left: $value;
   }
-  .spacer-#{$name}--top {
+  .spacer-top--#{$name} {
     margin-top: $value;
   }
-  .spacer-#{$name}--bottom {
+  .spacer-bottom--#{$name} {
     margin-bottom: $value;
   }
-  .spacer-#{$name}--vertical {
+  .spacer-vertical--#{$name} {
     margin: $value 0;
   }
-  .spacer-#{$name}--horizontal {
+  .spacer-horizontal--#{$name} {
     margin-right: 0 $value;
   }
-  .spacer-#{$name}--around {
+  .spacer-around--#{$name} {
     margin: $value;
   }
 }
