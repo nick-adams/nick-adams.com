@@ -1876,7 +1876,7 @@ a {
 }
 
 .home {
-  margin: 200px 0 150px 0;
+  margin: 200px 0 0 0;
 }
 
 .home-greeting {
@@ -1933,6 +1933,7 @@ a {
   line-height: 1.5rem;
   padding: 1rem;
   margin: 4rem 0 -7rem 0;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .container-recentwork {

@@ -16,7 +16,7 @@
 }
 
 .home {
-  margin: 200px 0 150px 0;
+  margin: 200px 0 0 0;
 }
   .home-greeting {
     color: $color_brand_primary;
@@ -70,6 +70,7 @@
     line-height: $line_height_base;
     padding: $space_one;
     margin: $space_four 0 -#{$space_seven} 0;
+    background-color: rgba(255, 255, 255, 0.5);
   }
 
 .container-recentwork {
