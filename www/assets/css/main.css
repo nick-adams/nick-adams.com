@@ -1294,7 +1294,7 @@ html {
   font-size: 0.87566rem;
   line-height: 1.5rem;
   letter-spacing: 0px;
-  margin: 0;
+  margin: 0 0 1rem 0;
   padding: 0;
 }
 
@@ -1302,7 +1302,7 @@ html {
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0px;
-  margin: 0 0 calc($line_height_base * 2) 0;
+  margin: 0 0 1rem 0;
   padding: 0;
 }
 
@@ -2037,12 +2037,16 @@ a {
 
 .about__heading {
   color: #666666;
-  margin: 0;
+  margin: 0 0 1rem 0;
 }
 
 .about__body {
   line-height: 2rem;
   color: #5e5e5e;
+}
+
+.about__aside {
+  margin-left: 3rem;
 }
 
 .about__caption {
@@ -2079,9 +2083,10 @@ a {
 .about__timeline {
   min-height: 275px;
   padding: 3rem 0 2rem 0;
-  margin: 0 0 3rem 0;
+  margin: 0 0 4rem 0;
   background-image: linear-gradient(0deg, white 39%, #f8f8f8 100%);
   position: relative;
+  border-top: solid 1px #e6e6e6;
 }
 
 .timeline__line {
@@ -2097,6 +2102,16 @@ a {
   display: flex;
   margin: 1rem 0 0 0;
   justify-content: space-between;
+}
+
+.timeline__year--left {
+  color: #FBCF64;
+  font-size: 0.87566rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.timeline__year--right {
   color: #FBCF64;
   font-size: 0.87566rem;
   font-weight: 800;
@@ -2137,6 +2152,35 @@ a {
   color: #666666;
   font-weight: 800;
   margin: 0.5rem 0 0.5rem 0;
+}
+
+.about__side-projects {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 2rem 0 3rem 0;
+  padding: 0;
+}
+
+.side-projects__item {
+  color: #5e5e5e;
+  margin: 0 0 3rem 0;
+}
+
+.side-projects__logo {
+  float: left;
+  display: inline-block;
+  margin: -3px 1rem 0 0;
+}
+
+.side-projects__title {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.side-projects__description {
+  font-size: 0.87566rem;
+  margin: 0;
 }
 
 .work__intro {

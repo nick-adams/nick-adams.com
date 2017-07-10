@@ -180,12 +180,38 @@ $color_brand_tertiary:  #FBCF64;
 // Base Colors
 $color_white:           #ffffff;
 $color_black:           #000000;
+// $color_red:             #ececec;
+// $color_red_tint:        #ececec;
+// $color_red_shade:       #ececec;
+// $color_orange:          #ececec;
+// $color_orange_tint:     #ececec;
+// $color_orange_shade:    #ececec;
+// $color_yellow:          #ececec;
+// $color_yellow_tint:     #ececec;
+// $color_yellow_shade:    #ececec;
+// $color_green:           #ececec;
+// $color_green_tint:      #ececec;
+// $color_green_shade:     #ececec;
+// $color_blue:            #ececec;
+// $color_blue_tint:       #ececec;
+// $color_blue_shade:      #ececec;
+// $color_purple:          #ececec;
+// $color_purple_tint:     #ececec;
+// $color_purple_shade:    #ececec;
+// $color_pink:            #ececec;
+// $color_pink_tint:       #ececec;
+// $color_pink_shade:      #ececec;
 
 // UI Colors
 $color_light:           #ececec;
 $color_dark:            #252525;
+// $color_ui_light:           #ececec;
+// $color_ui_dark:            #252525;
 
-// UI Interaction Colors
+// UI State & Interaction Colors
+// $color_select:        #4990E2;
+// $color_select_tint:   mix(white, $color_action, 30%);
+// $color_select_shade:  mix(black, $color_action, 20%);
 $color_action:          #4990E2;
 $color_action_tint:     mix(white, $color_action, 30%);
 $color_action_shade:    mix(black, $color_action, 20%);
