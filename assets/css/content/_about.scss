@@ -42,8 +42,11 @@
     padding-top: $space_one;
     border-top: $border_thin_light;
   }
+    .contact__item {
+      width: 160px;
+    }
     .contact__item:not(:last-of-type) {
-      margin-right: $space_three;
+      margin-right: $space_onehalf;
     }
     .contact__item > dt {
       font-weight: 800;
@@ -63,7 +66,7 @@
 .about__timeline {
   min-height: 275px;
   padding: $space_three 0 $space_two 0;
-  margin: 0 0 $space_four 0;
+  margin: 0 0 $space_three 0;
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 39%, rgba(248, 248, 248, 1) 100%);
   position: relative;
   border-top: $border_thin_light;

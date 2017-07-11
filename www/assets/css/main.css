@@ -2064,8 +2064,12 @@ a {
   border-top: solid 1px #e6e6e6;
 }
 
+.contact__item {
+  width: 160px;
+}
+
 .contact__item:not(:last-of-type) {
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 
 .contact__item > dt {
@@ -2083,7 +2087,7 @@ a {
 .about__timeline {
   min-height: 275px;
   padding: 3rem 0 2rem 0;
-  margin: 0 0 4rem 0;
+  margin: 0 0 3rem 0;
   background-image: linear-gradient(0deg, white 39%, #f8f8f8 100%);
   position: relative;
   border-top: solid 1px #e6e6e6;
