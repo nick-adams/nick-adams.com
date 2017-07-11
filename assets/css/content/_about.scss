@@ -43,10 +43,10 @@
     border-top: $border_thin_light;
   }
     .contact__item {
-      width: 160px;
+      width: 175px;
     }
     .contact__item:not(:last-of-type) {
-      margin-right: $space_onehalf;
+      margin-right: $space_half;
     }
     .contact__item > dt {
       font-weight: 800;

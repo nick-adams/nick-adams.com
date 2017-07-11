@@ -2065,11 +2065,11 @@ a {
 }
 
 .contact__item {
-  width: 160px;
+  width: 175px;
 }
 
 .contact__item:not(:last-of-type) {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .contact__item > dt {

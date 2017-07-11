@@ -74,9 +74,10 @@
 }
 
 
-// Grid Row No column padding
+// Grid Row, No Column Gutters
 // ============================================
-// Use this modifier, if you want grid__col-- that don't have gutters
+// Use this row type if want the columns within
+// the row not have gutters
 
 .grid__row--no-gutter-cols {
   > [class*='grid__col--'] { padding-right: 0; }

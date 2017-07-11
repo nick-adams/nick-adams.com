@@ -221,11 +221,6 @@ $color_greyscale_08:    mix(black, $color_white, 80%);
 $color_greyscale_09:    mix(black, $color_white, 90%);
 $color_greyscale_10:    mix(black, $color_white, 95%);
 
-// Neutral Colors
-$color_neutral:         mix(black, $color_light, 5%);
-$color_neutral_tint:    mix(white, $color_neutral, 30%);
-$color_neutral_shade:   mix(black, $color_neutral, 20%);
-
 // UI Main Colors
 $color_light:           #ececec;
 $color_dark:            #252525;
@@ -241,27 +236,9 @@ $color_neutral_shade:   mix(black, $color_neutral, 20%);
 $color_bg_light:        $color_greyscale_00;
 $color_bg_dark:         $color_greyscale_08;
 
-
 // UI Line Colors
 $color_line_light:      $color_greyscale_02;
 $color_line_dark:       $color_greyscale_08;
-
-// UI Text Colors
-$color_text_00:         $color_light;
-$color_text_01:         mix(black, $color_light, 10%);
-$color_text_02:         mix(black, $color_light, 20%);
-$color_text_03:         mix(black, $color_light, 30%);
-$color_text_04:         mix(black, $color_light, 40%);
-$color_text_05:         mix(black, $color_light, 50%);
-$color_text_06:         mix(black, $color_light, 60%);
-$color_text_07:         mix(black, $color_light, 70%);
-$color_text_08:         mix(black, $color_light, 80%);
-$color_text_09:         mix(black, $color_light, 90%);
-$color_text_10:         $color_dark;
-
-// UI Link Colors
-$color_link_light:      $color_action;
-$color_link_dark:       $color_action;
 
 // UI State & Interaction Colors
 // $color_select:        #4990E2;
@@ -279,6 +256,23 @@ $color_destroy_shade:   mix(black, $color_destroy, 20%);
 $color_warn:            #FFB32F;
 $color_warn_tint:       mix(white, $color_warn, 30%);
 $color_warn_shade:      mix(black, $color_warn, 20%);
+
+// UI Text Colors
+$color_text_00:         $color_light;
+$color_text_01:         mix(black, $color_light, 10%);
+$color_text_02:         mix(black, $color_light, 20%);
+$color_text_03:         mix(black, $color_light, 30%);
+$color_text_04:         mix(black, $color_light, 40%);
+$color_text_05:         mix(black, $color_light, 50%);
+$color_text_06:         mix(black, $color_light, 60%);
+$color_text_07:         mix(black, $color_light, 70%);
+$color_text_08:         mix(black, $color_light, 80%);
+$color_text_09:         mix(black, $color_light, 90%);
+$color_text_10:         $color_dark;
+
+// UI Link Colors
+$color_link_light:      $color_action;
+$color_link_dark:       $color_action;
 
 
 // Font Stack
