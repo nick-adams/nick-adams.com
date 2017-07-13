@@ -1292,7 +1292,7 @@ html {
 
 .text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd {
   font-size: 0.87566rem;
-  line-height: 1.5rem;
+  line-height: 1rem;
   letter-spacing: 0px;
   margin: 0 0 1rem 0;
   padding: 0;
@@ -1300,7 +1300,7 @@ html {
 
 .text--md {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1rem;
   letter-spacing: 0px;
   margin: 0 0 1rem 0;
   padding: 0;
@@ -1308,13 +1308,37 @@ html {
 
 .text--lg {
   font-size: 1.333rem;
-  line-height: 1.5rem;
+  line-height: 1.333rem;
   letter-spacing: 0px;
   margin: 0;
   padding: 0;
 }
 
-.text--caption {
+.text-spread--sm {
+  font-size: 0.87566rem;
+  line-height: 1.333rem;
+  letter-spacing: 0px;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.text-spread--md, .project__body {
+  font-size: 1rem;
+  line-height: 1.333rem;
+  letter-spacing: 0px;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.text-spread--lg {
+  font-size: 1.333rem;
+  line-height: 1.77689rem;
+  letter-spacing: 0px;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.text-caption {
   font-size: 0.87566rem;
   line-height: 1.5rem;
   letter-spacing: 0px;
@@ -1662,6 +1686,12 @@ a {
   background-repeat: no-repeat;
 }
 
+.icon-email--fill {
+  background-image: url("../../../assets/svg/icons/icon-email-fill.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
 .icon-twitter {
   background-image: url("../../../assets/svg/icons/icon-twitter.svg");
   background-position: top left;
@@ -1670,6 +1700,18 @@ a {
 
 .icon-github {
   background-image: url("../../../assets/svg/icons/icon-github.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.icon-resume {
+  background-image: url("../../../assets/svg/icons/icon-resume.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.icon-resume--fill {
+  background-image: url("../../../assets/svg/icons/icon-resume-fill.svg");
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -1690,13 +1732,12 @@ a {
 }
 
 .header-nav {
-  max-width: 80rem;
   margin: 3rem auto 0 auto;
-  padding: 0 6.25rem;
 }
 
 .site-footer {
   margin: 0 auto 2rem auto;
+  background-color: #ffffff;
 }
 
 .footer-nav {
@@ -2046,7 +2087,7 @@ a {
 }
 
 .about__aside {
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .about__caption {
@@ -2077,6 +2118,7 @@ a {
   font-size: .75rem;
   text-transform: uppercase;
   color: #a5a5a5;
+  margin: 2px 0 -4px 0;
 }
 
 .contact__item > dd {
@@ -2333,7 +2375,8 @@ a {
 .project-content {
   background-color: #ffffff;
   min-height: 1000px;
-  padding: 3rem 0;
+  padding: 3rem 0 10rem 0;
+  overflow: hidden;
 }
 
 .project__year {
@@ -2352,6 +2395,15 @@ a {
   margin: 0 0 1rem 0;
   color: gray;
   line-height: 1.77689rem;
+}
+
+.project__heading:not(:first-child) {
+  color: #5e5e5e;
+  margin: 4rem 0 1rem 0;
+}
+
+.project__body {
+  color: #5e5e5e;
 }
 
 .project__details {

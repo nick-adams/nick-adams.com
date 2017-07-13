@@ -1,71 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- "Default" Layout -->
+---
+layout: default
+title: Work -
+nav_selected: work
+nav_color: is--on-dark
+---
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Work -</title>
-
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="robots" content="index, follow">
-
-    <!-- Load TypeKit Web Fonts -->
-    <script src="//use.typekit.net/nbo0dja.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-
-    <link rel="stylesheet" href="/assets/css/main.css">
-    
-    <link rel="canonical" href="http://www.nick-adams.com/work/project-hudl-ios/">
-    <link rel="alternate" type="application/rss+xml" title="Nick Adams, Designer" href="http://www.nick-adams.com/feed.xml" />
-
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">  
-
-</head>
-
-
-    <body>
-    
-    <header class="grid--maxwidth grid--outsidegutters site-header">
-  
-  <div class="header-nav">
-    
-    <nav class="site-nav">
-
-  
-    <div class="site-nav__main">
-      <a class="site-nav__link--name" href="/">Nick Adams</a>
-      <a href="https://www.twitter.com/nickadamssays" class="site-nav__link--twitter">@nickadamssays</a>
-    </div>
-  
-
-  <ul class="site-nav__items--horiz">
-    <li class="site-nav__item--horiz">
-      <a class="site-nav__link  is--on-dark  " href="/about/">About</a>
-    </li>
-    <li class="site-nav__item--horiz">
-      <a class="site-nav__link  is--on-dark   is--selected " href="/work/">Work</a>
-    </li>
-    <li class="site-nav__item--horiz">
-      <a class="site-nav__link  is--on-dark  " href="/notes/">Notes</a>
-    </li>
-    <li class="site-nav__item--horiz">
-      <a class="site-nav__link  is--on-dark  is--emphasized " href="/freelance/">Freelance</a>
-    </li>
-  </ul>
-</nav>
-    
-  </div>
-
-</header>
-
-    
-    <main>
-      <div class="grid--maxwidth grid--outsidegutters">
+<div class="grid--maxwidth grid--outsidegutters">
 
   <div class="grid__row">
 
@@ -136,7 +76,7 @@
       <h3 class="heading--md project__heading">Background</h3>
       <p class="project__body"></p>
 
-      <h3 class="heading--md project__heading">Research &amp; Discovery</h3>
+      <h3 class="heading--md project__heading">Research & Discovery</h3>
       <p class="project__body"></p>
 
       <h3 class="heading--md project__heading">Problem Definition</h3>
@@ -156,58 +96,3 @@
   </div>
 
 </div>
-
-    </main>
-
-     
-         <footer class="grid--fullwidth site-footer">
-
-  <div class="grid--maxwidth grid--outsidegutters">
-    
-    <div class="footer-nav">
-
-      <nav class="site-nav">
-
-  <div class="site-nav__main"><p class="footer-nav__signoff">Thanks for visiting.</p></div>
-
-  <ul class="site-nav__items--horiz">
-    <li class="site-nav__item--horiz">
-      <a class="site-nav__link  is--on-light  " href="/about/">About</a>
-    </li>
-    <li class="site-nav__item--horiz">
-      <a class="site-nav__link  is--on-light   is--selected " href="/work/">Work</a>
-    </li>
-    <li class="site-nav__item--horiz">
-      <a class="site-nav__link  is--on-light  " href="/notes/">Notes</a>
-    </li>
-    <li class="site-nav__item--horiz">
-      <a class="site-nav__link  is--on-light  is--emphasized " href="/freelance/">Freelance</a>
-    </li>
-  </ul>
-</nav>
-      
-      <p class="footer-nav__contact">
-          You say something? Oh. Well <a class="link" href="mailto:hi@nick-adams.com">Email</a> or <a class="link" href="https://www.twitter.com/nickadamssays">Twitter</a> is best.
-      </p>
-      <p class="footer-nav__copyright">
-          The code for this site is available on <a class="link" href="https://www.github.com/nick-adams/nick-adams.com">GitHub</a> for perusing and judging. All work and content is my own. Protip: Copyright exists with or without that &copy; symbol.
-      </p>
-
-    </div>
-
-  </div>
-
-</footer>
-
-
-    
-    
-    <!-- Load External jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<script src="/assets/js/main.js"></script>
-
-    
-    </body>
-
-</html>

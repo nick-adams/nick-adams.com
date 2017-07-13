@@ -34,14 +34,15 @@
     line-height: 6.25rem;
     font-family: $font_serif;
     color: $color_white;
-    width: $content_regular;
+    width: $content_normal;
   }
 
 
 .project-content {
   background-color: $color_white;
   min-height: 1000px;
-  padding: $space_three 0;
+  padding: $space_three 0 $space_ten 0;
+  overflow: hidden;
 }
 
   .project__year {
@@ -61,12 +62,14 @@
     line-height: $line_height_xl;
   }
 
-  .project__heading {
-    
+  .project__heading:not(:first-child) {
+    color: $color_text_06;
+    margin: $space_four 0 $space_one 0;
   }
 
   .project__body {
-    
+    color: $color_text_06; 
+    @extend .text-spread--md;
   }
 
   .project__details {

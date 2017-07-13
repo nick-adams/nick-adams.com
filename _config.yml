@@ -14,13 +14,6 @@ collections:
     output: true
     permalink: /work/:path/
 
-defaults:
-  scope:
-      path: ""
-      type: "work"
-  values:
-      layout: "work-project"
-
 # Build settings
 destination: ./www
 
@@ -30,4 +23,5 @@ permalink: pretty
 sass:
   sass_dir: ./assets/css
   style: :expanded
+
 markdown: kramdown

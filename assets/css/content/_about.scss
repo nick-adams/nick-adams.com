@@ -26,7 +26,7 @@
     color: $color_text_06;
   }
   .about__aside {
-    margin-left: $space_three;
+    margin-left: $space_two;
   }
   .about__caption {
     font-family: $font_serif;
@@ -53,6 +53,7 @@
       font-size: .75rem;
       text-transform: uppercase;
       color: $color_text_03;
+      margin: 2px 0 -4px 0;
     }
     .contact__item > dd {
       margin: 0;
