@@ -16,7 +16,7 @@ html {
 .#{$namespace}heading--xxxl {
     font-size: $font_size_xxxl;
     font-weight: 800;
-    line-height: $line_height_base * 2;
+    line-height: $line_height_lg;
     letter-spacing: $letter_spacing_tight;
     margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;
@@ -25,7 +25,7 @@ html {
 .#{$namespace}heading--xxl {
     font-size: $font_size_xxl;
     font-weight: 800;
-    line-height: $line_height_base * 2;
+    line-height: $line_height_lg;
     letter-spacing: $letter_spacing_tight;
     margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;
@@ -34,7 +34,7 @@ html {
 .#{$namespace}heading--xl {
     font-size: $font_size_xl;
     font-weight: 800;
-    line-height: $line_height_base * 1.333;
+    line-height: $line_height_lg;
     letter-spacing: $letter_spacing_normal;
     margin: $space_oneandhalf 0 $space_one 0;
     padding: 0;
@@ -43,7 +43,7 @@ html {
 .#{$namespace}heading--lg {
     font-size: $font_size_lg;
     font-weight: 800;
-    line-height: $line_height_base;
+    line-height: $line_height_md;
     letter-spacing: $letter_spacing_normal;
     // margin: $space_oneandhalf 0 $space_one 0;
     margin: 0;
@@ -52,9 +52,9 @@ html {
 .#{$namespace}heading--md {
     font-size: $font_size_md;
     font-weight: 800;
-    line-height: $line_height_base;
+    line-height: $line_height_md;
     letter-spacing: $letter_spacing_normal;
-    @extend .u-case--upper;
+    text-transform: uppercase;
     // margin: $space_oneandhalf 0 $space_one 0;
     margin: 0;
     padding: 0;   
@@ -62,9 +62,9 @@ html {
 .#{$namespace}heading--sm {
     font-size: $font_size_sm;
     font-weight: 800;
-    line-height: $line_height_base * 0.666;
+    line-height: $line_height_sm;
     letter-spacing: $letter_spacing_normal;
-    @extend .u-case--upper;
+    text-transform: uppercase;
     // margin: $space_oneandhalf 0 $space_one 0;
     margin: 0;
     padding: 0;
@@ -76,7 +76,7 @@ html {
 
 .#{$namespace}text--sm {
   font-size: $font_size_sm;
-  line-height: $line_height_md;
+  line-height: $line_height_sm;
   letter-spacing: $letter_spacing_normal;
   margin: 0 0 $space_one 0;
   padding: 0;
@@ -132,16 +132,22 @@ html {
 // ============================================
 
 .#{$namespace}list--unordered {
-
+  margin: 0;
+  padding: 0 0 0 $space_half;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 .#{$namespace}list--ordered {
-
+  margin: 0;
+  padding: 0 0 0 $space_half;
+  list-style-position: inside;
 }
 
   .#{$namespace}list--unordered > li,
   .#{$namespace}list--ordered > li {
-
+    padding: 0;
+    margin: 0 0 $space_half 0;
   }
 
 .#{$namespace}list--definition {

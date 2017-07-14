@@ -80,13 +80,13 @@ $font_size_xl:          $font_size_lg  * $font_size_scale;  // 1.777rem
 $font_size_xxl:         $font_size_xl  * $font_size_scale;  // 2.369rem
 $font_size_xxxl:        $font_size_xxl * $font_size_scale;  // 3.157rem
 
-$line_height_xs:        $font_size_base / $font_size_scale;
-$line_height_sm:        $font_size_base / 1.142; 
-$line_height_md:        $font_size_base;
-$line_height_lg:        $font_size_md  * $font_size_scale;
-$line_height_xl:        $font_size_lg  * $font_size_scale;
-$line_height_xxl:       $font_size_xl  * $font_size_scale;
-$line_height_xxxl:      $font_size_xxl * $font_size_scale;
+$line_height_xs:        $line_height_base / $font_size_scale;
+$line_height_sm:        $line_height_base / 1.142; 
+$line_height_md:        $line_height_base;
+$line_height_lg:        $line_height_md  * $font_size_scale;
+$line_height_xl:        $line_height_lg  * $font_size_scale;
+$line_height_xxl:       $line_height_xl  * $font_size_scale;
+$line_height_xxxl:      $line_height_xxl * $font_size_scale;
 
 $letter_spacing_tight:  -0.5px;
 $letter_spacing_normal: 0px;
@@ -148,7 +148,7 @@ $space_six:             6rem;     // 96px
 $space_seven:           7rem;     // 112px
 $space_eight:           8rem;     // 128px
 $space_nine:            9rem;     // 144px
-$space_ten:              10rem;    // 160px
+$space_ten:             10rem;    // 160px
 
 // Negative spacing
 $space_neg_one:        -1em;

@@ -519,7 +519,7 @@ html {
   text-transform: lowercase;
 }
 
-.u-case--upper, .heading--md, .heading--sm {
+.u-case--upper {
   text-transform: uppercase;
 }
 
@@ -1239,7 +1239,7 @@ html {
 .heading--xxxl {
   font-size: 3.15733rem;
   font-weight: 800;
-  line-height: 3rem;
+  line-height: 1.9995rem;
   letter-spacing: -0.5px;
   margin: 1.5rem 0 1rem 0;
   padding: 0;
@@ -1248,7 +1248,7 @@ html {
 .heading--xxl {
   font-size: 2.36859rem;
   font-weight: 800;
-  line-height: 3rem;
+  line-height: 1.9995rem;
   letter-spacing: -0.5px;
   margin: 1.5rem 0 1rem 0;
   padding: 0;
@@ -1277,6 +1277,7 @@ html {
   font-weight: 800;
   line-height: 1.5rem;
   letter-spacing: 0px;
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
 }
@@ -1284,15 +1285,16 @@ html {
 .heading--sm {
   font-size: 0.87566rem;
   font-weight: 800;
-  line-height: 0.999rem;
+  line-height: 1.31349rem;
   letter-spacing: 0px;
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
 }
 
-.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd {
+.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .project__bullets > li {
   font-size: 0.87566rem;
-  line-height: 1rem;
+  line-height: 1.31349rem;
   letter-spacing: 0px;
   margin: 0 0 1rem 0;
   padding: 0;
@@ -1300,7 +1302,7 @@ html {
 
 .text--md {
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
   letter-spacing: 0px;
   margin: 0 0 1rem 0;
   padding: 0;
@@ -1308,7 +1310,7 @@ html {
 
 .text--lg {
   font-size: 1.333rem;
-  line-height: 1.333rem;
+  line-height: 1.9995rem;
   letter-spacing: 0px;
   margin: 0;
   padding: 0;
@@ -1316,7 +1318,7 @@ html {
 
 .text-spread--sm {
   font-size: 0.87566rem;
-  line-height: 1.333rem;
+  line-height: 1.9995rem;
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
@@ -1324,7 +1326,7 @@ html {
 
 .text-spread--md, .project__body {
   font-size: 1rem;
-  line-height: 1.333rem;
+  line-height: 1.9995rem;
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
@@ -1332,7 +1334,7 @@ html {
 
 .text-spread--lg {
   font-size: 1.333rem;
-  line-height: 1.77689rem;
+  line-height: 2.66533rem;
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
@@ -1344,6 +1346,25 @@ html {
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
+}
+
+.list--unordered {
+  margin: 0;
+  padding: 0 0 0 0.5rem;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.list--ordered {
+  margin: 0;
+  padding: 0 0 0 0.5rem;
+  list-style-position: inside;
+}
+
+.list--unordered > li,
+.list--ordered > li {
+  padding: 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .code--inline {
@@ -2073,7 +2094,7 @@ a {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 3.15733rem;
   text-transform: normal;
-  margin: 0 0 3rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .about__heading {
@@ -2194,7 +2215,7 @@ a {
 
 .timeline__item__title {
   font-size: 0.87566rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
   color: #666666;
   font-weight: 800;
   margin: 0.5rem 0 0.5rem 0;
@@ -2387,22 +2408,31 @@ a {
 .project__headline {
   font-size: 3.15733rem;
   font-family: kepler-std-display, Georgia, serif;
-  line-height: 3.15733rem;
+  line-height: 3.55289rem;
   margin: 0 0 1rem 0;
 }
 
 .project__subheadline {
   margin: 0 0 1rem 0;
   color: gray;
-  line-height: 1.77689rem;
+  line-height: 1.9995rem;
 }
 
 .project__heading:not(:first-child) {
   color: #5e5e5e;
-  margin: 4rem 0 1rem 0;
+  margin: 4rem 0 2rem 0;
+}
+
+.project__subheading {
+  color: #8e8e8e;
+  margin: 0 0 1rem 0;
 }
 
 .project__body {
+  color: #5e5e5e;
+}
+
+.project__bullets > li {
   color: #5e5e5e;
 }
 
@@ -2428,6 +2458,16 @@ a {
 .details__item > dd {
   margin: 0;
   padding: 0;
+}
+
+.project__aside {
+  margin-top: 475px;
+}
+
+.aside__item {
+  margin: 2rem;
+  border-left: solid 3px #e6e6e6;
+  padding: 1rem;
 }
 
 .AboutIntro {
