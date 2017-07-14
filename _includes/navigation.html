@@ -11,16 +11,16 @@
 {% endif %}
   <ul class="site-nav__items--horiz">
     <li class="site-nav__item--horiz">
-      <a class="site-nav__link {% if include.footer == 'true' %} is--on-light {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'about' %} is--selected {% endif %}" href="{{ site.baseurl }}/about/">About</a>
+      <a class="site-nav__link {% if include.footer == 'true' %} is--on-light {% else %} {{ page.header_nav_color }} {% endif %} {% if page.nav_selected == 'about' %} is--selected {% endif %}" href="{{ site.baseurl }}/about/">About</a>
     </li>
     <li class="site-nav__item--horiz">
-      <a class="site-nav__link {% if include.footer == 'true' %} is--on-light {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'work' %} is--selected {% endif %}" href="{{ site.baseurl }}/work/">Work</a>
+      <a class="site-nav__link {% if include.footer == 'true' %} is--on-light {% else %} {{ page.header_nav_color }} {% endif %} {% if page.nav_selected == 'work' %} is--selected {% endif %}" href="{{ site.baseurl }}/work/">Work</a>
     </li>
     <li class="site-nav__item--horiz">
-      <a class="site-nav__link {% if include.footer == 'true' %} is--on-light {% else %} {{ page.nav_color }} {% endif %} {% if page.nav_selected == 'notes' %} is--selected {% endif %}" href="{{ site.baseurl }}/notes/">Notes</a>
+      <a class="site-nav__link {% if include.footer == 'true' %} is--on-light {% else %} {{ page.header_nav_color }} {% endif %} {% if page.nav_selected == 'notes' %} is--selected {% endif %}" href="{{ site.baseurl }}/notes/">Notes</a>
     </li>
     <li class="site-nav__item--horiz">
-      <a class="site-nav__link {% if include.footer == 'true' %} is--on-light {% else %} {{ page.nav_color }} {% endif %} is--emphasized {% if page.nav_selected == 'consulting' %} is--selected {% endif %}" href="{{ site.baseurl }}/freelance/">Freelance</a>
+      <a class="site-nav__link {% if include.footer == 'true' %} is--on-light {% else %} {{ page.header_nav_color }} {% endif %} is--emphasized {% if page.nav_selected == 'freelance' %} is--selected {% endif %}" href="{{ site.baseurl }}/freelance/">Freelance</a>
     </li>
   </ul>
 </nav>
