@@ -2474,26 +2474,10 @@ a {
   padding: 1rem;
 }
 
-.AboutIntro {
-  margin: 100px 0 75px 0;
-  padding: 0 100px;
+.freelance {
+  margin: 10rem auto 5rem auto;
 }
 
-.AboutIntro-Title {
-  font-family: kepler-std-display, Georgia, serif;
-  font-size: 6.2rem;
-  line-height: 6.2rem;
-  letter-spacing: 0.1rem;
-  text-transform: normal;
-  margin: 0 0 10px 0;
-}
-
-.AboutIntro-Description {
-  font-family: kepler-std-display, Georgia, serif;
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-  letter-spacing: 0.1rem;
-  color: #ececec;
-  width: 80%;
-  margin: 0;
+.notes {
+  margin: 10rem auto 5rem auto;
 }
