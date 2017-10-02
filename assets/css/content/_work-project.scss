@@ -65,6 +65,7 @@
   .project__heading:not(:first-child) {
     color: $color_text_06;
     margin: $space_four 0 $space_two 0;
+    font-weight: 400;
   }
 
   .project__subheading {

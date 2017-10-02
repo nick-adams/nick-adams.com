@@ -1600,7 +1600,8 @@ a {
 }
 .link:hover {
   color: #68A3CF;
-  padding: 0 0 0.125rem 0;
+  border-bottom: solid 3px #68A3CF;
+  padding: 0 0 0 0;
 }
 .link:active {
   color: #2f2f2f;
@@ -1615,7 +1616,8 @@ a {
 }
 .link--bold:hover {
   color: #68A3CF;
-  padding: 0 0 0.125rem 0;
+  border-bottom: solid 3px #68A3CF;
+  padding: 0 0 -8px 0;
 }
 .link--bold:active {
   color: #2f2f2f;
@@ -2100,6 +2102,7 @@ a {
 .about__heading {
   color: #666666;
   margin: 0 0 1rem 0;
+  font-weight: 400;
 }
 
 .about__body {
@@ -2421,6 +2424,7 @@ a {
 .project__heading:not(:first-child) {
   color: #5e5e5e;
   margin: 4rem 0 2rem 0;
+  font-weight: 400;
 }
 
 .project__subheading {
