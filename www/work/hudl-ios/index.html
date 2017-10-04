@@ -45,16 +45,16 @@
 
   <ul class="site-nav__items--horiz">
     <li class="site-nav__item--horiz">
-      <a class="site-nav__link    " href="/about/">About</a>
+      <a class="site-nav__link  is--on-dark  " href="/about/">About</a>
     </li>
     <li class="site-nav__item--horiz">
-      <a class="site-nav__link     is--selected " href="/work/">Work</a>
+      <a class="site-nav__link  is--on-dark   is--selected " href="/work/">Work</a>
     </li>
     <li class="site-nav__item--horiz">
-      <a class="site-nav__link    " href="/notes/">Notes</a>
+      <a class="site-nav__link  is--on-dark  " href="/notes/">Notes</a>
     </li>
     <li class="site-nav__item--horiz">
-      <a class="site-nav__link    is--emphasized " href="/freelance/">Freelance</a>
+      <a class="site-nav__link  is--on-dark  is--emphasized " href="/freelance/">Freelance</a>
     </li>
   </ul>
 </nav>
@@ -105,18 +105,120 @@
           <dt>View</dt>
           <dd><a href="#" class="link">iOS App Store</a></dd>
         </div>
-      </dl>          
+      </dl>
 
-      <h3 class="heading--lg project__heading">My Role</h3>
+    <article class="project__casestudy">
+
+        <h2 id="overview">Overview</h2>
+
+        <p>Over the course of 6 months on this project I worked on a team of 5 — myself, the (sole) Designer, 2 Developers, 1 Project Manager, and 1 QA — to redesign the Hudl iOS app.</p>
+
+        <p>I was first responsible for working with the team to define the core problem, the desired outcome, and in turn the scope of the project. This started, like almost all projects at Hudl, with user research.</p>
+
+        <p>Once we had a clear problem definition, I began design explorations, sketch sessions, and prototyping. From there, we landed on a direction and I began working with the developers to provide direction on the implementation of the design.</p>
+
+        <p>Finally, I worked ensure the roll-out was successful through our beta testing program, coordination with our support team, and ultimately measuring results by gathering user feedback and data on the real world usage.</p>
+
+        <p><strong>My Primary Responsibilities</strong></p>
+
+        <ul>
+          <li>User Research</li>
+          <li>UI Design</li>
+          <li>Interaction Design</li>
+          <li>Prototyping</li>
+        </ul>
+
+        <h1 id="case-study">Case Study</h1>
+        <h2 id="background">Background</h2>
+
+        <p>This project began during a time of pretty rapid growth for Hudl — both in the size of the customer base, and the size of the company itself.</p>
+
+        <p>This was also the time that mobile become more strategically important for our products. In the past, we were very web-focused, and the mobile side of our product was more complimentary. But the world was going mobile-first, and so were our customers. We needed to take a mobile app that was built in bits and pieces over time and try to create a better, more unified experience.</p>
+
+        <p>We were struggling to do this for a variety of reasons: The structure and design of the mobile app was very fragmented; customers were frustrated by inconsistencies and lack of parity between web and mobile; the experience was confusing and there was no clear entry point into the app; the app seemed unfinished and unpolished; and the design wasn’t scaling. On top of this, more product teams were building on mobile, but without a clear design direction, fragmentation was compounded.</p>
+
+        <p>Oh, and little did we know iOS 7 was around the corner, about to drop a huge visual-design paradigm shift in our laps.</p>
+
+        <h2 id="research--discovery">Research &amp; Discovery</h2>
+
+        <p>Despite all of the struggles outlined above being the prevailing feelings within the company, it was still important to bring a critical perspective to validate them. To ask “Why?”,  “Is there a deeper problem here?”, and most importantly “What are our <em>customers</em> feeling?”. It was my job to ask these questions, and diving into last question in particular is where we always spent a majority of our time.</p>
+
+        <p>This is done by talking to our customers, understanding how they use our product, and how they need our product to work for them. How? We used a few tactics…</p>
+
+        <p><strong>Phone/Video Interviews</strong><br />
+We set up dozens of phone calls with our users to ask them about their daily routines, how they use Hudl, what they use it for, how the mobile app fits into that workflow, the struggles they were having, the needs they had that we weren’t meeting, etc.</p>
+
+        <p><strong>Data Mining</strong><br />
+We looked at usage data, what percentage of total usage is on mobile, what time mobile usage is most common, the error rates compared to the web, the usage across device type, etc.</p>
+
+        <p><strong>Field Visits</strong><br />
+We also met with our users in their environments to understand how mobile fits into their operation, we had them demonstrate their usage and explain their frustrations, we took note of the situation, the lighting, the connection quality, the distractions, the time constraints, etc.</p>
+
+        <h2 id="problem-definition">Problem Definition</h2>
+
+        <p>With this information, we could now confirm or challenge any of our initial assumptions and begin to clearly define the key problems and scope out which of them we could solve with this project.</p>
+
+        <p>We identified a few major themes (confirming some of our initial hunches):</p>
+
+        <ul>
+          <li>No feature parity with the web app. Users wanted to use mobile all the time, instead they were forced to go stop until they got back to their desktop or lug around their laptop.</li>
+          <li>The app was fragmented and lacked cohesion. Users were confused with no clear entry point into the app or ways to get around (which increased the perception of a lack of parity because users couldn’t find features even if they <em>were</em> there).</li>
+          <li>The initial video recording functionality was unreliable and often resulted in lost video. Users were immensely frustrated by this and it led to increased support overhead.</li>
+          <li>There were no team management features in app. Users wanted to be able to manage their roster and message their team in-app, but we lacked that functionality.</li>
+        </ul>
+
+        <p>Ultimately we decided we needed to solidify the foundation of the app: the architecture, the navigation, the design, and the first-screen experience. Without this, we couldn’t solve the rest of the issues, this was the deepest problem that needed to be solved first.</p>
+
+        <p>And then iOS 7 was announced.</p>
+
+        <h2 id="problem-re-definition">Problem Re-Definition</h2>
+
+        <p>With the announcement of iOS 7, we also were faced with a lot of visual design problems. We wanted to be a best-in-class application for our users (which was also a competitive advantage business wise). If iOS 7 launched and our app did not adapt to the new paradigm, this would be in jeopardy. As a result, we updated our problem definition and scope.</p>
+
+        <p>Now, along with creating a better app structure, navigation model, and first-screen experience that would increase engagement and showcase some of the hidden functionality of our app, we needed to wrap that in a new visual design that fit the iOS platform post-iOS 7.</p>
+
+        <h2 id="design-explorations">Design Explorations</h2>
+        <h2 id="final-design-direction">Final Design Direction</h2>
+        <h2 id="before--after">Before &amp; After</h2>
+        <h2 id="results--takeaways">Results &amp; Takeaways</h2>
+        <h2 id="related-projects">Related Projects</h2>
+
+        <p><strong>Mobile Device Library</strong></p>
+
+        <p><strong>Device Checkout App</strong></p>
+
+        <p><strong>Improved Mobile Release Process</strong></p>
+
+      </article> 
+
+    <div class="grid__col--onethird project__aside">
+          
+      <div class="aside__item">
+       <h4 class="heading--sm project__subheading">Responsibilities</h4>
+        <ul class="list--unordered project__bullets">
+          <li>User Research</li>
+          <li>UI Design</li>
+          <li>Interaction Design</li>
+          <li>Prototyping</li>
+        </ul>
+      </div>
+
+    </div>         
+
+      <!-- <h3 class="heading--lg project__heading">My Role</h3>
       <p class="project__body">
-        Over the course of 6 months on this project, I worked on a team of 5 &mdash; myself, the (sole) Designer, 2 Developers, 1 Project Manager, and 1 QA. 
+        Over the course of 6 months on this project I worked on a team of 5 — myself, the (sole) Designer, 2 Developers, 1 Project Manager, and 1 QA &mdash; to redesign the Hudl iOS app.
       </p> 
       <p class="project__body">
-        As a Product Designer, I was initially responsible for working with the team to define the core problem, the desired outcome, and in turn the scope of the project. 
+        I was first responsible for working with the team to define the core problem, the desired outcome, and in turn the scope of the project. This started, like almost all projects at Hudl, with user research. 
+      </p>
+      <p>
+        
       </p>
       <p class="project__body">
         This started with business research and user research. That helped define the problem, which the led to design explorations, sketch sessions, and prototyping. From there we landed on a direction and I worked directly with the developers to provide direction on the implementation of the design. Finally, I worked ensure the roll-out was successful through our beta testing program, coordination with our support team, and ultimately measuring results by gathering feedback and data on the real world usage.
       </p>
+
       <!-- <div class="project__aside--inline">
         <div class="aside__item">
           <h4 class="heading--sm project__subheading">Responsibilities</h4>
@@ -136,13 +238,15 @@
       </p>
       <p class="project__body">
         During prototyping, and eventually the implementation, I worked closely with the developers to make sure the design direction was the right one. This entailed fine visual design details, along with larger conceptual problems that needed to be worked out. We worked in a very tight feedback loop, doing internal and external usability tests along the way.
-      </p> -->
+      </p>
 
 
       <h3 class="heading--lg project__heading">Background</h3>
-      <p class="project__body"></p>
+      <p class="project__body">
+        
+      </p>
 
-      <h3 class="heading--lg project__heading">Research &amp; Discovery</h3>
+      <h3 class="heading--lg project__heading">Research & Discovery</h3>
       <p class="project__body"></p>
 
       <h3 class="heading--lg project__heading">Problem Definition</h3>
@@ -157,24 +261,13 @@
       <h3 class="heading--lg project__heading">Measuring Results</h3>
       <p class="project__body"></p> 
 
-    </div>
+    </div> -->
 
-    <div class="grid__col--onethird project__aside">
-      
-      <div class="aside__item">
-       <h4 class="heading--sm project__subheading">Responsibilities</h4>
-        <ul class="list--unordered project__bullets">
-          <li>User Research</li>
-          <li>UI Design</li>
-          <li>Interaction Design</li>
-          <li>Prototyping</li>
-        </ul>
-      </div>
-
-    </div>
+    
 
   </div>
 
+</div>
 </div>
 
     </main>
