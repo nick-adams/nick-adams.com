@@ -2,7 +2,7 @@
 layout: default
 title: Work -
 nav_selected: work
-nav_color: is--on-dark
+header_nav_color: is--on-dark
 ---
 
 <div class="grid--maxwidth grid--outsidegutters">
@@ -10,8 +10,8 @@ nav_color: is--on-dark
   <div class="grid__row">
 
     <header class="project">
-      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/bg-project-hudlios.png)"></div>
-      <h1 class="project-feature__title">Hudl iOS App Redesign</h1>
+      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/test.png)"></div>
+      <h1 class="project-feature__title">Hudl Design System</h1>
     </header>
   
   </div>
@@ -24,8 +24,8 @@ nav_color: is--on-dark
       
     <div class="grid__col--twothirds">
 
-      <p class="project__year">2014</p>
-      <h2 class="project__headline">Refreshing Hudl’s iOS app for its one million+ userbase. </h2>
+      <p class="project__year">2017</p>
+      <h2 class="project__headline">Retrofitting design consistency at a 7 year old company. </h2>
       <p class="project__subheadline">Working at Hudl on the Mobile team, one of my initial projects was to rethink and redesign the iOS app on both iPhone and iPad to address some problems and to account for the new visual language of iOS 7.</p>
 
       <dl class="project__details">
@@ -35,7 +35,7 @@ nav_color: is--on-dark
         </div>
         <div class="details__item">
           <dt>Timeline</dt>
-          <dd>6 Months, '13 - '14 </dd>
+          <dd>12 Months, '16 - '17 </dd>
         </div>
         <div class="details__item">
           <dt>Status</dt>
@@ -45,9 +45,17 @@ nav_color: is--on-dark
           <dt>View</dt>
           <dd><a href="#" class="link">iOS App Store</a></dd>
         </div>
-      </dl>          
+      </dl>  
+      <!-- 
+  Article block needs to be left aligned. Any indentation breaks the Markdown parsing.
+ -->
+<article class="project__casestudy" markdown="1">
 
-      <h3 class="heading--lg project__heading">My Role</h3>
+{% include work/casestudies/casestudy-hudl-designsystem.md %}
+
+</article>         
+
+      {% comment %}<h3 class="heading--lg project__heading">My Role</h3>
       <p class="project__body">
         Over the course of 6 months on this project, I worked on a team of 5 &mdash; myself, the (sole) Designer, 2 Developers, 1 Project Manager, and 1 QA. 
       </p> 
@@ -56,7 +64,7 @@ nav_color: is--on-dark
       </p>
       <p class="project__body">
         This started with business research and user research. That helped define the problem, which the led to design explorations, sketch sessions, and prototyping. From there we landed on a direction and I worked directly with the developers to provide direction on the implementation of the design. Finally, I worked ensure the roll-out was successful through our beta testing program, coordination with our support team, and ultimately measuring results by gathering feedback and data on the real world usage.
-      </p>
+      </p>{% endcomment %}
       <!-- <div class="project__aside--inline">
         <div class="aside__item">
           <h4 class="heading--sm project__subheading">Responsibilities</h4>
@@ -79,7 +87,7 @@ nav_color: is--on-dark
       </p> -->
 
 
-      <h3 class="heading--lg project__heading">Background</h3>
+      {% comment %}<h3 class="heading--lg project__heading">Background</h3>
       <p class="project__body"></p>
 
       <h3 class="heading--lg project__heading">Research & Discovery</h3>
@@ -95,7 +103,7 @@ nav_color: is--on-dark
       <p class="project__body"></p>
 
       <h3 class="heading--lg project__heading">Measuring Results</h3>
-      <p class="project__body"></p> 
+      <p class="project__body"></p> {% endcomment %}
 
     </div>
 
@@ -103,10 +111,12 @@ nav_color: is--on-dark
       
       <div class="aside__item">
        <h4 class="heading--sm project__subheading">Responsibilities</h4>
-        <ul class="list--unordered project__bullets">
+        <ul class="list--unordered">
+          <li>Product Management</li>
           <li>User Research</li>
+          <li>Visual Design</li>
           <li>UI Design</li>
-          <li>Interaction Design</li>
+          <li>Front-end Development</li>
           <li>Prototyping</li>
         </ul>
       </div>

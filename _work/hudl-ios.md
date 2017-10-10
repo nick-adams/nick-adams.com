@@ -48,17 +48,22 @@ header_nav_color: is--on-dark
         </div>
       </dl>
 
-    <article class="project__casestudy" markdown="1">
+<!-- 
+  Article block needs to be left aligned. Any indentation breaks the Markdown parsing.
+ -->
+<article class="project__casestudy" markdown="1">
 
 {% include work/casestudies/casestudy-hudl-ios.md %}
 
 </article> 
+    
+    </div>
 
     <div class="grid__col--onethird project__aside">
           
       <div class="aside__item">
        <h4 class="heading--sm project__subheading">Responsibilities</h4>
-        <ul class="list--unordered project__bullets">
+        <ul class="list--unordered">
           <li>User Research</li>
           <li>UI Design</li>
           <li>Interaction Design</li>

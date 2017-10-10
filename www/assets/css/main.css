@@ -1254,7 +1254,7 @@ html {
   padding: 0;
 }
 
-.heading--xl {
+.heading--xl, .project__casestudy > h1 {
   font-size: 1.77689rem;
   font-weight: 800;
   line-height: 1.9995rem;
@@ -1263,7 +1263,7 @@ html {
   padding: 0;
 }
 
-.heading--lg, .project__body > h2 {
+.heading--lg, .project__casestudy > h2 {
   font-size: 1.333rem;
   font-weight: 800;
   line-height: 1.5rem;
@@ -1282,7 +1282,7 @@ html {
   padding: 0;
 }
 
-.heading--sm, .project__body > h4 {
+.heading--sm, .project__casestudy > h4, .aside__item > h4 {
   font-size: 0.87566rem;
   font-weight: 800;
   line-height: 1.31349rem;
@@ -1292,7 +1292,7 @@ html {
   padding: 0;
 }
 
-.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .project__aside > li {
+.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .aside__item > li {
   font-size: 0.87566rem;
   line-height: 1.31349rem;
   letter-spacing: 0px;
@@ -1324,7 +1324,7 @@ html {
   padding: 0;
 }
 
-.text-spread--md, .project__body > p {
+.text-spread--md, .project__casestudy > p {
   font-size: 1rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -1348,20 +1348,22 @@ html {
   padding: 0;
 }
 
-.list--unordered {
-  margin: 0;
+.list--unordered, .project__casestudy ul {
+  margin: 0 0 0 1rem;
   padding: 0 0 0 0.5rem;
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  line-height: inherit;
 }
 
 .list--ordered {
-  margin: 0;
+  margin: 0 0 0 1rem;
   padding: 0 0 0 0.5rem;
-  list-style-position: inside;
+  list-style-position: outside;
+  line-height: inherit;
 }
 
-.list--unordered > li,
+.list--unordered > li, .project__casestudy ul > li,
 .list--ordered > li {
   padding: 0;
   margin: 0 0 0.5rem 0;
@@ -2445,18 +2447,34 @@ a {
   padding: 0;
 }
 
-.project__body > h2 {
+.project__casestudy > h1 {
   color: #5e5e5e;
-  margin: 4rem 0 2rem 0;
-  font-weight: 400;
+  margin: 4rem 0 4rem 0;
 }
 
-.project__body > h4 {
+.project__casestudy > h2 {
+  color: #5e5e5e;
+  margin: 4rem 0 2rem 0;
+}
+
+.project__casestudy > h4 {
   color: #8e8e8e;
   margin: 0 0 1rem 0;
 }
 
-.project__body > p {
+.project__casestudy > p {
+  color: #5e5e5e;
+}
+
+.project__casestudy ul {
+  margin: 1rem 0 0.5rem 1rem;
+  color: #5e5e5e;
+  line-height: 1.9995rem;
+}
+
+.project__casestudy ul > li {
+  padding: 0;
+  margin: 0 0 0.5rem 0;
   color: #5e5e5e;
 }
 
@@ -2470,7 +2488,14 @@ a {
   padding: 1rem;
 }
 
-.project__aside > li {
+.aside__item > h4 {
+  color: #8e8e8e;
+  margin: 0 0 1rem 0;
+}
+
+.aside__item > li {
+  padding: 0;
+  margin: 0 0 0.5rem 0;
   color: #5e5e5e;
 }
 

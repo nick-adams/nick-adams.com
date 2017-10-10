@@ -49,6 +49,7 @@
     color: $color_brand_primary;
     margin: 0 0 $space_one 0;
   }
+
   .project__headline {
     font-size: $font_size_xxxl;
     font-family: $font_serif;
@@ -84,12 +85,16 @@
       padding: 0;
     }
 
+  .project__casestudy > h1 {
+    @extend .heading--xl;
+    color: $color_text_06;
+    margin: $space_four 0 $space_four 0;
+  }
 
-  .project__body > h2 {
+  .project__casestudy > h2 {
     @extend .heading--lg;
     color: $color_text_06;
     margin: $space_four 0 $space_two 0;
-    font-weight: 400;
   }
 
   // .project__heading:not(:first-child) {
@@ -98,7 +103,7 @@
   //   font-weight: 400;
   // }
 
-  .project__body > h4 {
+  .project__casestudy > h4 {
     @extend .heading--sm;
     color: $color_text_04;
     margin: 0 0 $space_one 0;
@@ -109,10 +114,23 @@
   //   margin: 0 0 $space_one 0;
   // }
 
-  .project__body > p {
+  .project__casestudy > p {
     @extend .text-spread--md;
     color: $color_text_06; 
   }
+  
+  .project__casestudy ul {
+    @extend .list--unordered;
+    margin: $space_one 0 $space_half $space_one;
+    color: $color_text_06; 
+    line-height: $line_height_lg; 
+  }
+  
+    .project__casestudy ul > li {
+      padding: 0;
+      margin: 0 0 $space_half 0;
+      color: $color_text_06; 
+    }
 
 
   .project__aside {
@@ -125,7 +143,15 @@
       padding: $space_one;
     }
 
-    .project__aside > li {
-      @extend .text--sm;
-      color: $color_text_06; 
-    }
+      .aside__item > h4 {
+        @extend .heading--sm;
+        color: $color_text_04;
+        margin: 0 0 $space_one 0;
+      }
+
+      .aside__item > li {
+        @extend .text--sm;
+        padding: 0;
+        margin: 0 0 $space_half 0;
+        color: $color_text_06; 
+      }

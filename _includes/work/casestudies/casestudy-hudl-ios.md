@@ -8,13 +8,7 @@ Once we had a clear problem definition, I began design explorations, sketch sess
 
 Finally, I worked ensure the roll-out was successful through our beta testing program, coordination with our support team, and ultimately measuring results by gathering user feedback and data on the real world usage.
 
-**My Primary Responsibilities**
-
-- User Research
-- UI Design
-- Interaction Design
-- Prototyping
-
+---
 
 # Case Study
 ## Background

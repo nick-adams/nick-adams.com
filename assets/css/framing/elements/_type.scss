@@ -132,16 +132,18 @@ html {
 // ============================================
 
 .#{$namespace}list--unordered {
-  margin: 0;
+  margin: 0 0 0 $space_one;
   padding: 0 0 0 $space_half;
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  line-height: inherit;
 }
 
 .#{$namespace}list--ordered {
-  margin: 0;
+  margin: 0 0 0 $space_one;
   padding: 0 0 0 $space_half;
-  list-style-position: inside;
+  list-style-position: outside;
+  line-height: inherit; 
 }
 
   .#{$namespace}list--unordered > li,
