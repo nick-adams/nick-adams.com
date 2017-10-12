@@ -2,7 +2,7 @@
 layout: default
 title: Work -
 nav_selected: work
-nav_color: is--on-dark
+header_nav_color: is--on-dark
 ---
 
 <div class="grid--maxwidth grid--outsidegutters">
@@ -10,8 +10,8 @@ nav_color: is--on-dark
   <div class="grid__row">
 
     <header class="project">
-      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/bg-project-hudlios.png)"></div>
-      <h1 class="project-feature__title">Hudl iOS App Redesign</h1>
+      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/#.png)"></div>
+      <h1 class="project-feature__title">Hudl IA &amp; Navigation</h1>
     </header>
   
   </div>
@@ -24,9 +24,9 @@ nav_color: is--on-dark
       
     <div class="grid__col--twothirds">
 
-      <p class="project__year">2014</p>
-      <h2 class="project__headline">Refreshing Hudl’s iOS app for its one million+ userbase. </h2>
-      <p class="project__subheadline">Working at Hudl on the Mobile team, one of my initial projects was to rethink and redesign the iOS app on both iPhone and iPad to address some problems and to account for the new visual language of iOS 7.</p>
+      <p class="project__year">2016</p>
+      <h2 class="project__headline">A refined IA, applied to a redesigned product navigation.</h2>
+      <p class="project__subheadline">To Do.</p>
 
       <dl class="project__details">
         <div class="details__item">
@@ -35,7 +35,7 @@ nav_color: is--on-dark
         </div>
         <div class="details__item">
           <dt>Timeline</dt>
-          <dd>6 Months, '13 - '14 </dd>
+          <dd>6 Months, '16 </dd>
         </div>
         <div class="details__item">
           <dt>Status</dt>
@@ -43,11 +43,17 @@ nav_color: is--on-dark
         </div>
         <div class="details__item">
           <dt>View</dt>
-          <dd><a href="#" class="link">iOS App Store</a></dd>
+          <dd><a href="#" class="link">#</a></dd>
         </div>
-      </dl>          
+      </dl>      
 
-      <h3 class="heading--lg project__heading">My Role</h3>
+      <article class="project__casestudy" markdown="1">
+
+{% include work/casestudies/casestudy-hudl-ia-nav.md %}
+
+</article>       
+
+      {% comment %}<h3 class="heading--lg project__heading">My Role</h3>
       <p class="project__body">
         Over the course of 6 months on this project, I worked on a team of 5 &mdash; myself, the (sole) Designer, 2 Developers, 1 Project Manager, and 1 QA. 
       </p> 
@@ -56,7 +62,7 @@ nav_color: is--on-dark
       </p>
       <p class="project__body">
         This started with business research and user research. That helped define the problem, which the led to design explorations, sketch sessions, and prototyping. From there we landed on a direction and I worked directly with the developers to provide direction on the implementation of the design. Finally, I worked ensure the roll-out was successful through our beta testing program, coordination with our support team, and ultimately measuring results by gathering feedback and data on the real world usage.
-      </p>
+      </p>{% endcomment %}
       <!-- <div class="project__aside--inline">
         <div class="aside__item">
           <h4 class="heading--sm project__subheading">Responsibilities</h4>
@@ -78,7 +84,7 @@ nav_color: is--on-dark
         During prototyping, and eventually the implementation, I worked closely with the developers to make sure the design direction was the right one. This entailed fine visual design details, along with larger conceptual problems that needed to be worked out. We worked in a very tight feedback loop, doing internal and external usability tests along the way.
       </p> -->
 
-
+{% comment %}
       <h3 class="heading--lg project__heading">Background</h3>
       <p class="project__body"></p>
 
@@ -95,7 +101,7 @@ nav_color: is--on-dark
       <p class="project__body"></p>
 
       <h3 class="heading--lg project__heading">Measuring Results</h3>
-      <p class="project__body"></p> 
+      <p class="project__body"></p> {% endcomment %}
 
     </div>
 
@@ -105,9 +111,10 @@ nav_color: is--on-dark
        <h4 class="heading--sm project__subheading">Responsibilities</h4>
         <ul class="list--unordered project__bullets">
           <li>User Research</li>
+          <li>Information Architecture</li>
           <li>UI Design</li>
-          <li>Interaction Design</li>
           <li>Prototyping</li>
+          <li>Usability Studies</li>
         </ul>
       </div>
 

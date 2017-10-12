@@ -2,7 +2,7 @@
 layout: default
 title: Work -
 nav_selected: work
-nav_color: is--on-dark
+header_nav_color: is--on-dark
 ---
 
 <div class="grid--maxwidth grid--outsidegutters">
@@ -10,8 +10,8 @@ nav_color: is--on-dark
   <div class="grid__row">
 
     <header class="project">
-      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/bg-project-hudlios.png)"></div>
-      <h1 class="project-feature__title">Hudl iOS App Redesign</h1>
+      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/#.png)"></div>
+      <h1 class="project-feature__title">Remote Jobs</h1>
     </header>
   
   </div>

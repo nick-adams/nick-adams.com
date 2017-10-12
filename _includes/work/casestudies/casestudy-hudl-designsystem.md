@@ -6,21 +6,21 @@ This was my favorite and most personally invested project at Hudl, something tha
 
 It started with understanding the way that people designed products at Hudl, so in this case the users were not external, but internal — product team itself. With this understanding we ended up building what now seems to be industry de jour: a design system. This consisted of defining design guidelines, building UI components, curating resources, writing extensive documentation, presenting, evangelizing, collaborating, educating, and troubleshooting. We then learned, refined, optimized, and measured (sometimes all at once) how effective the system was for helping our product team design better more cohesive products.
 
-**My Primary Responsibilities**
+<!-- **My Primary Responsibilities**
 
 - Product Management
 - User Research
 - Visual Design
 - UI Design
 - Front-end Development
-- Prototyping
+- Prototyping -->
 
 
 # Case Study
 
 ***Note****: This is a looong case study, about a 20 min read. There was a lot involved in this project, and any pretty visuals are the least important parts of it (though you can scroll down and see a few of those along the way). The short of this is that design coherence and consistency, on many fronts, was a massive problem at Hudl. I was on a team that set out to solve it.*
 
-## On *Design Systems*
+## On Design Systems
 
 *Design System* is a very broad (and sometimes flexible) term, I get that. In our case a Design System is really what we’d end up with, not what we set out to build. It was really just the collection of a bunch of resources and efforts to improve the way we designed products — many of which had already been ongoing. But now we had a more focused effort to work on them, under this umbrella effort we called our design system. 
 

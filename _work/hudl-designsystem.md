@@ -26,7 +26,7 @@ header_nav_color: is--on-dark
 
       <p class="project__year">2017</p>
       <h2 class="project__headline">Retrofitting design consistency at a 7 year old company. </h2>
-      <p class="project__subheadline">Working at Hudl on the Mobile team, one of my initial projects was to rethink and redesign the iOS app on both iPhone and iPad to address some problems and to account for the new visual language of iOS 7.</p>
+      <p class="project__subheadline">To Do.</p>
 
       <dl class="project__details">
         <div class="details__item">
@@ -43,7 +43,7 @@ header_nav_color: is--on-dark
         </div>
         <div class="details__item">
           <dt>View</dt>
-          <dd><a href="#" class="link">iOS App Store</a></dd>
+          <dd><a href="#" class="link">design.hudl.com</a></dd>
         </div>
       </dl>  
       <!-- 
