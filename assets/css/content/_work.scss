@@ -41,15 +41,27 @@
   }
     
     // These are show when the respective item in the list of work is hovered
-    .project-preview--hudlios {
+    %project-preview--base {
+      position: absolute;
+      top: 0;
       height: 100%;
-      background-image: url("../img/projects/hudl-ios/bg-project-hudlios.png");
+      width: 100%;
       background-position: top right;
       background-size: cover; 
       opacity: 0;
       transition: all $transition_slow;
     }
-  
+
+    .project-preview--hudl-ios {
+      @extend %project-preview--base;
+      background-image: url("../img/projects/hudl-ios/bg-project-hudl-ios.png");
+    }
+    .project-preview--hudl-designsystem {
+      @extend %project-preview--base;
+      background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem.png");
+    }
+
+
     // Background gradient to protect on ultra-wide screens
     .project-preview:after {
       position: absolute;

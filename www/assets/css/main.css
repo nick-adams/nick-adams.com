@@ -2289,13 +2289,23 @@ a {
   transition: all 0.4s ease;
 }
 
-.project-preview--hudlios {
+.project-preview--hudl-ios, .project-preview--hudl-designsystem {
+  position: absolute;
+  top: 0;
   height: 100%;
-  background-image: url("../img/projects/hudl-ios/bg-project-hudlios.png");
+  width: 100%;
   background-position: top right;
   background-size: cover;
   opacity: 0;
   transition: all 0.4s ease;
+}
+
+.project-preview--hudl-ios {
+  background-image: url("../img/projects/hudl-ios/bg-project-hudl-ios.png");
+}
+
+.project-preview--hudl-designsystem {
+  background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem.png");
 }
 
 .project-preview:after {

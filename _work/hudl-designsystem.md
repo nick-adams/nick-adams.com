@@ -2,7 +2,7 @@
 layout: default
 title: Work -
 nav_selected: work
-header_nav_color: is--on-dark
+header_nav_color: is--on-light
 ---
 
 <div class="grid--maxwidth grid--outsidegutters">
@@ -10,7 +10,7 @@ header_nav_color: is--on-dark
   <div class="grid__row">
 
     <header class="project">
-      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/test.png)"></div>
+      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-designsystem/bg-project-hudl-designsystem.png)"></div>
       <h1 class="project-feature__title">Hudl Design System</h1>
     </header>
   
