@@ -64,13 +64,13 @@
   // Temporary
   .home-disclaimer {
     border: $border_thin_light;
-    color: $color_text_05;
+    color: $color_text_07;
     font-family: $font_sans;
     font-size: $font_size_md; 
     line-height: $line_height_base;
     padding: $space_one;
     margin: $space_four 0 -#{$space_seven} 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
   }
 
 .container-recentwork {

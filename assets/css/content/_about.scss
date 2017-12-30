@@ -20,7 +20,7 @@
     // font-size: $font_size_md;
     color: $color_greyscale_06;
     margin: 0 0 $space_one 0;
-    font-weight: 400;
+    // font-weight: 400;
   }
   .about__body {
     line-height: 2rem;
@@ -128,7 +128,7 @@
       }
       .timeline__item__title {
         font-size: $font_size_sm;
-        line-height: $line_height_md;
+        line-height: $line_height_xs;
         color: $color_greyscale_06;
         font-weight: 800;
         margin: $space_half 0 $space_half 0;
