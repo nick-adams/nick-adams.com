@@ -524,11 +524,11 @@ html {
 }
 
 .u-type-size--xs {
-  font-size: 0.75019rem;
+  font-size: 0.7501875469rem;
 }
 
 .u-type-size--sm {
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
 }
 
 .u-type-size--md {
@@ -1237,7 +1237,7 @@ html {
 }
 
 .heading--xxxl {
-  font-size: 3.15733rem;
+  font-size: 3.1573345183rem;
   font-weight: 800;
   line-height: 1.9995rem;
   letter-spacing: -0.5px;
@@ -1246,7 +1246,7 @@ html {
 }
 
 .heading--xxl {
-  font-size: 2.36859rem;
+  font-size: 2.368593037rem;
   font-weight: 800;
   line-height: 1.9995rem;
   letter-spacing: -0.5px;
@@ -1255,7 +1255,7 @@ html {
 }
 
 .heading--xl, .project__casestudy > h1 {
-  font-size: 1.77689rem;
+  font-size: 1.776889rem;
   font-weight: 800;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -1283,9 +1283,9 @@ html {
 }
 
 .heading--sm, .project__casestudy > h4, .aside__item > h4 {
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   font-weight: 800;
-  line-height: 1.31349rem;
+  line-height: 1.3134851138rem;
   letter-spacing: 0px;
   text-transform: uppercase;
   margin: 0;
@@ -1293,8 +1293,8 @@ html {
 }
 
 .text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .aside__item > li {
-  font-size: 0.87566rem;
-  line-height: 1.31349rem;
+  font-size: 0.8756567426rem;
+  line-height: 1.3134851138rem;
   letter-spacing: 0px;
   margin: 0 0 1rem 0;
   padding: 0;
@@ -1317,7 +1317,7 @@ html {
 }
 
 .text-spread--sm {
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
@@ -1334,14 +1334,14 @@ html {
 
 .text-spread--lg {
   font-size: 1.333rem;
-  line-height: 2.66533rem;
+  line-height: 2.6653335rem;
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
 }
 
 .text-caption {
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   line-height: 1.5rem;
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
@@ -1372,7 +1372,7 @@ html {
 .code--inline {
   color: #2f2f2f;
   font-family: Monaco, Consolas, Courier New, monospace;
-  font-size: 0.75019rem;
+  font-size: 0.7501875469rem;
   font-weight: 400;
   line-height: 1.5rem;
   background-color: #ffffff;
@@ -1573,7 +1573,7 @@ html {
 }
 
 .btn-size--sm {
-  font: bold 0.87566rem aktiv-grotesk-std, Helvetica, Arial, sans-serif;
+  font: bold 0.8756567426rem aktiv-grotesk-std, Helvetica, Arial, sans-serif;
 }
 
 .btn-size--md {
@@ -1743,7 +1743,7 @@ a {
 
 .content__title {
   font-family: kepler-std-display, Georgia, serif;
-  font-size: 3.15733rem;
+  font-size: 3.1573345183rem;
   text-transform: normal;
   margin: 0 0 3rem 0;
 }
@@ -1780,7 +1780,7 @@ a {
 
 .footer-nav__contact {
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   color: #a5a5a5;
   margin: 2rem 0 0 0;
   width: 30rem;
@@ -1788,7 +1788,7 @@ a {
 
 .footer-nav__copyright {
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
-  font-size: 0.75019rem;
+  font-size: 0.7501875469rem;
   line-height: 1rem;
   color: #a5a5a5;
   margin: 1rem 0 0 0;
@@ -1839,7 +1839,7 @@ a {
   border: 2px solid transparent;
   padding: 0.5rem;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -1918,7 +1918,7 @@ a {
 .site-nav__link--twitter {
   text-decoration: none;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   color: #bdbdbd;
   margin: 0 0 0 0.5rem;
 }
@@ -1988,7 +1988,7 @@ a {
 
 .home-sociallink {
   margin: 0 1rem 0 0;
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
 }
 
 .home-disclaimer {
@@ -2096,7 +2096,7 @@ a {
 
 .about__title {
   font-family: kepler-std-display, Georgia, serif;
-  font-size: 3.15733rem;
+  font-size: 3.1573345183rem;
   text-transform: normal;
   margin: 0 0 2rem 0;
 }
@@ -2178,14 +2178,14 @@ a {
 
 .timeline__year--left {
   color: #FBCF64;
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   font-weight: 800;
   text-transform: uppercase;
 }
 
 .timeline__year--right {
   color: #FBCF64;
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -2201,7 +2201,7 @@ a {
 }
 
 .timeline__item__year {
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   color: #999999;
   font-weight: 800;
   margin: 1rem 0 0.5rem 0;
@@ -2219,7 +2219,7 @@ a {
 }
 
 .timeline__item__title {
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   line-height: 1.5rem;
   color: #666666;
   font-weight: 800;
@@ -2251,7 +2251,7 @@ a {
 }
 
 .side-projects__description {
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   margin: 0;
 }
 
@@ -2261,14 +2261,14 @@ a {
 
 .work__title {
   font-family: kepler-std-display, Georgia, serif;
-  font-size: 3.15733rem;
+  font-size: 3.1573345183rem;
   text-transform: normal;
   color: #ececec;
   margin: 0 0 2rem 0;
 }
 
 .work__body {
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   text-transform: normal;
   color: #8e8e8e;
   margin: 0 0 3rem 0;
@@ -2318,7 +2318,7 @@ a {
   width: 40rem;
   width: 50%;
   height: 100%;
-  background: linear-gradient(to right, #333333 0%, transparent 100%);
+  background: linear-gradient(to right, #333333 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .work__projects {
@@ -2357,13 +2357,13 @@ a {
   color: #D75B5B;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
   margin: 0 0 0.5rem 0;
 }
 
 .project-item__name {
   font-family: kepler-std-display, Georgia, serif;
-  font-size: 2.36859rem;
+  font-size: 2.368593037rem;
   font-weight: 800;
   line-height: 2.369rem;
   letter-spacing: 1px;
@@ -2421,9 +2421,9 @@ a {
 }
 
 .project__headline {
-  font-size: 3.15733rem;
+  font-size: 3.1573345183rem;
   font-family: kepler-std-display, Georgia, serif;
-  line-height: 3.55289rem;
+  line-height: 3.5528895555rem;
   margin: 0 0 1rem 0;
 }
 
@@ -2438,7 +2438,7 @@ a {
   margin: 4rem auto;
   padding: 1rem 0 0 0;
   border-top: solid 1px #e6e6e6;
-  font-size: 0.87566rem;
+  font-size: 0.8756567426rem;
 }
 
 .details__item:not(:last-of-type) {
