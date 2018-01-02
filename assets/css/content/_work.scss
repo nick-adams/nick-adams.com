@@ -18,7 +18,7 @@
     .work__body {
       font-size: $font_size_sm;
       text-transform: normal;
-      color: $color_text_04;
+      color: $color_text_05;
       margin: 0 0 $space_three 0;
       width: 30rem;
     }
@@ -35,7 +35,7 @@
     width: 40rem;
     width: 50%;
     height: 100vh;
-    background-color: $color_bg_dark; 
+    background-color: $color_dark; 
     z-index: $z_behind;
     transition: all $transition_slow;
   }
@@ -54,27 +54,28 @@
 
     .project-preview--hudl-ios {
       @extend %project-preview--base;
-      background-image: url("../img/projects/hudl-ios/bg-project-hudl-ios.png");
+      background-image: url("../img/projects/hudl-ios/bg-project-hudl-ios-preview.png");
     }
     .project-preview--hudl-designsystem {
       @extend %project-preview--base;
-      background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem.png");
+      background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem-preview.png");
     }
 
 
-    // Background gradient to protect on ultra-wide screens
-    .project-preview:after {
-      position: absolute;
-      content: "";
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      width: 40rem;
-      width: 50%;
-      height: 100%;
-      background: linear-gradient(to right, $color_bg_dark 0%, rgba(0,0,0,0) 100%);
-    }
+    // // Background gradient to protect on ultra-wide screens
+    // .project-preview:after {
+    //   position: absolute;
+    //   content: "";
+    //   top: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   left: 0;
+    //   width: 40rem;
+    //   width: 50%;
+    //   height: 100%;
+    //   background: linear-gradient(to right, $color_bg_dark 0%, rgba(0,0,0,0) 100%);
+    // }
+
 
   // Projects List
   // -------------------------
@@ -140,7 +141,7 @@
     }
 
 
-  
+
 
 
 // .WorkGallery {

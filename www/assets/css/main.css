@@ -493,7 +493,7 @@ html {
   -moz-transition: all 0.2s ease;
 }
 
-.u-clear, .grid, .grid--outsidegutters, .grid__row {
+.u-clear, .grid, .grid--outsidegutters, .grid__row, .project__casestudy > p, .project__casestudy > hr {
   content: "";
   display: table;
   clear: both;
@@ -1243,6 +1243,7 @@ html {
   letter-spacing: -0.5px;
   margin: 1.5rem 0 1rem 0;
   padding: 0;
+  color: inherit;
 }
 
 .heading--xxl {
@@ -1252,6 +1253,7 @@ html {
   letter-spacing: -0.5px;
   margin: 1.5rem 0 1rem 0;
   padding: 0;
+  color: inherit;
 }
 
 .heading--xl, .project__casestudy > h1 {
@@ -1261,6 +1263,7 @@ html {
   letter-spacing: 0px;
   margin: 1.5rem 0 1rem 0;
   padding: 0;
+  color: inherit;
 }
 
 .heading--lg, .project__casestudy > h2 {
@@ -1270,6 +1273,7 @@ html {
   letter-spacing: 0px;
   margin: 0;
   padding: 0;
+  color: inherit;
 }
 
 .heading--md {
@@ -1280,6 +1284,7 @@ html {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  color: inherit;
 }
 
 .heading--sm, .project__casestudy > h4, .aside__item > h4 {
@@ -1290,14 +1295,16 @@ html {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  color: inherit;
 }
 
-.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .aside__item > li {
+.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .aside__item ul li {
   font-size: 0.8756567426rem;
   line-height: 1.3134851138rem;
   letter-spacing: 0px;
   margin: 0 0 1rem 0;
   padding: 0;
+  color: inherit;
 }
 
 .text--md {
@@ -1306,6 +1313,7 @@ html {
   letter-spacing: 0px;
   margin: 0 0 1rem 0;
   padding: 0;
+  color: inherit;
 }
 
 .text--lg {
@@ -1314,6 +1322,7 @@ html {
   letter-spacing: 0px;
   margin: 0;
   padding: 0;
+  color: inherit;
 }
 
 .text-spread--sm {
@@ -1322,6 +1331,7 @@ html {
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
+  color: inherit;
 }
 
 .text-spread--md, .project__casestudy > p {
@@ -1330,6 +1340,7 @@ html {
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
+  color: inherit;
 }
 
 .text-spread--lg {
@@ -1338,6 +1349,7 @@ html {
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
+  color: inherit;
 }
 
 .text-caption {
@@ -1346,6 +1358,7 @@ html {
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
+  color: inherit;
 }
 
 .list--unordered, .project__casestudy ul {
@@ -1354,6 +1367,7 @@ html {
   list-style-type: disc;
   list-style-position: outside;
   line-height: inherit;
+  color: inherit;
 }
 
 .list--ordered {
@@ -1361,6 +1375,7 @@ html {
   padding: 0 0 0 0.5rem;
   list-style-position: outside;
   line-height: inherit;
+  color: inherit;
 }
 
 .list--unordered > li, .project__casestudy ul > li,
@@ -1741,6 +1756,38 @@ a {
   background-repeat: no-repeat;
 }
 
+hr {
+  margin: 1rem 0;
+}
+
+.hr--on-light--thin {
+  margin: 1rem 0;
+  height: 1px;
+  background-color: #e6e6e6;
+  border: none;
+}
+
+.hr-on-light--thick {
+  margin: 1rem 0;
+  height: 5px;
+  background-color: #e6e6e6;
+  border: none;
+}
+
+.hr--on-dark--thin {
+  margin: 1rem 0;
+  height: 1px;
+  background-color: #4d4d4d;
+  border: none;
+}
+
+.hr-on-dark--thick {
+  margin: 1rem 0;
+  height: 5px;
+  background-color: #4d4d4d;
+  border: none;
+}
+
 .content__title {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 3.1573345183rem;
@@ -1993,13 +2040,13 @@ a {
 
 .home-disclaimer {
   border: solid 1px #e6e6e6;
-  color: #767676;
+  color: #474747;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   padding: 1rem;
   margin: 4rem 0 -7rem 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .container-recentwork {
@@ -2104,7 +2151,6 @@ a {
 .about__heading {
   color: #666666;
   margin: 0 0 1rem 0;
-  font-weight: 400;
 }
 
 .about__body {
@@ -2220,7 +2266,7 @@ a {
 
 .timeline__item__title {
   font-size: 0.8756567426rem;
-  line-height: 1.5rem;
+  line-height: 1.1252813203rem;
   color: #666666;
   font-weight: 800;
   margin: 0.5rem 0 0.5rem 0;
@@ -2270,7 +2316,7 @@ a {
 .work__body {
   font-size: 0.8756567426rem;
   text-transform: normal;
-  color: #8e8e8e;
+  color: #767676;
   margin: 0 0 3rem 0;
   width: 30rem;
 }
@@ -2284,7 +2330,7 @@ a {
   width: 40rem;
   width: 50%;
   height: 100vh;
-  background-color: #333333;
+  background-color: #252525;
   z-index: -1;
   transition: all 0.4s ease;
 }
@@ -2301,24 +2347,11 @@ a {
 }
 
 .project-preview--hudl-ios {
-  background-image: url("../img/projects/hudl-ios/bg-project-hudl-ios.png");
+  background-image: url("../img/projects/hudl-ios/bg-project-hudl-ios-preview.png");
 }
 
 .project-preview--hudl-designsystem {
-  background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem.png");
-}
-
-.project-preview:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 40rem;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(to right, #333333 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem-preview.png");
 }
 
 .work__projects {
@@ -2400,6 +2433,20 @@ a {
   }
 }
 
+.project-feature__backlink {
+  display: block;
+  margin: -1.5rem 0 0 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project-feature__backlink:hover {
+  display: block;
+  margin: -1.5rem 0 0 0.25rem;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
 .project-feature__title {
   font-size: 6.25rem;
   line-height: 6.25rem;
@@ -2467,9 +2514,21 @@ a {
   margin: 4rem 0 2rem 0;
 }
 
+.project__casestudy > h3 {
+  font-size: 1rem;
+  color: #5e5e5e;
+  margin: 2rem 0 1rem 0;
+}
+
 .project__casestudy > h4 {
   color: #8e8e8e;
   margin: 0 0 1rem 0;
+}
+
+.project__casestudy img {
+  margin: 1rem 0;
+  float: left;
+  max-width: 60rem;
 }
 
 .project__casestudy > p {
@@ -2488,6 +2547,14 @@ a {
   color: #5e5e5e;
 }
 
+.project__casestudy > hr {
+  display: block;
+  border: none;
+  background-color: #e6e6e6;
+  height: 2px;
+  margin: 4rem 0 0 0;
+}
+
 .project__aside {
   margin-top: 475px;
 }
@@ -2496,6 +2563,7 @@ a {
   margin: 2rem;
   border-left: solid 3px #e6e6e6;
   padding: 1rem;
+  color: #5e5e5e;
 }
 
 .aside__item > h4 {
@@ -2503,7 +2571,7 @@ a {
   margin: 0 0 1rem 0;
 }
 
-.aside__item > li {
+.aside__item ul li {
   padding: 0;
   margin: 0 0 0.5rem 0;
   color: #5e5e5e;

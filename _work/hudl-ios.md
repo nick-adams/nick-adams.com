@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work -
+title: Hudl iOS App Refresh - Work -
 nav_selected: work
 header_nav_color: is--on-dark
 ---
@@ -11,7 +11,8 @@ header_nav_color: is--on-dark
   <div class="grid__row">
 
     <header class="project">
-      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/bg-project-hudl-ios.png)"></div>
+      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/bg-project-hudl-ios-feature.png)"></div>
+      <a href="/work/" class="project-feature__backlink">&#8592; All Work</a>
       <h1 class="project-feature__title">Hudl iOS App Redesign</h1>
     </header>
   
@@ -27,7 +28,7 @@ header_nav_color: is--on-dark
 
       <p class="project__year">2014</p>
       <h2 class="project__headline">Refreshing Hudl’s iOS app for its one million+ userbase. </h2>
-      <p class="project__subheadline">Working at Hudl on the Mobile team, one of my initial projects was to rethink and redesign the iOS app on both iPhone and iPad to address some problems and to account for the new visual language of iOS 7.</p>
+      <p class="project__subheadline">On the Mobile team at Hudl, one of my first projects was to help rethink and redesign the iOS app on both iPhone and iPad to address some existing problems.</p>
 
       <dl class="project__details">
         <div class="details__item">

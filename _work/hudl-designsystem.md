@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work -
+title: Hudl Design System - Work -
 nav_selected: work
 header_nav_color: is--on-light
 ---
@@ -10,7 +10,8 @@ header_nav_color: is--on-light
   <div class="grid__row">
 
     <header class="project">
-      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-designsystem/bg-project-hudl-designsystem.png)"></div>
+      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-designsystem/bg-project-hudl-designsystem-feature.png)"></div>
+      <a href="/work/" class="project-feature__backlink">&#8592; All Work</a>
       <h1 class="project-feature__title">Hudl Design System</h1>
     </header>
   

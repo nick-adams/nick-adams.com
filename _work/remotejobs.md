@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work -
+title: Remote Jobs - Work -
 nav_selected: work
 header_nav_color: is--on-dark
 ---
@@ -11,6 +11,7 @@ header_nav_color: is--on-dark
 
     <header class="project">
       <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/#.png)"></div>
+      <a href="/work/" class="project-feature__backlink">&#8592; All Work</a>
       <h1 class="project-feature__title">Remote Jobs</h1>
     </header>
   
