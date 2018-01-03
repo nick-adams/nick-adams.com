@@ -1352,7 +1352,7 @@ html {
   color: inherit;
 }
 
-.text-caption {
+.text-caption, .project__caption {
   font-size: 0.8756567426rem;
   line-height: 1.5rem;
   letter-spacing: 0px;
@@ -1609,18 +1609,18 @@ a {
   -moz-transition: all 0.2s ease;
 }
 
-.link {
+.link, .project__casestudy a {
   text-decoration: none;
   color: inherit;
   border-bottom: solid 1px #68A3CF;
   padding: 0 0 0 0;
 }
-.link:hover {
+.link:hover, .project__casestudy a:hover {
   color: #68A3CF;
   border-bottom: solid 3px #68A3CF;
   padding: 0 0 0 0;
 }
-.link:active {
+.link:active, .project__casestudy a:active {
   color: #2f2f2f;
 }
 
@@ -2158,6 +2158,11 @@ hr {
   color: #5e5e5e;
 }
 
+.about__signature {
+  width: 136px;
+  height: 46px;
+}
+
 .about__aside {
   margin-left: 2rem;
 }
@@ -2288,6 +2293,8 @@ hr {
   float: left;
   display: inline-block;
   margin: -3px 1rem 0 0;
+  height: 4rem;
+  width: 4rem;
 }
 
 .side-projects__title {
@@ -2316,7 +2323,7 @@ hr {
 .work__body {
   font-size: 0.8756567426rem;
   text-transform: normal;
-  color: #767676;
+  color: #8e8e8e;
   margin: 0 0 3rem 0;
   width: 30rem;
 }
@@ -2335,7 +2342,7 @@ hr {
   transition: all 0.4s ease;
 }
 
-.project-preview--hudl-ios, .project-preview--hudl-designsystem {
+.project-preview--hudl-ios, .project-preview--hudl-designsystem, .project-preview--hudl-ia-nav, .project-preview--remotejobs {
   position: absolute;
   top: 0;
   height: 100%;
@@ -2352,6 +2359,14 @@ hr {
 
 .project-preview--hudl-designsystem {
   background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem-preview.png");
+}
+
+.project-preview--hudl-ia-nav {
+  background-image: url("../img/projects/hudl-ia-nav/bg-project-hudl-ia-nav-preview.png");
+}
+
+.project-preview--remotejobs {
+  background-image: url("../img/projects/remotejobs/bg-project-remotejobs-preview.png");
 }
 
 .work__projects {
@@ -2541,7 +2556,7 @@ hr {
   line-height: 1.9995rem;
 }
 
-.project__casestudy ul > li {
+.project__casestudy li {
   padding: 0;
   margin: 0 0 0.5rem 0;
   color: #5e5e5e;
@@ -2553,6 +2568,18 @@ hr {
   background-color: #e6e6e6;
   height: 2px;
   margin: 4rem 0 0 0;
+}
+
+.project__screenshot {
+  border: solid 1px #e6e6e6;
+  border-radius: 0.25em;
+  background: #252525;
+  float: left;
+}
+
+.project__caption {
+  margin: -1rem 0 2rem 0;
+  font-style: italic;
 }
 
 .project__aside {

@@ -15,6 +15,7 @@ It started with understanding the way that people designed products at Hudl, so 
 - Front-end Development
 - Prototyping -->
 
+---
 
 # Case Study
 
@@ -72,26 +73,22 @@ This research gave us a sense of both the front end and back end of the problem.
 We ultimately defined 3 major problems that would guide our work. We categorized them (in priority order) as:
 
 
-1. **Distribution**
+### 1 -- Distribution
   This problem prevented us from getting any of our work into the actual product. The reason for this deserves another 2000 words, but put simply, our product stack was as fragmented as our interface design. Both the backend and the front end had a lot of legacy tooling, and there were many ways to do similar things — and we actually had 4 different versions of our existing UI library Kickoff. Funny if it wasn’t sad.
-
 
   We also recently moved to a micro-services architecture, but never really dealt with universal UI in a micro-services world. This all resulted in a situation where it was almost impossible to create any kind of UI library that was easily implemented into the product, universally distributed across all areas of our product, kept up to date or contributed *back into*, or that scaled with our growing product surface area.
 
+  This was problem 0, let alone problem 1, so it was the first major thing we tackled as a group, even before we worked on any kind of UI design. We could have built the best button in the world, but if no one could use it consistently in our product, what did we really achieve? So we spent the next 6 months and completely rearchitected the way we managed UI in our micro-services infrastructure.
 
-  This was problem 0, let alone problem 1, so it was the first major thing we tackled as a group, even before we worked on any kind of UI design. We could have built the best button in the world, but if no one could use it consistently in our product, what did we really achieve? So we spent the next 6 months and completely rearchitected the way we managed UI in our micro-services infrastructure. 
-  
   We called this the Hudl UI System, and it’s something I’m extremely proud of, but like I mentioned it’s dense, so let’s skip past that part of the story…
   
-2. **Cohesion & Coverage**
+### 2 -- Cohesion & Coverage
   The next major problem we identified was an obvious one, we didn’t have a consistent design language to guide UI component design, and the components we did have still were too limited to use in production interfaces. Because of this people ended up extending them or bending them to suit their needs, both visually and functionally, so again we get more fragmentation. Pretty soon we’d have 5 versions of a button because the first version wasn’t thoroughly designed. The hole we had to dig out of was now deeper.
-
 
   The good news about this problem was that it was fairly straight-forward to solve. We needed a clear design language, and we needed to implement that in a comprehensive and thorough UI library that could be used in our products. The bad news? We needed it yesterday.
   
-3. **Documentation**
+### 3 -- Documentation
   The last major problem was around communication (an evergreen statement if there ever was one), specifically documentation. We needed to improve the way we explained design decisions, visual language guidelines, and UI library implementation details. So many members of the product team felt they didn’t know where to go to find information. And often when they found it, it was still lacking. This reality results in less people using the design system, a bad state to be in.
-
 
   So we ultimately made a point to consider documentation a product itself. To ensure that we put a lot of effort into communicating decisions, facilitating feedback during the design process, giving people ways to surface problems that should impact our priorities, and having a central place that everyone could go to find clear and definitive documentations on the whats, whys and hows of all the pieces of our design system.
 

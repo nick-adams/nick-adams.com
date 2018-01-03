@@ -145,6 +145,10 @@
     color: $color_text_06; 
     @extend .u-clear;
   }
+
+   .project__casestudy a {
+    @extend .link;
+  }
   
   .project__casestudy ul {
     @extend .list--unordered;
@@ -153,7 +157,7 @@
     line-height: $line_height_lg; 
   }
   
-    .project__casestudy ul > li {
+    .project__casestudy li {
       padding: 0;
       margin: 0 0 $space_half 0;
       color: $color_text_06; 
@@ -168,6 +172,18 @@
     @extend .u-clear;
   }
 
+  .project__screenshot {
+    border: $border_thin_light;
+    border-radius: $radius;
+    background: $color_dark;
+    // box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.15);
+    float: left;
+  }
+  .project__caption {
+    @extend .text-caption;
+    margin: -1rem 0 2rem 0;
+    font-style: italic;
+  }
 
   .project__aside {
     margin-top: 475px;

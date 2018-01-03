@@ -26,6 +26,10 @@
     line-height: 2rem;
     color: $color_text_06;
   }
+  .about__signature {
+    width: 136px;
+    height: 46px;
+  }
   .about__aside {
     margin-left: $space_two;
   }
@@ -152,6 +156,8 @@
       float: left;
       display: inline-block;
       margin: -3px $space_one 0 0;
+      height: 4rem;
+      width: 4rem;
     }
     .side-projects__title {
       font-size: $font_size_md;

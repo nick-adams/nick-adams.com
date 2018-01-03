@@ -36,7 +36,7 @@ header_nav_color: is--on-light
         </div>
         <div class="details__item">
           <dt>Timeline</dt>
-          <dd>12 Months, '16 - '17 </dd>
+          <dd>12 Months, '16 to '17 </dd>
         </div>
         <div class="details__item">
           <dt>Status</dt>

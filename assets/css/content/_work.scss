@@ -18,9 +18,10 @@
     .work__body {
       font-size: $font_size_sm;
       text-transform: normal;
-      color: $color_text_05;
+      color: $color_text_04;
       margin: 0 0 $space_three 0;
       width: 30rem;
+      // text-shadow: $color_dark 1px 0 0px
     }
 
   // Project Preview Area
@@ -59,6 +60,14 @@
     .project-preview--hudl-designsystem {
       @extend %project-preview--base;
       background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem-preview.png");
+    }
+    .project-preview--hudl-ia-nav {
+      @extend %project-preview--base;
+      background-image: url("../img/projects/hudl-ia-nav/bg-project-hudl-ia-nav-preview.png");
+    }
+    .project-preview--remotejobs {
+      @extend %project-preview--base;
+      background-image: url("../img/projects/remotejobs/bg-project-remotejobs-preview.png");
     }
 
 

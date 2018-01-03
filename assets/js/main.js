@@ -8,6 +8,12 @@ $(document).ready(function(){
     } 
     else if ($(this).data("project-name") === "hudl-designsystem") {
      $(".project-preview--hudl-designsystem").css("opacity", 1);
+    }  
+    else if ($(this).data("project-name") === "hudl-ia-nav") {
+     $(".project-preview--hudl-ia-nav").css("opacity", 1);
+    } 
+    else if ($(this).data("project-name") === "remotejobs") {
+     $(".project-preview--remotejobs").css("opacity", 1);
     }   
   });
   $(".project-list__item").mouseout(function(){
@@ -16,7 +22,14 @@ $(document).ready(function(){
     }
     else if ($(this).data("project-name") === "hudl-designsystem") {
       $(".project-preview--hudl-designsystem").css("opacity", 0);
+    }
+    else if ($(this).data("project-name") === "hudl-ia-nav") {
+      $(".project-preview--hudl-ia-nav").css("opacity", 0);
+    }
+    else if ($(this).data("project-name") === "remotejobs") {
+      $(".project-preview--remotejobs").css("opacity", 0);
     }  
   });
+ 
 
 });

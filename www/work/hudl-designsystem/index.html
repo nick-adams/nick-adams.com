@@ -96,7 +96,7 @@
         </div>
         <div class="details__item">
           <dt>Timeline</dt>
-          <dd>12 Months, '16 - '17 </dd>
+          <dd>12 Months, '16 to '17 </dd>
         </div>
         <div class="details__item">
           <dt>Status</dt>
@@ -128,6 +128,8 @@
 - UI Design
 - Front-end Development
 - Prototyping -->
+
+        <hr />
 
         <h1 id="case-study">Case Study</h1>
 
@@ -186,10 +188,8 @@ While user interviews addressed the human side of this problem, there was also a
 
         <p>We ultimately defined 3 major problems that would guide our work. We categorized them (in priority order) as:</p>
 
-        <ol>
-          <li><strong>Distribution</strong>
-  This problem prevented us from getting any of our work into the actual product. The reason for this deserves another 2000 words, but put simply, our product stack was as fragmented as our interface design. Both the backend and the front end had a lot of legacy tooling, and there were many ways to do similar things — and we actually had 4 different versions of our existing UI library Kickoff. Funny if it wasn’t sad.</li>
-        </ol>
+        <h3 id="distribution">1 – Distribution</h3>
+        <p>This problem prevented us from getting any of our work into the actual product. The reason for this deserves another 2000 words, but put simply, our product stack was as fragmented as our interface design. Both the backend and the front end had a lot of legacy tooling, and there were many ways to do similar things — and we actually had 4 different versions of our existing UI library Kickoff. Funny if it wasn’t sad.</p>
 
         <p>We also recently moved to a micro-services architecture, but never really dealt with universal UI in a micro-services world. This all resulted in a situation where it was almost impossible to create any kind of UI library that was easily implemented into the product, universally distributed across all areas of our product, kept up to date or contributed <em>back into</em>, or that scaled with our growing product surface area.</p>
 
@@ -197,17 +197,13 @@ While user interviews addressed the human side of this problem, there was also a
 
         <p>We called this the Hudl UI System, and it’s something I’m extremely proud of, but like I mentioned it’s dense, so let’s skip past that part of the story…</p>
 
-        <ol>
-          <li><strong>Cohesion &amp; Coverage</strong>
-  The next major problem we identified was an obvious one, we didn’t have a consistent design language to guide UI component design, and the components we did have still were too limited to use in production interfaces. Because of this people ended up extending them or bending them to suit their needs, both visually and functionally, so again we get more fragmentation. Pretty soon we’d have 5 versions of a button because the first version wasn’t thoroughly designed. The hole we had to dig out of was now deeper.</li>
-        </ol>
+        <h3 id="cohesion--coverage">2 – Cohesion &amp; Coverage</h3>
+        <p>The next major problem we identified was an obvious one, we didn’t have a consistent design language to guide UI component design, and the components we did have still were too limited to use in production interfaces. Because of this people ended up extending them or bending them to suit their needs, both visually and functionally, so again we get more fragmentation. Pretty soon we’d have 5 versions of a button because the first version wasn’t thoroughly designed. The hole we had to dig out of was now deeper.</p>
 
         <p>The good news about this problem was that it was fairly straight-forward to solve. We needed a clear design language, and we needed to implement that in a comprehensive and thorough UI library that could be used in our products. The bad news? We needed it yesterday.</p>
 
-        <ol>
-          <li><strong>Documentation</strong>
-  The last major problem was around communication (an evergreen statement if there ever was one), specifically documentation. We needed to improve the way we explained design decisions, visual language guidelines, and UI library implementation details. So many members of the product team felt they didn’t know where to go to find information. And often when they found it, it was still lacking. This reality results in less people using the design system, a bad state to be in.</li>
-        </ol>
+        <h3 id="documentation">3 – Documentation</h3>
+        <p>The last major problem was around communication (an evergreen statement if there ever was one), specifically documentation. We needed to improve the way we explained design decisions, visual language guidelines, and UI library implementation details. So many members of the product team felt they didn’t know where to go to find information. And often when they found it, it was still lacking. This reality results in less people using the design system, a bad state to be in.</p>
 
         <p>So we ultimately made a point to consider documentation a product itself. To ensure that we put a lot of effort into communicating decisions, facilitating feedback during the design process, giving people ways to surface problems that should impact our priorities, and having a central place that everyone could go to find clear and definitive documentations on the whats, whys and hows of all the pieces of our design system.</p>
 
