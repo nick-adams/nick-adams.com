@@ -32,13 +32,13 @@
 
   .project-feature__backlink {
     display: block;
-    margin: -#{$space_oneandhalf} 0 0 0;
+    margin: 0 0 -#{$space_oneandhalf} 0;
     color: $color_white;
     text-decoration: none;
   }
     .project-feature__backlink:hover {
       display: block;
-      margin: -#{$space_oneandhalf} 0 0 $space_quarter;
+      margin: 0 0 -#{$space_oneandhalf} $space_quarter;
       color: $color_greyscale_01;
       text-decoration: none
     }
@@ -141,7 +141,7 @@
   }
 
   .project__casestudy > p {
-    @extend .text-spread--md;
+    @extend .text-expanded--md;
     color: $color_text_06; 
     @extend .u-clear;
   }
@@ -175,7 +175,7 @@
   .project__screenshot {
     border: $border_thin_light;
     border-radius: $radius;
-    background: $color_dark;
+    background: $color_white;
     // box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.15);
     float: left;
   }

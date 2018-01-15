@@ -47,7 +47,7 @@ I also took some of these directions and put together a static teaser page with 
 
 I then worked on the data model. In my opinion, this is one of the more under-appreciated parts of design. I believe designers should be heavily involved in this part of the process, and data models should be heavily debated and thought through. Many problems later on can be traced back to data model decisions early on. This is design as much as choosing the right interaction. So I took my own advice and worked through the model and learned a lot about Rails ActiveRecord along the way. Time: 10-15 hours over the course of a few weeks.
 
-<img src="/assets/img/projects/remotejobs/gr-remotejobs-datamodel.png" class="project__screenshot">
+<img src="/assets/img/projects/remotejobs/gr-remotejobs-datamodel.png" style="width: 100%" class="project__screenshot">
 
 Next up was to “bootstrap” the Rails app — a term which never made much sense to me. Anyway, this was easy thanks to the the CLI which is pretty well designed. Time: a few hours over the cours of a few nights.
 
@@ -79,6 +79,9 @@ But after another few hours of troubleshooting, I got the server back into an op
 <span class="project__caption">Interview with Nathaniel Talbott</span>
 
 The idea of remote work as a concept interested me more than a list of jobs, so I had the idea to create an magazine of sorts with interviews with remote workers, companies who have distributed teams, and even people who are not on the remote working train.
+
+<img src="/assets/img/projects/remotejobs/gr-remotejobs-gameplan.png" style="width: 100%" class="project__screenshot">
+
 
 So I put together a list of people who I’d like to talk to, and sent out a bunch of emails. I got more responses than I expected. I then got nervous: how was I going to find the time to interview all these people? This proved to be a problem, but at the time I just figured I’d start plugging away and interview the first person: Nathaniel Talbott, CTO of Spreedly.
 

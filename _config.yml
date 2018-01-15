@@ -24,4 +24,4 @@ sass:
   sass_dir: ./assets/css
   style: :expanded
 
-markdown: kramdown
+

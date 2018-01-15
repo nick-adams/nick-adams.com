@@ -16,22 +16,30 @@
     margin: 0 0 $space_two 0;
   }
   .about__heading {
-    // text-transform: uppercase;
+    text-transform: none;
     // font-size: $font_size_md;
     color: $color_greyscale_06;
-    margin: 0 0 $space_one 0;
+    margin: $space_two 0 $space_two 0;
     // font-weight: 400;
   }
+    .about__heading:first-child {
+      margin: 0 0 $space_one 0;
+    }
+
   .about__body {
-    line-height: 2rem;
     color: $color_text_06;
   }
   .about__signature {
     width: 136px;
     height: 46px;
   }
+
   .about__aside {
     margin-left: $space_two;
+  }
+  .about__diagram {
+    width: 356px;
+    height: 335px;
   }
   .about__caption {
     font-family: $font_serif;

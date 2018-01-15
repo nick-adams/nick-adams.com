@@ -1325,7 +1325,7 @@ html {
   color: inherit;
 }
 
-.text-spread--sm {
+.text-expanded--sm {
   font-size: 0.8756567426rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -1334,7 +1334,7 @@ html {
   color: inherit;
 }
 
-.text-spread--md, .project__casestudy > p {
+.text-expanded--md, .project__casestudy > p {
   font-size: 1rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -1343,9 +1343,36 @@ html {
   color: inherit;
 }
 
-.text-spread--lg {
+.text-expanded--lg {
   font-size: 1.333rem;
   line-height: 2.6653335rem;
+  letter-spacing: 0px;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  color: inherit;
+}
+
+.text-condensed--sm {
+  font-size: 0.8756567426rem;
+  line-height: 1.1252813203rem;
+  letter-spacing: 0px;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  color: inherit;
+}
+
+.text-condensed--md {
+  font-size: 1rem;
+  line-height: 1.3134851138rem;
+  letter-spacing: 0px;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  color: inherit;
+}
+
+.text-condensed--lg {
+  font-size: 1.333rem;
+  line-height: 1.5rem;
   letter-spacing: 0px;
   margin: 1rem 0 0 0;
   padding: 0;
@@ -2149,12 +2176,16 @@ hr {
 }
 
 .about__heading {
+  text-transform: none;
   color: #666666;
+  margin: 2rem 0 2rem 0;
+}
+
+.about__heading:first-child {
   margin: 0 0 1rem 0;
 }
 
 .about__body {
-  line-height: 2rem;
   color: #5e5e5e;
 }
 
@@ -2165,6 +2196,11 @@ hr {
 
 .about__aside {
   margin-left: 2rem;
+}
+
+.about__diagram {
+  width: 356px;
+  height: 335px;
 }
 
 .about__caption {
@@ -2450,14 +2486,14 @@ hr {
 
 .project-feature__backlink {
   display: block;
-  margin: -1.5rem 0 0 0;
+  margin: 0 0 -1.5rem 0;
   color: #ffffff;
   text-decoration: none;
 }
 
 .project-feature__backlink:hover {
   display: block;
-  margin: -1.5rem 0 0 0.25rem;
+  margin: 0 0 -1.5rem 0.25rem;
   color: #e6e6e6;
   text-decoration: none;
 }
@@ -2573,7 +2609,7 @@ hr {
 .project__screenshot {
   border: solid 1px #e6e6e6;
   border-radius: 0.25em;
-  background: #252525;
+  background: #ffffff;
   float: left;
 }
 

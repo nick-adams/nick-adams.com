@@ -107,7 +107,7 @@ html {
   color: inherit;
 }
 
-.#{$namespace}text-spread--sm {
+.#{$namespace}text-expanded--sm {
     font-size: $font_size_sm;
     line-height: $line_height_lg;
     letter-spacing: $letter_spacing_normal;
@@ -115,7 +115,7 @@ html {
     padding: 0;
     color: inherit;
 }
-.#{$namespace}text-spread--md {
+.#{$namespace}text-expanded--md {
     font-size: $font_size_md;
     line-height: $line_height_lg;
     letter-spacing: $letter_spacing_normal;
@@ -123,7 +123,7 @@ html {
     padding: 0;
     color: inherit;
 }
-.#{$namespace}text-spread--lg {
+.#{$namespace}text-expanded--lg {
     font-size: $font_size_lg;
     line-height: $line_height_xl;
     letter-spacing: $letter_spacing_normal;
@@ -131,7 +131,32 @@ html {
     padding: 0;
     color: inherit;
 }
-  
+ 
+.#{$namespace}text-condensed--sm {
+    font-size: $font_size_sm;
+    line-height: $line_height_xs;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+.#{$namespace}text-condensed--md {
+    font-size: $font_size_md;
+    line-height: $line_height_sm;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+.#{$namespace}text-condensed--lg {
+    font-size: $font_size_lg;
+    line-height: $line_height_md;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+
 .#{$namespace}text-caption {
     font-size: $font_size_sm;
     line-height: $line_height_base;
