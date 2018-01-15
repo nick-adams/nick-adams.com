@@ -32,13 +32,13 @@
 
   .project-feature__backlink {
     display: block;
-    margin: 0 0 -#{$space_oneandhalf} 0;
+    margin: $space_one 0 -#{$space_oneandhalf} 0;
     color: $color_white;
     text-decoration: none;
   }
     .project-feature__backlink:hover {
       display: block;
-      margin: 0 0 -#{$space_oneandhalf} $space_quarter;
+      margin: $space_one 0 -#{$space_oneandhalf} $space_quarter;
       color: $color_greyscale_01;
       text-decoration: none
     }

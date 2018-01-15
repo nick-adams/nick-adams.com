@@ -2486,14 +2486,14 @@ hr {
 
 .project-feature__backlink {
   display: block;
-  margin: 0 0 -1.5rem 0;
+  margin: 1rem 0 -1.5rem 0;
   color: #ffffff;
   text-decoration: none;
 }
 
 .project-feature__backlink:hover {
   display: block;
-  margin: 0 0 -1.5rem 0.25rem;
+  margin: 1rem 0 -1.5rem 0.25rem;
   color: #e6e6e6;
   text-decoration: none;
 }
