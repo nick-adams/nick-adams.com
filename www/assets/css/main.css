@@ -596,7 +596,6 @@ html {
 .grid__row {
   width: 100%;
   padding: 0;
-  margin-bottom: 1.25rem;
 }
 
 .grid__row--no-gutter-cols > [class*='grid__col--'] {

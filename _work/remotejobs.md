@@ -46,7 +46,7 @@ header_nav_color: is--on-dark
           <dt>View</dt>
           <dd><a href="http://www.remotejobs.co" class="link">remotejobs.co</a></dd>
         </div>
-      </dl>    
+      </dl>
 
 <article class="project__casestudy" markdown="1">
 
