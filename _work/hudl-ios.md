@@ -50,7 +50,7 @@ header_nav_color: is--on-dark
           </div>
         </dl>
 
-<article class="project__casestudy" markdown="1">
+<article class="project__overview" markdown="1">
 
 ## Overview
 
@@ -84,12 +84,14 @@ Finally, I worked to ensure the roll-out was successful through beta testing, re
 
     <div class="grid__row">
       <div class="grid__column--onewhole">
-        <img class="figure" src="https://placeholdit.co//i/1080x150">      
+        <div class="project__gallery">
+          <img src="https://placeholdit.co//i/1080x150">    
+        </div>  
       </div>
     </div>
 
     <div class="grid__row">
-      <div class="grid__col--twothirds">
+      <div class="grid__col--onewhole">
 
 <article class="project__casestudy" markdown="1">
 
@@ -111,8 +113,10 @@ Oh, and little did we know iOS 7 was around the corner, about to drop a huge vis
 Despite all of the struggles outlined above being the prevailing feelings within the company, it was still important to bring a critical perspective to validate them. To ask “Why?”,  “Is there a deeper problem here?”, and most importantly “What are our *customers* feeling?”. It was my job to ask these questions, and diving into last question in particular is where we always spent a majority of our time.
 
 This is done by talking to our customers, understanding how they use our product, and how they need our product to work for them. How? We used a few tactics…
-
-<img class="figure" src="https://placeholdit.co//i/1080x150">  
+<figure>
+  <img src="https://placeholdit.co//i/1080x150">  
+</figure>
+{: .case}
 
 **Phone/Video Interviews**  
 We set up dozens of phone calls with our users to ask them about their daily routines, how they use Hudl, what they use it for, how the mobile app fits into that workflow, the struggles they were having, the needs they had that we weren’t meeting, etc.

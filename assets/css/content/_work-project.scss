@@ -98,14 +98,16 @@
       margin: 0;
       padding: 0;
     }
-
-  .project__casestudy > h1 {
+  
+  .project__casestudy > h1,
+  .project__overview > h1 {
     @extend .heading--xl;
     color: $color_text_06;
     margin: $space_four 0 $space_four 0;
   }
 
-  .project__casestudy > h2 {
+  .project__casestudy > h2,
+  .project__overview > h2 {
     @extend .heading--lg;
     color: $color_text_06;
     margin: $space_four 0 $space_two 0;
@@ -117,16 +119,43 @@
   //   font-weight: 400;
   // }
 
-  .project__casestudy > h3 {
+  .project__casestudy > h3,
+  .project__overview > h3 {
     font-size: $font-size-md;
     color: $color_text_06;
     margin: $space_two 0 $space_one 0;
   }
 
-  .project__casestudy > h4 {
+  .project__casestudy > h4,
+  .project__overview > h3 {
     @extend .heading--sm;
     color: $color_text_04;
     margin: 0 0 $space_one 0;
+  }
+
+  .project__overview > p {
+    @extend .text-expanded--md;
+    color: $color_text_06; 
+    @extend .u-clear;
+  }
+
+  .project__gallery {
+    margin: 1rem 0;
+  }
+
+  .project__casestudy > p {
+    @extend .text-expanded--md;
+    color: $color_text_06; 
+    @extend .u-clear;
+    width: $grid_col_twothirds;
+  }
+
+   .project__casestudy a {
+    @extend .link;
+  }
+  
+  .project__casestudy > figure {
+    margin: 0;
   }
 
   // .project__subheading {
@@ -137,24 +166,15 @@
   .project__casestudy img {
     margin: $space_one 0;
     float: left;
-    max-width: $content_wide;
+    max-width: 100%;
   }
 
-  .project__casestudy > p {
-    @extend .text-expanded--md;
-    color: $color_text_06; 
-    @extend .u-clear;
-  }
-
-   .project__casestudy a {
-    @extend .link;
-  }
-  
   .project__casestudy ul {
     @extend .list--unordered;
     margin: $space_one 0 $space_half $space_one;
     color: $color_text_06; 
     line-height: $line_height_lg; 
+    width: $grid_col_twothirds;
   }
   
     .project__casestudy li {
@@ -168,7 +188,7 @@
     border: none;
     background-color: $color_greyscale_01;
     height: 2px;
-    margin: $space_four 0 0 0;
+    margin: $space_two 0 0 0;
     @extend .u-clear;
   }
 
