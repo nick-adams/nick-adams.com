@@ -7,19 +7,15 @@ header_nav_color: is--on-dark
 
 <div class="grid--maxwidth grid--outsidegutters">
 
-  <div class="grid__row">
-
-    <header class="project">
+    <header class="project-cover">
       <div class="project-feature" style="background-image: url(../../assets/img/projects/remotejobs/bg-project-remotejobs-feature.png)"></div>
       <a href="/work/" class="project-feature__backlink">&#8592; All Work</a>
       <h1 class="project-feature__title">Remote Jobs</h1>
     </header>
   
-  </div>
-
 </div>
 
-<div class="grid--fullwidth project-content">
+<div class="grid project-content">
 
   <div class="grid--maxwidth grid--outsidegutters">
       
@@ -46,9 +42,9 @@ header_nav_color: is--on-dark
           <dt>View</dt>
           <dd><a href="http://www.remotejobs.co" class="link">remotejobs.co</a></dd>
         </div>
-      </dl>
+      </dl>    
 
-<article class="project__casestudy" markdown="1">
+<article class="overview__content" markdown="1">
 
 ## Overview
 
@@ -63,6 +59,40 @@ Between subject matter that was important to me, and functionality that seemed t
 So I spent a few hours here and there on nights and weekends over the course of a *lot* of months and built a job board using Rails.
 
 ---
+
+</article>
+
+    </div>
+    
+    <div class="grid__col--onethird project__aside">
+      
+      <div class="aside__item">
+       <h4 class="heading--sm project__subheading">Responsibilities</h4>
+        <ul class="list--unordered project__bullets">
+          <li>Database Tinkering</li>
+          <li>Server Setup and Admin</li>
+          <li>Rails Development</li>
+          <li>Deployment</li>
+          <li>UI Design</li>
+          <li>Emailing & Interviewing</li>
+          <li>Learning</li>
+          <li>Procrastinating</li>
+          <li>Finishing</li>
+          <li>Ruminating</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="grid">
+
+    <div class="grid--maxwidth grid--outsidegutters ">
+
+      <div class="grid__row">
+              
+<article class="casestudy__content" markdown="1">
 
 # Case Study
 
@@ -88,18 +118,27 @@ I’m a measure twice, cut once kind of person. I’m also a visual thinker, so 
 
 I put together some rough designs that helped me envision the final product. They weren’t perfect, and they aren’t intended to be. But they were enough of a north star helped me stay motivated throughout. Time: 10-15 hours over the course of a few weeks.
 
-<img src="/assets/img/projects/remotejobs/gr-remotejobs-mock1.png" class="project__screenshot">
-<img src="/assets/img/projects/remotejobs/gr-remotejobs-mock2.png" class="project__screenshot">
-<img src="/assets/img/projects/remotejobs/gr-remotejobs-mock3.png" class="project__screenshot">
-
+<figure>
+  <img src="/assets/img/projects/remotejobs/gr-remotejobs-mock1.png" width="1280" class="casestudy__screenshot">
+</figure>
+<figure>
+  <img src="/assets/img/projects/remotejobs/gr-remotejobs-mock2.png" width="1280" class="casestudy__screenshot">
+</figure>
+<figure>
+  <img src="/assets/img/projects/remotejobs/gr-remotejobs-mock3.png" width="1280" class="casestudy__screenshot">
+</figure>
 
 I also took some of these directions and put together a static teaser page with a newsletter signup. This is a fairly standard practice that ends up being a very passive way of doing customer research, but at the time it seemed productive. It also put another flag in the ground to keep me moving along.
 
-<img src="/assets/img/projects/remotejobs/pic-remotejobs-teaser.png" class="project__screenshot">
+<figure>
+  <img src="/assets/img/projects/remotejobs/pic-remotejobs-teaser.png" width="1280" class="casestudy__screenshot">
+</figure>
 
 I then worked on the data model. In my opinion, this is one of the more under-appreciated parts of design. I believe designers should be heavily involved in this part of the process, and data models should be heavily debated and thought through. Many problems later on can be traced back to data model decisions early on. This is design as much as choosing the right interaction. So I took my own advice and worked through the model and learned a lot about Rails ActiveRecord along the way. Time: 10-15 hours over the course of a few weeks.
 
-<img src="/assets/img/projects/remotejobs/gr-remotejobs-datamodel.png" style="width: 100%" class="project__screenshot">
+<figure>
+  <img src="/assets/img/projects/remotejobs/gr-remotejobs-datamodel.png" width="532" class="casestudy__screenshot">
+</figure>
 
 Next up was to “bootstrap” the Rails app — a term which never made much sense to me. Anyway, this was easy thanks to the the CLI which is pretty well designed. Time: a few hours over the cours of a few nights.
 
@@ -127,12 +166,16 @@ But after another few hours of troubleshooting, I got the server back into an op
 
 ## On Working Remote
 
-<img src="/assets/img/projects/remotejobs/pic-remotejobs-on-working-remote.jpg" class="project__screenshot">
-<span class="project__caption">Interview with Nathaniel Talbott</span>
+<figure>
+  <img src="/assets/img/projects/remotejobs/pic-remotejobs-on-working-remote.jpg" width="1280" class="casestudy__screenshot">
+</figure>
+<figcaption class="casestudy__caption">Interview with Nathaniel Talbott</figcaption>
 
 The idea of remote work as a concept interested me more than a list of jobs, so I had the idea to create an magazine of sorts with interviews with remote workers, companies who have distributed teams, and even people who are not on the remote working train.
 
-<img src="/assets/img/projects/remotejobs/gr-remotejobs-gameplan.png" style="width: 100%" class="project__screenshot">
+<figure>
+  <img src="/assets/img/projects/remotejobs/gr-remotejobs-gameplan.png" width="659" class="casestudy__screenshot">
+  </figure>
 
 
 So I put together a list of people who I’d like to talk to, and sent out a bunch of emails. I got more responses than I expected. I then got nervous: how was I going to find the time to interview all these people? This proved to be a problem, but at the time I just figured I’d start plugging away and interview the first person: Nathaniel Talbott, CTO of Spreedly.
@@ -141,7 +184,9 @@ With this interview complete I went about designing and building a page that wou
 
 ## Final Product
 
-<img src="/assets/img/projects/remotejobs/pic-remotejobs-board.png" class="project__screenshot">
+<figure>
+  <img src="/assets/img/projects/remotejobs/pic-remotejobs-board.png" width="1280" class="casestudy__screenshot">
+</figure>
 
 Despite all this, I still needed one thing, remote jobs to list. Duh.
 
@@ -167,24 +212,6 @@ The end result here is no real catastrophe. This was ultimately a side project f
 
 </article>
 
-    </div>
-
-    <div class="grid__col--onethird project__aside">
-      
-      <div class="aside__item">
-       <h4 class="heading--sm project__subheading">Responsibilities</h4>
-        <ul class="list--unordered project__bullets">
-          <li>Database Tinkering</li>
-          <li>Server Setup and Admin</li>
-          <li>Rails Development</li>
-          <li>Deployment</li>
-          <li>UI Design</li>
-          <li>Emailing & Interviewing</li>
-          <li>Learning</li>
-          <li>Procrastinating</li>
-          <li>Finishing</li>
-          <li>Ruminating</li>
-        </ul>
       </div>
 
     </div>

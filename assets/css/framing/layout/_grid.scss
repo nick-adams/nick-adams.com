@@ -38,6 +38,7 @@
 // ============================================
 
 .grid--fixedwidth {
+  @extend .u-clear;
   width: $page_max_width;
   margin: 0 auto;
 
@@ -52,6 +53,7 @@
 // ============================================
 
 .grid--maxwidth {
+  @extend .u-clear;
   width: 100%;
   max-width: $page_max_width;
   margin: 0 auto;
@@ -70,7 +72,7 @@
   @extend .u-clear;
   width: 100%;
   padding: 0;
-  // margin-bottom: $grid_gutter_width;
+  margin-bottom: $grid_gutter_width;
 }
 
 

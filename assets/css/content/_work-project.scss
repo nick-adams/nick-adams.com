@@ -2,7 +2,11 @@
 // Work / Project Page Styles
 // -------------------------
 
-.project {
+
+// Project Cover
+// ============================================
+
+.project-cover {
   padding-top: 50px;
 
   @media (min-height: 775px) {
@@ -11,46 +15,49 @@
 
 }
 
-.project-feature {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 475px; 
-  background-color: $color_dark;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: $z-behind;
+  .project-feature {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 475px; 
+    background-color: $color_dark;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: $z-behind;
 
-  @media (min-height: 775px) {
-    height: 700px;
-  }
-
-}
-
-  .project-feature__backlink {
-    display: block;
-    margin: $space_one 0 -#{$space_oneandhalf} 0;
-    color: $color_white;
-    text-decoration: none;
-  }
-    .project-feature__backlink:hover {
-      display: block;
-      margin: $space_one 0 -#{$space_oneandhalf} $space_quarter;
-      color: $color_greyscale_01;
-      text-decoration: none
+    @media (min-height: 775px) {
+      height: 700px;
     }
 
-  .project-feature__title {
-    font-size: 6.25rem;
-    line-height: 6.25rem;
-    font-family: $font_serif;
-    color: $color_white;
-    width: $content_normal;
   }
 
+    .project-feature__backlink {
+      display: block;
+      margin: $space_one 0 -#{$space_oneandhalf} 0;
+      color: $color_white;
+      text-decoration: none;
+    }
+      .project-feature__backlink:hover {
+        display: block;
+        margin: $space_one 0 -#{$space_oneandhalf} $space_quarter;
+        color: $color_greyscale_01;
+        text-decoration: none
+      }
+
+    .project-feature__title {
+      font-size: 6.25rem;
+      line-height: 6.25rem;
+      font-family: $font_serif;
+      color: $color_white;
+      width: $content_normal;
+    }
+
+
+// Project Content
+// ============================================
 
 .project-content {
   background-color: $color_white;
@@ -58,6 +65,9 @@
   padding: $space_three 0 $space_ten 0;
   overflow: hidden;
 }
+
+  // Project Intro
+  // ============================================
 
   .project__year {
     color: $color_brand_primary;
@@ -99,113 +109,10 @@
       padding: 0;
     }
   
-  .project__casestudy > h1,
-  .project__overview > h1 {
-    @extend .heading--xl;
-    color: $color_text_06;
-    margin: $space_four 0 $space_four 0;
-  }
+  // Project Aside
+  // ============================================
 
-  .project__casestudy > h2,
-  .project__overview > h2 {
-    @extend .heading--lg;
-    color: $color_text_06;
-    margin: $space_four 0 $space_two 0;
-  }
-
-  // .project__heading:not(:first-child) {
-  //   color: $color_text_06;
-  //   margin: $space_four 0 $space_two 0;
-  //   font-weight: 400;
-  // }
-
-  .project__casestudy > h3,
-  .project__overview > h3 {
-    font-size: $font-size-md;
-    color: $color_text_06;
-    margin: $space_two 0 $space_one 0;
-  }
-
-  .project__casestudy > h4,
-  .project__overview > h3 {
-    @extend .heading--sm;
-    color: $color_text_04;
-    margin: 0 0 $space_one 0;
-  }
-
-  .project__overview > p {
-    @extend .text-expanded--md;
-    color: $color_text_06; 
-    @extend .u-clear;
-  }
-
-  .project__gallery {
-    margin: 1rem 0;
-  }
-
-  .project__casestudy > p {
-    @extend .text-expanded--md;
-    color: $color_text_06; 
-    @extend .u-clear;
-    width: $grid_col_twothirds;
-  }
-
-   .project__casestudy a {
-    @extend .link;
-  }
-  
-  .project__casestudy > figure {
-    margin: 0;
-  }
-
-  // .project__subheading {
-  //   color: $color_text_04;
-  //   margin: 0 0 $space_one 0;
-  // }
-
-  .project__casestudy img {
-    margin: $space_one 0;
-    float: left;
-    max-width: 100%;
-  }
-
-  .project__casestudy ul {
-    @extend .list--unordered;
-    margin: $space_one 0 $space_half $space_one;
-    color: $color_text_06; 
-    line-height: $line_height_lg; 
-    width: $grid_col_twothirds;
-  }
-  
-    .project__casestudy li {
-      padding: 0;
-      margin: 0 0 $space_half 0;
-      color: $color_text_06; 
-    }
-
-  .project__casestudy > hr {
-    display: block;
-    border: none;
-    background-color: $color_greyscale_01;
-    height: 2px;
-    margin: $space_two 0 0 0;
-    @extend .u-clear;
-  }
-
-  .project__screenshot {
-    border: $border_thin_light;
-    border-radius: $radius;
-    background: $color_white;
-    // box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.15);
-    float: left;
-  }
-  .project__caption {
-    @extend .text-caption;
-    margin: -1rem 0 2rem 0;
-    font-style: italic;
-  }
-
-  .project__aside {
+ .project__aside {
     margin-top: 475px;
   }
 
@@ -228,3 +135,172 @@
         margin: 0 0 $space_half 0;
         color: $color_text_06; 
       }
+
+
+  // Project Overview Content
+  // ============================================
+
+  .overview__content {}
+
+    .overview__content  > h1 {
+      @extend .heading--xl;
+      color: $color_text_06;
+      margin: $space_four 0 $space_four 0;
+    }
+
+    .overview__content  > h2 {
+      @extend .heading--lg;
+      color: $color_text_06;
+      margin: $space_four 0 $space_two 0;
+    }
+
+    // .project__heading:not(:first-child) {
+    //   color: $color_text_06;
+    //   margin: $space_four 0 $space_two 0;
+    //   font-weight: 400;
+    // }
+
+    .overview__content  > h3 {
+      font-size: $font-size-md;
+      color: $color_text_06;
+      margin: $space_two 0 $space_one 0;
+    }
+
+    .overview__content  > h4 {
+      @extend .heading--sm;
+      color: $color_text_04;
+      margin: 0 0 $space_one 0;
+    }
+
+    .overview__content > p {
+      @extend .text-expanded--md;
+      color: $color_text_06; 
+      @extend .u-clear;
+    }
+
+    .overview__content > hr {
+      display: block;
+      border: none;
+      background-color: $color_greyscale_01;
+      height: 2px;
+      margin: $space_two 0 0 0;
+      @extend .u-clear;
+    }
+
+    .project__gallery {
+      margin: 1rem 0;
+    }
+
+
+  // Project Case Study Content
+  // ============================================
+
+  .casestudy__content {
+    margin: 2rem auto;
+    max-width: $page_max_width;
+  }
+
+    .casestudy__content > h1 {
+      @extend .heading--xl;
+      color: $color_text_06;
+      margin: $space_four auto $space_four auto;
+      // width: $grid_col_twothirds;
+      // max-width: $page_max_width;
+      padding: 0 $grid_col_onethird 0 0;
+
+    }
+
+    .casestudy__content > h2 {
+      @extend .heading--lg;
+      color: $color_text_06;
+      // width: $grid_col_twothirds;
+      // max-width: $page_max_width;
+      margin: $space_four auto $space_two auto;
+      padding: 0 $grid_col_onethird 0 0;
+    }
+
+    .casestudy__content > h3 {
+      font-size: $font-size-md;
+      color: $color_text_06;
+      // width: $grid_col_twothirds;
+      // max-width: $page_max_width;
+      margin: $space_two auto $space_one auto;
+      padding: 0 $grid_col_onethird 0 0;
+    }
+
+    .casestudy__content > h4 {
+      @extend .heading--sm;
+      color: $color_text_04;
+      // width: $grid_col_twothirds;
+      // max-width: $page_max_width;
+      margin: 0 auto $space_one auto;
+      padding: 0 $grid_col_onethird 0 0;
+    }
+
+    .casestudy__content > p {
+      @extend .text-expanded--md;
+      color: $color_text_06; 
+      @extend .u-clear;
+      padding: 0 $grid_col_onethird 0 0;
+    }
+
+    .casestudy__content a {
+      @extend .link;
+    }
+    
+    .casestudy__content > figure {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      text-align: center;
+    }
+
+    // .project__subheading {
+    //   color: $color_text_04;
+    //   margin: 0 0 $space_one 0;
+    // }
+
+    .casestudy__content img {
+      max-width: 100%;
+      margin: 2rem auto;
+    }
+
+    .casestudy__content ul {
+      @extend .list--unordered;
+      margin: $space_one 0 $space_half $space_one;
+      color: $color_text_06; 
+      line-height: $line_height_lg; 
+      width: $grid_col_twothirds;
+    }
+    
+      .casestudy__content li {
+        padding: 0;
+        margin: 0 0 $space_half 0;
+        color: $color_text_06; 
+      }
+
+    .casestudy__content > hr {
+      display: block;
+      border: none;
+      background-color: $color_greyscale_01;
+      height: 2px;
+      margin: $space_two 0 0 0;
+      @extend .u-clear;
+    }
+
+    .casestudy__screenshot {
+      border: $border_thin_light;
+      border-radius: $radius;
+      background: $color_white;
+      box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.10);
+    }
+
+    .casestudy__caption {
+      @extend .text-caption;
+      margin: -3rem 0 3rem 0;
+      font-style: italic;
+      color: $color_text_04;
+    }
