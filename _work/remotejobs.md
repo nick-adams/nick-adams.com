@@ -48,7 +48,7 @@ header_nav_color: is--on-dark
 
 ## Overview
 
-<img src="/assets/img/projects/remotejobs/gr-remotejobs-logo.png" class="project__screenshot">
+<img src="/assets/img/projects/remotejobs/gr-remotejobs-logo.png" width="396" class="casestudy__screenshot">
 
 I’ve been working remotely for about 6 years, and I love it. It may not be for everyone, but it *is* for me. One of my biggest concerns in my career is the continued availability of remote positions. It seems like this will not be an issue, but you never know.
 
