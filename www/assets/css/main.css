@@ -493,7 +493,7 @@ html {
   -moz-transition: all 0.2s ease;
 }
 
-.u-clear, .grid, .grid--outsidegutters, .grid__row, .project__casestudy > p, .project__casestudy > hr {
+.u-clear, .grid, .grid--outsidegutters, .grid__row, .project__overview > p, .project__casestudy > p, .project__casestudy > hr {
   content: "";
   display: table;
   clear: both;
@@ -596,7 +596,6 @@ html {
 .grid__row {
   width: 100%;
   padding: 0;
-  margin-bottom: 1.25rem;
 }
 
 .grid__row--no-gutter-cols > [class*='grid__col--'] {
@@ -1266,7 +1265,8 @@ html {
   color: inherit;
 }
 
-.heading--xl, .project__casestudy > h1 {
+.heading--xl, .project__casestudy > h1,
+.project__overview > h1 {
   font-size: 1.776889rem;
   font-weight: 800;
   line-height: 1.9995rem;
@@ -1276,7 +1276,8 @@ html {
   color: inherit;
 }
 
-.heading--lg, .project__casestudy > h2 {
+.heading--lg, .project__casestudy > h2,
+.project__overview > h2 {
   font-size: 1.333rem;
   font-weight: 800;
   line-height: 1.5rem;
@@ -1297,7 +1298,8 @@ html {
   color: inherit;
 }
 
-.heading--sm, .project__casestudy > h4, .aside__item > h4 {
+.heading--sm, .project__casestudy > h4,
+.project__overview > h3, .aside__item > h4 {
   font-size: 0.8756567426rem;
   font-weight: 800;
   line-height: 1.3134851138rem;
@@ -1344,7 +1346,7 @@ html {
   color: inherit;
 }
 
-.text-expanded--md, .project__casestudy > p {
+.text-expanded--md, .project__overview > p, .project__casestudy > p {
   font-size: 1rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -2565,41 +2567,59 @@ hr {
   padding: 0;
 }
 
-.project__casestudy > h1 {
+.project__casestudy > h1,
+.project__overview > h1 {
   color: #5e5e5e;
   margin: 4rem 0 4rem 0;
 }
 
-.project__casestudy > h2 {
+.project__casestudy > h2,
+.project__overview > h2 {
   color: #5e5e5e;
   margin: 4rem 0 2rem 0;
 }
 
-.project__casestudy > h3 {
+.project__casestudy > h3,
+.project__overview > h3 {
   font-size: 1rem;
   color: #5e5e5e;
   margin: 2rem 0 1rem 0;
 }
 
-.project__casestudy > h4 {
+.project__casestudy > h4,
+.project__overview > h3 {
   color: #8e8e8e;
   margin: 0 0 1rem 0;
+}
+
+.project__overview > p {
+  color: #5e5e5e;
+}
+
+.project__gallery {
+  margin: 1rem 0;
+}
+
+.project__casestudy > p {
+  color: #5e5e5e;
+  width: calc(((100% / 3) * 2));
+}
+
+.project__casestudy > figure {
+  margin: 0;
 }
 
 .project__casestudy img {
   margin: 1rem 0;
   float: left;
-  max-width: 60rem;
-}
-
-.project__casestudy > p {
-  color: #5e5e5e;
+  max-width: 100%;
 }
 
 .project__casestudy ul {
   margin: 1rem 0 0.5rem 1rem;
   color: #5e5e5e;
   line-height: 1.9995rem;
+  width: calc(((100% / 3) * 2));
 }
 
 .project__casestudy li {
@@ -2613,7 +2633,7 @@ hr {
   border: none;
   background-color: #e6e6e6;
   height: 2px;
-  margin: 4rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
 .project__screenshot {
