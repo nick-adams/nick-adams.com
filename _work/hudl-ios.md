@@ -8,16 +8,12 @@ header_nav_color: is--on-dark
 
 <div class="grid--maxwidth grid--outsidegutters">
 
-  <div class="grid__row">
-
-    <header class="project">
+    <header class="project-cover">
       <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/bg-project-hudl-ios-feature.png)"></div>
       <a href="/work/" class="project-feature__backlink">&#8592; All Work</a>
       <h1 class="project-feature__title">Hudl iOS App Redesign</h1>
     </header>
   
-  </div>
-
 </div>
 
 <section class="project-content">
