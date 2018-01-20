@@ -758,6 +758,16 @@ html {
   text-align: center;
 }
 
+.grid--debug .grid__row {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: solid 1px red;
+}
+
+.grid--debug [class^="grid__col"] {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: solid 1px red;
+}
+
 .spacer-right--eighth {
   margin-right: 0.125rem;
 }
