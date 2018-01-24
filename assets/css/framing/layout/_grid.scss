@@ -6,7 +6,8 @@
 // Basic Grid Container
 // ============================================
 
-.grid {
+.grid,
+.grid--fullwidth {
   @extend .u-clear;
   display: block;
   clear: both;

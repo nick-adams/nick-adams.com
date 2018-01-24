@@ -88,7 +88,7 @@ So I spent a few hours here and there on nights and weekends over the course of 
 
   <div class="grid">
 
-    <div class="grid--maxwidth grid--outsidegutters ">
+    <div class="grid--maxwidth grid--outsidegutters">
 
       <div class="grid__row">
               

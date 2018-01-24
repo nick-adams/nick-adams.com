@@ -15,7 +15,7 @@ header_nav_color: is--on-light
   
 </div>
 
-<div class="grid--fullwidth project-content">
+<div class="grid project-content">
 
   <div class="grid--maxwidth grid--outsidegutters">
       
@@ -44,7 +44,7 @@ header_nav_color: is--on-light
         </div>
       </dl>  
 
-<article class="project__casestudy" markdown="1">  
+<article class="overview__content" markdown="1">  
 
 ## Overview
 
@@ -55,6 +55,36 @@ This was my favorite and most personally invested project at Hudl, something tha
 It started with understanding the way that people designed products at Hudl, so in this case the users were not external, but internal — product team itself. With this understanding we ended up building what now seems to be industry de jour: a design system. This consisted of defining design guidelines, building UI components, curating resources, writing extensive documentation, presenting, evangelizing, collaborating, educating, and troubleshooting. We then learned, refined, optimized, and measured (sometimes all at once) how effective the system was for helping our product team design better more cohesive products.
 
 ---
+
+</article>
+    
+    </div>
+
+    <div class="grid__col--onethird project__aside">
+      
+      <div class="aside__item">
+       <h4 class="heading--sm project__subheading">Responsibilities</h4>
+        <ul class="list--unordered">
+          <li>Product Management</li>
+          <li>User Research</li>
+          <li>Visual Design</li>
+          <li>UI Design</li>
+          <li>Front-end Development</li>
+          <li>Prototyping</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="grid">
+
+    <div class="grid--maxwidth grid--outsidegutters">
+
+      <div class="grid__row">
+
+<article class="casestudy__content" markdown="1">
 
 # Case Study
 
@@ -184,20 +214,6 @@ All of this culminated in our new design north star, the Uniform Design Language
 
 </article>
 
-    </div>
-
-    <div class="grid__col--onethird project__aside">
-      
-      <div class="aside__item">
-       <h4 class="heading--sm project__subheading">Responsibilities</h4>
-        <ul class="list--unordered">
-          <li>Product Management</li>
-          <li>User Research</li>
-          <li>Visual Design</li>
-          <li>UI Design</li>
-          <li>Front-end Development</li>
-          <li>Prototyping</li>
-        </ul>
       </div>
 
     </div>

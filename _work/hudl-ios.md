@@ -5,7 +5,6 @@ nav_selected: work
 header_nav_color: is--on-dark
 ---
 
-
 <div class="grid--maxwidth grid--outsidegutters">
 
     <header class="project-cover">
@@ -16,37 +15,36 @@ header_nav_color: is--on-dark
   
 </div>
 
-<section class="project-content">
+<div class="grid project-content">
 
   <div class="grid--maxwidth grid--outsidegutters">
       
-    <div class="grid__row">
-      <div class="grid__col--twothirds">
+    <div class="grid__col--twothirds">
 
-        <p class="project__year">2014</p>
-        <h2 class="project__headline">Refreshing Hudl’s iOS app for its one million+ userbase. </h2>
-        <p class="project__subheadline">On the Mobile team at Hudl, one of my first projects was to help rethink and redesign the iOS app on both iPhone and iPad to address some existing problems.</p>
+      <p class="project__year">2014</p>
+      <h2 class="project__headline">Refreshing Hudl’s iOS app for its one million+ userbase. </h2>
+      <p class="project__subheadline">On the Mobile team at Hudl, one of my first projects was to help rethink and redesign the iOS app on both iPhone and iPad to address some existing problems.</p>
 
-        <dl class="project__details">
-          <div class="details__item">
-            <dt>Company</dt>
-            <dd><a href="https://www.hudl.com/" class="link">Hudl</a></dd>
-          </div>
-          <div class="details__item">
-            <dt>Timeline</dt>
-            <dd>6 Months, '13 to '14 </dd>
-          </div>
-          <div class="details__item">
-            <dt>Status</dt>
-            <dd>Under Active Development</dd>
-          </div>
-          <div class="details__item">
-            <dt>View</dt>
-            <dd><a href="#" class="link">iOS App Store</a></dd>
-          </div>
-        </dl>
+      <dl class="project__details">
+        <div class="details__item">
+          <dt>Company</dt>
+          <dd><a href="https://www.hudl.com/" class="link">Hudl</a></dd>
+        </div>
+        <div class="details__item">
+          <dt>Timeline</dt>
+          <dd>6 Months, '13 to '14 </dd>
+        </div>
+        <div class="details__item">
+          <dt>Status</dt>
+          <dd>Under Active Development</dd>
+        </div>
+        <div class="details__item">
+          <dt>View</dt>
+          <dd><a href="#" class="link">iOS App Store</a></dd>
+        </div>
+      </dl>
 
-<article class="project__overview" markdown="1">
+<article class="overview__content" markdown="1">
 
 ## Overview
 
@@ -58,42 +56,38 @@ Once we had a clear problem definition, I began design explorations, sketch sess
 
 Finally, I worked to ensure the roll-out was successful through beta testing, release coordination with our support team, and then ongoing monitoring of user feedback and real-world usage data.
 
+--- 
+
 </article>
 
-      </div>
-
-      <div class="grid__col--onethird project__aside">
-            
-        <div class="aside__item">
-          <h4 class="heading--sm project__subheading">Responsibilities</h4>
-          <ul class="list--unordered">
-            <li>User Research</li>
-            <li>UI Design</li>
-            <li>Interaction Design</li>
-            <li>Prototyping</li>
-          </ul>
-        </div>
-
-      </div>
-
-    </div>   
-
-    <div class="grid__row">
-      <div class="grid__column--onewhole">
-        <div class="project__gallery">
-          <img src="https://placeholdit.co//i/1080x150">    
-        </div>  
-      </div>
     </div>
 
-    <div class="grid__row">
-      <div class="grid__col--onewhole">
+    <div class="grid__col--onethird project__aside">
+            
+      <div class="aside__item">
+        <h4 class="heading--sm project__subheading">Responsibilities</h4>
+        <ul class="list--unordered">
+          <li>User Research</li>
+          <li>UI Design</li>
+          <li>Interaction Design</li>
+          <li>Prototyping</li>
+        </ul>
+      </div>
 
-<article class="project__casestudy" markdown="1">
+    </div>
 
----
+  </div>   
+
+  <div class="grid">
+
+    <div class="grid--maxwidth grid--outsidegutters">
+
+      <div class="grid__row">
+
+<article class="casestudy__content" markdown="1">
 
 # Case Study
+
 ## Background
 
 This project began during a time of pretty rapid growth for Hudl — both in the size of the customer base, and the size of the company itself. 
@@ -109,10 +103,10 @@ Oh, and little did we know iOS 7 was around the corner, about to drop a huge vis
 Despite all of the struggles outlined above being the prevailing feelings within the company, it was still important to bring a critical perspective to validate them. To ask “Why?”,  “Is there a deeper problem here?”, and most importantly “What are our *customers* feeling?”. It was my job to ask these questions, and diving into last question in particular is where we always spent a majority of our time.
 
 This is done by talking to our customers, understanding how they use our product, and how they need our product to work for them. How? We used a few tactics…
+
 <figure>
-  <img src="https://placeholdit.co//i/1080x150">  
+  <img src="https://placeholdit.co//i/1080x150" width="1080" class="casestudy__screenshot">  
 </figure>
-{: .case}
 
 **Phone/Video Interviews**  
 We set up dozens of phone calls with our users to ask them about their daily routines, how they use Hudl, what they use it for, how the mobile app fits into that workflow, the struggles they were having, the needs they had that we weren’t meeting, etc.
@@ -186,4 +180,4 @@ We created an ID system that helped us immensely. We ended up with quite the dev
 
   </div>
 
-</section>
+</div>

@@ -493,7 +493,8 @@ html {
   -moz-transition: all 0.2s ease;
 }
 
-.u-clear, .grid, .grid--outsidegutters, .grid--fixedwidth, .grid--maxwidth, .grid__row, .overview__content > p, .overview__content > hr, .casestudy__content > p, .casestudy__content > hr {
+.u-clear, .grid,
+.grid--fullwidth, .grid--outsidegutters, .grid--fixedwidth, .grid--maxwidth, .grid__row, .overview__content > p, .overview__content > hr, .casestudy__content > p, .casestudy__content > hr {
   content: "";
   display: table;
   clear: both;
@@ -551,7 +552,8 @@ html {
   overflow: hidden;
 }
 
-.grid {
+.grid,
+.grid--fullwidth {
   display: block;
   clear: both;
   width: 100%;
