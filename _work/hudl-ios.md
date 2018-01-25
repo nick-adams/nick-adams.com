@@ -54,9 +54,7 @@ I was first responsible for working with the team to understand the core problem
 
 Once we had a clear problem definition, I began design explorations, sketch sessions, and prototyping. From there, we decided on a direction and I began working with the developers to guide the implementation of the designs. 
 
-Finally, I worked to ensure the roll-out was successful through beta testing, release coordination with our support team, and then ongoing monitoring of user feedback and real-world usage data.
-
---- 
+Finally, I worked to ensure the roll-out was successful through beta testing, release coordination with our support team, and then ongoing monitoring of user feedback and real-world usage data. 
 
 </article>
 
@@ -85,6 +83,11 @@ Finally, I worked to ensure the roll-out was successful through beta testing, re
       <div class="grid__row">
 
 <article class="casestudy__content" markdown="1">
+
+<figure>
+  <img src="/assets/img/projects/hudl-ios/pic-project-hudl-ios-overview1@2x.png">
+  <img src="/assets/img/projects/hudl-ios/pic-project-hudl-ios-overview2@2x.png">
+</figure>
 
 # Case Study
 
@@ -156,6 +159,10 @@ Despite being a product designer, sometimes the things most in need of design th
 
 If we talk about how users care about experiences then we need to back this up. Our surface area as designers has to extend beyond the UI.
 
+### App Store Icon Template
+
+### UI Toolkit
+
 ### Mobile Device Library
 
 The first problem I noticed, and that our QA department also helped bring to light was our need for device coverage for app testing. Even back then there were a lot of devices and configurations to manage, so we needed a better system. 
@@ -171,6 +178,8 @@ We created an ID system that helped us immensely. We ended up with quite the dev
 ### Device Checkout App
 
 ### Improved Mobile Release Process 
+
+### Android Redesign
 
 </article>
     
