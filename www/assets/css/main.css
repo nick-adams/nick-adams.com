@@ -494,7 +494,7 @@ html {
 }
 
 .u-clear, .grid,
-.grid--fullwidth, .grid--outsidegutters, .grid--fixedwidth, .grid--maxwidth, .grid__row, .overview__content > p, .overview__content > hr, .casestudy__content > p, .casestudy__content > hr {
+.grid--fullwidth, .grid--outsidegutters, .grid--fixedwidth, .grid--maxwidth, .grid__row, .work, .overview__content > p, .overview__content > hr, .casestudy__content > p, .casestudy__content > hr {
   content: "";
   display: table;
   clear: both;
@@ -1201,12 +1201,12 @@ html {
 
 .nav-horiz--top-border {
   flex-direction: row;
-  border-bottom: solid 1px #e6e6e6;
+  border-top: solid 1px #e6e6e6;
 }
 
 .nav-horiz--bottom-border {
   flex-direction: row;
-  border-top: solid 1px #e6e6e6;
+  border-bottom: solid 1px #e6e6e6;
 }
 
 .nav-vert--left {
@@ -1258,7 +1258,7 @@ html {
   color: inherit;
 }
 
-.heading--xxl {
+.heading--xxl, .casestudy__content > h1 {
   font-size: 2.368593037rem;
   font-weight: 800;
   line-height: 1.9995rem;
@@ -1268,7 +1268,7 @@ html {
   color: inherit;
 }
 
-.heading--xl, .overview__content > h1, .casestudy__content > h1 {
+.heading--xl, .overview__content > h1 {
   font-size: 1.776889rem;
   font-weight: 800;
   line-height: 1.9995rem;
@@ -1346,7 +1346,7 @@ html {
   color: inherit;
 }
 
-.text-expanded--md, .overview__content > p, .casestudy__content > p {
+.text-expanded--md, .work__body, .overview__content > p, .casestudy__content > p {
   font-size: 1rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -1908,7 +1908,7 @@ hr {
 
 .site-nav__item--horiz {
   display: inline-block;
-  margin-left: 4rem;
+  margin-left: 1rem;
 }
 @media only screen and (max-width: 40rem) {
   .site-nav__item--horiz {
@@ -2356,11 +2356,130 @@ hr {
   margin: 0;
 }
 
-.work__intro {
-  margin: 10rem 0 0 0;
+.work {
+  margin: 10rem auto 5rem auto;
+  padding: 0 0 5rem 0;
 }
 
 .work__title {
+  font-family: kepler-std-display, Georgia, serif;
+  font-size: 3.1573345183rem;
+  text-transform: normal;
+  margin: 0 0 2rem 0;
+}
+
+.work__body {
+  text-transform: normal;
+  color: #5e5e5e;
+  margin: 0 0 3rem 0;
+}
+
+.work__nav {
+  font-weight: 800;
+  border-bottom: solid 1px #e6e6e6;
+  margin: 0;
+  padding: 1rem 0 1rem 0;
+}
+
+.job__company {
+  margin: 8rem 0 2rem 0;
+}
+
+.job__title {
+  font-weight: 800;
+  font-size: 0.8756567426rem;
+  display: inline-block;
+  margin: 0 1rem 0 0;
+}
+
+.job__timeline,
+.project-timeline {
+  font-weight: 800;
+  font-size: 0.8756567426rem;
+  color: #D75B5B;
+  font-size: 0.8756567426rem;
+  display: inline-block;
+}
+
+.job__summary {
+  font-size: 0.8756567426rem;
+  color: #5e5e5e;
+  width: 45rem;
+  margin: 0 0 2rem 0;
+  padding: 0 0 3rem 0;
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.job__project {
+  overflow: auto;
+  clear: both;
+}
+
+.project-details {
+  float: left;
+  width: 24rem;
+}
+
+.project-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.333rem;
+  font-weight: 800;
+}
+
+.project-role {
+  font-weight: 800;
+  font-size: 0.8756567426rem;
+  margin: 0 0 0 0;
+}
+
+.project-responsibilities {
+  font-size: 0.8756567426rem;
+  color: #a5a5a5;
+  margin: 0 0 1rem 0;
+}
+
+.project-summary {
+  float: right;
+  width: 30rem;
+  margin: 6rem 0 0 0;
+  font-size: 0.8756567426rem;
+  color: #5e5e5e;
+}
+
+.project-gallery {
+  margin: 2rem 0 4rem 0;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery-primary {
+  width: 100%;
+  display: block;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.gallery-secondary {
+  flex: 1;
+  display: block;
+  margin: 0 0.5rem 0 0;
+}
+
+.gallery-thumbnails {
+  display: none;
+}
+
+.fancybox-is-open .fancybox-bg {
+  opacity: 0.98;
+}
+
+.case-studies__intro {
+  margin: 10rem 0 0 0;
+}
+
+.case-studies__title {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 3.1573345183rem;
   text-transform: normal;
@@ -2368,7 +2487,7 @@ hr {
   margin: 0 0 2rem 0;
 }
 
-.work__body {
+.case-studies__body {
   font-size: 0.8756567426rem;
   text-transform: normal;
   color: #8e8e8e;
@@ -2376,7 +2495,7 @@ hr {
   width: 30rem;
 }
 
-.project-preview {
+.study-preview {
   position: absolute;
   top: 0;
   right: 0;
@@ -2390,7 +2509,7 @@ hr {
   transition: all 0.4s ease;
 }
 
-.project-preview--hudl-ios, .project-preview--hudl-designsystem, .project-preview--hudl-ia-nav, .project-preview--remotejobs {
+.study-preview--hudl-ios, .study-preview--hudl-designsystem, .study-preview--hudl-ia-nav, .study-preview--remotejobs {
   position: absolute;
   top: 0;
   height: 100%;
@@ -2401,55 +2520,55 @@ hr {
   transition: all 0.4s ease;
 }
 
-.project-preview--hudl-ios {
+.study-preview--hudl-ios {
   background-image: url("../img/projects/hudl-ios/bg-project-hudl-ios-preview.png");
 }
 
-.project-preview--hudl-designsystem {
+.study-preview--hudl-designsystem {
   background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem-preview.png");
 }
 
-.project-preview--hudl-ia-nav {
+.study-preview--hudl-ia-nav {
   background-image: url("../img/projects/hudl-ia-nav/bg-project-hudl-ia-nav-preview.png");
 }
 
-.project-preview--remotejobs {
+.study-preview--remotejobs {
   background-image: url("../img/projects/remotejobs/bg-project-remotejobs-preview.png");
 }
 
-.work__projects {
+.studies {
   margin: 7rem 0 0 0.5rem;
 }
 
-.project-list {
+.studies-list {
   list-style-position: inside;
   list-style-type: none;
   margin: 0 auto;
 }
 
-.project-list__item {
+.studies-list__item {
   border-bottom: solid 1px #e6e6e6;
   margin: 0;
   padding: 2rem 0;
   transition: all 0.4s ease;
 }
-.project-list__item:hover {
+.studies-list__item:hover {
   padding: 2rem 0 2rem 0.5rem;
 }
 
 @media (max-height: 775px) {
-  .project-list__item {
+  .studies-list__item {
     padding: 1rem 0;
   }
-  .project-list__item:hover {
+  .studies-list__item:hover {
     padding: 1rem 0 1rem 0.5rem;
   }
 
-  .project-list {
+  .studies-list {
     padding-top: 1rem;
   }
 }
-.project-item__date {
+.study-item__date {
   color: #D75B5B;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -2457,7 +2576,7 @@ hr {
   margin: 0 0 0.5rem 0;
 }
 
-.project-item__name {
+.study-item__name {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 2.368593037rem;
   font-weight: 800;
@@ -2632,6 +2751,7 @@ hr {
 }
 
 .casestudy__content > h1 {
+  font-family: kepler-std-display, Georgia, serif;
   color: #5e5e5e;
   margin: 4rem auto 4rem auto;
   padding: 0 calc((100% / 3)) 0 0;

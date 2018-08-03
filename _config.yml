@@ -10,9 +10,9 @@ github_username:  nick-adams
 
 # Collections
 collections:
-  work:
+  case-studies:
     output: true
-    permalink: /work/:path/
+    permalink: /case-studies/:path/
 
 # Build settings
 destination: ./www

@@ -57,12 +57,12 @@
 .#{$namespace}nav-horiz--top-border {
   @extend %nav--list;
   flex-direction: row;
-  border-bottom: $border_thin-light;
+  border-top: $border_thin-light;
 }
 .#{$namespace}nav-horiz--bottom-border {
   @extend %nav--list;
   flex-direction: row;
-  border-top: $border_thin-light;
+  border-bottom: $border_thin-light;
 }
 
 // Vertical Arrangement

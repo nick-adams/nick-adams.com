@@ -13,14 +13,15 @@
 // Framing
 @import   'framing/framing';
 
-// Content 
-@import   'content/common';
-@import   'content/header';
-@import   'content/footer';
-@import   'content/navigation';
-@import   'content/home';
-@import   'content/about';
-@import   'content/work';
-@import   'content/work-project';
-@import   'content/freelance';
-@import   'content/notes';
+// Site 
+@import   'site/common';
+@import   'site/header';
+@import   'site/footer';
+@import   'site/navigation';
+@import   'site/home';
+@import   'site/about';
+@import   'site/work';
+@import   'site/case-studies';
+@import   'site/case-study-project';
+@import   'site/freelance';
+@import   'site/notes';

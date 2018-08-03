@@ -1,0 +1,129 @@
+// -------------------------
+// Work Page Styles
+// -------------------------
+
+.work {
+  margin: $space_ten auto $space_five auto;
+  padding: 0 0 $space_five 0;
+  @extend .u-clear;
+}
+
+  .work__title {
+    font-family: $font_serif;
+    font-size: $font_size_xxxl;
+    text-transform: normal;
+    margin: 0 0 $space_two 0;
+  }
+
+  .work__body {
+    @extend .text-expanded--md;
+    text-transform: normal;
+    color: $color_text_06;
+    margin: 0 0 $space_three 0;
+  }
+
+  .work__nav {
+    font-weight: 800;
+    border-bottom: $border_thin_light;
+    margin: 0;
+    padding: $space_one 0 $space_one 0;
+  }
+
+  .job__company {
+    margin: $space_eight 0 $space_two 0;
+  }
+
+  .job__position {
+
+  }
+
+  .job__title {
+    font-weight: 800;
+    font-size: $font_size_sm;
+    display: inline-block;
+    margin: 0 $space_one 0 0;
+  }
+
+  .job__timeline,
+  .project-timeline {
+    font-weight: 800;
+    font-size: $font_size_sm;
+    color: $color_brand_primary;
+    font-size: $font_size_sm;
+    display: inline-block;
+  }
+
+  .job__summary {
+    font-size: $font_size_sm;
+    color: $color_text_06;
+    width: $content_normal;
+    margin: 0 0 $space_two 0;
+    padding: 0 0 $space_three 0;
+    border-bottom: $border_thin_light;
+  }
+
+  .job__project {
+    overflow: auto;
+    clear: both;
+  }
+
+  .project-details {
+    float: left;
+    width: 24rem;
+  }
+
+    .project-title {
+      margin: 0 0 $space_one 0;
+      font-size: $font_size_lg;
+      font-weight: 800;
+    }
+    .project-role {
+      font-weight: 800;
+      font-size: $font_size_sm;
+      margin: 0 0 0 0;
+    }
+    .project-responsibilities {
+      font-size: $font_size_sm;
+      color: $color_text_03;
+      margin: 0 0 $space_one 0;
+    }
+
+  .project-summary {
+    float: right;
+    width: 30rem;
+    margin: 6rem 0 0 0;
+    font-size: $font_size_sm;
+    color: $color_text_06;
+  }
+
+  .project-gallery {
+    margin: $space_two 0 $space_four 0;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+    .gallery-primary {
+      width: 100%;
+      display: block;
+      margin: 0 $space_half $space_half 0;
+    }
+
+    .gallery-secondary {
+      flex: 1;
+      display: block;
+      margin: 0 $space_half 0 0;
+    }
+
+    .gallery-thumbnails {
+      display: none;
+    }
+
+// Fancybox Style Customizations
+// -------------------------
+.fancybox-is-open .fancybox-bg {
+    opacity: 0.98;
+}
+
