@@ -639,6 +639,10 @@ html {
   }
 }
 
+.grid__col--threefifths {
+  width: calc(((100% / 5) * 3));
+}
+
 .grid__col--onethird {
   width: calc((100% / 3));
 }
@@ -654,6 +658,15 @@ html {
 @media (max-width: 40rem) {
   .grid__col--onequarter {
     width: calc((100% / 2));
+  }
+}
+
+.grid__col--onefifth {
+  width: calc((100% / 5));
+}
+@media (max-width: 40rem) {
+  .grid__col--onefifth {
+    width: calc((100% / 1));
   }
 }
 
@@ -716,6 +729,15 @@ html {
 }
 @media (max-width: 40rem) {
   .grid__col--indent-onequarter {
+    margin-left: 0;
+  }
+}
+
+.grid__col--indent-onefifth {
+  margin-left: calc((100% / 5));
+}
+@media (max-width: 40rem) {
+  .grid__col--indent-onefifth {
     margin-left: 0;
   }
 }
@@ -1246,6 +1268,7 @@ html {
   font-weight: normal;
   font-style: normal;
   line-height: 1.5rem;
+  vertical-align: text-bottom;
 }
 
 .heading--xxxl {
@@ -1310,7 +1333,7 @@ html {
   color: inherit;
 }
 
-.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .aside__item ul li {
+.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .resume__contacts, .section__date, .section__body, .aside__item ul li {
   font-size: 0.8756567426rem;
   line-height: 1.3134851138rem;
   letter-spacing: 0px;
@@ -1319,7 +1342,7 @@ html {
   color: inherit;
 }
 
-.text--md {
+.text--md, .section__title, .section__position {
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0px;
@@ -1337,7 +1360,7 @@ html {
   color: inherit;
 }
 
-.text-expanded--sm {
+.text-expanded--sm, .intro__body {
   font-size: 0.8756567426rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -2354,6 +2377,64 @@ hr {
 .side-projects__description {
   font-size: 0.8756567426rem;
   margin: 0;
+}
+
+.resume {
+  padding: 3rem;
+}
+
+.resume__contacts {
+  margin: 0 0 7rem 0;
+  color: #5e5e5e;
+}
+
+.resume__intro {
+  padding: 1rem 0 2rem 0;
+  margin: 0 0 -2.3rem 0;
+  overflow: auto;
+  background-image: url("../../assets/img/resume/pic-headshot1-cropped.jpg");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro__title {
+  font-family: kepler-std-display, Georgia, serif;
+  font-size: 3.1573345183rem;
+  text-transform: normal;
+  margin: 0 0 2rem 0;
+  color: #2f2f2f;
+}
+
+.intro__body {
+  width: 33rem;
+  text-transform: normal;
+  color: #2f2f2f;
+  margin: 0 0 1rem 0;
+}
+
+.resume__section {
+  margin: 1rem 0 0 0;
+  padding: 2rem 0 0 0;
+  border-top: solid 1px #e6e6e6;
+}
+
+.section__title {
+  color: #2f2f2f;
+}
+
+.section__date {
+  color: #8e8e8e;
+  padding: 2px 0 0 0;
+}
+
+.section__position {
+  color: #2f2f2f;
+}
+
+.section__body {
+  color: #5e5e5e;
+  padding: 0 2rem 0 0;
 }
 
 .work {

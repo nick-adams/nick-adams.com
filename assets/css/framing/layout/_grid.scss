@@ -115,7 +115,7 @@
   width: $grid_col_onewhole;
 }
 
-// Three Quarters
+// Seven Eighths
 .grid__col--seveneighths {
   width: $grid_col_seveneighths;
 }
@@ -140,6 +140,11 @@
   }
 }
 
+// Three Fifths
+.grid__col--threefifths {
+  width: $grid_col_threefifths;
+}
+
 // One Third
 .grid__col--onethird {
   width: $grid_col_onethird;
@@ -157,6 +162,16 @@
   // At Small Breakpoint
   @media (max-width: $bp_sm) {
     width: $grid_col_onehalf;
+  }
+}
+
+// One Fifth
+.grid__col--onefifth {
+  width: $grid_col_onefifth;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    width: $grid_col_onewhole;
   }
 }
 
@@ -228,6 +243,16 @@
 // Indent by One Quarter
 .grid__col--indent-onequarter {
   margin-left: $grid_col_onequarter;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+// Indent by One Fifth
+.grid__col--indent-onefifth {
+  margin-left: $grid_col_onefifth;
 
   // At Small Breakpoint
   @media (max-width: $bp_sm) {

@@ -1,0 +1,63 @@
+// -------------------------
+// Resume Page Styles
+// -------------------------
+
+.resume {
+  padding: $space_three;
+}
+
+  .resume__contacts {
+    margin: 0 0 $space_seven 0;
+    @extend .text--sm;
+    color: $color_text_06;
+  }
+
+  .resume__intro {
+    padding: $space_one 0 $space_two 0;
+    margin: 0 0 -2.3rem 0;
+    overflow: auto;
+    background-image: url('../../assets/img/resume/pic-headshot1-cropped.jpg');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+    .intro__title {
+      font-family: $font_serif;
+      font-size: $font_size_xxxl;
+      text-transform: normal;
+      margin: 0 0 $space_two 0;
+      color: $color_text_08;
+    }
+
+    .intro__body {
+      @extend .text-expanded--sm;
+      width: 33rem;
+      text-transform: normal;
+      color: $color_text_08;
+      margin: 0 0 $space_one 0;
+    }
+
+  .resume__section {
+    margin: $space_one 0 0 0;
+    padding: $space_two 0 0 0;
+    border-top: $border_thin_light;
+  }
+    .section__title {
+      @extend .text--md;
+      color: $color_text_08;
+    }
+    .section__date {
+      @extend .text--sm;
+      color: $color_text_04;
+      padding: 2px 0 0 0;
+    }
+    .section__position {
+      @extend .text--md;
+      color: $color_text_08;
+    }
+    .section__body {
+      @extend .text--sm;
+      color: $color_text_06;
+      padding: 0 $space_two 0 0;
+    }
