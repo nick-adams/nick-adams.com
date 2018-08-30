@@ -1,0 +1,37 @@
+// ============================================
+// Lists
+// ============================================
+
+.#{$namespace}list--unordered {
+  margin: 0 0 0 $space_one;
+  padding: 0 0 0 $space_half;
+  list-style-type: disc;
+  list-style-position: outside;
+  line-height: inherit;
+  color: inherit;
+}
+
+.#{$namespace}list--ordered {
+  margin: 0 0 0 $space_one;
+  padding: 0 0 0 $space_half;
+  list-style-position: outside;
+  line-height: inherit; 
+  color: inherit;
+}
+
+  .#{$namespace}list--unordered > li,
+  .#{$namespace}list--ordered > li {
+    padding: 0;
+    margin: 0 0 $space_half 0;
+  }
+
+.#{$namespace}list--definition {
+
+}
+
+.#{$namespace}list--definition > dt {
+  
+}
+.#{$namespace}list--definition > dd {
+  
+}

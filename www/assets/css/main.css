@@ -1201,7 +1201,7 @@ html {
   color: #767676;
 }
 
-.nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right {
+.nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .work__nav--horiz, .nav-horiz--bottom-border, .nav-vert--left, .work__nav--vert, .nav-vert--right {
   display: flex;
   align-content: stretch;
   align-items: stretch;
@@ -1221,7 +1221,7 @@ html {
   flex-direction: row;
 }
 
-.nav-horiz--top-border {
+.nav-horiz--top-border, .work__nav--horiz {
   flex-direction: row;
   border-top: solid 1px #e6e6e6;
 }
@@ -1231,7 +1231,7 @@ html {
   border-bottom: solid 1px #e6e6e6;
 }
 
-.nav-vert--left {
+.nav-vert--left, .work__nav--vert {
   flex-direction: column;
   border-right: solid 1px #e6e6e6;
 }
@@ -1333,7 +1333,7 @@ html {
   color: inherit;
 }
 
-.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .nav-horiz--bottom-border, .nav-vert--left, .nav-vert--right, .contact__item > dd, .resume__contacts, .section__date, .section__body, .aside__item ul li {
+.text--sm, .nav-horiz--top, .nav-horiz--bottom, .nav-horiz--top-border, .work__nav--horiz, .nav-horiz--bottom-border, .nav-vert--left, .work__nav--vert, .nav-vert--right, .contact__item > dd, .resume__contacts, .section__date, .section__body, .aside__item ul li {
   font-size: 0.8756567426rem;
   line-height: 1.3134851138rem;
   letter-spacing: 0px;
@@ -1457,6 +1457,29 @@ html {
   border-radius: 0.25em;
   padding: 0.25rem;
   vertical-align: middle;
+}
+
+.list--unordered, .casestudy__content ul {
+  margin: 0 0 0 1rem;
+  padding: 0 0 0 0.5rem;
+  list-style-type: disc;
+  list-style-position: outside;
+  line-height: inherit;
+  color: inherit;
+}
+
+.list--ordered {
+  margin: 0 0 0 1rem;
+  padding: 0 0 0 0.5rem;
+  list-style-position: outside;
+  line-height: inherit;
+  color: inherit;
+}
+
+.list--unordered > li, .casestudy__content ul > li,
+.list--ordered > li {
+  padding: 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .btn-fill--action, .btn-fill--standard, .btn-fill--subtle, .btn-fill--create, .btn-fill--destroy, .btn-fill--warn, .btn-fill--disabled {
@@ -2452,18 +2475,51 @@ hr {
 .work__body {
   text-transform: normal;
   color: #5e5e5e;
-  margin: 0 0 3rem 0;
+  margin: 0 0 1rem 0;
 }
 
-.work__nav {
+.work__nav--vert {
   font-weight: 800;
-  border-bottom: solid 1px #e6e6e6;
   margin: 0;
+  background-color: #ffffff;
   padding: 1rem 0 1rem 0;
+  position: fixed;
+  top: 24.5%;
+  left: 5%;
+}
+@media (max-width: 64rem) {
+  .work__nav--vert {
+    display: none;
+  }
+}
+
+.work__nav--horiz {
+  font-weight: 800;
+  margin: 0;
+  background-color: #ffffff;
+  padding: 1rem 0 1rem 0;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+@media (max-width: 64rem) {
+  .work__nav--horiz {
+    display: flex;
+  }
 }
 
 .job__company {
-  margin: 8rem 0 2rem 0;
+  padding-top: 6rem;
+  margin: 6rem 0 2rem 0;
+  width: 45rem;
+  border-top: solid 1px #e6e6e6;
+}
+
+.job__position {
+  width: 45rem;
 }
 
 .job__title {
@@ -2488,7 +2544,6 @@ hr {
   width: 45rem;
   margin: 0 0 2rem 0;
   padding: 0 0 3rem 0;
-  border-bottom: solid 1px #e6e6e6;
 }
 
 .job__project {
@@ -2602,19 +2657,19 @@ hr {
 }
 
 .study-preview--hudl-ios {
-  background-image: url("../img/projects/hudl-ios/bg-project-hudl-ios-preview.png");
+  background-image: url("../img/case-studies/hudl-ios/bg-project-hudl-ios-preview.png");
 }
 
 .study-preview--hudl-designsystem {
-  background-image: url("../img/projects/hudl-designsystem/bg-project-hudl-designsystem-preview.png");
+  background-image: url("../img/case-studies/hudl-designsystem/bg-project-hudl-designsystem-preview.png");
 }
 
 .study-preview--hudl-ia-nav {
-  background-image: url("../img/projects/hudl-ia-nav/bg-project-hudl-ia-nav-preview.png");
+  background-image: url("../img/case-studies/hudl-ia-nav/bg-project-hudl-ia-nav-preview.png");
 }
 
 .study-preview--remotejobs {
-  background-image: url("../img/projects/remotejobs/bg-project-remotejobs-preview.png");
+  background-image: url("../img/case-studies/remotejobs/bg-project-remotejobs-preview.png");
 }
 
 .studies {
