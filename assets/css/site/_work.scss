@@ -3,160 +3,157 @@
 // -------------------------
 
 .work {
-  margin: $space_ten auto $space_five auto;
-  padding: 0 0 $space_five 0;
+  margin: $space_ten auto $space_five;
+  padding: 0 0 $space_five;
   @extend .u-clear;
 }
 
-  .work__title {
-    font-family: $font_serif;
-    font-size: $font_size_xxxl;
-    text-transform: normal;
-    margin: 0 0 $space_two 0;
-  }
-
-  .work__body {
-    @extend .text-expanded--md;
-    text-transform: normal;
-    color: $color_text_06;
-    margin: 0 0 $space_one 0;
-  }
-
-  .work__nav--vert {
-    @extend .nav-vert--left;
-    font-weight: 800;
-    margin: 0;
-    background-color: $color_white;
-    padding: $space_one 0 $space_one 0;
-    position: fixed;
-    top: 24.5%;
-    left: 5%;
-
-    // At Medium Breakpoint
-    @media (max-width: $bp_md) {
-      display: none;
-    }
-  }
-
-  .work__nav--horiz {
-    @extend .nav-horiz--top-border;
-    font-weight: 800;
-    margin: 0;
-    background-color: $color_white;
-    padding: $space_one 0 $space_one 0;
-    position: fixed;
-    width: 100%;
-    justify-content: center;
-    bottom: 0;
-    left: 0;
-    display: none;
-
-
-    // At Medium Breakpoint
-    @media (max-width: $bp_md) {
-      display: flex;
-    }
-  }
-
-
-  .job__company {
-    padding-top: $space_six;
-    margin: $space_six 0 $space_two 0;
-    width: $content_normal;
-    border-top: $border_thin_light;
-  }
-
-  .job__position {
-    width: $content_normal;
-  }
-
-  .job__title {
-    font-weight: 800;
-    font-size: $font_size_sm;
-    display: inline-block;
-    margin: 0 $space_one 0 0;
-  }
-
-  .job__timeline,
-  .project-timeline {
-    font-weight: 800;
-    font-size: $font_size_sm;
-    color: $color_brand_primary;
-    font-size: $font_size_sm;
-    display: inline-block;
-  }
-
-  .job__summary {
-    font-size: $font_size_sm;
-    color: $color_text_06;
-    width: $content_normal;
-    margin: 0 0 $space_two 0;
-    padding: 0 0 $space_three 0;
-    // border-bottom: $border_thin_light;
-  }
-
-  .job__project {
-    overflow: auto;
-    clear: both;
-  }
-
-  .project-details {
-    float: left;
-    width: 24rem;
-  }
-
-    .project-title {
-      margin: 0 0 $space_one 0;
-      font-size: $font_size_lg;
-      font-weight: 800;
-    }
-    .project-role {
-      font-weight: 800;
-      font-size: $font_size_sm;
-      margin: 0 0 0 0;
-    }
-    .project-responsibilities {
-      font-size: $font_size_sm;
-      color: $color_text_03;
-      margin: 0 0 $space_one 0;
-    }
-
-  .project-summary {
-    float: right;
-    width: 30rem;
-    margin: 6rem 0 0 0;
-    font-size: $font_size_sm;
-    color: $color_text_06;
-  }
-
-  .project-gallery {
-    margin: $space_two 0 $space_four 0;
-    clear: both;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-    .gallery-primary {
-      width: 100%;
-      display: block;
-      margin: 0 $space_half $space_half 0;
-    }
-
-    .gallery-secondary {
-      flex: 1;
-      display: block;
-      margin: 0 $space_half 0 0;
-    }
-
-    .gallery-thumbnails {
-      display: none;
-    }
-
-// Fancybox Style Customizations
-// -------------------------
-.fancybox-is-open .fancybox-bg {
-    opacity: 0.98;
+.work__title {
+  font-family: $font_serif;
+  font-size: $font_size_xxxl;
+  text-transform: normal;
+  margin: 0 0 $space_two;
 }
 
+.work__body {
+  @extend .text-expanded--md;
+  text-transform: normal;
+  color: $color_text_06;
+  margin: 0 0 $space_one;
+}
+
+.work__nav--vert {
+  @extend .nav-vert--left;
+  font-weight: 800;
+  margin: 0;
+  background-color: $color_white;
+  padding: $space_one 0;
+  position: fixed;
+  top: 24.5%;
+  left: 5%;
+  // At Medium Breakpoint
+  @media (max-width: $bp_lg) {
+    display: none;
+  }
+}
+
+.work__nav--horiz {
+  @extend .nav-horiz--top-border;
+  font-weight: 800;
+  margin: 0;
+  background-color: $color_white;
+  padding: $space_one 0;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  display: none;
+  // At Medium Breakpoint
+  @media (max-width: $bp_lg) {
+    display: flex;
+  }
+}
+
+.job__company {
+  padding-top: $space_six;
+  margin: $space_six 0 $space_two;
+  width: $content_normal;
+  border-top: $border_thin_light;
+}
+
+.job__position {
+  width: $content_normal;
+}
+
+.job__title {
+  font-weight: 800;
+  font-size: $font_size_sm;
+  display: inline-block;
+  margin: 0 $space_one 0 0;
+}
+
+.job__timeline,
+.project-timeline {
+  font-weight: 800;
+  font-size: $font_size_sm;
+  color: $color_brand_primary;
+  font-size: $font_size_sm;
+  display: inline-block;
+}
+
+.job__summary {
+  font-size: $font_size_sm;
+  color: $color_text_06;
+  width: $content_normal;
+  margin: 0 0 $space_two;
+  padding: 0 0 $space_three;
+  // border-bottom: $border_thin_light;
+}
+
+.job__project {
+  overflow: auto;
+  clear: both;
+}
+
+.project-details {
+  float: left;
+  width: 24rem;
+}
+
+.project-title {
+  margin: 0 0 $space_one;
+  font-size: $font_size_lg;
+  font-weight: 800;
+}
+
+.project-role {
+  font-weight: 800;
+  font-size: $font_size_sm;
+  margin: 0;
+}
+
+.project-responsibilities {
+  font-size: $font_size_sm;
+  color: $color_text_03;
+  margin: 0 0 $space_one;
+}
+
+.project-summary {
+  float: right;
+  width: 30rem;
+  margin: 6rem 0 0;
+  font-size: $font_size_sm;
+  color: $color_text_06;
+}
+
+.project-gallery {
+  margin: $space_two 0 $space_four;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery-primary {
+  width: 100%;
+  display: block;
+  margin: 0 $space_half $space_half 0;
+}
+
+.gallery-secondary {
+  flex: 1;
+  display: block;
+  margin: 0 $space_half 0 0;
+}
+
+.gallery-thumbnails {
+  display: none;
+}
+// Fancybox Style Customizations
+// -------------------------
+
+.fancybox-is-open .fancybox-bg {
+  opacity: 0.98;
+}
