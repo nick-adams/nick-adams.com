@@ -2,26 +2,33 @@
 // Work Page Styles
 // -------------------------
 
+
 .work {
   margin: $space_ten auto $space_five;
   padding: 0 0 $space_five;
   @extend .u-clear;
 }
 
-.work__title {
-  font-family: $font_serif;
-  font-size: $font_size_xxxl;
-  text-transform: normal;
-  margin: 0 0 $space_two;
-}
+// Work Page Header
+// -------------------------
+.work-header  { }
 
-.work__body {
-  @extend .text-expanded--md;
-  text-transform: normal;
-  color: $color_text_06;
-  margin: 0 0 $space_one;
-}
+  .work-header__title {
+    font-family: $font_serif;
+    font-size: $font_size_xxxl;
+    text-transform: normal;
+    margin: 0 0 $space_two;
+  }
 
+  .work-header__body {
+    @extend .text-expanded--md;
+    text-transform: normal;
+    color: $color_text_06;
+    margin: 0 0 $space_one;
+  }
+
+// Job Content Navigation
+// -------------------------
 .work__nav--vert {
   @extend .nav-vert--left;
   font-weight: 800;
@@ -55,6 +62,10 @@
   }
 }
 
+// Job Content
+// -------------------------
+.job {}
+
 .job__company {
   padding-top: $space_six;
   margin: $space_six 0 $space_two;
@@ -62,98 +73,102 @@
   border-top: $border_thin_light;
 }
 
-.job__position {
-  width: $content_normal;
-}
+  .job__position {
+    width: $content_normal;
+  }
 
-.job__title {
-  font-weight: 800;
-  font-size: $font_size_sm;
-  display: inline-block;
-  margin: 0 $space_one 0 0;
-}
+  .job__title {
+    font-weight: 800;
+    font-size: $font_size_sm;
+    display: inline-block;
+    margin: 0 $space_one 0 0;
+  }
 
-.job__timeline,
-.project-timeline {
-  font-weight: 800;
-  font-size: $font_size_sm;
-  color: $color_brand_primary;
-  font-size: $font_size_sm;
-  display: inline-block;
-}
+  .job__timeline,
+  .project-timeline {
+    font-weight: 800;
+    font-size: $font_size_sm;
+    color: $color_brand_primary;
+    font-size: $font_size_sm;
+    display: inline-block;
+  }
 
-.job__summary {
-  font-size: $font_size_sm;
-  color: $color_text_06;
-  width: $content_normal;
-  margin: 0 0 $space_two;
-  padding: 0 0 $space_three;
-  // border-bottom: $border_thin_light;
-}
+  .job__summary {
+    font-size: $font_size_sm;
+    color: $color_text_06;
+    width: $content_normal;
+    margin: 0 0 $space_two;
+    padding: 0 0 $space_three;
+    // border-bottom: $border_thin_light;
+  }
 
-.job__project {
-  overflow: auto;
-  clear: both;
-}
-
-.project-details {
-  float: left;
-  width: 24rem;
-}
-
-.project-title {
-  margin: 0 0 $space_one;
-  font-size: $font_size_lg;
-  font-weight: 800;
-}
-
-.project-role {
-  font-weight: 800;
-  font-size: $font_size_sm;
-  margin: 0;
-}
-
-.project-responsibilities {
-  font-size: $font_size_sm;
-  color: $color_text_03;
-  margin: 0 0 $space_one;
-}
-
-.project-summary {
-  float: right;
-  width: 30rem;
-  margin: 6rem 0 0;
-  font-size: $font_size_sm;
-  color: $color_text_06;
-}
-
-.project-gallery {
-  margin: $space_two 0 $space_four;
-  clear: both;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.gallery-primary {
-  width: 100%;
-  display: block;
-  margin: 0 $space_half $space_half 0;
-}
-
-.gallery-secondary {
-  flex: 1;
-  display: block;
-  margin: 0 $space_half 0 0;
-}
-
-.gallery-thumbnails {
-  display: none;
-}
-// Fancybox Style Customizations
+// Project Content
 // -------------------------
+.project {}
 
-.fancybox-is-open .fancybox-bg {
-  opacity: 0.98;
-}
+  .project-info {
+    overflow: auto;
+    clear: both;
+  }
+
+  .project-details {
+    float: left;
+    width: 24rem;
+  }
+
+  .project-title {
+    margin: 0 0 $space_one;
+    font-size: $font_size_lg;
+    font-weight: 800;
+  }
+
+  .project-role {
+    font-weight: 800;
+    font-size: $font_size_sm;
+    margin: 0;
+  }
+
+  .project-responsibilities {
+    font-size: $font_size_sm;
+    color: $color_text_03;
+    margin: 0 0 $space_one;
+  }
+
+  .project-summary {
+    float: right;
+    width: 30rem;
+    margin: 6rem 0 0;
+    font-size: $font_size_sm;
+    color: $color_text_06;
+  }
+
+  .project-gallery {
+    margin: $space_two 0 $space_four;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+    .gallery-primary {
+      width: 100%;
+      display: block;
+      margin: 0 $space_half $space_half 0;
+    }
+
+    .gallery-secondary {
+      flex: 1;
+      display: block;
+      margin: 0 $space_half 0 0;
+    }
+
+    .gallery-thumbnails {
+      display: none;
+    }
+    // Fancybox Style Customizations
+    // -------------------------
+
+    .fancybox-is-open .fancybox-bg {
+      opacity: 0.98;
+    }
