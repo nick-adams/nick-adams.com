@@ -8,17 +8,17 @@ header_nav_color: is--on-dark
 <div class="grid--maxwidth grid--outsidegutters">
 
     <header class="project-cover">
-      <div class="project-feature" style="background-image: url(../../assets/img/projects/hudl-ios/#.png)"></div>
+      <div class="project-feature" style="background-image: url(../../assets/img/case-studies/hudl-ios/#.png)"></div>
       <a href="/case-studies/" class="project-feature__backlink">&#8592; All Case Studies</a>
       <h1 class="project-feature__title">Hudl IA &amp; Navigation</h1>
     </header>
-  
+
 </div>
 
 <div class="grid project-content">
 
   <div class="grid--maxwidth grid--outsidegutters">
-      
+
     <div class="grid__col--twothirds">
 
       <p class="project__year">2016</p>
@@ -42,19 +42,18 @@ header_nav_color: is--on-dark
           <dt>View</dt>
           <dd><a href="#" class="link">#</a></dd>
         </div>
-      </dl>      
+      </dl>
 
 <article class="overview__content" markdown="1">
 
+* * *
 
---- 
+</article>
 
-</article>       
-    
     </div>
 
     <div class="grid__col--onethird project__aside">
-      
+
       <div class="aside__item">
        <h4 class="heading--sm project__subheading">Responsibilities</h4>
         <ul class="list--unordered project__bullets">
@@ -79,10 +78,15 @@ header_nav_color: is--on-dark
 <article class="casestudy__content" markdown="1">
 
 ## Background
+
 ## Research & Discovery
+
 ## Problem Definition
+
 ## Initial Explorations
+
 ## Final Direction
+
 ## Measuring Results
 
 </article>
