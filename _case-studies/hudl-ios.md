@@ -85,8 +85,8 @@ Finally, I worked to ensure the roll-out was successful through beta testing, re
 <article class="casestudy__content" markdown="1">
 
 <figure>
-  <img src="/assets/img/projects/hudl-ios/pic-project-hudl-ios-overview1@2x.png">
-  <img src="/assets/img/projects/hudl-ios/pic-project-hudl-ios-overview2@2x.png">
+  <img src="/assets/img/case-studies/hudl-ios/pic-project-hudl-ios-overview1@2x.png">
+  <img src="/assets/img/case-studies/hudl-ios/pic-project-hudl-ios-overview2@2x.png">
 </figure>
 
 # Case Study —
