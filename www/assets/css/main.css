@@ -1369,7 +1369,7 @@ html {
   color: inherit;
 }
 
-.text-expanded--md, .work__body, .overview__content > p, .casestudy__content > p {
+.text-expanded--md, .work-header__body, .overview__content > p, .casestudy__content > p {
   font-size: 1rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -2461,33 +2461,33 @@ hr {
 }
 
 .work {
-  margin: 10rem auto 5rem auto;
-  padding: 0 0 5rem 0;
+  margin: 10rem auto 5rem;
+  padding: 0 0 5rem;
 }
 
-.work__title {
+.work-header__title {
   font-family: kepler-std-display, Georgia, serif;
   font-size: 3.1573345183rem;
   text-transform: normal;
-  margin: 0 0 2rem 0;
+  margin: 0 0 2rem;
 }
 
-.work__body {
+.work-header__body {
   text-transform: normal;
   color: #5e5e5e;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem;
 }
 
 .work__nav--vert {
   font-weight: 800;
   margin: 0;
   background-color: #ffffff;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0;
   position: fixed;
   top: 24.5%;
   left: 5%;
 }
-@media (max-width: 64rem) {
+@media (max-width: 90rem) {
   .work__nav--vert {
     display: none;
   }
@@ -2497,7 +2497,7 @@ hr {
   font-weight: 800;
   margin: 0;
   background-color: #ffffff;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0;
   position: fixed;
   width: 100%;
   justify-content: center;
@@ -2505,7 +2505,7 @@ hr {
   left: 0;
   display: none;
 }
-@media (max-width: 64rem) {
+@media (max-width: 90rem) {
   .work__nav--horiz {
     display: flex;
   }
@@ -2513,7 +2513,7 @@ hr {
 
 .job__company {
   padding-top: 6rem;
-  margin: 6rem 0 2rem 0;
+  margin: 6rem 0 2rem;
   width: 45rem;
   border-top: solid 1px #e6e6e6;
 }
@@ -2542,11 +2542,11 @@ hr {
   font-size: 0.8756567426rem;
   color: #5e5e5e;
   width: 45rem;
-  margin: 0 0 2rem 0;
-  padding: 0 0 3rem 0;
+  margin: 0 0 2rem;
+  padding: 0 0 3rem;
 }
 
-.job__project {
+.project-info {
   overflow: auto;
   clear: both;
 }
@@ -2557,7 +2557,7 @@ hr {
 }
 
 .project-title {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem;
   font-size: 1.333rem;
   font-weight: 800;
 }
@@ -2565,25 +2565,25 @@ hr {
 .project-role {
   font-weight: 800;
   font-size: 0.8756567426rem;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 .project-responsibilities {
   font-size: 0.8756567426rem;
   color: #a5a5a5;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem;
 }
 
 .project-summary {
   float: right;
   width: 30rem;
-  margin: 6rem 0 0 0;
+  margin: 6rem 0 0;
   font-size: 0.8756567426rem;
   color: #5e5e5e;
 }
 
 .project-gallery {
-  margin: 2rem 0 4rem 0;
+  margin: 2rem 0 4rem;
   clear: both;
   display: flex;
   flex-wrap: wrap;
