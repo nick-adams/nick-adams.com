@@ -36,11 +36,11 @@
     width: 40rem;
     width: 50%;
     height: 100vh;
-    background-color: $color_dark; 
+    background-color: $color_dark;
     z-index: $z_behind;
     transition: all $transition_slow;
   }
-    
+
     // These are show when the respective item in the list of studies is hovered
     %study-preview--base {
       position: absolute;
@@ -48,7 +48,7 @@
       height: 100%;
       width: 100%;
       background-position: top right;
-      background-size: cover; 
+      background-size: cover;
       opacity: 0;
       transition: all $transition_slow;
     }
@@ -104,22 +104,22 @@
       margin: 0;
       padding: $space_two 0;
       transition: all $transition_slow;
-      
+
       &:hover {
         // cursor: pointer;
         padding: $space_two 0 $space_two $space_half;
       }
-    }  
+    }
 
-    // Fix the project preview height issue by 
+    // Fix the project preview height issue by
     // reducing the project list item paddings.
-    // (Since the preview is absolute positioned, 
+    // (Since the preview is absolute positioned,
     // it won't respond to a taller element.)
     @media (max-height: 775px) {
-      
+
       .studies-list__item {
         padding: $space_one 0;
-        
+
         &:hover {
           padding: $space_one 0 $space_one $space_half;
         }
@@ -134,7 +134,7 @@
     .study-item__date {
       color: $color_brand_primary;
       font-family: $font_sans;
-      font-weight: 400;
+      font-weight: 800;
       font-size: $font_size_sm;
       margin: 0 0 $space_half 0;
     }
@@ -266,7 +266,7 @@
 //                         font-family: $font_serif;
 //                         font-size: 1.6rem;
 //                         letter-spacing: 0.1rem;
-//                         color: $color_text_00; 
+//                         color: $color_text_00;
 //                         margin: 0 0 0 0;
 //                     }
 //                     .ProjectData-Name {

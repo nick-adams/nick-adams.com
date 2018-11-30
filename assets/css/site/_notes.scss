@@ -3,5 +3,59 @@
 // -------------------------
 
 .notes {
-  margin: $space_ten auto $space_five auto ;
+  margin: $space_ten auto $space_five auto;
 }
+
+  .notes__title {
+    font-family: $font_serif;
+    font-size: $font_size_xxxl;
+    text-transform: normal;
+    margin: 0 0 $space_two 0;
+  }
+
+  .notes__body {
+    @extend .text-expanded--md;
+    text-transform: normal;
+    color: $color_text_06;
+    margin: 0 0 $space_one;
+  }
+
+  .notes__archive {
+    margin: 0 0 $space_two 0;
+  }
+
+    .posts__year {
+      color: $color_brand_primary;
+      font-family: $font_sans;
+      font-weight: 800;
+      font-size: $font_size_md;
+      margin: $space_two 0 $space_one;
+    }
+    .posts__list {
+      margin: 0 0 $space_four 0;
+      padding: 0;
+      list-style-type: none;
+      list-style-position: inside;
+    }
+      .post {
+        margin: 0;
+        padding: $space_one 0;
+        border-bottom: $border_thin_light;
+      }
+        .post__date {
+          margin: 0 0 $space_half 0;
+          font-weight: 500;
+          font-size: $font_size_sm;
+          color: $color_text_04;
+        }
+        .post__title {
+          @extend .heading--xxl;
+          margin: 0 $space_one $space_half 0;
+          font-family: $font_serif;
+          line-height: 3rem;
+          letter-spacing: $letter_spacing_normal;
+        }
+        .post__excerpt {
+          @extend .text--md;
+          color: $color_text_06;
+        }

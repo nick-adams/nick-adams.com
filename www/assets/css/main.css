@@ -1281,7 +1281,7 @@ html {
   color: inherit;
 }
 
-.heading--xxl, .casestudy__content > h1 {
+.heading--xxl, .casestudy__content > h1, .post__title {
   font-size: 2.368593037rem;
   font-weight: 800;
   line-height: 1.9995rem;
@@ -1342,7 +1342,7 @@ html {
   color: inherit;
 }
 
-.text--md, .section__title, .section__position {
+.text--md, .section__title, .section__position, .post__excerpt {
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0px;
@@ -1369,7 +1369,7 @@ html {
   color: inherit;
 }
 
-.text-expanded--md, .work-header__body, .overview__content > p, .casestudy__content > p {
+.text-expanded--md, .work-header__body, .overview__content > p, .casestudy__content > p, .notes__body {
   font-size: 1rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -2707,7 +2707,7 @@ hr {
 .study-item__date {
   color: #D75B5B;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 0.8756567426rem;
   margin: 0 0 0.5rem 0;
 }
@@ -2972,4 +2972,60 @@ hr {
 
 .notes {
   margin: 10rem auto 5rem auto;
+}
+
+.notes__title {
+  font-family: kepler-std-display, Georgia, serif;
+  font-size: 3.1573345183rem;
+  text-transform: normal;
+  margin: 0 0 2rem 0;
+}
+
+.notes__body {
+  text-transform: normal;
+  color: #5e5e5e;
+  margin: 0 0 1rem;
+}
+
+.notes__archive {
+  margin: 0 0 2rem 0;
+}
+
+.posts__year {
+  color: #D75B5B;
+  font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  margin: 2rem 0 1rem;
+}
+
+.posts__list {
+  margin: 0 0 4rem 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.post {
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.post__date {
+  margin: 0 0 0.5rem 0;
+  font-weight: 500;
+  font-size: 0.8756567426rem;
+  color: #8e8e8e;
+}
+
+.post__title {
+  margin: 0 1rem 0.5rem 0;
+  font-family: kepler-std-display, Georgia, serif;
+  line-height: 3rem;
+  letter-spacing: 0px;
+}
+
+.post__excerpt {
+  color: #5e5e5e;
 }

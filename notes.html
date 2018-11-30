@@ -6,7 +6,7 @@ header_nav_color: is--on-light
 ---
 
 <div class="grid--maxwidth grid--outsidegutters">
-  
+
   <div class="notes">
   <div class="grid__row">
 
@@ -14,12 +14,38 @@ header_nav_color: is--on-light
 
       <section>
 
-        <h1 class="about__title">Notes&ndash;</h1>
-        <p class="about__body text--md">
-            To Do
+        <h1 class="notes__title">Notes&ndash;</h1>
+        <p class="notes__body text--md">
+            I occassionally have some things to say or thoughts to explore. And since this is 2019 and I'm technically a millenial, I am legally required to share them on the Internet.
         </p>
 
       </section>
+
+    </div>
+
+  </div>
+
+  <div class="grid__row">
+
+    <div class="grid__col--threequarters">
+
+    <section class="notes__archive">
+
+      {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+      {% for year in postsByYear %}
+        <h2 id="{{ year.name }}" class="posts__year">{{ year.name }}</h2>
+        <ul class="posts__list">
+          {% for post in year.items %}
+            <li class="post">
+              <p class="post__date">{{ post.date | date_to_string }}</p>
+              <h3 class="post__title"><a class="link--implied" href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p class="post__excerpt" href="{{ post.url }}">{{ post.excerpt }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+
+    </section>
 
     </div>
 
