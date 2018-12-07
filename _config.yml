@@ -1,4 +1,4 @@
-# Site settings
+# Site Settings
 title: Nick Adams, Designer
 email: hi@nick-adams.com
 description: The site and portfolio of Nick Adams, a Designer based in Rochester, NY.
@@ -8,20 +8,29 @@ url: "http://www.nick-adams.com" # the base hostname & protocol for your site
 twitter_username: nickadamssays
 github_username:  nick-adams
 
-# Collections
+# Collection Settings
 collections:
   case-studies:
     output: true
     permalink: /case-studies/:path/
+    
+# Default FrontMatter for Posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+      permalink: /notes/:year/:title/ 
+      nav_selected: notes
+      header_nav_color: is--on-light
 
-# Build settings
+# Build Settings
 destination: ./www
 
 permalink: pretty
-# permalink: /notes/:year/:title.html #for Posts only, Pages overwrite this in their Frontmatter
 
 sass:
   sass_dir: ./assets/css
   style: :expanded
-
-
