@@ -7,11 +7,6 @@ excerpt: Designing my new portfolio after 6 years and why I won't make this mist
 
 ## Designing my new portfolio after 6 years and why I won't make this mistake again.
 
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
 Everyone says designing your own porfolio is the hardest thing. You don't believe them. I'm different, you say. I'll be able to separate myself from the work I'm curating, you say. I'll keep the design simple and I won't get bogged down in the trivial details. I'll be able to pick only a few projects from years worth of work. I'll make sure to update it often. I'll know what my audience wants and how best to present it. This _is_ what I do for a living after all, you say.
 
 You're probably wrong. So was I.
