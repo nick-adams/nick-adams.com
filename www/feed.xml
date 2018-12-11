@@ -5,15 +5,64 @@
     <description>The site and portfolio of Nick Adams, a Designer based in Rochester, NY.</description>
     <link>http://www.nick-adams.com/</link>
     <atom:link href="http://www.nick-adams.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Dec 2018 17:23:48 -0500</pubDate>
-    <lastBuildDate>Fri, 07 Dec 2018 17:23:48 -0500</lastBuildDate>
+    <pubDate>Tue, 11 Dec 2018 14:12:07 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Dec 2018 14:12:07 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Launching My New Portfolio or How I Learned To Stop Worrying and Love the Design.</title>
-        <description>&lt;h1&gt;Launching My New Portfolio or How I Learned To Stop Worrying and Love the Design.&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;launching-my-new-portfolio-or-how-i-learned-to-stop-worrying-and-love-the-design&quot;&gt;Launching My New Portfolio or How I Learned To Stop Worrying and Love the Design.&lt;/h1&gt;
 
-&lt;p&gt;Test&lt;/p&gt;
+&lt;h2 id=&quot;designing-my-new-portfolio-after-6-years-and-why-i-wont-make-this-mistake-again&quot;&gt;Designing my new portfolio after 6 years and why I won’t make this mistake again.&lt;/h2&gt;
+
+&lt;h3 id=&quot;h3-heading&quot;&gt;h3 Heading&lt;/h3&gt;
+&lt;h4 id=&quot;h4-heading&quot;&gt;h4 Heading&lt;/h4&gt;
+&lt;h5 id=&quot;h5-heading&quot;&gt;h5 Heading&lt;/h5&gt;
+&lt;h6 id=&quot;h6-heading&quot;&gt;h6 Heading&lt;/h6&gt;
+
+&lt;p&gt;Everyone says designing your own porfolio is the hardest thing. You don’t believe them. I’m different, you say. I’ll be able to separate myself from the work I’m curating, you say. I’ll keep the design simple and I won’t get bogged down in the trivial details. I’ll be able to pick only a few projects from years worth of work. I’ll make sure to update it often. I’ll know what my audience wants and how best to present it. This &lt;em&gt;is&lt;/em&gt; what I do for a living after all, you say.&lt;/p&gt;
+
+&lt;p&gt;You’re probably wrong. So was I.&lt;/p&gt;
+
+&lt;p&gt;About a year ago I set out to seriously update my portfolio after tinkering for years before that. I’ve been at my current job for 6 years and when I last updated my portfolio — 5 years previous — I told myself that this time, this time I’d keep it updated.&lt;/p&gt;
+
+&lt;p&gt;Well 5 years goes by fast. I looked at the mountain of work I completed over that time period and faced the daunting task of putting it all together; collecting images in file formats I don’t even use anymore; recalling design details and decision points; and wrapping that all in a visual design and layout that was clear; personal; and impressive without being trendy or pretentious. And then I remembered why I avoided this for 5 years.&lt;/p&gt;
+
+&lt;p&gt;Time to break the cycle.&lt;/p&gt;
+
+&lt;p&gt;For the past year — in the few hours available between full-time work, side-projects, X-Files marathons, and most importantly, family life — I’ve been playing with designs, building pages, collecting work samples, and writing case studies.&lt;/p&gt;
+
+&lt;p&gt;I also took a brief detour to build a CSS library for structuring and styling my web projects. Of course, because how could I possibly build my portfolio if it wasn’t on top of my own meticulously written variables and class names.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, building your own portfolio is so difficult because its the most personal reflection of your design perspective and skillset. You want to get it right, which also requires really understanding yourself — and how actually does that?&lt;/p&gt;
+
+&lt;p&gt;That was the chasm I needed to cross in order to produce something — not the perfect something but the representative something. Perfection is the dangerous temptation that I always fight, and without the constraints of typical design work, it’s very easy to fall victim to that temptation. I also wanted to avoid the typical trends and pretentiousness of most designer portfolios, so there was a constant gnawing in the back of my head to avoid such things and let my personality shine through.&lt;/p&gt;
+
+&lt;p&gt;In the end, it was that challenge, more than the design or technically challenge that was most important to meet in order to get this done. And with this post, it &lt;em&gt;is&lt;/em&gt; now done.&lt;/p&gt;
+
+&lt;p&gt;I have a portfolio that I feel does a respectable job of showcasing me, my skills, my sensibilities, and my body of work from the past 5 years or so.&lt;/p&gt;
+
+&lt;p&gt;I learned to love the design and launch the damn thing. And I think I’m actually proud of it too.&lt;/p&gt;
+
+&lt;p&gt;But next time will be different.&lt;/p&gt;
+
+&lt;p&gt;These are my lessons learned and what I will do differently from here on out. Don’t let me forget them.&lt;/p&gt;
+
+&lt;h4 id=&quot;lessons&quot;&gt;Lessons:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;W&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;goals&quot;&gt;Goals:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks for reading and looking.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.twitter.com/nickadamssays&quot;&gt;@nickadamssays&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Nov 2018 00:00:00 -0500</pubDate>
         <link>http://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</link>

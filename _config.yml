@@ -21,7 +21,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: default
+      layout: posts
       permalink: /notes/:year/:title/ 
       nav_selected: notes
       header_nav_color: is--on-light

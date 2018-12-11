@@ -37,25 +37,85 @@
       list-style-type: none;
       list-style-position: inside;
     }
-      .post {
+      .post-item {
         margin: 0;
         padding: $space_one 0;
         border-bottom: $border_thin_light;
       }
-        .post__date {
+        .post-item__date {
           margin: 0 0 $space_half 0;
           font-weight: 500;
           font-size: $font_size_sm;
           color: $color_text_04;
         }
-        .post__title {
+        .post-item__title {
           @extend .heading--xxl;
           margin: 0 $space_one $space_half 0;
           font-family: $font_serif;
           line-height: 3rem;
           letter-spacing: $letter_spacing_normal;
         }
-        .post__excerpt {
+        .post-item__excerpt {
           @extend .text--md;
           color: $color_text_06;
         }
+
+  
+  // Post Full View
+  // ---------------
+
+  .post-meta {
+    margin: $space_seven auto $space_one auto;
+    font-size: $font_size_sm;
+    color: $color_text_04;
+    text-transform: uppercase;
+  }
+  .post {
+    margin: 0 auto $space_ten auto;
+    padding-right: 0;
+  } 
+    // Post Title
+    .post h1 {
+      @extend .heading--xxxl;
+      font-family: $font_serif;
+      line-height: $line_height_xxl;
+      text-transform: normal;
+      margin: 0 0 $space_two 0;
+    }
+    // Post Subtitle
+    .post h2 {
+      @extend .text--lg;
+      font-weight: normal;
+      color: $color_text_06;
+      margin: 0 0 $space_four 0;
+    } 
+
+    .post h3,
+    .post h4,
+    .post h5,
+    .post h6 {
+      padding: 0 $grid_col_oneeighth;
+    }
+
+    // Post Body Content
+    .post p {      
+      @extend .text--md;
+      line-height: $line_height_lg;
+      padding: 0 $grid_col_oneeighth;
+    }
+    
+    .post ul {
+      padding: 0 $grid_col_oneeighth;
+      list-style-position: inside;
+    }
+
+    .post ul li {
+      padding: 0 0 0 $space_two;
+    }
+
+    .post p > img {
+    }
+
+    .post a {
+      @extend .link--action;
+    }
