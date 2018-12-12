@@ -5,11 +5,11 @@ layout: default
   <!-- "Post" Layout -->
   <div class="grid--maxwidth grid--outsidegutters">
     <div class="grid__col">
-      <p class="post-meta">
-        Nick Adams • {{ page.date | date_to_string }}
-      </p>
+      <p class="post-back"><a href="/notes/" class="link--implied">&#8592; All Notes</a></p>
       <article class="post">
         {{ content }}
       </article>
+      <div class="post-meta">{{ page.date | date_to_string }}</div>
+      <div class="post-nav">Previous | Next </div>
     </div>
   </div>

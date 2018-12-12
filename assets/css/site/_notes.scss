@@ -63,15 +63,15 @@
   
   // Post Full View
   // ---------------
-
-  .post-meta {
+  
+  .post-back {
     margin: $space_seven auto $space_one auto;
     font-size: $font_size_sm;
     color: $color_text_04;
-    text-transform: uppercase;
   }
+
   .post {
-    margin: 0 auto $space_ten auto;
+    margin: 0 auto $space_two auto;
     padding-right: 0;
   } 
     // Post Title
@@ -102,16 +102,17 @@
       @extend .text--md;
       line-height: $line_height_lg;
       padding: 0 $grid_col_oneeighth;
+      width: 95%;
     }
     
     .post ul {
-      padding: 0 $grid_col_oneeighth;
-      list-style-position: inside;
+      padding: 0 $grid_col_oneeighth;      
       @extend .list--unordered;
+      margin: 0 0 0 $space_two;
     }
 
     .post ul li {
-      padding: 0 0 0 $space_two;
+      width: 90%;
     }
 
     .post p > img {
@@ -120,3 +121,14 @@
     .post a {
       @extend .link--action;
     }
+  
+  .post-meta {
+    margin: $space_two 0 0 0;
+    border-top: $border_thin_light;
+    font-size: $font_size_sm;
+    color: $color_text_04;
+    text-transform: uppercase;
+  }
+  .post-nav {
+    margin: 0 0 $space_ten 0;
+  }

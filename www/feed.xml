@@ -5,8 +5,8 @@
     <description>The site and portfolio of Nick Adams, a Designer based in Rochester, NY.</description>
     <link>http://www.nick-adams.com/</link>
     <atom:link href="http://www.nick-adams.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Dec 2018 16:58:08 -0500</pubDate>
-    <lastBuildDate>Wed, 12 Dec 2018 16:58:08 -0500</lastBuildDate>
+    <pubDate>Wed, 12 Dec 2018 17:15:19 -0500</pubDate>
+    <lastBuildDate>Wed, 12 Dec 2018 17:15:19 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -43,7 +43,7 @@
 
 &lt;p&gt;These are my lessons learned and what I will do differently from here on out. Don’t let me forget them.&lt;/p&gt;
 
-&lt;h4 id=&quot;lessons&quot;&gt;Lessons:&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Lessons:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Writing content is really hard, I started by writing full case studies, big mistake. I should have focused on the work samples first.&lt;/li&gt;
@@ -60,7 +60,7 @@
   &lt;li&gt;An even better forcing mechanism was having a portfolio support group with some designer friends where we held eachother accountable for progress and gave eachother reality checks along the way.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;goals&quot;&gt;Goals:&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Goals:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Update my portfolio &lt;em&gt;as&lt;/em&gt; I complete design work. This includes better examples of process work.&lt;/li&gt;
   &lt;li&gt;Collect the work I’m doing on Obvserved. There is a lot there and it’s something I’m especially proud of and have a lot of control over.&lt;/li&gt;
@@ -72,8 +72,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Thanks for reading and looking.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.twitter.com/nickadamssays&quot;&gt;@nickadamssays&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Dec 2018 00:00:00 -0500</pubDate>
         <link>http://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</link>

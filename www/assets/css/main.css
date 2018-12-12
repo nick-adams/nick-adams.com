@@ -3035,15 +3035,14 @@ hr {
   color: #5e5e5e;
 }
 
-.post-meta {
+.post-back {
   margin: 7rem auto 1rem auto;
   font-size: 0.8756567426rem;
   color: #8e8e8e;
-  text-transform: uppercase;
 }
 
 .post {
-  margin: 0 auto 10rem auto;
+  margin: 0 auto 2rem auto;
   padding-right: 0;
 }
 
@@ -3070,13 +3069,26 @@ hr {
 .post p {
   line-height: 1.9995rem;
   padding: 0 calc((100% / 8));
+  width: 95%;
 }
 
 .post ul {
   padding: 0 calc((100% / 8));
-  list-style-position: inside;
+  margin: 0 0 0 2rem;
 }
 
 .post ul li {
-  padding: 0 0 0 2rem;
+  width: 90%;
+}
+
+.post-meta {
+  margin: 2rem 0 0 0;
+  border-top: solid 1px #e6e6e6;
+  font-size: 0.8756567426rem;
+  color: #8e8e8e;
+  text-transform: uppercase;
+}
+
+.post-nav {
+  margin: 0 0 10rem 0;
 }
