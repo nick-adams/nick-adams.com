@@ -127,12 +127,18 @@
     font-size: $font_size_sm;
     margin: 0;
   }
-
+  
   .project-responsibilities {
     font-size: $font_size_sm;
     color: $color_text_03;
-    margin: 0 0 $space_one;
+    margin: 0;
   }
+
+  .project-link {
+    font-weight: 800;
+    font-size: $font_size_sm;
+  }
+
 
   .project-summary {
     float: right;

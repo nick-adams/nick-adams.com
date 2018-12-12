@@ -107,6 +107,7 @@
     .post ul {
       padding: 0 $grid_col_oneeighth;
       list-style-position: inside;
+      @extend .list--unordered;
     }
 
     .post ul li {

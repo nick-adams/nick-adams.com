@@ -1423,7 +1423,7 @@ html {
   color: inherit;
 }
 
-.list--unordered, .casestudy__content ul {
+.list--unordered, .casestudy__content ul, .post ul {
   margin: 0 0 0 1rem;
   padding: 0 0 0 0.5rem;
   list-style-type: disc;
@@ -1440,7 +1440,7 @@ html {
   color: inherit;
 }
 
-.list--unordered > li, .casestudy__content ul > li,
+.list--unordered > li, .casestudy__content ul > li, .post ul > li,
 .list--ordered > li {
   padding: 0;
   margin: 0 0 0.5rem 0;
@@ -1459,7 +1459,7 @@ html {
   vertical-align: middle;
 }
 
-.list--unordered, .casestudy__content ul {
+.list--unordered, .casestudy__content ul, .post ul {
   margin: 0 0 0 1rem;
   padding: 0 0 0 0.5rem;
   list-style-type: disc;
@@ -1476,7 +1476,7 @@ html {
   color: inherit;
 }
 
-.list--unordered > li, .casestudy__content ul > li,
+.list--unordered > li, .casestudy__content ul > li, .post ul > li,
 .list--ordered > li {
   padding: 0;
   margin: 0 0 0.5rem 0;
@@ -1736,7 +1736,7 @@ a {
   color: #3a73b5;
 }
 .link--action:visited, .post a:visited {
-  color: #80b1eb;
+  color: #3a73b5;
 }
 
 .link--standard {
@@ -1750,7 +1750,7 @@ a {
   color: #3a73b5;
 }
 .link--standard:visited {
-  color: #80b1eb;
+  color: #3a73b5;
 }
 
 .link--create {
@@ -2571,7 +2571,12 @@ hr {
 .project-responsibilities {
   font-size: 0.8756567426rem;
   color: #a5a5a5;
-  margin: 0 0 1rem;
+  margin: 0;
+}
+
+.project-link {
+  font-weight: 800;
+  font-size: 0.8756567426rem;
 }
 
 .project-summary {
