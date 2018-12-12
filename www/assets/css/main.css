@@ -1271,7 +1271,7 @@ html {
   vertical-align: text-bottom;
 }
 
-.heading--xxxl {
+.heading--xxxl, .post h1 {
   font-size: 3.1573345183rem;
   font-weight: 800;
   line-height: 1.9995rem;
@@ -1281,7 +1281,7 @@ html {
   color: inherit;
 }
 
-.heading--xxl, .casestudy__content > h1, .post__title {
+.heading--xxl, .casestudy__content > h1, .post-item__title {
   font-size: 2.368593037rem;
   font-weight: 800;
   line-height: 1.9995rem;
@@ -1342,7 +1342,7 @@ html {
   color: inherit;
 }
 
-.text--md, .section__title, .section__position, .post__excerpt {
+.text--md, .section__title, .section__position, .post-item__excerpt, .post p {
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0px;
@@ -1351,7 +1351,7 @@ html {
   color: inherit;
 }
 
-.text--lg {
+.text--lg, .post h2 {
   font-size: 1.333rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -1725,17 +1725,17 @@ a {
   color: #2f2f2f;
 }
 
-.link--action {
+.link--action, .post a {
   text-decoration: none;
   color: #4990E2;
 }
-.link--action:hover {
+.link--action:hover, .post a:hover {
   color: #80b1eb;
 }
-.link--action:active {
+.link--action:active, .post a:active {
   color: #3a73b5;
 }
-.link--action:visited {
+.link--action:visited, .post a:visited {
   color: #80b1eb;
 }
 
@@ -3006,26 +3006,72 @@ hr {
   list-style-position: inside;
 }
 
-.post {
+.post-item {
   margin: 0;
   padding: 1rem 0;
   border-bottom: solid 1px #e6e6e6;
 }
 
-.post__date {
+.post-item__date {
   margin: 0 0 0.5rem 0;
   font-weight: 500;
   font-size: 0.8756567426rem;
   color: #8e8e8e;
 }
 
-.post__title {
+.post-item__title {
   margin: 0 1rem 0.5rem 0;
   font-family: kepler-std-display, Georgia, serif;
   line-height: 3rem;
   letter-spacing: 0px;
 }
 
-.post__excerpt {
+.post-item__excerpt {
   color: #5e5e5e;
+}
+
+.post-meta {
+  margin: 7rem auto 1rem auto;
+  font-size: 0.8756567426rem;
+  color: #8e8e8e;
+  text-transform: uppercase;
+}
+
+.post {
+  margin: 0 auto 10rem auto;
+  padding-right: 0;
+}
+
+.post h1 {
+  font-family: kepler-std-display, Georgia, serif;
+  line-height: 3.5528895555rem;
+  text-transform: normal;
+  margin: 0 0 2rem 0;
+}
+
+.post h2 {
+  font-weight: normal;
+  color: #5e5e5e;
+  margin: 0 0 4rem 0;
+}
+
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  padding: 0 calc((100% / 8));
+}
+
+.post p {
+  line-height: 1.9995rem;
+  padding: 0 calc((100% / 8));
+}
+
+.post ul {
+  padding: 0 calc((100% / 8));
+  list-style-position: inside;
+}
+
+.post ul li {
+  padding: 0 0 0 2rem;
 }

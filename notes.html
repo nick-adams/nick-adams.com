@@ -36,10 +36,10 @@ header_nav_color: is--on-light
         <h2 id="{{ year.name }}" class="posts__year">{{ year.name }}</h2>
         <ul class="posts__list">
           {% for post in year.items %}
-            <li class="post">
-              <p class="post__date">{{ post.date | date_to_string }}</p>
-              <h3 class="post__title"><a class="link--implied" href="{{ post.url }}">{{ post.title }}</a></h3>
-              <p class="post__excerpt" href="{{ post.url }}">{{ post.excerpt }}</p>
+            <li class="post-item">
+              <p class="post-item__date">{{ post.date | date_to_string }}</p>
+              <h3 class="post-item__title"><a class="link--implied" href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p class="post-item__excerpt" href="{{ post.url }}">{{ post.excerpt }}</p>
             </li>
           {% endfor %}
         </ul>
