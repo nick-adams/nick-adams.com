@@ -21,10 +21,11 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: posts
+      layout: post
       permalink: /notes/:year/:title/ 
       nav_selected: notes
       header_nav_color: is--on-light
+      author: Nick Adams
 
 # Build Settings
 destination: ./www

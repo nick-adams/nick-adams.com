@@ -36,7 +36,7 @@ But next time will be different.
 
 These are my lessons learned and what I will do differently from here on out. Don't let me forget them.
 
-#### Lessons:
+**Lessons:**
 
 - Writing content is really hard, I started by writing full case studies, big mistake. I should have focused on the work samples first.
 - Retroactively explaining design process and decision making is terrible. It feels wrong and probably ends up inaccurate. I need to document work as I work on it.
@@ -51,7 +51,7 @@ These are my lessons learned and what I will do differently from here on out. Do
 - Putting an incomplete portfolio online was a good forcing mechanism.
 - An even better forcing mechanism was having a portfolio support group with some designer friends where we held eachother accountable for progress and gave eachother reality checks along the way.
 
-#### Goals:
+**Goals:**
 - Update my portfolio _as_ I complete design work. This includes better examples of process work.
 - Collect the work I'm doing on Obvserved. There is a lot there and it's something I'm especially proud of and have a lot of control over.
 - Document best practices or insights I come across as I'm working. Looking back at my work there is _so much_ that I wish I could showcase and talk about. Those are huge missed opportunities. They aren't necessarily portfolio pieces, but they make great blog posts.
@@ -61,5 +61,3 @@ These are my lessons learned and what I will do differently from here on out. Do
 - Speaking of _personal brands_... provide a counterpoint. The design industry has turned into a terrible place full of blow hards and talkers and people who care more about design the noun than design the verb. I don't want to be part of this problem. I need to figure out what the solution looks like.
 
 Thanks for reading and looking. 
-
-[@nickadamssays](https://www.twitter.com/nickadamssays)

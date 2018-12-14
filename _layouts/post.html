@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+  <!-- "Post" Layout -->
+  <div class="grid--maxwidth grid--outsidegutters">
+    <div class="grid__col">
+      <p class="post-back"><a href="/notes/" class="link--implied">&#8592;All Notes</a></p>
+      <article class="post">
+        {{ content }}
+      </article>
+      <div class="post-meta">
+        <p class="post-meta__date">
+          {{ page.date | date_to_string }}
+        </p> 
+        <p class="post-meta__author">
+          By {{ page.author }}
+        </p>
+      </div>
+      <div class="post-nav">
+        {% if page.previous.url %}
+          <a class="post-nav__prev" href="{{page.previous.url}}">
+            <span class="post-nav__title">&#8592; Older Note </span>
+            This Is The Title of This Note
+          </a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="post-nav__next" href="{{page.next.url}}">
+            <span class="post-nav__title"> Newer Note &#8594;</span>
+            This Is The A Different Title of a Different Note
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
