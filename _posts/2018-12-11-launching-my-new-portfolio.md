@@ -11,16 +11,23 @@ Everyone says designing your own porfolio is the hardest thing. You don't believ
 
 You're probably wrong. So was I.
 
+### Ok, I'm Going To Do This Thing. It Won't Be That Hard.
+
 About a year ago I set out to seriously update my portfolio after tinkering for years before that. I've been at my current job for 6 years and when I last updated my portfolio &mdash; 5 years previous &mdash; I told myself that this time, this time I'd keep it updated. 
+
+This time would be different.
+
+### Oh Wait It's Really Hard.
 
 Well 5 years goes by fast. I looked at the mountain of work I completed over that time period and faced the daunting task of putting it all together; collecting images in file formats I don't even use anymore; recalling design details and decision points; and wrapping that all in a visual design and layout that was clear; personal; and impressive without being trendy or pretentious. And then I remembered why I avoided this for 5 years.
 
-Time to break the cycle.
+### Don't Give Up
 
 For the past year &mdash; in the few hours available between full-time work, side-projects, X-Files marathons, and most importantly, family life &mdash; I've been playing with designs, building pages, collecting work samples, and writing case studies.
 
 I also took a brief detour to build a CSS library for structuring and styling my web projects. Of course, because how could I possibly build my portfolio if it wasn't on top of my own meticulously written variables and class names. 
 
+### Why Is This So Hard?
 
 Ultimately, building your own portfolio is so difficult because its the most personal reflection of your design perspective and skillset. You want to get it right, which also requires really understanding yourself &mdash; and how actually does that?
 
@@ -32,11 +39,11 @@ I have a portfolio that I feel does a respectable job of showcasing me, my skill
 
 I learned to love the design and launch the damn thing. And I think I'm actually proud of it too. 
 
-But next time will be different. 
+Next time will be different. 
 
-These are my lessons learned and what I will do differently from here on out. Don't let me forget them.
+### Lessons
 
-**Lessons:**
+These are my lessons learned and what I will do differently from here on out. _Don't let me forget them._
 
 - Writing content is really hard, I started by writing full case studies, big mistake. I should have focused on the work samples first.
 - Retroactively explaining design process and decision making is terrible. It feels wrong and probably ends up inaccurate. I need to document work as I work on it.
@@ -51,13 +58,16 @@ These are my lessons learned and what I will do differently from here on out. Do
 - Putting an incomplete portfolio online was a good forcing mechanism.
 - An even better forcing mechanism was having a portfolio support group with some designer friends where we held eachother accountable for progress and gave eachother reality checks along the way.
 
-**Goals:**
-- Update my portfolio _as_ I complete design work. This includes better examples of process work.
-- Collect the work I'm doing on Obvserved. There is a lot there and it's something I'm especially proud of and have a lot of control over.
-- Document best practices or insights I come across as I'm working. Looking back at my work there is _so much_ that I wish I could showcase and talk about. Those are huge missed opportunities. They aren't necessarily portfolio pieces, but they make great blog posts.
-- Speaking of: Blog more (or at all really). It's fun. Twitter is a toxic place. Long-form writing is more satisfying. I have thoughts, I do work, I need to talk more about each.
-- Finish my CSS library. Now that this portfolio is done, I can put some focus back on that and not feel like I'm putting my time in the wrong place.
-- Get comfortable self-promoting. Do things, talk about them. Be confident. I can share my work without it coming off as selling or personal brand building. Gross.
-- Speaking of _personal brands_... provide a counterpoint. The design industry has turned into a terrible place full of blow hards and talkers and people who care more about design the noun than design the verb. I don't want to be part of this problem. I need to figure out what the solution looks like.
+### Goals. Starting Now.
+
+Applying those lessons to get results. Well, that's the plan anyway.
+
+- I want to update my portfolio _as_ I complete design work. This includes better examples of process work.
+- I want to collect and talk abiout the work I'm doing on Obvserved. There is a lot there and it's something I'm especially proud of and have a lot of control over.
+- I want to better document best practices or insights I come across as I'm working. Looking back at my work there is _so much_ that I wish I could showcase and talk about. Those are huge missed opportunities. They aren't necessarily portfolio pieces, but they make great blog posts.
+- Speaking of... I want to write more (or at all really). It's fun. Twitter is a toxic place. Long-form writing is more satisfying. I have thoughts, I do work, I need to talk more about each.
+- I want to finish my CSS library. Now that this portfolio is done, I can put some focus back on that and not feel like I'm putting my time in the wrong place.
+- I want to get comfortable self-promoting. Do things, talk about them. Be confident. I can share my work without it coming off as selling or personal brand building. Gross.
+- Speaking of _personal brands_... I want to provide a counterpoint to the modern designer personality. The design industry has turned into a terrible place full of talkers and people who care more about design the noun than design the verb. I don't want to be part of this problem. I need to figure out what the solution looks like.
 
 Thanks for reading and looking. 
