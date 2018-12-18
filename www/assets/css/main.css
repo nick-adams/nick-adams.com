@@ -1370,7 +1370,7 @@ html {
   color: inherit;
 }
 
-.text-expanded--md, .work-header__body, .overview__content > p, .casestudy__content > p, .notes__body {
+.text-expanded--md, .work-header__body, .overview__content > p, .casestudy__content > p, .vox-content__subheading, .vox-content__body, .vox-content__signoff, .notes__body {
   font-size: 1rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -2973,6 +2973,117 @@ hr {
   margin: -3rem 0 3rem 0;
   font-style: italic;
   color: #8e8e8e;
+}
+
+.vox-cover {
+  padding-top: 0;
+}
+@media (min-height: 775px) {
+  .vox-cover {
+    padding-top: 0;
+  }
+}
+
+.vox-feature {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 574px;
+  width: 1012px;
+  margin: 0 auto;
+  background-image: url(/assets/img/vox/bg-vox-header@2x.png);
+  background-color: #252525;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.vox-feature__title {
+  font-family: kepler-std-display, Georgia, serif;
+  font-weight: 800;
+  font-size: 3.75rem;
+  text-transform: normal;
+  margin: 10rem 0 3rem 0;
+  color: #14294B;
+  letter-spacing: 1px;
+}
+
+.vox-feature__subtitle {
+  font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #5e5e5e;
+  text-transform: normal;
+  margin: 4rem 0 3rem 0;
+  width: 300px;
+}
+
+.vox-content__heading {
+  display: inline-block;
+  font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
+  font-size: 1.776889rem;
+  font-weight: 800;
+  color: #14294B;
+  border-bottom: solid 2px #14294B;
+  padding: 0 0 8px 0;
+  margin: 4rem 0 1rem 0;
+}
+
+.vox-content__subheading {
+  color: #5e5e5e;
+  font-weight: 800;
+  margin: 0 0 2rem 0;
+}
+
+.vox-content__body {
+  color: #767676;
+}
+
+.vox-content__signoff {
+  margin: 2rem 0 10rem 0;
+  color: #5e5e5e;
+}
+
+.vox-aside {
+  margin: 10rem 0 0 0;
+  height: 100%;
+  text-align: center;
+}
+
+.vox-aside-prompt {
+  padding-left: 35px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.prompt-maybe {
+  display: block;
+  color: #a5a5a5;
+  margin: 0 0 0.5rem 0;
+}
+
+.prompt-talk {
+  display: block;
+  color: #767676;
+}
+
+.vox-aside-details {
+  background-image: url("/assets/img/vox/bg-vox-sidebar@2x.png");
+  background-size: contain;
+  width: 460px;
+  height: 385px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  margin: 10rem 0 0 2rem;
+  padding: 3rem 0 0 10rem;
+  text-align: left;
+}
+
+.vox-aside-arrow {
+  margin: 5rem 0 0 0;
 }
 
 .freelance {
