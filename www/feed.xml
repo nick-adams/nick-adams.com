@@ -5,8 +5,8 @@
     <description>The site and portfolio of Nick Adams, a Designer based in Rochester, NY.</description>
     <link>http://www.nick-adams.com/</link>
     <atom:link href="http://www.nick-adams.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Dec 2018 14:02:34 -0500</pubDate>
-    <lastBuildDate>Wed, 19 Dec 2018 14:02:34 -0500</lastBuildDate>
+    <pubDate>Wed, 19 Dec 2018 14:03:10 -0500</pubDate>
+    <lastBuildDate>Wed, 19 Dec 2018 14:03:10 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -87,16 +87,6 @@
         <pubDate>Tue, 11 Dec 2018 00:00:00 -0500</pubDate>
         <link>http://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</link>
         <guid isPermaLink="true">http://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Building Remotejobs</title>
-        <description>&lt;p&gt;Test&lt;/p&gt;</description>
-        <pubDate>Thu, 02 Apr 2015 00:00:00 -0400</pubDate>
-        <link>http://www.nick-adams.com/notes/2015/building-remotejobs/</link>
-        <guid isPermaLink="true">http://www.nick-adams.com/notes/2015/building-remotejobs/</guid>
         
         
       </item>
