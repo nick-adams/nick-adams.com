@@ -1,0 +1,32 @@
+// -------------------------
+// Freelance Page Styles
+// -------------------------
+
+.freelance {
+  margin: $space_ten auto $space_five auto ;
+}
+  .freelance__title {
+    font-family: $font_serif;
+    font-size: $font_size_xxxl;
+    text-transform: normal;
+    margin: 0 0 $space_two 0;
+  }
+  .freelance__heading {
+    text-transform: none;
+    // font-size: $font_size_md;
+    color: $color_greyscale_06;
+    margin: $space_two 0 $space_two 0;
+    // font-weight: 400;
+  }
+    .freelance__heading:first-child {
+      margin: 0 0 $space_one 0;
+    }
+
+  .freelance__body {
+    color: $color_text_06;
+  }
+  .freelance__contact {
+    border-bottom: $border_thin_light;
+    padding: $space_one 0 $space_two 0;
+    margin: 0 0 $space_two 0;
+  }

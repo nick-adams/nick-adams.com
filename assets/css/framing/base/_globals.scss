@@ -1,0 +1,53 @@
+// ============================================
+// Global Settings & Styles
+// ============================================
+
+
+// Sets the Global Box Model
+// ============================================
+// Note: This *can* be overridden in any child (block) element of <html>.
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+// Sets the Root Size for REM
+// ============================================
+html {
+  font-size: $root_size; // All other rem values become relative to this.
+}
+
+
+// Global Body Styles
+// ============================================
+body {
+  background-color: $color_white;
+  font-family: $font_sans;
+  font-size: $font_size_base;
+  line-height: $line_height_base;
+  color: $color_text_08;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+  body.dark {
+    background-color: $color_dark;
+    color: $color_text_01;
+  }
+
+
+
+// Global Transitions
+// ============================================
+html {
+  transition:         all $transition_medium;
+  -webkit-transition: all $transition_medium;
+  -moz-transition:    all $transition_medium;
+}

@@ -1,0 +1,231 @@
+// ============================================
+// Typography
+// ============================================
+
+html {
+    font-family: $font_sans;
+    font-weight: normal;
+    font-style: normal;
+    line-height: $line_height_base;
+    vertical-align: text-bottom;
+}
+
+
+// Headings
+// ============================================
+
+.#{$namespace}heading--xxxl {
+    font-size: $font_size_xxxl;
+    font-weight: 800;
+    line-height: $line_height_lg;
+    letter-spacing: $letter_spacing_tight;
+    margin: $space_oneandhalf 0 $space_one 0;
+    padding: 0;
+    color: inherit;
+}
+
+.#{$namespace}heading--xxl {
+    font-size: $font_size_xxl;
+    font-weight: 800;
+    line-height: $line_height_lg;
+    letter-spacing: $letter_spacing_tight;
+    margin: $space_oneandhalf 0 $space_one 0;
+    padding: 0;
+    color: inherit;
+}
+
+.#{$namespace}heading--xl {
+    font-size: $font_size_xl;
+    font-weight: 800;
+    line-height: $line_height_lg;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_oneandhalf 0 $space_one 0;
+    padding: 0;
+    color: inherit;
+}
+
+.#{$namespace}heading--lg {
+    font-size: $font_size_lg;
+    font-weight: 800;
+    line-height: $line_height_md;
+    letter-spacing: $letter_spacing_normal;
+    // margin: $space_oneandhalf 0 $space_one 0;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+.#{$namespace}heading--md {
+    font-size: $font_size_md;
+    font-weight: 800;
+    line-height: $line_height_md;
+    letter-spacing: $letter_spacing_normal;
+    text-transform: uppercase;
+    // margin: $space_oneandhalf 0 $space_one 0;
+    margin: 0;
+    padding: 0;
+    color: inherit;   
+}
+.#{$namespace}heading--sm {
+    font-size: $font_size_sm;
+    font-weight: 800;
+    line-height: $line_height_sm;
+    letter-spacing: $letter_spacing_normal;
+    text-transform: uppercase;
+    // margin: $space_oneandhalf 0 $space_one 0;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+
+// Text Blocks
+// ============================================
+
+.#{$namespace}text--sm {
+  font-size: $font_size_sm;
+  line-height: $line_height_sm;
+  letter-spacing: $letter_spacing_normal;
+  margin: 0 0 $space_one 0;
+  padding: 0;
+  color: inherit;
+}
+
+.#{$namespace}text--md {
+    font-size: $font_size_md;
+    line-height: $line_height_md;
+    letter-spacing: $letter_spacing_normal;
+    margin: 0 0 $space_one 0;
+    padding: 0;
+    color: inherit;
+}
+
+.#{$namespace}text--lg {
+  font-size: $font_size_lg;
+  line-height: $line_height_lg;
+  letter-spacing: $letter_spacing_normal;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+.#{$namespace}text-expanded--sm {
+    font-size: $font_size_sm;
+    line-height: $line_height_lg;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+.#{$namespace}text-expanded--md {
+    font-size: $font_size_md;
+    line-height: $line_height_lg;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+.#{$namespace}text-expanded--lg {
+    font-size: $font_size_lg;
+    line-height: $line_height_xl;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+ 
+.#{$namespace}text-condensed--sm {
+    font-size: $font_size_sm;
+    line-height: $line_height_xs;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+.#{$namespace}text-condensed--md {
+    font-size: $font_size_md;
+    line-height: $line_height_sm;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+.#{$namespace}text-condensed--lg {
+    font-size: $font_size_lg;
+    line-height: $line_height_md;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+
+.#{$namespace}text-caption {
+    font-size: $font_size_sm;
+    line-height: $line_height_base;
+    letter-spacing: $letter_spacing_normal;
+    margin: $space_one 0 0 0;
+    padding: 0;
+    color: inherit;
+}
+
+// Lists
+// ============================================
+
+.#{$namespace}list--unordered {
+  margin: 0 0 0 $space_one;
+  padding: 0 0 0 $space_half;
+  list-style-type: disc;
+  list-style-position: outside;
+  line-height: inherit;
+  color: inherit;
+}
+
+.#{$namespace}list--ordered {
+  margin: 0 0 0 $space_one;
+  padding: 0 0 0 $space_half;
+  list-style-position: outside;
+  line-height: inherit; 
+  color: inherit;
+}
+
+  .#{$namespace}list--unordered > li,
+  .#{$namespace}list--ordered > li {
+    padding: 0;
+    margin: 0 0 $space_half 0;
+  }
+
+.#{$namespace}list--definition {
+
+}
+
+.#{$namespace}list--definition > dt {
+  
+}
+.#{$namespace}list--definition > dd {
+  
+}
+
+
+// Inline Text Elements
+// ============================================
+
+
+// Code Formatting
+// ============================================
+
+.#{$namespace}code--inline {
+  color: $color_text_08;
+  font-family: $font-mono;
+  font-size: $font_size_xs;
+  font-weight: 400;
+  line-height: $line_height_base;
+  background-color: $color_white;
+  border: $border_thin-light;
+  border-radius: $radius;
+  padding: $space_quarter;
+  vertical-align: middle;
+}
+
+.#{$namespace}code--block {
+  
+}
+

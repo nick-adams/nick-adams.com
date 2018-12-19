@@ -1,0 +1,50 @@
+// ============================================
+// Icons
+// ============================================
+
+// All Icons
+// ============================================
+
+[class*='icon-']{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  color: $color_dark;
+  margin-top: -2px;
+  float: left;
+  margin-right: $space_half;
+}
+
+// Icon Set Items
+// ============================================
+
+.icon-email {
+  background-image: url('../../../assets/svg/icons/icon-email.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.icon-email--fill {
+  background-image: url('../../../assets/svg/icons/icon-email-fill.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.icon-twitter {
+  background-image: url('../../../assets/svg/icons/icon-twitter.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.icon-github {
+  background-image: url('../../../assets/svg/icons/icon-github.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.icon-resume {
+  background-image: url('../../../assets/svg/icons/icon-resume.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.icon-resume--fill {
+  background-image: url('../../../assets/svg/icons/icon-resume-fill.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+}

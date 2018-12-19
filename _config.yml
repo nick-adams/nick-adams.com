@@ -1,10 +1,37 @@
----
-title: Personal Site
-timezone: America/New_York
+# Site Settings
+title: Nick Adams, Designer
+email: hi@nick-adams.com
+description: The site and portfolio of Nick Adams, a Designer based in Rochester, NY.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.nick-adams.com" # the base hostname & protocol for your site
+
+twitter_username: nickadamssays
+github_username:  nick-adams
+
+# Collection Settings
 collections:
-  posts:
-    title: Posts
+  case-studies:
     output: true
-  uploads:
-    title: Uploads
-    output: true
+    permalink: /case-studies/:path/
+    
+# Default FrontMatter for Posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /notes/:year/:title/ 
+      nav_selected: notes
+      header_nav_color: is--on-light
+      author: Nick Adams
+
+# Build Settings
+destination: ./www
+
+permalink: pretty
+
+sass:
+  sass_dir: ./assets/css
+  style: :expanded

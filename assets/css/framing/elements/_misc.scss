@@ -1,0 +1,38 @@
+// ============================================
+// Miscellaneous
+// ============================================
+
+// Horizontal Rules 
+// ============================================
+
+// Default
+hr {
+  margin: $space_one 0;
+}
+
+// Custom
+.hr--on-light--thin {
+  margin: $space_one 0;
+  height: 1px;
+  background-color: $color_greyscale_01;
+  border: none;
+}
+.hr-on-light--thick {
+  margin: $space_one 0;
+  height: 5px;
+  background-color: $color_greyscale_01;
+  border: none;
+}
+
+.hr--on-dark--thin {
+  margin: $space_one 0;
+  height: 1px;
+  background-color: $color_greyscale_07;
+  border: none;
+}
+.hr-on-dark--thick {
+  margin: $space_one 0;
+  height: 5px;
+  background-color: $color_greyscale_07;
+  border: none;
+}

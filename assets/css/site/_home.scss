@@ -1,0 +1,157 @@
+// -------------------------
+// Home Page Styles
+// -------------------------
+
+.home-headshot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 604px;
+  width: 565px;
+  z-index: $z_behind;
+  background-image: url('../../assets/img/home/pic-headshot1-cropped.jpg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home {
+  margin: 200px 0 0 0;
+}
+  .home-greeting {
+    color: $color_brand_primary;
+    font-family: $font_sans;
+    font-weight: 800;
+    font-size: $font_size_md;
+    margin: 0 0 0 12px;
+  }
+  .home-name {
+    font-family: $font_sans;
+    font-weight: 500;
+    font-size: 5.65rem;
+    line-height: 6.25rem;
+    text-transform: uppercase;
+    margin: 0;
+  }
+    .home-name--first {
+      font-family: $font_serif;
+      font-weight: 200;
+      font-style: italic;
+      font-size: 6.25rem;
+      line-height: 6.25rem;
+      margin-right: -0.75rem;
+    }
+  
+  .home-description {
+    color: $color_text_06;
+    font-family: $font_sans;
+    font-size: $font_size_md; 
+    line-height: $line_height_base;
+    max-width: 530px;
+    margin-left: 217px;
+  }
+
+  .home-contacts {
+    display: flex;
+    margin-left: 217px;
+    margin-top: $space_two;
+  }
+    .home-sociallink {
+      margin: 0 $space_one 0 0;
+      font-size: $font_size_sm;
+    }
+  
+  // Temporary
+  .home-disclaimer {
+    border: $border_thin_light;
+    color: $color_text_07;
+    font-family: $font_sans;
+    font-size: $font_size_md; 
+    line-height: $line_height_base;
+    padding: $space_one;
+    margin: $space_four 0 -#{$space_seven} 0;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+.container-recentwork {
+  background-color: $color_bg_light;
+  background-image: url("../img/bg-recentwork-remotejobs.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+}
+
+  .recentwork {
+    max-width: $page_max_width;
+    margin: 0 auto 0 auto;
+    padding: 25px 100px 25px 100px;
+  }
+    .recentwork-title {
+      position: relative;
+      top: -65px;
+      margin: 0;
+      color: $color_text_00;
+      font-family: $font_sans;
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+    }
+
+    .worksample--fullwidth {
+      width: 100%;
+      overflow: auto;
+      padding: 0 0 25px 0;  
+    }
+      .worksample-logo {
+        display: block;
+        margin: 0 0 10px 0;
+      }
+      .worksample-description {
+        width: 75%;
+        margin: 0;
+        float: left;
+        font-family: $font_serif;
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        color: $color_text_00;
+      }
+      .worksample-casestudylink {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        float: right;
+        position: relative;
+        top: -25px;
+      }
+
+@media only screen and (max-width: 768px) {
+  .home {
+    margin: 100px auto;
+  }
+  .home-description {
+    margin-left: 0;
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+  .home {
+    margin: 25px auto;
+  }
+  .home-greeting {
+    margin: 0;
+  }
+  .home-name {  
+    font-size: 5rem;
+    line-height: 3rem;
+  }
+    .home-name--first {
+      font-size: 6rem;
+    }
+  .home-description {
+    margin: $space_three 0 0 0;
+  }
+}
+

@@ -1,0 +1,20 @@
+// -------------------------
+// Common Page Styles
+// -------------------------
+
+.content {
+ 
+}
+  .content__title {
+    font-family: $font_serif;
+    font-size: $font_size_xxxl;
+    text-transform: normal;
+    margin: 0 0 $space_three 0;
+  }
+  .content__description {
+    font-family: $font_serif;
+    font-size: $font_size_md;
+    line-height: 2.8rem;
+    letter-spacing: 0.1rem;
+    color: $color_text_00;
+  }

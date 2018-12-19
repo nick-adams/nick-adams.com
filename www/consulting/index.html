@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- "Default" Layout -->
 
   <head>
 
@@ -7,22 +8,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Consulting -</title>
+    <title>Consulting - Nick Adams, Designer</title>
 
-    <meta name="description" content="The site and portfolio of Nick Adams, a Designer based in Rochester, NY.
-">
+    <meta name="description" content="The site and portfolio of Nick Adams, a Designer based in Rochester, NY.">
     <meta name="keywords" content="">
     <meta name="robots" content="index, follow">
 
-    <!-- Load TypeKit Web Fonts -->
+    <!-- TypeKit Web Fonts -->
     <script src="//use.typekit.net/nbo0dja.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
+    <!-- Vendor Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css"/>
+    
+
+    <!-- Local Stylesheets -->
     <link rel="stylesheet" href="/assets/css/main.css">
     
     <link rel="canonical" href="http://www.nick-adams.com/consulting/">
-    <link rel="alternate" type="application/rss+xml" title="Nick Adams, Designer
-" href="http://www.nick-adams.com/feed.xml" />
+
+    <link rel="alternate" type="application/rss+xml" title="Nick Adams, Designer" href="http://www.nick-adams.com/feed.xml" />
 
     <link rel="icon" type="image/x-icon" href="./favicon.ico">  
 
@@ -30,36 +36,46 @@
 
 
     <body>
-    <!-- "Default" Layout -->
+    
+    <header class="grid--maxwidth grid--outsidegutters site-header">
+  
+  <div class="header-nav">
+    
+    <nav class="site-nav">
 
-    <header class="ContentContainer--fluid Content-Header">
-    
-    <nav class="PrimaryNav">
-    
-        
-            <div class="PrimaryNav-Home"><a class="LinkForNav--home" href="/">Nick Adams</a></div>
-        
-    
-    <ul class="PrimaryNav-List--h">
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/about/">About</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/work/">Work</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/notes/">Notes</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  is-emphasized  is-selected " href="/consulting/">Consulting</a>
-        </li>
-    </ul>
+  
+    <div class="site-nav__main">
+      <a class="site-nav__link--name" href="/">Nick Adams</a>
+      <a href="https://www.twitter.com/nickadamssays" class="site-nav__link--twitter">@nickadamssays</a>
+    </div>
+  
+
+  <ul class="site-nav__items--horiz">
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link    " href="/about/">About</a>
+    </li>
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link    " href="/work/">Work</a>
+    </li>
+    <!-- <li class="site-nav__item--horiz">
+      <a class="site-nav__link    " href="/case-studies/">Case Studies</a>
+    </li> -->
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link    " href="/notes/">Notes</a>
+    </li>
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link    is--emphasized " href="/freelance/">Freelance</a>
+    </li>
+  </ul>
 </nav>
+    
+  </div>
 
 </header>
 
-
-        <div class="ContentContainer--fluid">
+    
+    <main>
+      <div class="ContentContainer--fluid">
 
     <div class="PageHeader">
         <h1 class="PageHeader-Title">Selected Work</h1>
@@ -69,49 +85,64 @@
     </div>
 
 </div>
+    </main>
 
      
-         <footer class="ContentContainer--Full Content-Footer">
+         <footer class="grid--fullwidth site-footer">
+
+  <div class="grid--maxwidth grid--outsidegutters">
     
-    <div class="FooterNav">
-        <nav class="PrimaryNav">
-    
-         
-            <div class="PrimaryNav-Home"><p class="FooterNav-SignOff">Thank you for your time.</p></div>
-        
-    
-    <ul class="PrimaryNav-List--h">
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/about/">About</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/work/">Work</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/notes/">Notes</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  is-emphasized  is-selected " href="/consulting/">Consulting</a>
-        </li>
-    </ul>
+    <div class="footer-nav">
+
+      <nav class="site-nav">
+
+  <div class="site-nav__main"><p class="footer-nav__signoff">Thanks for visiting.</p></div>
+
+  <ul class="site-nav__items--horiz">
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  " href="/about/">About</a>
+    </li>
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  " href="/work/">Work</a>
+    </li>
+    <!-- <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  " href="/case-studies/">Case Studies</a>
+    </li> -->
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  " href="/notes/">Notes</a>
+    </li>
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  is--emphasized " href="/freelance/">Freelance</a>
+    </li>
+  </ul>
 </nav>
-        
-        <p class="FooterNav-Contact">
-            You talkin' to me?. Oh, well <a class="LinkPrimary" href="mailto:hi@nick-adams.com">Email</a> or <a class="LinkPrimary" href="https://www.twitter.com/nickadamssays">Twitter</a> is best. This code for this site is also available on <a class="LinkPrimary" href="https://www.github.com/nick-adams/site">GitHub</a> for perusing and judging.
-        </p>
-        <p class="FooterNav-Copyright">
-            All work and content is my own. Protip: Copyright exists with or without that little &copy; symbol.
-        </p>
+      
+      <p class="footer-nav__contact">
+          You say something? Oh. Well <a class="link" href="mailto:hi@nick-adams.com">Email</a> or <a class="link" href="https://www.twitter.com/nickadamssays">Twitter</a> is best.
+      </p>
+      <p class="footer-nav__copyright">
+          The code for this site is available on <a class="link" href="https://www.github.com/nick-adams/nick-adams.com">GitHub</a> for perusing and judging. All work and content is my own. Copyright exists with or without that &copy; symbol.
+      </p>
 
     </div>
+
+  </div>
 
 </footer>
 
 
     
     
-    
+    <!-- Vendor Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js
+"></script>
 
+<!-- Local Javascript -->
+<script src="/assets/js/main.js"></script>
+
+    
     </body>
 
 </html>

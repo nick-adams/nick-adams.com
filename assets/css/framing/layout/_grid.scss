@@ -1,0 +1,326 @@
+// ============================================
+// Grid
+// ============================================
+
+
+// Basic Grid Container
+// ============================================
+
+.grid,
+.grid--fullwidth {
+  @extend .u-clear;
+  display: block;
+  clear: both;
+  width: $grid_width;
+  padding: 0;
+  margin: 0;
+}
+
+
+// Outside Guttered Grid Container
+// ============================================
+
+.grid--outsidegutters {
+  @extend .u-clear;
+  display: block;
+  clear: both;
+  width: $grid_width;
+  padding: 0 $grid_outsidegutter_width;
+  margin: 0;
+  
+  // Below the Medium Breakpoint
+  @media (max-width: $bp_md) {
+    padding: 0 $grid_gutter_width; // remove fixed width, make 100%
+  }
+}
+
+
+// Option: Make a Grid Container Fixed Width
+// ============================================
+
+.grid--fixedwidth {
+  @extend .u-clear;
+  width: $page_max_width;
+  margin: 0 auto;
+
+  // Below the Medium Breakpoint
+  @media (max-width: $bp_md) {
+    width: $grid_width; // remove fixed width, make 100%
+  }
+}
+
+
+// Option: Add a Max Width to a Grid Container
+// ============================================
+
+.grid--maxwidth {
+  @extend .u-clear;
+  width: 100%;
+  max-width: $page_max_width;
+  margin: 0 auto;
+
+  // Below the Medium Breakpoint
+  @media (max-width: $bp_md) {
+    max-width: $grid_width; // remove fixed width, make 100%
+  }
+}
+
+
+// Grid Row
+// ============================================
+
+.grid__row {
+  @extend .u-clear;
+  width: 100%;
+  padding: 0;
+  margin-bottom: $grid_gutter_width;
+}
+
+
+// Grid Row, No Column Gutters
+// ============================================
+// Use this row type if want the columns within
+// the row not have gutters
+
+.grid__row--no-gutter-cols {
+  > [class*='grid__col--'] { padding-right: 0; }
+}
+
+
+// Grid Column
+// ============================================
+// NOTE: Any styling (i.e., background colors) should be done on the content
+// wrapper within the column, not the column itself since we're using paddings
+// for gutters.
+
+[class*='grid__col--'] {
+  float: left;
+  padding-right: $grid_gutter_width;
+  // min-height: 3rem;
+  text-align: left;
+  // border: solid 1px $color_dark; // uncomment for debugging
+
+  &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+
+// Column Types
+// ============================================
+// NOTE: Use combinations of these within the row to total the grid_width (100%).
+
+// One Whole
+.grid__col--onewhole {
+  width: $grid_col_onewhole;
+}
+
+// Seven Eighths
+.grid__col--seveneighths {
+  width: $grid_col_seveneighths;
+}
+
+// Three Quarters
+.grid__col--threequarters {
+  width: $grid_col_threequarters;
+}
+
+// One Half
+.grid__col--onehalf {
+  width: $grid_col_onehalf;
+}
+
+// Two Thirds
+.grid__col--twothirds {
+  width: $grid_col_twothirds;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    width: $grid_col_onewhole;
+  }
+}
+
+// Three Fifths
+.grid__col--threefifths {
+  width: $grid_col_threefifths;
+}
+
+// One Third
+.grid__col--onethird {
+  width: $grid_col_onethird;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    width: $grid_col_onehalf;
+  }
+}
+
+// One Quarter
+.grid__col--onequarter {
+  width: $grid_col_onequarter;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    width: $grid_col_onehalf;
+  }
+}
+
+// One Fifth
+.grid__col--onefifth {
+  width: $grid_col_onefifth;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    width: $grid_col_onewhole;
+  }
+}
+
+// One Eighth
+.grid__col--oneeighth {
+  width: $grid_col_oneeighth;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    width: $grid_col_onehalf;
+  }
+}
+
+// One Twelfth
+.grid__col--onetenth {
+  width: $grid_col_onetenth;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    width: $grid_col_onehalf;
+  }
+}
+
+// One Twelfth
+.grid__col--onetwelfth {
+  width: $grid_col_onetwelfth;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    width: $grid_col_onehalf;
+  }
+}
+
+
+// Indented Column Types
+// ============================================
+// NOTE: Use one of these in additon to a column width to equal the grid_width (100%).
+
+// Indent by Two Thirds
+.grid__col--indent-twothirds {
+  margin-left: $grid_col_twothirds;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+// Indent by One Half
+.grid__col--indent-onehalf {
+  margin-left: $grid_col_onehalf;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+// Indent by One Third
+.grid__col--indent-onethird {
+  margin-left: $grid_col_onethird;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+// Indent by One Quarter
+.grid__col--indent-onequarter {
+  margin-left: $grid_col_onequarter;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+// Indent by One Fifth
+.grid__col--indent-onefifth {
+  margin-left: $grid_col_onefifth;
+
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+// Indent by One Eighth
+.grid__col--indent-oneeighth {
+  margin-left: $grid_col_oneeighth;
+  
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+// Indent by One Tenth
+.grid__col--indent-onetenth {
+  margin-left: $grid_col_onetenth;
+  
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+// Indent by One Twelfth
+.grid__col--indent-onetwelfth {
+  margin-left: $grid_col_onetwelfth;
+  
+  // At Small Breakpoint
+  @media (max-width: $bp_sm) {
+    margin-left: 0; //0%
+  }
+}
+
+
+// Centered Column
+// ============================================
+// NOTE: No need to apply this to a '--onewhole' width column type.
+
+.grid__col--centered {
+  float: none;
+  margin: 0 auto;
+}
+
+
+// Content Alignment Options
+// ============================================
+// Note: left aligned content is the default.
+
+.grid__col--contentright {
+  text-align: right;
+}
+.grid__col--contentcenter {
+  text-align: center;
+}
+
+
+// Grid Debug Mode
+// ============================================
+
+.grid--debug .grid__row {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: solid 1px red;
+}
+.grid--debug [class^="grid__col"] {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: solid 1px red; 
+}

@@ -1,0 +1,126 @@
+// -------------------------
+// Buttons
+// -------------------------
+
+%ButtonBase {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 7px 20px;
+    margin: 0 5px;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+
+    // Default Sizing
+    font: normal 1.6rem Helvetica;
+}
+
+    // Button Types
+    .ButtonPrimary {
+        @extend %ButtonBase;
+        
+        color: $color_white;
+        background-color: $color_black;
+
+        &:hover {
+            background-color: lighten($color_black, 10%);
+        }
+    }
+
+    // Button Sizes 
+    .Button--small {
+        font: normal 1.2rem Helvetica;
+    }
+
+
+%LinkBase {
+
+}
+    .LinkPrimary {
+        color: $color_text_10;
+        padding: 0 0 1px 0;
+        text-decoration: none;
+        // letter-spacing: 0.1rem;
+        border-bottom: $border_thick_primary;
+    }
+        .LinkPrimary:hover {
+            color: $color_brand_primary;
+            padding: 0 0 3px 0;
+        }
+
+    // .LinkPrimary.is-onLight {
+    //     color: $color_text_10;
+    //     padding: 0 0 1px 0;
+    //     border-bottom: 2px solid $color_brand_primary;
+    // }
+    //     .LinkPrimary.is-onLight:hover {
+    //         color: $color_brand_primary;
+    //         padding: 0 0 3px 0;
+    //     }
+
+    .LinkPrimary.is-onDark {
+        color: $color_white;
+    }
+        .LinkPrimary.is-onDark:hover {
+            color: $color_brand_primary;
+        }
+
+    .LinkSecondary {
+        color: $color_brand_secondary;
+        padding: 0 0 1px 0;
+        text-decoration: none;
+        // letter-spacing: 0.1rem;
+        border-bottom: $border_thick_secondary;
+    }
+        .LinkSecondary:hover {
+            color: $color_brand_primary;
+            padding: 0 0 3px 0;
+        }
+
+    .LinkForNav {
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        border: 2px solid transparent;
+        padding: 8px 10px;
+    }
+
+    .LinkForNav.is-onLight {
+        color: $color_text_05;
+    }    
+        .LinkForNav.is-onLight:hover {
+            border: 2px solid $color_text_05;
+        }
+        .LinkForNav.is-onLight.is-selected {
+            color: $color_text_10;
+            border: 2px solid $color_text_10;
+        }
+
+    .LinkForNav.is-onDark {
+        color: $color_text_00;
+    }    
+        .LinkForNav.is-onDark:hover {
+            border: 2px solid $color_text_00;
+        }
+        .LinkForNav.is-onDark.is-selected {
+            color: $color_white;
+            border: 2px solid $color_white;
+        }
+    
+    .LinkForNav.is-emphasized {
+        color: $color_brand_secondary;
+    }
+        .LinkForNav.is-emphasized:hover {
+            border: $border_thick_secondary;
+        }
+        .LinkForNav.is-emphasized.is-selected {
+            color: $color_brand_secondary;
+            border: $border_thick_secondary;
+        }
+
+    .LinkForNav--home {
+        text-decoration: none;
+        color: $color_text_00;
+    }
+        .LinkForNav--home:hover {
+            color: $color_text_05;
+        }

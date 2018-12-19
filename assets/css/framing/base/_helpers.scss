@@ -1,0 +1,74 @@
+// ============================================
+// Helpers
+// ============================================
+// These cannot be required for theme definition since 
+// they are imported after the theme scss partial.
+
+
+// Mixins
+// ============================================
+
+
+// Functions
+// ============================================
+
+
+// Utility Classes & Extendable Placeholders
+// ============================================
+
+// Clears floated content
+.u-clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+// Alignment
+.u-align--vertical {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+// Visibility
+.u-show { 
+  display: inherit; 
+}
+.u-hide { 
+  display: none;
+}
+
+// Type Casing
+.u-case--lower {
+    text-transform: lowercase;
+}
+.u-case--upper {
+    text-transform: uppercase;
+}
+
+// Type 
+.u-type-size--xs {
+  font-size: $font_size_xs;
+}
+.u-type-size--sm {
+  font-size: $font_size_sm;
+}
+.u-type-size--md {
+  font-size: $font_size_md;
+}
+.u-type-size--lg {
+  font-size: $font_size_lg;
+}
+.u-type-style--bold {
+  font-weight: 800;
+}
+.u-type-style--italic {
+  font-style: italic;
+}
+
+// Other 
+.u-preventscroll {
+    overflow: hidden;
+}

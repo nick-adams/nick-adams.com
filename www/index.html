@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- "Default" Layout -->
 
   <head>
 
@@ -7,23 +8,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Nick Adams, Designer
-</title>
+    <title> Nick Adams, Designer</title>
 
-    <meta name="description" content="The site and portfolio of Nick Adams, a Designer based in Rochester, NY.
-">
+    <meta name="description" content="The site and portfolio of Nick Adams, a Designer based in Rochester, NY.">
     <meta name="keywords" content="">
     <meta name="robots" content="index, follow">
 
-    <!-- Load TypeKit Web Fonts -->
+    <!-- TypeKit Web Fonts -->
     <script src="//use.typekit.net/nbo0dja.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
+    <!-- Vendor Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css"/>
+    
+
+    <!-- Local Stylesheets -->
     <link rel="stylesheet" href="/assets/css/main.css">
     
     <link rel="canonical" href="http://www.nick-adams.com/">
-    <link rel="alternate" type="application/rss+xml" title="Nick Adams, Designer
-" href="http://www.nick-adams.com/feed.xml" />
+
+    <link rel="alternate" type="application/rss+xml" title="Nick Adams, Designer" href="http://www.nick-adams.com/feed.xml" />
 
     <link rel="icon" type="image/x-icon" href="./favicon.ico">  
 
@@ -31,98 +36,103 @@
 
 
     <body>
-    <!-- "Teaser" Layout -->
+    
+    <header class="grid--maxwidth grid--outsidegutters site-header">
+  
+  <div class="header-nav">
+    
+    <nav class="site-nav">
 
-    <!-- <header class="ContentContainer--fluid Content-Header">
-    
-    <nav class="PrimaryNav">
-    
-        
-            <div class="PrimaryNav-Home"><a class="LinkForNav--home" href="/">Nick Adams</a></div>
-        
-    
-    <ul class="PrimaryNav-List--h">
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav    " href="/about/">About</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav    " href="/work/">Work</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav    " href="/notes/">Notes</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav    is-emphasized " href="/consulting/">Consulting</a>
-        </li>
-    </ul>
+  
+
+  <ul class="site-nav__items--horiz">
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  " href="/about/">About</a>
+    </li>
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  " href="/work/">Work</a>
+    </li>
+    <!-- <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  " href="/case-studies/">Case Studies</a>
+    </li> -->
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  " href="/notes/">Notes</a>
+    </li>
+    <li class="site-nav__item--horiz">
+      <a class="site-nav__link  is--on-light  is--emphasized " href="/freelance/">Freelance</a>
+    </li>
+  </ul>
 </nav>
+    
+  </div>
 
 </header>
- -->
 
-        <section class="ContentContainer--fluid">
+    
+    <main>
+      <div class="home-headshot"></div>
 
-    <div class="Intro">
-        <p class="Intro-Greeting">Hi there, I'm</p>
-        <h1 class="Intro-Name"><span class="Intro-Name--first">Nick</span> Adams</h1>
-        <p class="Intro-Description">
-            A designer based in Rochester, NY. I see you’ve found my website. <br/>Don’t worry, this is a safe place where you will find no mention of <em>finely hand-crafted artisanal pixel experiences</em>.
-        </p>
-        <p class="Intro-Description">
-            I’m currently working as a Product Designer at <a class="LinkPrimary" href="http://www.hudl.com">Hudl</a>, but I’m also available for select consulting projects when time allows.
-        </p>
-        <p class="Intro-Description">
-            My new portfolio is in the works. In the meantime, <a class="LinkPrimary" href="http://cargocollective.com/nickadams">check out the slightly out-of-date version</a>.
-        </p>
-        <p class="Intro-Description">
-            Also on Twitter: <a class="LinkPrimary" href="http://www.twitter.com/nickadamssays">@nickadamssays</a> and Github: <a class="LinkPrimary" href="http://www.github.com/nick-adams">nick-adams</a>. 
-        </p>
+<div class="grid--maxwidth grid--outsidegutters">
+
+
+  <!-- <div class="grid__row">
+
+    <div class="grid__col--onewhole grid__col--contentcenter">      
+      <p class="home-disclaimer">I'm designing and building this site live, so things will be unfinished and/or missing as you browse. Alt-UX, or something.</p>
     </div>
 
-</section>
+  </div> -->
 
-    <!--  
-         <footer class="ContentContainer--Full Content-Footer">
-    
-    <div class="FooterNav">
-        <nav class="PrimaryNav">
-    
-         
-            <div class="PrimaryNav-Home"><p class="FooterNav-SignOff">Thank you for your time.</p></div>
-        
-    
-    <ul class="PrimaryNav-List--h">
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/about/">About</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/work/">Work</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  " href="/notes/">Notes</a>
-        </li>
-        <li class="PrimaryNav-Item--h">
-            <a class="LinkForNav  is-onLight  is-emphasized " href="/consulting/">Consulting</a>
-        </li>
-    </ul>
-</nav>
-        
-        <p class="FooterNav-Contact">
-            You talkin' to me?. Oh, well <a class="LinkPrimary" href="mailto:hi@nick-adams.com">Email</a> or <a class="LinkPrimary" href="https://www.twitter.com/nickadamssays">Twitter</a> is best. This code for this site is also available on <a class="LinkPrimary" href="https://www.github.com/nick-adams/site">GitHub</a> for perusing and judging.
+  <div class="grid__row">
+
+    <div class="grid__col--onewhole">
+    <!-- <div class="grid__col--indent-onetenth"> -->
+      
+      <section class="home">
+        <p class="home-greeting">Hi there, I'm</p>
+        <h1 class="home-name"><span class="home-name--first">Nick</span> Adams</h1>
+        <p class="home-description">
+          A Designer based in Rochester, NY. I see you’ve found my website. Don’t worry, this is a reasonable place where you'll find no mention of <em>finely hand-crafted artisanal pixel journeys</em>.
         </p>
-        <p class="FooterNav-Copyright">
-            All work and content is my own. Protip: Copyright exists with or without that little &copy; symbol.
+        <p class="home-description">
+          I’m currently working as a Product Designer at <a class="link--bold" href="http://www.hudl.com">Hudl</a>, but I’m also available for select freelance projects.
         </p>
+        <div class="home-contacts">
+          <div class="home-sociallink">
+            <span class="icon-twitter"></span>
+            <a class="link--implied" href="https://www.twitter.com/nickadamssays"><strong>@nickadamssays</strong></a>
+          </div>
+          <div class="home-sociallink">
+            <span class="icon-github"></span>
+            <a class="link--implied" href="https://www.github.com/nick-adams"><strong>/nick-adams</strong></a>
+          </div>
+          <div class="home-sociallink">
+            <span class="icon-email--fill"></span>
+            <a class="link--implied" href="mailto:hi@nick-adams.com"><strong>hi at nick-adams.com</strong></a>
+          </div>
+        </div>
+      </section>
 
     </div>
 
-</footer>
+  </div>
 
+</div>
 
-     -->
+    </main>
+
     
     
+    <!-- Vendor Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js
+"></script>
 
+<!-- Local Javascript -->
+<script src="/assets/js/main.js"></script>
+
+    
     </body>
 
 </html>
