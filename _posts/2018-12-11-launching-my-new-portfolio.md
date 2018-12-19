@@ -29,9 +29,9 @@ I also took a brief detour to build a CSS library for structuring and styling my
 
 ### Why Is This So Hard?
 
-Ultimately, building your own portfolio is so difficult because its the most personal reflection of your design perspective and skillset. You want to get it right, which also requires really understanding yourself &mdash; and how actually does that?
+Ultimately, building your own portfolio is so difficult because it's the most personal reflection of your design perspective and skillset. You want to get it right, which also requires really understanding yourself &mdash; and who even does at that?
 
-That was the chasm I needed to cross in order to produce something &mdash; not the perfect something but the representative something. Perfection is the dangerous temptation that I always fight, and without the constraints of typical design work, it's very easy to fall victim to that temptation. I also wanted to avoid the typical trends and pretentiousness of most designer portfolios, so there was a constant gnawing in the back of my head to avoid such things and let my personality shine through.  
+That was the chasm I needed to cross in order to produce something &mdash; not the perfect something but the representative something. Perfection is the dangerous temptation that I always fight, and without the constraints of typical design work, it's very easy to fall victim to that temptation. I also wanted to avoid the typical trends and pretentiousness of most designer portfolios, so there was a constant gnawing in the back of my head to avoid such things but still my personality shine through.  
 
 In the end, it was that challenge, more than the design or technically challenge that was most important to meet in order to get this done. And with this post, it _is_ now done. 
 
