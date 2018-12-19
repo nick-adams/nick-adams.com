@@ -1461,7 +1461,7 @@ html {
 }
 
 .list--unordered, .casestudy__content ul, .post ul {
-  margin: 0 0 0 1rem;
+  margin: 0 0 1rem 1rem;
   padding: 0 0 0 0.5rem;
   list-style-type: disc;
   list-style-position: outside;
@@ -1470,7 +1470,7 @@ html {
 }
 
 .list--ordered {
-  margin: 0 0 0 1rem;
+  margin: 0 0 1rem 1rem;
   padding: 0 0 0 0.5rem;
   list-style-position: outside;
   line-height: inherit;
@@ -2993,7 +2993,6 @@ hr {
   width: 1012px;
   margin: 0 auto;
   background-image: url(/assets/img/vox/bg-vox-header@2x.png);
-  background-color: #252525;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3026,8 +3025,8 @@ hr {
   font-size: 1.776889rem;
   font-weight: 800;
   color: #14294B;
-  border-bottom: solid 2px #14294B;
-  padding: 0 0 8px 0;
+  border-bottom: solid 3px #14294B;
+  padding: 0 0 6px 0;
   margin: 4rem 0 1rem 0;
 }
 
@@ -3042,8 +3041,8 @@ hr {
 }
 
 .vox-content__signoff {
-  margin: 2rem 0 10rem 0;
-  color: #5e5e5e;
+  margin: 4rem 0 10rem 0;
+  color: #14294B;
 }
 
 .vox-aside {
@@ -3052,25 +3051,25 @@ hr {
   text-align: center;
 }
 
-.vox-aside-prompt {
+.vox-aside__prompt {
   padding-left: 35px;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
 }
 
-.prompt-maybe {
+.prompt__maybe {
   display: block;
   color: #a5a5a5;
   margin: 0 0 0.5rem 0;
 }
 
-.prompt-talk {
+.prompt__talk {
   display: block;
   color: #767676;
 }
 
-.vox-aside-details {
+.vox-aside__details {
   background-image: url("/assets/img/vox/bg-vox-sidebar@2x.png");
   background-size: contain;
   width: 460px;
@@ -3078,16 +3077,65 @@ hr {
   background-position: top right;
   background-repeat: no-repeat;
   margin: 10rem 0 0 2rem;
-  padding: 3rem 0 0 10rem;
+  padding: 5rem 0 0 10rem;
   text-align: left;
 }
 
-.vox-aside-arrow {
+.details__title {
+  background-image: linear-gradient(0deg, #FFF264 30%, transparent 30%);
+  font-size: 1.333rem;
+  color: #14294B;
+  width: 185px;
+}
+
+.details__list {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.details__list-item {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem 0;
+  color: #14294B;
+}
+
+.vox-aside__arrow {
   margin: 5rem 0 0 0;
 }
 
 .freelance {
   margin: 10rem auto 5rem auto;
+}
+
+.freelance__title {
+  font-family: kepler-std-display, Georgia, serif;
+  font-size: 3.1573345183rem;
+  text-transform: normal;
+  margin: 0 0 2rem 0;
+}
+
+.freelance__heading {
+  text-transform: none;
+  color: #666666;
+  margin: 2rem 0 2rem 0;
+}
+
+.freelance__heading:first-child {
+  margin: 0 0 1rem 0;
+}
+
+.freelance__body {
+  color: #5e5e5e;
+}
+
+.freelance__contact {
+  border-bottom: solid 1px #e6e6e6;
+  padding: 1rem 0 2rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .notes {
