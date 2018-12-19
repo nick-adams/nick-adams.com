@@ -5,19 +5,91 @@
     <description>The site and portfolio of Nick Adams, a Designer based in Rochester, NY.</description>
     <link>http://www.nick-adams.com/</link>
     <atom:link href="http://www.nick-adams.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Nov 2018 13:00:47 -0500</pubDate>
-    <lastBuildDate>Tue, 13 Nov 2018 13:00:47 -0500</lastBuildDate>
+    <pubDate>Wed, 19 Dec 2018 14:57:15 -0500</pubDate>
+    <lastBuildDate>Wed, 19 Dec 2018 14:57:15 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
-
+    
       <item>
-        <title>Building Remotejobs</title>
-        <description>&lt;p&gt;Test&lt;/p&gt;</description>
-        <pubDate>Thu, 02 Apr 2015 00:00:00 -0400</pubDate>
-        <link>http://www.nick-adams.com/notes/2015/building-remotejobs/</link>
-        <guid isPermaLink="true">http://www.nick-adams.com/notes/2015/building-remotejobs/</guid>
+        <title>Launching My New Portfolio or How I Learned To Stop Worrying and Love the Design.</title>
+        <description>&lt;h1 id=&quot;launching-my-new-portfolio-or-how-i-learned-to-stop-worrying-and-love-the-design&quot;&gt;Launching My New Portfolio or How I Learned To Stop Worrying and Love the Design.&lt;/h1&gt;
 
+&lt;h2 id=&quot;designing-my-new-portfolio-after-6-years-and-why-i-wont-make-this-mistake-again&quot;&gt;Designing my new portfolio after 6 years and why I won’t make this mistake again.&lt;/h2&gt;
 
+&lt;p&gt;Everyone says designing your own porfolio is the hardest thing. You don’t believe them. I’m different, you say. I’ll be able to separate myself from the work I’m curating, you say. I’ll keep the design simple and I won’t get bogged down in the trivial details. I’ll be able to pick only a few projects from years worth of work. I’ll make sure to update it often. I’ll know what my audience wants and how best to present it. This &lt;em&gt;is&lt;/em&gt; what I do for a living after all, you say.&lt;/p&gt;
+
+&lt;p&gt;You’re probably wrong. So was I.&lt;/p&gt;
+
+&lt;h3 id=&quot;ok-im-going-to-do-this-thing-it-wont-be-that-hard&quot;&gt;Ok, I’m Going To Do This Thing. It Won’t Be That Hard.&lt;/h3&gt;
+
+&lt;p&gt;About a year ago I set out to seriously update my portfolio after tinkering for years before that. I’ve been at my current job for 6 years and when I last updated my portfolio — 5 years previous — I told myself that this time, this time I’d keep it updated.&lt;/p&gt;
+
+&lt;p&gt;This time would be different.&lt;/p&gt;
+
+&lt;h3 id=&quot;oh-wait-its-really-hard&quot;&gt;Oh Wait It’s Really Hard.&lt;/h3&gt;
+
+&lt;p&gt;Well 5 years goes by fast. I looked at the mountain of work I completed over that time period and faced the daunting task of putting it all together; collecting images in file formats I don’t even use anymore; recalling design details and decision points; and wrapping that all in a visual design and layout that was clear; personal; and impressive without being trendy or pretentious. And then I remembered why I avoided this for 5 years.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-give-up&quot;&gt;Don’t Give Up&lt;/h3&gt;
+
+&lt;p&gt;For the past year — in the few hours available between full-time work, side-projects, X-Files marathons, and most importantly, family life — I’ve been playing with designs, building pages, collecting work samples, and writing case studies.&lt;/p&gt;
+
+&lt;p&gt;I also took a brief detour to build a CSS library for structuring and styling my web projects. Of course, because how could I possibly build my portfolio if it wasn’t on top of my own meticulously written variables and class names.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-is-this-so-hard&quot;&gt;Why Is This So Hard?&lt;/h3&gt;
+
+&lt;p&gt;Ultimately, building your own portfolio is so difficult because its the most personal reflection of your design perspective and skillset. You want to get it right, which also requires really understanding yourself — and how actually does that?&lt;/p&gt;
+
+&lt;p&gt;That was the chasm I needed to cross in order to produce something — not the perfect something but the representative something. Perfection is the dangerous temptation that I always fight, and without the constraints of typical design work, it’s very easy to fall victim to that temptation. I also wanted to avoid the typical trends and pretentiousness of most designer portfolios, so there was a constant gnawing in the back of my head to avoid such things and let my personality shine through.&lt;/p&gt;
+
+&lt;p&gt;In the end, it was that challenge, more than the design or technically challenge that was most important to meet in order to get this done. And with this post, it &lt;em&gt;is&lt;/em&gt; now done.&lt;/p&gt;
+
+&lt;p&gt;I have a portfolio that I feel does a respectable job of showcasing me, my skills, my sensibilities, and my body of work from the past 5 years or so.&lt;/p&gt;
+
+&lt;p&gt;I learned to love the design and launch the damn thing. And I think I’m actually proud of it too.&lt;/p&gt;
+
+&lt;p&gt;Next time will be different.&lt;/p&gt;
+
+&lt;h3 id=&quot;lessons&quot;&gt;Lessons&lt;/h3&gt;
+
+&lt;p&gt;These are my lessons learned and what I will do differently from here on out. &lt;em&gt;Don’t let me forget them.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Writing content is really hard, I started by writing full case studies, big mistake. I should have focused on the work samples first.&lt;/li&gt;
+  &lt;li&gt;Retroactively explaining design process and decision making is terrible. It feels wrong and probably ends up inaccurate. I need to document work as I work on it.&lt;/li&gt;
+  &lt;li&gt;It’s really hard to lay out work sample imagery. I struggled with this a lot, and I’m still not happy with it. I need a better way to showcase work imagery for things like web pages.&lt;/li&gt;
+  &lt;li&gt;Do I really need an About page though?&lt;/li&gt;
+  &lt;li&gt;Do I really need full case studies? Will anyone even read them?&lt;/li&gt;
+  &lt;li&gt;My main display typeface is served through Adobe Typekit, which will now cease to exist as it’s rolled into Creative Cloud. This will be a problem for me in 1 year. I should have just used Google Fonts and deal with the less than ideal typography options.&lt;/li&gt;
+  &lt;li&gt;CSS Grid Frameworks are more of a headache than they are worth. I spend way too much time building mine then fighting with it on each page. Now that CSS Grid exists that solves this issue, but at the time I should have just used margins and paddings. Who was I trying to impress?&lt;/li&gt;
+  &lt;li&gt;I still love Sass despite all the postCSS/CSS Modules/CSS-in-JS hullabaloo. It allowed me to create some really nice CSS flexibility.&lt;/li&gt;
+  &lt;li&gt;Netlify is awesome.&lt;/li&gt;
+  &lt;li&gt;Don’t overthink things. Don’t over-design things. Just get something up there. How many times do you have ot tell yourself this Nick? ffs.&lt;/li&gt;
+  &lt;li&gt;Putting an incomplete portfolio online was a good forcing mechanism.&lt;/li&gt;
+  &lt;li&gt;An even better forcing mechanism was having a portfolio support group with some designer friends where we held eachother accountable for progress and gave eachother reality checks along the way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;goals-starting-now&quot;&gt;Goals. Starting Now.&lt;/h3&gt;
+
+&lt;p&gt;Applying those lessons to get results. Well, that’s the plan anyway.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I want to update my portfolio &lt;em&gt;as&lt;/em&gt; I complete design work. This includes better examples of process work.&lt;/li&gt;
+  &lt;li&gt;I want to collect and talk abiout the work I’m doing on Obvserved. There is a lot there and it’s something I’m especially proud of and have a lot of control over.&lt;/li&gt;
+  &lt;li&gt;I want to better document best practices or insights I come across as I’m working. Looking back at my work there is &lt;em&gt;so much&lt;/em&gt; that I wish I could showcase and talk about. Those are huge missed opportunities. They aren’t necessarily portfolio pieces, but they make great blog posts.&lt;/li&gt;
+  &lt;li&gt;Speaking of… I want to write more (or at all really). It’s fun. Twitter is a toxic place. Long-form writing is more satisfying. I have thoughts, I do work, I need to talk more about each.&lt;/li&gt;
+  &lt;li&gt;I want to finish my CSS library. Now that this portfolio is done, I can put some focus back on that and not feel like I’m putting my time in the wrong place.&lt;/li&gt;
+  &lt;li&gt;I want to get comfortable self-promoting. Do things, talk about them. Be confident. I can share my work without it coming off as selling or personal brand building. Gross.&lt;/li&gt;
+  &lt;li&gt;Speaking of &lt;em&gt;personal brands&lt;/em&gt;… I want to provide a counterpoint to the modern designer personality. The design industry has turned into a terrible place full of talkers and people who care more about design the noun than design the verb. I don’t want to be part of this problem. I need to figure out what the solution looks like.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks for reading and looking.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Dec 2018 00:00:00 -0500</pubDate>
+        <link>http://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</link>
+        <guid isPermaLink="true">http://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</guid>
+        
+        
       </item>
-
+    
   </channel>
 </rss>

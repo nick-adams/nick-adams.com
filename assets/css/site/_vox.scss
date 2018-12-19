@@ -1,0 +1,132 @@
+// ---------------------------------
+// Vox Cover Letter Page Styles
+// ---------------------------------
+
+
+// Vox Cover
+// ============================================
+
+.vox-cover {
+  padding-top: 0;
+
+  @media (min-height: 775px) {
+    padding-top: 0;  
+  }
+
+}
+
+  .vox-feature {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 574px; 
+    width: 1012px;
+    margin: 0 auto;
+    background-image: url(/assets/img/vox/bg-vox-header@2x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: $z-behind;
+
+  }
+    .vox-feature__title {
+      font-family: $font_serif;
+      font-weight: 800;
+      font-size: 3.75rem;
+      text-transform: normal;
+      margin: $space_ten 0 $space_three 0;
+      color: $color_chorus_blue;
+      letter-spacing: 1px;
+    }
+    .vox-feature__subtitle {
+      font-family: $font_sans;
+      font-size: 1.125rem;
+      font-weight: 500;
+      color: $color_text_06;
+      text-transform: normal;
+      margin: $space_four 0 $space_three 0;
+      width: 300px;
+    }
+
+    .vox-content__heading {
+      display: inline-block;
+      font-family: $font_sans;
+      font-size: $font_size_xl;
+      font-weight: 800;
+      color: $color_chorus_blue;
+      border-bottom: solid 3px $color_chorus_blue;
+      padding: 0 0 6px 0;
+      margin: $space_four 0 $space_one 0;
+    }
+    .vox-content__subheading {
+      color: $color_text_06;
+      @extend .text-expanded--md;
+      font-weight: 800;
+      margin: 0 0 $space_two 0;
+    }
+    .vox-content__body {
+      color: $color_text_05;
+      @extend .text-expanded--md;
+    }
+     .vox-content__signoff {
+      margin: $space_four 0 $space_ten 0;
+      color: $color_chorus_blue;
+      @extend .text-expanded--md;
+    }
+    
+.vox-aside {
+  margin: $space_ten 0 0 0;
+  height: 100%;
+  text-align: center;
+}
+  .vox-aside__prompt {
+    padding-left: 35px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+    .prompt__maybe {
+      display: block;
+      color: $color_text_03;
+      margin: 0 0 $space_half 0;
+    }
+    .prompt__talk {
+      display: block;
+      color: $color_text_05;
+    }
+
+  .vox-aside__details {
+    background-image: url("/assets/img/vox/bg-vox-sidebar@2x.png");
+    background-size: contain;
+    width: 460px;
+    height: 385px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin: $space_ten 0 0 $space_two;
+    padding: $space_five 0 0 $space_ten;
+    text-align: left;
+  }
+      .details__title {
+          background-image: linear-gradient(0deg,#FFF264 30%,transparent 30%);
+          font-size: $font_size_lg;
+          color: $color_chorus_blue;
+          width: 185px;
+      }
+      .details__list {
+        list-style-type: none;
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+      }
+        .details__list-item {
+          font-size: $font_size_md;
+          font-weight: bold;
+          margin: 0;
+          padding: $space_half 0;
+          color: $color_chorus_blue;
+        }
+  
+  .vox-aside__arrow {
+    margin: $space_five 0 0 0;
+  }

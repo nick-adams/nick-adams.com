@@ -3,7 +3,7 @@
 // ============================================
 
 .#{$namespace}list--unordered {
-  margin: 0 0 0 $space_one;
+  margin: 0 0 $space_one $space_one;
   padding: 0 0 0 $space_half;
   list-style-type: disc;
   list-style-position: outside;
@@ -12,7 +12,7 @@
 }
 
 .#{$namespace}list--ordered {
-  margin: 0 0 0 $space_one;
+  margin: 0 0 $space_one $space_one;
   padding: 0 0 0 $space_half;
   list-style-position: outside;
   line-height: inherit; 
