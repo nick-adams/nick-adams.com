@@ -4,6 +4,13 @@
 
 .notes {
   margin: $space_ten auto $space_five auto;
+
+  @media only screen and (max-width: $bp_md) {
+    margin: $space_five auto;
+  }
+  @media only screen and (max-width: $bp_sm_l) {
+    margin: $space_three auto;
+  }
 }
 
   .notes__title {
@@ -11,6 +18,7 @@
     font-size: $font_size_xxxl;
     text-transform: normal;
     margin: 0 0 $space_two 0;
+    line-height: $space_three;
   }
 
   .notes__body {
@@ -70,6 +78,10 @@
     color: $color_text_04;
     text-transform: uppercase;
     letter-spacing: $letter_spacing_wide;
+
+    @media only screen and (max-width: $bp_sm_l) {
+      margin: $space_three auto $space_one auto;
+    }
   }
 
   .post {
@@ -85,6 +97,11 @@
       text-transform: normal;
       margin: 0 0 $space_two 0;
       color: $color_text_10;
+
+      @media only screen and (max-width: $bp_sm_l) {
+         font-size: $font_size_xxl;
+         line-height: $line_height_xl;
+      } 
     }
     // Post Subtitle
     .post h2 {
@@ -97,15 +114,19 @@
     .post h3,
     .post h4,
     .post h5,
-    .post h6 {
+    .post h6,
+    .post p {
       padding: 0 $grid_col_oneeighth;
+      
+      @media only screen and (max-width: $bp_sm_l) {
+        padding: 0;
+      }      
     }
 
     // Post Body Content
     .post p {      
       @extend .text--md;
       line-height: $line_height_lg;
-      padding: 0 $grid_col_oneeighth;
       width: 95%;
     }
     
@@ -113,6 +134,10 @@
       padding: 0 $grid_col_oneeighth;      
       @extend .list--unordered;
       margin: 0 0 $space_two $space_two;
+      
+      @media only screen and (max-width: $bp_sm_l) {
+        margin: 0 0 $space_two 0;
+      } 
     }
 
     .post ul li {
@@ -135,11 +160,18 @@
     padding: $space_two 0;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: flex-start;
   }
     .post-meta__date,
     .post-meta__author {
       width: $grid_col_oneeighth;
+
+      @media only screen and (max-width: $bp_md) {
+        width: $grid_col_onequarter;
+      } 
+      @media only screen and (max-width: $bp_sm_l) {
+        width: $grid_col_onehalf;
+      } 
     }
 
   .post-nav {

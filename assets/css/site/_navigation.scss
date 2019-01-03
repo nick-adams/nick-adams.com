@@ -2,22 +2,37 @@
 // Site Navigation
 // ============================================
 
+.header-nav {  
+  @media only screen and (max-width: $bp_md) {
+    margin: 2rem auto 0 auto;
+  }
+  @media only screen and (max-width: $bp_sm) {
+    margin: 1rem auto 1rem auto;
+  }
+}
+
 // Navigation Structure
 // ============================================
 .site-nav {
   display: flex;
   align-content: stretch;
   justify-content: flex-end;
+  flex-direction: row;
   z-index: $z_nav;
 
-  @media only screen and (max-width: $bp_sm) {
+  @media only screen and (max-width: $bp_sm_l) {
     justify-content: flex-start;
+    flex-direction: column;
   }
 }
 
   .site-nav__main {
     margin: 0;
     flex: 1;
+
+    @media only screen and (max-width: $bp_md) {
+      margin: 0 0 1rem 0;
+    }
   }
 
   .site-nav__items--horiz {
@@ -31,8 +46,8 @@
       display: inline-block;
       margin-left: $space_one;
 
-      @media only screen and (max-width: $bp_sm) {
-        margin-left: $space_one;
+      @media only screen and (max-width: $bp_md) {
+        margin-left: $space_half;
       }
     }
       .site-nav__item--horiz:first-child {
@@ -58,8 +73,8 @@
   font-weight: 800;
   text-transform: uppercase;
   
-  @media only screen and (max-width: $bp_sm) {
-    padding: $space_half 0;
+  @media only screen and (max-width: $bp_sm_l) {
+    padding: $space_quarter $space_half;
   }
 }
 
@@ -130,5 +145,3 @@
   .site-nav__link--twitter:hover {
     color: $color_text_05;
   }
-
-

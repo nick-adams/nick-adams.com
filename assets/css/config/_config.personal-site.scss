@@ -160,8 +160,11 @@ $space_neg_two:        -2em;
 // Breakpoints
 // ============================================
 
-// Phones
+// Phones Portrait
 $bp_sm:                 40rem; // 640px
+
+// Phones Landscape
+$bp_sm_l:               42rem; // 672px
 
 // Tablets
 $bp_md:                 64rem; // 1024px

@@ -23,6 +23,11 @@
       color: $color_text_03;
       margin: $space_two 0 0 0;
       width: 30rem;
+      
+      // At Small Breakpoint
+      @media (max-width: $bp_sm) {
+        width: 100%;
+      }
     }
     .footer-nav__copyright {
       font-family: $font-sans;
@@ -31,4 +36,9 @@
       color: $color_text_03;
       margin: $space_one 0 0 0;
       width: 30rem;
+
+      // At Small Breakpoint
+      @media (max-width: $bp_sm) {
+        width: 100%;
+      }
     }

@@ -3,13 +3,21 @@
 // -------------------------
 
 .freelance {
-  margin: $space_ten auto $space_five auto ;
+  margin: $space_ten auto $space_five auto;
+
+  @media only screen and (max-width: $bp_md) {
+    margin: $space_five auto;
+  }
+  @media only screen and (max-width: $bp_sm_l) {
+    margin: $space_three auto;
+  }
 }
   .freelance__title {
     font-family: $font_serif;
     font-size: $font_size_xxxl;
     text-transform: normal;
     margin: 0 0 $space_two 0;
+    line-height: $space_three;
   }
   .freelance__heading {
     text-transform: none;
