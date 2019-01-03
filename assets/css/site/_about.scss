@@ -7,13 +7,21 @@
 // ============================================
 
 .about {
-  margin: $space_ten auto $space_five auto ;
+  margin: $space_ten auto $space_five auto;
+
+  @media only screen and (max-width: $bp_md) {
+    margin: $space_five auto;
+  }
+  @media only screen and (max-width: $bp_sm_l) {
+    margin: $space_three auto;
+  }
+
 }
   .about__title {
     font-family: $font_serif;
     font-size: $font_size_xxxl;
-    text-transform: normal;
     margin: 0 0 $space_two 0;
+    line-height: $space_three;
   }
   .about__heading {
     text-transform: none;
@@ -36,10 +44,20 @@
 
   .about__aside {
     margin-left: $space_two;
+    
+    @media only screen and (max-width: $bp_sm_l) {
+      display: none;
+    }
   }
   .about__diagram {
     width: 356px;
     height: 335px;
+    
+    @media only screen and (max-width: $bp_md) {
+      width: 270px;
+      height: 254px;
+    }
+    
   }
   .about__caption {
     font-family: $font_serif;
@@ -54,10 +72,19 @@
     margin-top: $space_two;
     padding-top: $space_one;
     border-top: $border_thin_light;
+
+    @media only screen and (max-width: $bp_md) {
+      flex-direction: column;
+    }
   }
     .contact__item {
       width: 175px;
+      
+      @media only screen and (max-width: $bp_md) {
+        margin: $space_one 0;
+      }
     }
+
     .contact__item:not(:last-of-type) {
       margin-right: $space_half;
     }
@@ -86,6 +113,10 @@
   border-top: $border_thin_light;
   // border-bottom: $border_thin_light;
   // background-color: rgba(0,0,0,.7);
+
+  @media only screen and (max-width: $bp_sm_l) {
+    display: none;
+  }
 }
   .timeline__line {
     background-image: linear-gradient(-90deg, #FBDA61 0%, #FF7E7E 100%);

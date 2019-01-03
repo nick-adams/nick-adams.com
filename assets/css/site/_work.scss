@@ -7,6 +7,13 @@
   margin: $space_ten auto $space_five;
   padding: 0 0 $space_five;
   @extend .u-clear;
+
+  @media only screen and (max-width: $bp_md) {
+    margin: $space_five auto;
+  }
+  @media only screen and (max-width: $bp_sm_l) {
+    margin: $space_three auto;
+  }
 }
 
 // Work Page Header
@@ -18,6 +25,7 @@
     font-size: $font_size_xxxl;
     text-transform: normal;
     margin: 0 0 $space_two;
+    line-height: $space_three;
   }
 
   .work-header__body {
@@ -38,8 +46,12 @@
   position: fixed;
   top: 24.5%;
   left: 5%;
-  // At Medium Breakpoint
+  // At Large Breakpoint
   @media (max-width: $bp_lg) {
+    display: none;
+  }
+  // At Small Breakpoint
+  @media (max-width: $bp_sm_l) {
     display: none;
   }
 }
@@ -56,9 +68,15 @@
   bottom: 0;
   left: 0;
   display: none;
-  // At Medium Breakpoint
+
+  // At Large Breakpoint
   @media (max-width: $bp_lg) {
     display: flex;
+    overflow-x: scroll
+  }
+  // At Small Breakpoint
+  @media (max-width: $bp_sm_l) {
+    display: none;
   }
 }
 
@@ -71,10 +89,20 @@
   margin: $space_six 0 $space_two;
   width: $content_normal;
   border-top: $border_thin_light;
+
+  // At Small Landscape Breakpoint
+  @media (max-width: $bp_sm_l) {
+    width: 100%;
+  }
 }
 
   .job__position {
     width: $content_normal;
+    
+    // At Small Landscape Breakpoint
+    @media (max-width: $bp_sm_l) {
+      width: 100%;
+    }
   }
 
   .job__title {
@@ -100,6 +128,11 @@
     margin: 0 0 $space_two;
     padding: 0 0 $space_three;
     // border-bottom: $border_thin_light;
+   
+    // At Small Landscape Breakpoint
+    @media (max-width: $bp_sm_l) {
+      width: 100%;
+    }
   }
 
 // Project Content
@@ -114,6 +147,15 @@
   .project-details {
     float: left;
     width: 24rem;
+
+    @media only screen and (max-width: $bp_md) {
+      width: $grid_col_onehalf;
+      padding-right: $space_one;
+    }
+
+    @media only screen and (max-width: $bp_sm_l) {
+      width: $grid_col_onewhole;
+    } 
   }
 
   .project-title {
@@ -146,6 +188,14 @@
     margin: 6rem 0 0;
     font-size: $font_size_sm;
     color: $color_text_06;
+
+    @media only screen and (max-width: $bp_md) {
+      width: $grid_col_onehalf;
+    } 
+    @media only screen and (max-width: $bp_sm_l) {
+      width: $grid_col_onewhole;
+      margin: $space_two 0 0 0;
+    } 
   }
 
   .project-gallery {
