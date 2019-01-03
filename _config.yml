@@ -3,7 +3,7 @@ title: Nick Adams, Designer
 email: hi@nick-adams.com
 description: The site and portfolio of Nick Adams, a Designer based in Rochester, NY.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.nick-adams.com" # the base hostname & protocol for your site
+url: "https://www.nick-adams.com" # the base hostname & protocol for your site
 
 twitter_username: nickadamssays
 github_username:  nick-adams

@@ -1991,12 +1991,7 @@ hr {
 
 .site-nav__item--horiz {
   display: inline-block;
-  margin-left: 1rem;
-}
-@media only screen and (max-width: 64rem) {
-  .site-nav__item--horiz {
-    margin-left: 0.5rem;
-  }
+  margin-left: 2rem;
 }
 
 .site-nav__item--horiz:first-child {
@@ -2005,73 +2000,53 @@ hr {
 
 .site-nav__link {
   text-decoration: none;
-  border: 2px solid transparent;
-  padding: 0.5rem;
+  border-bottom: 2px solid transparent;
+  padding: 0.125rem 0;
   font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
   font-size: 0.8756567426rem;
   font-weight: 800;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 42rem) {
-  .site-nav__link {
-    padding: 0.25rem 0.5rem;
-  }
-}
 
 .site-nav__link.is--on-light {
-  border: 2px solid transparent;
+  border-bottom: 2px solid transparent;
   color: #767676;
 }
 
 .site-nav__link.is--on-light:hover {
-  border: 2px solid #767676;
-}
-@media only screen and (max-width: 40rem) {
-  .site-nav__link.is--on-light:hover {
-    border: 2px solid transparent;
-  }
+  border-bottom: 2px solid #767676;
 }
 
 .site-nav__link.is--on-light.is--selected {
-  border: 2px solid #252525;
+  border-bottom: 2px solid #252525;
   color: #252525;
 }
 
 .site-nav__link.is--on-dark {
-  border: 2px solid transparent;
+  border-bottom: 2px solid transparent;
   color: #ececec;
 }
 
 .site-nav__link.is--on-dark:hover {
-  border: 2px solid #ececec;
-}
-@media only screen and (max-width: 40rem) {
-  .site-nav__link.is--on-dark:hover {
-    border: 2px solid transparent;
-  }
+  border-bottom: 2px solid #ececec;
 }
 
 .site-nav__link.is--on-dark.is--selected {
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .site-nav__link.is--emphasized {
-  border: 2px solid transparent;
+  border-bottom: 2px solid transparent;
   color: #68A3CF;
 }
 
 .site-nav__link.is--emphasized:hover {
-  border: 2px solid #68A3CF;
-}
-@media only screen and (max-width: 40rem) {
-  .site-nav__link.is--emphasized:hover {
-    border: 2px solid transparent;
-  }
+  border-bottom: 2px solid #68A3CF;
 }
 
 .site-nav__link.is--emphasized.is--selected {
-  border: 2px solid #68A3CF;
+  border-bottom: 2px solid #68A3CF;
   color: #68A3CF;
 }
 

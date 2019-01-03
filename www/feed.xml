@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Nick Adams, Designer</title>
     <description>The site and portfolio of Nick Adams, a Designer based in Rochester, NY.</description>
     <link>http://www.nick-adams.com/</link>
     <atom:link href="http://www.nick-adams.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Jan 2019 15:55:12 -0500</pubDate>
-    <lastBuildDate>Thu, 03 Jan 2019 15:55:12 -0500</lastBuildDate>
+    <pubDate>Thu, 03 Jan 2019 16:17:54 -0500</pubDate>
+    <lastBuildDate>Thu, 03 Jan 2019 16:17:54 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
