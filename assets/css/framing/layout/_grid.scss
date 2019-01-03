@@ -128,16 +128,23 @@
 // One Half
 .grid__col--onehalf {
   width: $grid_col_onehalf;
+
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
+    width: $grid_col_onewhole;
+  }
+
 }
 
 // Two Thirds
 .grid__col--twothirds {
   width: $grid_col_twothirds;
 
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     width: $grid_col_onewhole;
   }
+
 }
 
 // Three Fifths
@@ -149,10 +156,11 @@
 .grid__col--onethird {
   width: $grid_col_onethird;
 
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
-    width: $grid_col_onehalf;
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
+    width: $grid_col_onewhole;
   }
+
 }
 
 // One Quarter
@@ -214,8 +222,8 @@
 .grid__col--indent-twothirds {
   margin-left: $grid_col_twothirds;
 
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     margin-left: 0; //0%
   }
 }
@@ -224,8 +232,8 @@
 .grid__col--indent-onehalf {
   margin-left: $grid_col_onehalf;
 
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     margin-left: 0; //0%
   }
 }
@@ -234,8 +242,8 @@
 .grid__col--indent-onethird {
   margin-left: $grid_col_onethird;
 
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     margin-left: 0; //0%
   }
 }
@@ -244,8 +252,8 @@
 .grid__col--indent-onequarter {
   margin-left: $grid_col_onequarter;
 
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     margin-left: 0; //0%
   }
 }
@@ -254,8 +262,8 @@
 .grid__col--indent-onefifth {
   margin-left: $grid_col_onefifth;
 
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     margin-left: 0; //0%
   }
 }
@@ -264,8 +272,8 @@
 .grid__col--indent-oneeighth {
   margin-left: $grid_col_oneeighth;
   
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     margin-left: 0; //0%
   }
 }
@@ -274,8 +282,8 @@
 .grid__col--indent-onetenth {
   margin-left: $grid_col_onetenth;
   
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     margin-left: 0; //0%
   }
 }
@@ -284,8 +292,8 @@
 .grid__col--indent-onetwelfth {
   margin-left: $grid_col_onetwelfth;
   
-  // At Small Breakpoint
-  @media (max-width: $bp_sm) {
+  // At Small Landscape Breakpoint and Below
+  @media (max-width: $bp_sm_l) {
     margin-left: 0; //0%
   }
 }
