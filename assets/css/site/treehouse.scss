@@ -1,12 +1,12 @@
 // ---------------------------------
-// Vox Cover Letter Page Styles
+// Treehouse Cover Letter Page Styles
 // ---------------------------------
 
 
-// Vox Cover
+// Treehouse Cover
 // ============================================
 
-.vox-cover {
+.treehouse-cover {
   padding-top: 0;
 
   @media (min-height: 775px) {
@@ -15,7 +15,7 @@
 
 }
 
-  .vox-feature {
+  .treehouse-feature {
     position: absolute;
     top: 0;
     right: 0;
@@ -23,7 +23,7 @@
     height: 574px; 
     width: 1012px;
     margin: 0 auto;
-    background-image: url(/assets/img/vox/bg-vox-header@2x.png);
+    background-image: url(/assets/img/treehouse/bg-treehouse-header@2x.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,21 +39,21 @@
     }
 
   }
-    .vox-feature__title {
+    .treehouse-feature__title {
       font-family: $font_serif;
       font-weight: 800;
       font-size: 3.75rem;
       line-height: $line_height_xxl;
       text-transform: normal;
       margin: $space_ten 0 $space_three 0;
-      color: $color_chorus_blue;
+      color: $color_treehouse_green;
       letter-spacing: 1px;
       
       @media (max-width: $bp_md) {
         margin: $space_three 0 $space_one 0;  
       }
     }
-    .vox-feature__subtitle {
+    .treehouse-feature__subtitle {
       font-family: $font_sans;
       font-size: 1.125rem;
       font-weight: 500;
@@ -67,29 +67,27 @@
       }
     }
 
-    .vox-content__heading {
+    .treehouse-content__heading {
       display: inline-block;
       font-family: $font_sans;
       font-size: $font_size_xl;
       font-weight: 800;
-      color: $color_chorus_blue;
-      border-bottom: solid 3px $color_chorus_blue;
-      padding: 0 0 6px 0;
+      color: $color_treehouse_green;
       margin: $space_four 0 $space_one 0;
     }
-    .vox-content__subheading {
+    .treehouse-content__subheading {
       color: $color_text_06;
       @extend .text-expanded--md;
       font-weight: 800;
       margin: 0 0 $space_two 0;
     }
-    .vox-content__body {
+    .treehouse-content__body {
       color: $color_text_05;
       @extend .text-expanded--md;
     }
-     .vox-content__signoff {
+     .treehouse-content__signoff {
       margin: $space_four 0 $space_ten 0;
-      color: $color_chorus_blue;
+      color: $color_treehouse_green;
       @extend .text-expanded--md;
 
       @media (max-width: $bp_sm_l) {
@@ -97,7 +95,7 @@
       }
     }
     
-.vox-aside {
+.treehouse-aside {
   margin: $space_ten 0 0 0;
   height: 100%;
   text-align: center;
@@ -113,13 +111,14 @@
     width: 100%;
   }
 }
-  .vox-aside__logo {
+  .treehouse-aside__logo {
+    padding: 0 0 0 25px;
     @media (max-width: $bp_sm_l) {
       display:none;
     }
   }
 
-  .vox-aside__prompt {
+  .treehouse-aside__prompt {
     padding-left: 35px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -142,21 +141,22 @@
       color: $color_text_05;
     }
 
-  .vox-aside__details {
-    background-image: url("/assets/img/vox/bg-vox-sidebar@2x.png");
+  .treehouse-aside__details {
+    background-image: url("/assets/img/treehouse/bg-treehouse-sidebar@2x.png");
     background-size: contain;
-    width: 460px;
-    height: 385px;
+    width: 425px;
+    height: 395px;
     background-position: top right;
     background-repeat: no-repeat;
-    margin: $space_ten 0 0 $space_two;
-    padding: $space_five 0 0 $space_ten;
+    margin: $space_ten 0 0 $space_seven;
+    padding: $space_six 0 0 $space_five;
     text-align: left;
 
     @media (max-width: $bp_md) {
       width: 320px;
-      height: 268px;
-      padding: $space_two $space_five;
+      height: 297px;
+      padding: $space_four $space_four;
+      margin: $space_four 0 0 $space_four;
     }
     @media (max-width: $bp_sm_l) {
       background-image: none;
@@ -167,27 +167,30 @@
       background-color: $color_greyscale_00;
     }
   }
-      .vox-details__title {
-          background-image: linear-gradient(0deg,#FFF264 30%,transparent 30%);
-          font-size: $font_size_lg;
-          color: $color_chorus_blue;
-          width: 185px;
+      .treehouse-details__title {
+        font-size: $font_size_lg;
+        color: $color_white;
+        width: 185px;
+
+        @media (max-width: $bp_sm_l) {
+          color: $color_treehouse_green;
+        }
       }
-      .vox-details__list {
+      .treehouse-details__list {
         list-style-type: none;
         list-style-position: inside;
         margin: 0;
         padding: 0;
       }
-        .vox-details__list-item {
+        .treehouse-details__list-item {
           font-size: $font_size_md;
           font-weight: bold;
           margin: 0;
           padding: $space_half 0;
-          color: $color_chorus_blue;
+          color: $color_text_08;
         }
   
-  .vox-aside__arrow {
+  .treehouse-aside__arrow {
     margin: $space_five 0 0 0;
 
     @media (max-width: $bp_sm_l) {

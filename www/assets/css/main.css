@@ -1375,7 +1375,7 @@ html {
   color: inherit;
 }
 
-.text-expanded--md, .work-header__body, .overview__content > p, .casestudy__content > p, .vox-content__subheading, .vox-content__body, .vox-content__signoff, .notes__body {
+.text-expanded--md, .work-header__body, .overview__content > p, .casestudy__content > p, .vox-content__subheading, .vox-content__body, .vox-content__signoff, .treehouse-content__subheading, .treehouse-content__body, .treehouse-content__signoff, .notes__body {
   font-size: 1rem;
   line-height: 1.9995rem;
   letter-spacing: 0px;
@@ -3129,15 +3129,33 @@ hr {
   background-repeat: no-repeat;
   z-index: -1;
 }
+@media (max-width: 64rem) {
+  .vox-feature {
+    width: 720px;
+    height: 408px;
+    right: -40px;
+  }
+}
+@media (max-width: 42rem) {
+  .vox-feature {
+    display: none;
+  }
+}
 
 .vox-feature__title {
   font-family: kepler-std-display, Georgia, serif;
   font-weight: 800;
   font-size: 3.75rem;
+  line-height: 3.5528895555rem;
   text-transform: normal;
   margin: 10rem 0 3rem 0;
   color: #14294B;
   letter-spacing: 1px;
+}
+@media (max-width: 64rem) {
+  .vox-feature__title {
+    margin: 3rem 0 1rem 0;
+  }
 }
 
 .vox-feature__subtitle {
@@ -3148,6 +3166,11 @@ hr {
   text-transform: normal;
   margin: 4rem 0 3rem 0;
   width: 300px;
+}
+@media (max-width: 64rem) {
+  .vox-feature__subtitle {
+    margin: 1rem 0 1rem 0;
+  }
 }
 
 .vox-content__heading {
@@ -3175,11 +3198,35 @@ hr {
   margin: 4rem 0 10rem 0;
   color: #14294B;
 }
+@media (max-width: 42rem) {
+  .vox-content__signoff {
+    margin: 4rem 0 0 0;
+  }
+}
 
 .vox-aside {
   margin: 10rem 0 0 0;
   height: 100%;
   text-align: center;
+  clear: both;
+}
+@media (max-width: 64rem) {
+  .vox-aside {
+    margin: 12rem 0 0 0;
+    width: 360px;
+  }
+}
+@media (max-width: 42rem) {
+  .vox-aside {
+    margin: 5rem 0 0 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 42rem) {
+  .vox-aside__logo {
+    display: none;
+  }
 }
 
 .vox-aside__prompt {
@@ -3187,6 +3234,17 @@ hr {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
+}
+@media (max-width: 64rem) {
+  .vox-aside__prompt {
+    margin: 1rem 0 1rem 0;
+  }
+}
+@media (max-width: 42rem) {
+  .vox-aside__prompt {
+    margin: 0;
+    display: none;
+  }
 }
 
 .prompt__maybe {
@@ -3211,22 +3269,39 @@ hr {
   padding: 5rem 0 0 10rem;
   text-align: left;
 }
+@media (max-width: 64rem) {
+  .vox-aside__details {
+    width: 320px;
+    height: 268px;
+    padding: 2rem 5rem;
+  }
+}
+@media (max-width: 42rem) {
+  .vox-aside__details {
+    background-image: none;
+    margin: 0 0 5rem 0;
+    padding: 1rem 1rem 2rem 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+  }
+}
 
-.details__title {
+.vox-details__title {
   background-image: linear-gradient(0deg, #FFF264 30%, transparent 30%);
   font-size: 1.333rem;
   color: #14294B;
   width: 185px;
 }
 
-.details__list {
+.vox-details__list {
   list-style-type: none;
   list-style-position: inside;
   margin: 0;
   padding: 0;
 }
 
-.details__list-item {
+.vox-details__list-item {
   font-size: 1rem;
   font-weight: bold;
   margin: 0;
@@ -3236,6 +3311,229 @@ hr {
 
 .vox-aside__arrow {
   margin: 5rem 0 0 0;
+}
+@media (max-width: 42rem) {
+  .vox-aside__arrow {
+    display: none;
+  }
+}
+
+.treehouse-cover {
+  padding-top: 0;
+}
+@media (min-height: 775px) {
+  .treehouse-cover {
+    padding-top: 0;
+  }
+}
+
+.treehouse-feature {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 574px;
+  width: 1012px;
+  margin: 0 auto;
+  background-image: url(/assets/img/treehouse/bg-treehouse-header@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+@media (max-width: 64rem) {
+  .treehouse-feature {
+    width: 720px;
+    height: 408px;
+    right: -40px;
+  }
+}
+@media (max-width: 42rem) {
+  .treehouse-feature {
+    display: none;
+  }
+}
+
+.treehouse-feature__title {
+  font-family: kepler-std-display, Georgia, serif;
+  font-weight: 800;
+  font-size: 3.75rem;
+  line-height: 3.5528895555rem;
+  text-transform: normal;
+  margin: 10rem 0 3rem 0;
+  color: #69C773;
+  letter-spacing: 1px;
+}
+@media (max-width: 64rem) {
+  .treehouse-feature__title {
+    margin: 3rem 0 1rem 0;
+  }
+}
+
+.treehouse-feature__subtitle {
+  font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #5e5e5e;
+  text-transform: normal;
+  margin: 4rem 0 3rem 0;
+  width: 300px;
+}
+@media (max-width: 64rem) {
+  .treehouse-feature__subtitle {
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+.treehouse-content__heading {
+  display: inline-block;
+  font-family: aktiv-grotesk-std, Helvetica, Arial, sans-serif;
+  font-size: 1.776889rem;
+  font-weight: 800;
+  color: #69C773;
+  margin: 4rem 0 1rem 0;
+}
+
+.treehouse-content__subheading {
+  color: #5e5e5e;
+  font-weight: 800;
+  margin: 0 0 2rem 0;
+}
+
+.treehouse-content__body {
+  color: #767676;
+}
+
+.treehouse-content__signoff {
+  margin: 4rem 0 10rem 0;
+  color: #69C773;
+}
+@media (max-width: 42rem) {
+  .treehouse-content__signoff {
+    margin: 4rem 0 0 0;
+  }
+}
+
+.treehouse-aside {
+  margin: 10rem 0 0 0;
+  height: 100%;
+  text-align: center;
+  clear: both;
+}
+@media (max-width: 64rem) {
+  .treehouse-aside {
+    margin: 12rem 0 0 0;
+    width: 360px;
+  }
+}
+@media (max-width: 42rem) {
+  .treehouse-aside {
+    margin: 5rem 0 0 0;
+    width: 100%;
+  }
+}
+
+.treehouse-aside__logo {
+  padding: 0 0 0 25px;
+}
+@media (max-width: 42rem) {
+  .treehouse-aside__logo {
+    display: none;
+  }
+}
+
+.treehouse-aside__prompt {
+  padding-left: 35px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+@media (max-width: 64rem) {
+  .treehouse-aside__prompt {
+    margin: 1rem 0 1rem 0;
+  }
+}
+@media (max-width: 42rem) {
+  .treehouse-aside__prompt {
+    margin: 0;
+    display: none;
+  }
+}
+
+.prompt__maybe {
+  display: block;
+  color: #a5a5a5;
+  margin: 0 0 0.5rem 0;
+}
+
+.prompt__talk {
+  display: block;
+  color: #767676;
+}
+
+.treehouse-aside__details {
+  background-image: url("/assets/img/treehouse/bg-treehouse-sidebar@2x.png");
+  background-size: contain;
+  width: 425px;
+  height: 395px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  margin: 10rem 0 0 7rem;
+  padding: 6rem 0 0 5rem;
+  text-align: left;
+}
+@media (max-width: 64rem) {
+  .treehouse-aside__details {
+    width: 320px;
+    height: 297px;
+    padding: 4rem 4rem;
+    margin: 4rem 0 0 4rem;
+  }
+}
+@media (max-width: 42rem) {
+  .treehouse-aside__details {
+    background-image: none;
+    margin: 0 0 5rem 0;
+    padding: 1rem 1rem 2rem 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+  }
+}
+
+.treehouse-details__title {
+  font-size: 1.333rem;
+  color: #ffffff;
+  width: 185px;
+}
+@media (max-width: 42rem) {
+  .treehouse-details__title {
+    color: #69C773;
+  }
+}
+
+.treehouse-details__list {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.treehouse-details__list-item {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem 0;
+  color: #2f2f2f;
+}
+
+.treehouse-aside__arrow {
+  margin: 5rem 0 0 0;
+}
+@media (max-width: 42rem) {
+  .treehouse-aside__arrow {
+    display: none;
+  }
 }
 
 .freelance {
