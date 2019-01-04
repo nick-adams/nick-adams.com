@@ -167,19 +167,19 @@
       background-color: $color_greyscale_00;
     }
   }
-      .details__title {
+      .vox-details__title {
           background-image: linear-gradient(0deg,#FFF264 30%,transparent 30%);
           font-size: $font_size_lg;
           color: $color_chorus_blue;
           width: 185px;
       }
-      .details__list {
+      .vox-details__list {
         list-style-type: none;
         list-style-position: inside;
         margin: 0;
         padding: 0;
       }
-        .details__list-item {
+        .vox-details__list-item {
           font-size: $font_size_md;
           font-weight: bold;
           margin: 0;

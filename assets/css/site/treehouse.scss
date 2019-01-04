@@ -1,9 +1,9 @@
 // ---------------------------------
-// treehouse Cover Letter Page Styles
+// Treehouse Cover Letter Page Styles
 // ---------------------------------
 
 
-// treehouse Cover
+// Treehouse Cover
 // ============================================
 
 .treehouse-cover {
@@ -18,26 +18,40 @@
   .treehouse-feature {
     position: absolute;
     top: 0;
-    right: -70px;
+    right: 0;
     left: 0;
-    height: 570px; 
-    width: 1069px;
+    height: 574px; 
+    width: 1012px;
     margin: 0 auto;
     background-image: url(/assets/img/treehouse/bg-treehouse-header@2x.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: $z-behind;
-    background-position: right;
+   
+    @media (max-width: $bp_md) {
+      width: 720px;
+      height: 408px;
+      right: -40px;
+    }
+    @media (max-width: $bp_sm_l) {
+      display: none;  
+    }
 
   }
     .treehouse-feature__title {
       font-family: $font_serif;
       font-weight: 800;
       font-size: 3.75rem;
+      line-height: $line_height_xxl;
       text-transform: normal;
       margin: $space_ten 0 $space_three 0;
-      color: $color_chorus_blue;
+      color: $color_treehouse_green;
       letter-spacing: 1px;
+      
+      @media (max-width: $bp_md) {
+        margin: $space_three 0 $space_one 0;  
+      }
     }
     .treehouse-feature__subtitle {
       font-family: $font_sans;
@@ -47,6 +61,10 @@
       text-transform: normal;
       margin: $space_four 0 $space_three 0;
       width: 300px;
+      
+      @media (max-width: $bp_md) {
+        margin: $space_one 0 $space_one 0;  
+      }
     }
 
     .treehouse-content__heading {
@@ -54,9 +72,7 @@
       font-family: $font_sans;
       font-size: $font_size_xl;
       font-weight: 800;
-      color: $color_chorus_blue;
-      border-bottom: solid 3px $color_chorus_blue;
-      padding: 0 0 6px 0;
+      color: $color_treehouse_green;
       margin: $space_four 0 $space_one 0;
     }
     .treehouse-content__subheading {
@@ -71,20 +87,49 @@
     }
      .treehouse-content__signoff {
       margin: $space_four 0 $space_ten 0;
-      color: $color_chorus_blue;
+      color: $color_treehouse_green;
       @extend .text-expanded--md;
+
+      @media (max-width: $bp_sm_l) {
+        margin: $space_four 0 0 0;        
+      }
     }
     
 .treehouse-aside {
   margin: $space_ten 0 0 0;
   height: 100%;
   text-align: center;
+  clear: both;
+  
+  @media (max-width: $bp_md) {
+    margin: 12rem 0 0 0;  
+    width: 360px;
+  }
+
+  @media (max-width: $bp_sm_l) {
+    margin: $space_five 0 0 0;
+    width: 100%;
+  }
 }
+  .treehouse-aside__logo {
+    padding: 0 0 0 25px;
+    @media (max-width: $bp_sm_l) {
+      display:none;
+    }
+  }
+
   .treehouse-aside__prompt {
     padding-left: 35px;
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
+    @media (max-width: $bp_md) {
+      margin: $space_one 0 $space_one 0;  
+    }
+    @media (max-width: $bp_sm_l) {
+      margin: 0;
+      display: none;
+    }
   }
     .prompt__maybe {
       display: block;
@@ -99,34 +144,56 @@
   .treehouse-aside__details {
     background-image: url("/assets/img/treehouse/bg-treehouse-sidebar@2x.png");
     background-size: contain;
-    width: 460px;
-    height: 385px;
+    width: 425px;
+    height: 395px;
     background-position: top right;
     background-repeat: no-repeat;
-    margin: $space_ten 0 0 $space_two;
-    padding: $space_five 0 0 $space_ten;
+    margin: $space_ten 0 0 $space_seven;
+    padding: $space_six 0 0 $space_five;
     text-align: left;
+
+    @media (max-width: $bp_md) {
+      width: 320px;
+      height: 297px;
+      padding: $space_four $space_four;
+      margin: $space_four 0 0 $space_four;
+    }
+    @media (max-width: $bp_sm_l) {
+      background-image: none;
+      margin: 0 0 $space_five 0;
+      padding: $space_one $space_one $space_two $space_one;
+      width: 100%;
+      height: 100%;
+      background-color: $color_greyscale_00;
+    }
   }
-      .details__title {
-          background-image: linear-gradient(0deg,#FFF264 30%,transparent 30%);
-          font-size: $font_size_lg;
-          color: $color_chorus_blue;
-          width: 185px;
+      .treehouse-details__title {
+        font-size: $font_size_lg;
+        color: $color_white;
+        width: 185px;
+
+        @media (max-width: $bp_sm_l) {
+          color: $color_treehouse_green;
+        }
       }
-      .details__list {
+      .treehouse-details__list {
         list-style-type: none;
         list-style-position: inside;
         margin: 0;
         padding: 0;
       }
-        .details__list-item {
+        .treehouse-details__list-item {
           font-size: $font_size_md;
           font-weight: bold;
           margin: 0;
           padding: $space_half 0;
-          color: $color_chorus_blue;
+          color: $color_text_08;
         }
   
   .treehouse-aside__arrow {
     margin: $space_five 0 0 0;
+
+    @media (max-width: $bp_sm_l) {
+      display: none;
+    }
   }
