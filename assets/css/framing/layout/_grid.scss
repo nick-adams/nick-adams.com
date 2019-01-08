@@ -150,6 +150,10 @@
 // Three Fifths
 .grid__col--threefifths {
   width: $grid_col_threefifths;
+
+  @media (max-width: $bp_sm_l) {
+    width: $grid_col_onewhole;
+  }
 }
 
 // One Third

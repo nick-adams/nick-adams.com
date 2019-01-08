@@ -647,6 +647,11 @@ html {
 .grid__col--threefifths {
   width: calc(((100% / 5) * 3));
 }
+@media (max-width: 42rem) {
+  .grid__col--threefifths {
+    width: calc((100% / 1));
+  }
+}
 
 .grid__col--onethird {
   width: calc((100% / 3));
@@ -2481,10 +2486,21 @@ hr {
 .resume {
   padding: 3rem;
 }
+@media (max-width: 42rem) {
+  .resume {
+    padding: 1rem;
+  }
+}
 
 .resume__contacts {
   margin: 0 0 7rem 0;
   color: #5e5e5e;
+}
+
+@media (max-width: 42rem) {
+  .contacts__text {
+    text-align: left;
+  }
 }
 
 .resume__intro {
@@ -2495,6 +2511,16 @@ hr {
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
+}
+@media (max-width: 64rem) {
+  .resume__intro {
+    background-position: 110% 100%;
+  }
+}
+@media (max-width: 42rem) {
+  .resume__intro {
+    background-image: none;
+  }
 }
 
 .intro__title {
@@ -2510,6 +2536,11 @@ hr {
   text-transform: normal;
   color: #2f2f2f;
   margin: 0 0 1rem 0;
+}
+@media (max-width: 42rem) {
+  .intro__body {
+    width: 100%;
+  }
 }
 
 .resume__section {
@@ -2534,6 +2565,11 @@ hr {
 .section__body {
   color: #5e5e5e;
   padding: 0 3rem 0 0;
+}
+@media (max-width: 42rem) {
+  .section__body {
+    padding: 0;
+  }
 }
 
 .work {

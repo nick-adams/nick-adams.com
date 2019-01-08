@@ -3,10 +3,10 @@
   <channel>
     <title>Nick Adams, Designer</title>
     <description>The site and portfolio of Nick Adams, a Designer based in Rochester, NY.</description>
-    <link>http://www.nick-adams.com/</link>
-    <atom:link href="http://www.nick-adams.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Jan 2019 16:57:24 -0500</pubDate>
-    <lastBuildDate>Fri, 04 Jan 2019 16:57:24 -0500</lastBuildDate>
+    <link>https://www.nick-adams.com/</link>
+    <atom:link href="https://www.nick-adams.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 08 Jan 2019 15:10:48 -0500</pubDate>
+    <lastBuildDate>Tue, 08 Jan 2019 15:10:48 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -85,8 +85,8 @@
 &lt;p&gt;Thanks for reading and looking.&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Dec 2018 00:00:00 -0500</pubDate>
-        <link>http://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</link>
-        <guid isPermaLink="true">http://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</guid>
+        <link>https://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</link>
+        <guid isPermaLink="true">https://www.nick-adams.com/notes/2018/launching-my-new-portfolio/</guid>
         
         
       </item>

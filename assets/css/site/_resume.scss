@@ -4,6 +4,10 @@
 
 .resume {
   padding: $space_three;
+
+  @media (max-width: $bp_sm_l) {
+    padding: $space_one;
+  }
 }
 
   .resume__contacts {
@@ -11,6 +15,12 @@
     @extend .text--sm;
     color: $color_text_06;
   }
+
+    .contacts__text {
+      @media (max-width: $bp_sm_l) {
+       text-align: left;
+      }
+    }
 
   .resume__intro {
     padding: $space_one 0 $space_two 0;
@@ -20,6 +30,13 @@
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: contain;
+
+    @media (max-width: $bp_md) {
+      background-position: 110% 100%;
+    }
+    @media (max-width: $bp_sm_l) {
+      background-image: none;
+    }
   }
 
     .intro__title {
@@ -36,6 +53,10 @@
       text-transform: normal;
       color: $color_text_08;
       margin: 0 0 $space_one 0;
+      
+      @media (max-width: $bp_sm_l) {
+        width: 100%;
+      }
     }
 
   .resume__section {
@@ -60,4 +81,8 @@
       @extend .text--sm;
       color: $color_text_06;
       padding: 0 $space_three 0 0;
+
+      @media (max-width: $bp_sm_l) {
+        padding: 0;
+      }
     }
