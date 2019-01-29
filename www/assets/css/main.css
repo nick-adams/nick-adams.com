@@ -3259,6 +3259,9 @@ hr {
   }
 }
 
+.vox-aside__logo {
+  margin: 0 0 20px 2rem;
+}
 @media (max-width: 42rem) {
   .vox-aside__logo {
     display: none;

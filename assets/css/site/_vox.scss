@@ -114,6 +114,7 @@
   }
 }
   .vox-aside__logo {
+    margin: 0 0 20px $space_two;
     @media (max-width: $bp_sm_l) {
       display:none;
     }
