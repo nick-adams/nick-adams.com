@@ -54,7 +54,7 @@ These are my lessons learned and what I will do differently from here on out. _D
 - CSS Grid Frameworks are more of a headache than they are worth. I spend way too much time building mine then fighting with it on each page. Now that CSS Grid exists that solves this issue, but at the time I should have just used margins and paddings. Who was I trying to impress?
 - I still love Sass despite all the postCSS/CSS Modules/CSS-in-JS hullabaloo. It allowed me to create some really nice CSS flexibility.
 - Netlify is awesome.
-- Don't overthink things. Don't over-design things. Just get something up there. How many times do you have ot tell yourself this Nick? ffs.
+- Don't overthink things. Don't over-design things. Just get something up there. How many times do you have to tell yourself this Nick? ffs.
 - Putting an incomplete portfolio online was a good forcing mechanism.
 - An even better forcing mechanism was having a portfolio support group with some designer friends where we held each other accountable for progress and gave eachother reality checks along the way.
 
