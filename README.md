@@ -1,19 +1,4 @@
-# WORK IN PROGRESS
+**_WORK IN PROGRESS_**
 
-### Personal Site
-
-
-### WORK SECTION 
-- Remote Jobs
-- Hudl iOS
-- Hudl Android
-- Hudl Mac
-- Hudl Kickoff
-- Hudl Kickoff Mobile
-- Hudl Device Checkout
-- billQ
-- Flint
-- LivePlay
-- CITY
-- HouseDigital
-- FineDesignTile
+## Personal Site, Working Edition
+[wip.nick-adams.com](wip.nick-adams.com)
