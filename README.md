@@ -1,19 +1,2 @@
-# WORK IN PROGRESS
-
-### Personal Site
-
-
-### WORK SECTION 
-- Remote Jobs
-- Hudl iOS
-- Hudl Android
-- Hudl Mac
-- Hudl Kickoff
-- Hudl Kickoff Mobile
-- Hudl Device Checkout
-- billQ
-- Flint
-- LivePlay
-- CITY
-- HouseDigital
-- FineDesignTile
+## Personal Site, 2019 Edition
+[2019.nick-adams.com](2019.nick-adams.com)
